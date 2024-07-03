@@ -9,7 +9,7 @@ import android.widget.LinearLayout
 import androidx.appcompat.app.AlertDialog
 import androidx.exifinterface.media.ExifInterface
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.*
 import com.ultimobiletools.commons.models.FileDirItem
@@ -96,7 +96,7 @@ class PropertiesDialog : BasePropertiesDialog {
                 }
 
                 val exif = if (isNougatPlus() && mActivity.isPathOnOTG(fileDirItem.path)) {
-                    ExifInterface((mActivity as BaseSimpleActivity).getFileInputStreamSync(fileDirItem.path)!!)
+                    ExifInterface((mActivity as BaseUltiActivity).getFileInputStreamSync(fileDirItem.path)!!)
                 } else if (isNougatPlus() && fileDirItem.path.startsWith("content://")) {
                     try {
                         ExifInterface(mActivity.contentResolver.openInputStream(Uri.parse(fileDirItem.path))!!)
@@ -251,7 +251,7 @@ class PropertiesDialog : BasePropertiesDialog {
 
     private fun addExifProperties(path: String, activity: Activity) {
         val exif = if (isNougatPlus() && activity.isPathOnOTG(path)) {
-            ExifInterface((activity as BaseSimpleActivity).getFileInputStreamSync(path)!!)
+            ExifInterface((activity as BaseUltiActivity).getFileInputStreamSync(path)!!)
         } else if (isNougatPlus() && path.startsWith("content://")) {
             try {
                 ExifInterface(activity.contentResolver.openInputStream(Uri.parse(path))!!)

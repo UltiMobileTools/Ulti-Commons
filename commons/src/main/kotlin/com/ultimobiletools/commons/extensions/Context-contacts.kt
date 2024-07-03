@@ -11,7 +11,7 @@ import android.os.Looper
 import android.provider.ContactsContract
 import android.telephony.PhoneNumberUtils
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.databases.ContactsDatabase
 import com.ultimobiletools.commons.dialogs.CallConfirmationDialog
 import com.ultimobiletools.commons.dialogs.RadioGroupDialog
@@ -329,7 +329,7 @@ fun Context.getSocialActions(id: Int): ArrayList<SocialAction> {
     return socialActions
 }
 
-fun BaseSimpleActivity.initiateCall(contact: Contact, onStartCallIntent: (phoneNumber: String) -> Unit) {
+fun BaseUltiActivity.initiateCall(contact: Contact, onStartCallIntent: (phoneNumber: String) -> Unit) {
     val numbers = contact.phoneNumbers
     if (numbers.size == 1) {
         onStartCallIntent(numbers.first().value)
@@ -350,7 +350,7 @@ fun BaseSimpleActivity.initiateCall(contact: Contact, onStartCallIntent: (phoneN
     }
 }
 
-fun BaseSimpleActivity.tryInitiateCall(contact: Contact, onStartCallIntent: (phoneNumber: String) -> Unit) {
+fun BaseUltiActivity.tryInitiateCall(contact: Contact, onStartCallIntent: (phoneNumber: String) -> Unit) {
     if (baseConfig.showCallConfirmation) {
         CallConfirmationDialog(this, contact.getNameToDisplay()) {
             initiateCall(contact, onStartCallIntent)

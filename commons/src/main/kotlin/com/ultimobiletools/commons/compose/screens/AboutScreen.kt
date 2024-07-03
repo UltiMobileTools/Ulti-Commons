@@ -9,13 +9,13 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.compose.extensions.MyDevices
-import com.ultimobiletools.commons.compose.lists.SimpleColumnScaffold
+import com.ultimobiletools.commons.compose.lists.UltiColumnScaffold
 import com.ultimobiletools.commons.compose.settings.SettingsGroup
 import com.ultimobiletools.commons.compose.settings.SettingsHorizontalDivider
 import com.ultimobiletools.commons.compose.settings.SettingsListItem
 import com.ultimobiletools.commons.compose.settings.SettingsTitleTextComponent
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 
 private val startingTitlePadding = Modifier.padding(start = 60.dp)
 
@@ -27,12 +27,11 @@ internal fun AboutScreen(
     socialSection: @Composable () -> Unit,
     otherSection: @Composable () -> Unit,
 ) {
-    SimpleColumnScaffold(title = stringResource(id = R.string.about), goBack = goBack) {
+    UltiColumnScaffold(title = stringResource(id = R.string.about), goBack = goBack) {
         aboutSection()
         helpUsSection()
         socialSection()
         otherSection()
-        SettingsListItem(text = stringResource(id = R.string.about_footer))
     }
 }
 
@@ -40,7 +39,6 @@ internal fun AboutScreen(
 internal fun HelpUsSection(
     onRateUsClick: () -> Unit,
     onInviteClick: () -> Unit,
-    onContributorsClick: () -> Unit,
     showRateUs: Boolean,
     showInvite: Boolean,
     showDonate: Boolean,
@@ -55,11 +53,6 @@ internal fun HelpUsSection(
         if (showInvite) {
             TwoLinerTextItem(text = stringResource(id = R.string.invite_friends), icon = R.drawable.ic_add_person_vector, click = onInviteClick)
         }
-        TwoLinerTextItem(
-            click = onContributorsClick,
-            text = stringResource(id = R.string.contributors),
-            icon = R.drawable.ic_face_vector
-        )
         if (showDonate) {
             TwoLinerTextItem(
                 click = onDonateClick,
@@ -166,7 +159,7 @@ internal fun SocialSection(
             click = onGithubClick,
             text = stringResource(id = R.string.github),
             icon = R.drawable.ic_github_vector,
-            tint = SimpleTheme.colorScheme.onSurface
+            tint = UltiTheme.colorScheme.onSurface
         )
         SocialText(
             click = onRedditClick,
@@ -203,7 +196,7 @@ internal fun SocialText(
 @Composable
 internal fun TwoLinerTextItem(text: String, icon: Int, click: () -> Unit) {
     SettingsListItem(
-        tint = SimpleTheme.colorScheme.onSurface,
+        tint = UltiTheme.colorScheme.onSurface,
         click = click,
         text = text,
         icon = icon,
@@ -222,7 +215,6 @@ private fun AboutScreenPreview() {
                 HelpUsSection(
                     onRateUsClick = {},
                     onInviteClick = {},
-                    onContributorsClick = {},
                     showRateUs = true,
                     showInvite = true,
                     showDonate = true,

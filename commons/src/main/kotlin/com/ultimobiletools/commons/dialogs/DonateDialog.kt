@@ -28,7 +28,7 @@ import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.getActivity
 import com.ultimobiletools.commons.compose.extensions.rememberMutableInteractionSource
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.databinding.DialogDonateBinding
 import com.ultimobiletools.commons.extensions.*
 
@@ -93,7 +93,7 @@ fun DonateAlertDialog(
                     Icons.Filled.Favorite,
                     contentDescription = null,
                     modifier = Modifier
-                        .size(SimpleTheme.dimens.icon.large)
+                        .size(UltiTheme.dimens.icon.large)
                         .clickable(
                             indication = null,
                             interactionSource = rememberMutableInteractionSource(),

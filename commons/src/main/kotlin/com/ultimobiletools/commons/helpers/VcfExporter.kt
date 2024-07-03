@@ -8,7 +8,7 @@ import android.provider.ContactsContract.CommonDataKinds.Phone
 import android.provider.ContactsContract.CommonDataKinds.StructuredPostal
 import android.provider.MediaStore
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.extensions.getByteArray
 import com.ultimobiletools.commons.extensions.getDateTimeFromDateString
 import com.ultimobiletools.commons.extensions.showErrorToast
@@ -28,7 +28,7 @@ class VcfExporter {
     private var contactsFailed = 0
 
     fun exportContacts(
-        activity: BaseSimpleActivity,
+        activity: BaseUltiActivity,
         outputStream: OutputStream?,
         contacts: ArrayList<Contact>,
         showExportingToast: Boolean,

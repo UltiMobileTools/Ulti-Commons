@@ -9,7 +9,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.ultimobiletools.commons.compose.extensions.MyDevices
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 
 @Composable
 fun SettingsGroup(
@@ -35,11 +35,11 @@ fun SettingsGroupTitle(
     Box(
         modifier = modifier
             .fillMaxWidth()
-            .padding(horizontal = SimpleTheme.dimens.padding.extraLarge),
+            .padding(horizontal = UltiTheme.dimens.padding.extraLarge),
         contentAlignment = Alignment.CenterStart
     ) {
-        val primary = SimpleTheme.colorScheme.primary
-        val titleStyle = SimpleTheme.typography.headlineMedium.copy(color = primary)
+        val primary = UltiTheme.colorScheme.primary
+        val titleStyle = UltiTheme.typography.headlineMedium.copy(color = primary)
         ProvideTextStyle(value = titleStyle) { title() }
     }
 }

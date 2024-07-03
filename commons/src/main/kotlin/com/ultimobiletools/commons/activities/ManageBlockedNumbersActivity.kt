@@ -36,8 +36,9 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import com.ultimobiletools.commons.R
 
-class ManageBlockedNumbersActivity : BaseSimpleActivity() {
+class ManageBlockedNumbersActivity : BaseUltiActivity() {
 
     private val config by lazy {
         baseConfig

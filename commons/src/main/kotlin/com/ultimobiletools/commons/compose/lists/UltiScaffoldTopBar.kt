@@ -20,10 +20,10 @@ import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.rememberMutableInteractionSource
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 
 @Composable
-fun SimpleScaffoldTopBar(
+fun UltiScaffoldTopBar(
     modifier: Modifier = Modifier,
     title: String,
     scrolledColor: Color,
@@ -39,7 +39,7 @@ fun SimpleScaffoldTopBar(
             Text(
                 text = title,
                 modifier = Modifier
-                    .padding(start = SimpleTheme.dimens.padding.medium)
+                    .padding(start = UltiTheme.dimens.padding.medium)
                     .fillMaxWidth(),
                 color = scrolledColor,
                 maxLines = 1,
@@ -61,7 +61,7 @@ fun SimpleScaffoldTopBar(
 }
 
 @Composable
-fun SimpleScaffoldTopBar(
+fun UltiScaffoldTopBar(
     modifier: Modifier = Modifier,
     title: @Composable (scrolledColor: Color) -> Unit,
     scrolledColor: Color,
@@ -91,7 +91,7 @@ fun SimpleScaffoldTopBar(
 }
 
 @Composable
-fun SimpleScaffoldTopBar(
+fun UltiScaffoldTopBar(
     modifier: Modifier = Modifier,
     title: @Composable (scrolledColor: Color) -> Unit,
     actions: @Composable RowScope.() -> Unit,
@@ -129,8 +129,8 @@ fun simpleTopAppBarColors(
     contrastColor: Color
 ) = TopAppBarDefaults.topAppBarColors(
     scrolledContainerColor = Color(statusBarColor),
-    containerColor = if (colorTransitionFraction == 1f) contrastColor else SimpleTheme.colorScheme.surface,
-    navigationIconContentColor = if (colorTransitionFraction == 1f) contrastColor else SimpleTheme.colorScheme.surface
+    containerColor = if (colorTransitionFraction == 1f) contrastColor else UltiTheme.colorScheme.surface,
+    navigationIconContentColor = if (colorTransitionFraction == 1f) contrastColor else UltiTheme.colorScheme.surface
 )
 
 @Composable
@@ -157,11 +157,11 @@ fun SimpleNavigationIcon(
 ) {
     Box(
         modifier
-            .padding(start = SimpleTheme.dimens.padding.medium)
+            .padding(start = UltiTheme.dimens.padding.medium)
             .clip(RoundedCornerShape(50))
             .clickable(
                 navigationIconInteractionSource, rememberRipple(
-                    color = SimpleTheme.colorScheme.onSurface,
+                    color = UltiTheme.colorScheme.onSurface,
                     bounded = true
                 )
             ) { goBack() }
@@ -175,13 +175,13 @@ fun SimpleBackIcon(iconColor: Color?) {
     if (iconColor == null) {
         Icon(
             imageVector = Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(id = R.string.back),
-            modifier = Modifier.padding(SimpleTheme.dimens.padding.small)
+            modifier = Modifier.padding(UltiTheme.dimens.padding.small)
         )
     } else {
         Icon(
             imageVector = Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(id = R.string.back),
             tint = iconColor,
-            modifier = Modifier.padding(SimpleTheme.dimens.padding.small)
+            modifier = Modifier.padding(UltiTheme.dimens.padding.small)
         )
     }
 }
@@ -189,9 +189,9 @@ fun SimpleBackIcon(iconColor: Color?) {
 
 @Composable
 @MyDevices
-private fun SimpleScaffoldTopBarPreview() {
+private fun UltiScaffoldTopBarPreview() {
     AppThemeSurface {
-        SimpleScaffoldTopBar(
+        UltiScaffoldTopBar(
             title = "SettingsScaffoldTopBar",
             scrolledColor = Color.Black,
             navigationIconInteractionSource = rememberMutableInteractionSource(),

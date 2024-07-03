@@ -10,7 +10,7 @@ import androidx.appcompat.app.AlertDialog
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.databinding.DialogSelectAlarmSoundBinding
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.SILENT
@@ -19,7 +19,7 @@ import com.ultimobiletools.commons.models.RadioItem
 import com.ultimobiletools.commons.views.CustomCompatRadioButton
 
 class SelectAlarmSoundDialog(
-    val activity: BaseSimpleActivity, val currentUri: String, val audioStream: Int, val pickAudioIntentId: Int,
+    val activity: BaseUltiActivity, val currentUri: String, val audioStream: Int, val pickAudioIntentId: Int,
     val type: Int, val loopAudio: Boolean, val onAlarmPicked: (alarmSound: AlarmSound?) -> Unit,
     val onAlarmSoundDeleted: (alarmSound: AlarmSound) -> Unit
 ) {

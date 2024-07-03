@@ -35,7 +35,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
 import com.ultimobiletools.commons.databinding.DialogTitleBinding
 import com.ultimobiletools.commons.dialogs.*
@@ -109,7 +109,7 @@ fun Activity.isAppInstalledOnSDCard(): Boolean = try {
     false
 }
 
-fun BaseSimpleActivity.isShowingSAFDialog(path: String): Boolean {
+fun BaseUltiActivity.isShowingSAFDialog(path: String): Boolean {
     return if ((!isRPlus() && isPathOnSD(path) && !isSDCardSetAsDefaultStorage() && (baseConfig.sdTreeUri.isEmpty() || !hasProperStoredTreeUri(false)))) {
         runOnUiThread {
             if (!isDestroyed && !isFinishing) {
@@ -143,7 +143,7 @@ fun BaseSimpleActivity.isShowingSAFDialog(path: String): Boolean {
 }
 
 @SuppressLint("InlinedApi")
-fun BaseSimpleActivity.isShowingSAFDialogSdk30(path: String): Boolean {
+fun BaseUltiActivity.isShowingSAFDialogSdk30(path: String): Boolean {
     return if (isAccessibleWithSAFSdk30(path) && !hasProperStoredFirstParentUri(path)) {
         runOnUiThread {
             if (!isDestroyed && !isFinishing) {
@@ -179,7 +179,7 @@ fun BaseSimpleActivity.isShowingSAFDialogSdk30(path: String): Boolean {
 }
 
 @SuppressLint("InlinedApi")
-fun BaseSimpleActivity.isShowingSAFCreateDocumentDialogSdk30(path: String): Boolean {
+fun BaseUltiActivity.isShowingSAFCreateDocumentDialogSdk30(path: String): Boolean {
     return if (!hasProperStoredDocumentUriSdk30(path)) {
         runOnUiThread {
             if (!isDestroyed && !isFinishing) {
@@ -216,7 +216,7 @@ fun BaseSimpleActivity.isShowingSAFCreateDocumentDialogSdk30(path: String): Bool
     }
 }
 
-fun BaseSimpleActivity.isShowingAndroidSAFDialog(path: String): Boolean {
+fun BaseUltiActivity.isShowingAndroidSAFDialog(path: String): Boolean {
     return if (isRestrictedSAFOnlyRoot(path) && (getAndroidTreeUri(path).isEmpty() || !hasProperStoredAndroidTreeUri(path))) {
         runOnUiThread {
             if (!isDestroyed && !isFinishing) {
@@ -252,7 +252,7 @@ fun BaseSimpleActivity.isShowingAndroidSAFDialog(path: String): Boolean {
     }
 }
 
-fun BaseSimpleActivity.isShowingOTGDialog(path: String): Boolean {
+fun BaseUltiActivity.isShowingOTGDialog(path: String): Boolean {
     return if (!isRPlus() && isPathOnOTG(path) && (baseConfig.OTGTreeUri.isEmpty() || !hasProperStoredTreeUri(true))) {
         showOTGPermissionDialog(path)
         true
@@ -261,7 +261,7 @@ fun BaseSimpleActivity.isShowingOTGDialog(path: String): Boolean {
     }
 }
 
-fun BaseSimpleActivity.showOTGPermissionDialog(path: String) {
+fun BaseUltiActivity.showOTGPermissionDialog(path: String) {
     runOnUiThread {
         if (!isDestroyed && !isFinishing) {
             WritePermissionDialog(this, WritePermissionDialogMode.Otg) {
@@ -537,7 +537,7 @@ fun Activity.launchViewContactIntent(uri: Uri) {
     }
 }
 
-fun BaseSimpleActivity.launchCallIntent(recipient: String, handle: PhoneAccountHandle? = null) {
+fun BaseUltiActivity.launchCallIntent(recipient: String, handle: PhoneAccountHandle? = null) {
     handlePermission(PERMISSION_CALL_PHONE) {
         val action = if (it) Intent.ACTION_CALL else Intent.ACTION_DIAL
         Intent(action).apply {
@@ -605,7 +605,7 @@ fun Activity.tryGenericMimeType(intent: Intent, mimeType: String, uri: Uri): Boo
     }
 }
 
-fun BaseSimpleActivity.checkWhatsNew(releases: List<Release>, currVersion: Int) {
+fun BaseUltiActivity.checkWhatsNew(releases: List<Release>, currVersion: Int) {
     if (baseConfig.lastVersion == 0) {
         baseConfig.lastVersion = currVersion
         return
@@ -621,13 +621,13 @@ fun BaseSimpleActivity.checkWhatsNew(releases: List<Release>, currVersion: Int) 
     baseConfig.lastVersion = currVersion
 }
 
-fun BaseSimpleActivity.deleteFolders(folders: List<FileDirItem>, deleteMediaOnly: Boolean = true, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
+fun BaseUltiActivity.deleteFolders(folders: List<FileDirItem>, deleteMediaOnly: Boolean = true, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
     ensureBackgroundThread {
         deleteFoldersBg(folders, deleteMediaOnly, callback)
     }
 }
 
-fun BaseSimpleActivity.deleteFoldersBg(folders: List<FileDirItem>, deleteMediaOnly: Boolean = true, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
+fun BaseUltiActivity.deleteFoldersBg(folders: List<FileDirItem>, deleteMediaOnly: Boolean = true, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
     var wasSuccess = false
     var needPermissionForPath = ""
     for (folder in folders) {
@@ -657,13 +657,13 @@ fun BaseSimpleActivity.deleteFoldersBg(folders: List<FileDirItem>, deleteMediaOn
     }
 }
 
-fun BaseSimpleActivity.deleteFolder(folder: FileDirItem, deleteMediaOnly: Boolean = true, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
+fun BaseUltiActivity.deleteFolder(folder: FileDirItem, deleteMediaOnly: Boolean = true, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
     ensureBackgroundThread {
         deleteFolderBg(folder, deleteMediaOnly, callback)
     }
 }
 
-fun BaseSimpleActivity.deleteFolderBg(fileDirItem: FileDirItem, deleteMediaOnly: Boolean = true, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
+fun BaseUltiActivity.deleteFolderBg(fileDirItem: FileDirItem, deleteMediaOnly: Boolean = true, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
     val folder = File(fileDirItem.path)
     if (folder.exists()) {
         val filesArr = folder.listFiles()
@@ -688,17 +688,17 @@ fun BaseSimpleActivity.deleteFolderBg(fileDirItem: FileDirItem, deleteMediaOnly:
     }
 }
 
-fun BaseSimpleActivity.deleteFile(file: FileDirItem, allowDeleteFolder: Boolean = false, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
+fun BaseUltiActivity.deleteFile(file: FileDirItem, allowDeleteFolder: Boolean = false, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
     deleteFiles(arrayListOf(file), allowDeleteFolder, callback)
 }
 
-fun BaseSimpleActivity.deleteFiles(files: List<FileDirItem>, allowDeleteFolder: Boolean = false, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
+fun BaseUltiActivity.deleteFiles(files: List<FileDirItem>, allowDeleteFolder: Boolean = false, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
     ensureBackgroundThread {
         deleteFilesBg(files, allowDeleteFolder, callback)
     }
 }
 
-fun BaseSimpleActivity.deleteFilesBg(files: List<FileDirItem>, allowDeleteFolder: Boolean = false, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
+fun BaseUltiActivity.deleteFilesBg(files: List<FileDirItem>, allowDeleteFolder: Boolean = false, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
     if (files.isEmpty()) {
         runOnUiThread {
             callback?.invoke(true)
@@ -734,7 +734,7 @@ fun BaseSimpleActivity.deleteFilesBg(files: List<FileDirItem>, allowDeleteFolder
     }
 }
 
-private fun BaseSimpleActivity.deleteFilesCasual(
+private fun BaseUltiActivity.deleteFilesCasual(
     files: List<FileDirItem>,
     allowDeleteFolder: Boolean = false,
     callback: ((wasSuccess: Boolean) -> Unit)? = null
@@ -767,7 +767,7 @@ private fun BaseSimpleActivity.deleteFilesCasual(
     }
 }
 
-fun BaseSimpleActivity.deleteFile(
+fun BaseUltiActivity.deleteFile(
     fileDirItem: FileDirItem,
     allowDeleteFolder: Boolean = false,
     isDeletingMultipleFiles: Boolean,
@@ -778,7 +778,7 @@ fun BaseSimpleActivity.deleteFile(
     }
 }
 
-fun BaseSimpleActivity.deleteFileBg(
+fun BaseUltiActivity.deleteFileBg(
     fileDirItem: FileDirItem,
     allowDeleteFolder: Boolean = false,
     isDeletingMultipleFiles: Boolean,
@@ -841,7 +841,7 @@ fun BaseSimpleActivity.deleteFileBg(
     }
 }
 
-private fun BaseSimpleActivity.deleteSdk30(fileDirItem: FileDirItem, callback: ((wasSuccess: Boolean) -> Unit)?) {
+private fun BaseUltiActivity.deleteSdk30(fileDirItem: FileDirItem, callback: ((wasSuccess: Boolean) -> Unit)?) {
     val fileUris = getFileUrisFromFileDirItems(arrayListOf(fileDirItem))
     deleteSDK30Uris(fileUris) { success ->
         runOnUiThread {
@@ -889,7 +889,7 @@ fun Activity.rescanPaths(paths: List<String>, callback: (() -> Unit)? = null) {
     applicationContext.rescanPaths(paths, callback)
 }
 
-fun BaseSimpleActivity.renameFile(
+fun BaseUltiActivity.renameFile(
     oldPath: String,
     newPath: String,
     isRenamingMultipleFiles: Boolean,
@@ -1003,7 +1003,7 @@ fun BaseSimpleActivity.renameFile(
     } else renameCasually(oldPath, newPath, isRenamingMultipleFiles, callback)
 }
 
-private fun BaseSimpleActivity.renameCasually(
+private fun BaseUltiActivity.renameCasually(
     oldPath: String,
     newPath: String,
     isRenamingMultipleFiles: Boolean,
@@ -1200,7 +1200,7 @@ fun Activity.hideKeyboard(view: View) {
     inputMethodManager.hideSoftInputFromWindow(view.windowToken, 0)
 }
 
-fun BaseSimpleActivity.getFileOutputStream(fileDirItem: FileDirItem, allowCreatingNewFile: Boolean = false, callback: (outputStream: OutputStream?) -> Unit) {
+fun BaseUltiActivity.getFileOutputStream(fileDirItem: FileDirItem, allowCreatingNewFile: Boolean = false, callback: (outputStream: OutputStream?) -> Unit) {
     val targetFile = File(fileDirItem.path)
     when {
         isRestrictedSAFOnlyRoot(fileDirItem.path) -> {
@@ -1285,7 +1285,7 @@ fun BaseSimpleActivity.getFileOutputStream(fileDirItem: FileDirItem, allowCreati
     }
 }
 
-private fun createCasualFileOutputStream(activity: BaseSimpleActivity, targetFile: File): OutputStream? {
+private fun createCasualFileOutputStream(activity: BaseUltiActivity, targetFile: File): OutputStream? {
     if (targetFile.parentFile?.exists() == false) {
         targetFile.parentFile?.mkdirs()
     }
@@ -1560,7 +1560,7 @@ fun Activity.showPickSecondsDialog(
     }
 }
 
-fun BaseSimpleActivity.getAlarmSounds(type: Int, callback: (ArrayList<AlarmSound>) -> Unit) {
+fun BaseUltiActivity.getAlarmSounds(type: Int, callback: (ArrayList<AlarmSound>) -> Unit) {
     val alarms = ArrayList<AlarmSound>()
     val manager = RingtoneManager(this)
     manager.setType(type)

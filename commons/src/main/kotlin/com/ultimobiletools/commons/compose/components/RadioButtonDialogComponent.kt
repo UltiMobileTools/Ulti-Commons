@@ -14,7 +14,7 @@ import com.ultimobiletools.commons.compose.alert_dialog.dialogTextColor
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.rememberMutableInteractionSource
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 
 @Composable
 fun RadioButtonDialogComponent(
@@ -41,12 +41,12 @@ fun RadioButtonDialogComponent(
             onClick = null,
             enabled = true,
             colors = RadioButtonDefaults.colors(
-                selectedColor = SimpleTheme.colorScheme.primary
+                selectedColor = UltiTheme.colorScheme.primary
             ),
         )
         Text(
             text = item,
-            modifier = Modifier.padding(start = SimpleTheme.dimens.padding.medium),
+            modifier = Modifier.padding(start = UltiTheme.dimens.padding.medium),
             color = dialogTextColor
         )
     }

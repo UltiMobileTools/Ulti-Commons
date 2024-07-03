@@ -19,7 +19,7 @@ import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.NoRippleTheme
 import com.ultimobiletools.commons.compose.extensions.rememberMutableInteractionSource
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.compose.theme.preferenceLabelColor
 import com.ultimobiletools.commons.compose.theme.preferenceValueColor
 
@@ -32,8 +32,8 @@ fun SettingsCheckBoxComponent(
     isPreferenceEnabled: Boolean = true,
     onChange: ((Boolean) -> Unit)? = null,
     checkboxColors: CheckboxColors = CheckboxDefaults.colors(
-        checkedColor = SimpleTheme.colorScheme.primary,
-        checkmarkColor = SimpleTheme.colorScheme.surface,
+        checkedColor = UltiTheme.colorScheme.primary,
+        checkmarkColor = UltiTheme.colorScheme.surface,
     )
 ) {
     val interactionSource = rememberMutableInteractionSource()
@@ -57,7 +57,7 @@ fun SettingsCheckBoxComponent(
             Text(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(end = SimpleTheme.dimens.padding.extraLarge),
+                    .padding(end = UltiTheme.dimens.padding.extraLarge),
                 text = label,
                 color = preferenceLabelColor(isEnabled = isPreferenceEnabled),
                 fontSize = 14.sp
@@ -67,7 +67,7 @@ fun SettingsCheckBoxComponent(
                     text = value.toString(),
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(end = SimpleTheme.dimens.padding.extraLarge),
+                        .padding(end = UltiTheme.dimens.padding.extraLarge),
                     color = preferenceValueColor(isEnabled = isPreferenceEnabled),
                 )
             }

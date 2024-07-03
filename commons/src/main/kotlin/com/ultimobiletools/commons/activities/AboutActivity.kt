@@ -61,7 +61,6 @@ class AboutActivity : ComponentActivity() {
                                 )
                             },
                             onInviteClick = ::onInviteClick,
-                            onContributorsClick = ::onContributorsClick,
                             showDonate = resources.getBoolean(R.bool.show_donate_in_about) && showExternalLinks,
                             onDonateClick = ::onDonateClick,
                             showInvite = showHelpUsSection,
@@ -258,12 +257,6 @@ class AboutActivity : ComponentActivity() {
             startActivity(createChooser(this, getString(R.string.invite_via)))
         }
     }
-
-    private fun onContributorsClick() {
-        val intent = Intent(applicationContext, com.ultimobiletools.commons.activities.ContributorsActivity::class.java)
-        startActivity(intent)
-    }
-
 
     private fun onDonateClick() {
         launchViewIntent(getString(R.string.donate_url))

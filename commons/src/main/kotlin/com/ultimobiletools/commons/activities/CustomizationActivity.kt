@@ -14,7 +14,7 @@ import com.ultimobiletools.commons.models.CustomTheme
 import com.ultimobiletools.commons.models.RadioItem
 import com.ultimobiletools.commons.models.SharedTheme
 
-class CustomizationActivity : BaseSimpleActivity() {
+class CustomizationActivity : BaseUltiActivity() {
     private val THEME_LIGHT = 0
     private val THEME_DARK = 1
     private val THEME_SOLARIZED = 2
@@ -35,7 +35,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     private var originalAppIconColor = 0
     private var lastSavePromptTS = 0L
     private var hasUnsavedChanges = false
-    private var isThankYou = false      // show "Apply colors to all Simple apps" in Simple Thank You itself even with "Hide Google relations" enabled
+    private var isThankYou = false      // show "Apply colors to all Ulti apps" in Ulti Thank You itself even with "Hide Google relations" enabled
     private var predefinedThemes = LinkedHashMap<Int, CustomTheme>()
     private var curPrimaryLineColorPicker: LineColorPickerDialog? = null
     private var storedSharedTheme: SharedTheme? = null

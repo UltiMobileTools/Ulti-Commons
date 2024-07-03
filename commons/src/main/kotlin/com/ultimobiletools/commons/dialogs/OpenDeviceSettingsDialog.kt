@@ -9,7 +9,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.compose.alert_dialog.*
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
@@ -18,7 +18,7 @@ import com.ultimobiletools.commons.extensions.openDeviceSettings
 import com.ultimobiletools.commons.databinding.DialogOpenDeviceSettingsBinding
 import com.ultimobiletools.commons.extensions.setupDialogStuff
 
-class OpenDeviceSettingsDialog(val activity: BaseSimpleActivity, message: String) {
+class OpenDeviceSettingsDialog(val activity: BaseUltiActivity, message: String) {
 
     init {
         activity.apply {

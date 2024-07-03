@@ -11,24 +11,25 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.ultimobiletools.commons.compose.components.LinkifyTextComponent
 import com.ultimobiletools.commons.compose.extensions.MyDevices
-import com.ultimobiletools.commons.compose.lists.SimpleLazyListScaffold
+import com.ultimobiletools.commons.compose.lists.UltiLazyListScaffold
 import com.ultimobiletools.commons.compose.settings.SettingsHorizontalDivider
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.extensions.fromHtml
 import com.ultimobiletools.commons.models.FAQItem
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
+import com.ultimobiletools.commons.R
 
 @Composable
 internal fun FAQScreen(
     goBack: () -> Unit,
     faqItems: ImmutableList<FAQItem>,
 ) {
-    SimpleLazyListScaffold(
+    UltiLazyListScaffold(
         title = stringResource(id = R.string.frequently_asked_questions),
         goBack = goBack,
-        contentPadding = PaddingValues(bottom = SimpleTheme.dimens.padding.medium)
+        contentPadding = PaddingValues(bottom = UltiTheme.dimens.padding.medium)
     ) {
         itemsIndexed(faqItems) { index, faqItem ->
             Column(modifier = Modifier.fillMaxWidth()) {
@@ -40,7 +41,7 @@ internal fun FAQScreen(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(bottom = 6.dp),
-                            color = SimpleTheme.colorScheme.primary,
+                            color = UltiTheme.colorScheme.primary,
                             lineHeight = 16.sp,
                         )
                     },
@@ -61,12 +62,12 @@ internal fun FAQScreen(
                         }
                     },
                 )
-                Spacer(modifier = Modifier.padding(bottom = SimpleTheme.dimens.padding.medium))
+                Spacer(modifier = Modifier.padding(bottom = UltiTheme.dimens.padding.medium))
                 if (index != faqItems.lastIndex) {
                     SettingsHorizontalDivider(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(bottom = SimpleTheme.dimens.padding.small)
+                            .padding(bottom = UltiTheme.dimens.padding.small)
                     )
                 }
             }

@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import android.widget.RadioGroup
 import androidx.appcompat.app.AlertDialog
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.databinding.DialogRadioGroupBinding
 import com.ultimobiletools.commons.databinding.RadioButtonBinding
 import com.ultimobiletools.commons.extensions.*
@@ -20,7 +20,7 @@ import com.ultimobiletools.commons.extensions.*
  *
  */
 class StoragePickerDialog(
-    val activity: BaseSimpleActivity, val currPath: String, val showRoot: Boolean, pickSingleOption: Boolean,
+    val activity: BaseUltiActivity, val currPath: String, val showRoot: Boolean, pickSingleOption: Boolean,
     val callback: (pickedPath: String) -> Unit
 ) {
     private val ID_INTERNAL = 1

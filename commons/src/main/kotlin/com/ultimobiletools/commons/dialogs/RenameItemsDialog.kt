@@ -2,12 +2,12 @@ package com.ultimobiletools.commons.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.databinding.DialogRenameItemsBinding
 import com.ultimobiletools.commons.extensions.*
 
 // used at renaming folders
-class RenameItemsDialog(val activity: BaseSimpleActivity, val paths: ArrayList<String>, val callback: () -> Unit) {
+class RenameItemsDialog(val activity: BaseUltiActivity, val paths: ArrayList<String>, val callback: () -> Unit) {
     init {
         var ignoreClicks = false
         val view = DialogRenameItemsBinding.inflate(activity.layoutInflater,null, false)

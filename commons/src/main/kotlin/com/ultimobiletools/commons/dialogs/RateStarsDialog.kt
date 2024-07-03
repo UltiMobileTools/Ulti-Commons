@@ -32,7 +32,7 @@ import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
 import com.ultimobiletools.commons.compose.theme.Shapes
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.databinding.DialogRateStarsBinding
 import com.ultimobiletools.commons.extensions.*
 import kotlinx.coroutines.delay
@@ -99,7 +99,7 @@ fun RateStarsAlertDialog(
                     text = stringResource(id = R.string.rate_our_app),
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(top = SimpleTheme.dimens.padding.extraLarge, bottom = SimpleTheme.dimens.padding.large),
+                        .padding(top = UltiTheme.dimens.padding.extraLarge, bottom = UltiTheme.dimens.padding.large),
                     textAlign = TextAlign.Center,
                     color = dialogTextColor,
                     fontSize = 16.sp
@@ -107,7 +107,7 @@ fun RateStarsAlertDialog(
                 StarRating(
                     modifier = Modifier
                         .align(CenterHorizontally)
-                        .padding(SimpleTheme.dimens.padding.extraLarge),
+                        .padding(UltiTheme.dimens.padding.extraLarge),
                     currentRating = currentRating,
                     onRatingChanged = { stars ->
                         currentRating = stars
@@ -122,7 +122,7 @@ fun RateStarsAlertDialog(
                     onClick = alertDialogState::hide,
                     modifier = Modifier
                         .align(End)
-                        .padding(end = SimpleTheme.dimens.padding.extraLarge, bottom = SimpleTheme.dimens.padding.medium)
+                        .padding(end = UltiTheme.dimens.padding.extraLarge, bottom = UltiTheme.dimens.padding.medium)
                 ) {
                     Text(text = stringResource(id = R.string.later))
                 }
@@ -137,7 +137,7 @@ private fun StarRating(
     maxRating: Int = 5,
     currentRating: Int,
     onRatingChanged: (Int) -> Unit,
-    starsColor: Color = SimpleTheme.colorScheme.primary,
+    starsColor: Color = UltiTheme.colorScheme.primary,
 ) {
     val animatedRating by animateIntAsState(
         targetValue = currentRating,

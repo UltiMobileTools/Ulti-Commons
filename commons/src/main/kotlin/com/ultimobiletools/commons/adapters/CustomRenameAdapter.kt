@@ -5,11 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager.widget.PagerAdapter
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.interfaces.RenameTab
 import com.ultimobiletools.commons.R
 
-class CustomRenameAdapter(val activity: BaseSimpleActivity, val paths: ArrayList<String>) : PagerAdapter() {
+class CustomRenameAdapter(val activity: BaseUltiActivity, val paths: ArrayList<String>) : PagerAdapter() {
     private val tabs = SparseArray<RenameTab>()
 
     override fun instantiateItem(container: ViewGroup, position: Int): Any {

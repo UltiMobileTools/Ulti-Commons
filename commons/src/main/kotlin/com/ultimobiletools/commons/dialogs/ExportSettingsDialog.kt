@@ -2,12 +2,12 @@ package com.ultimobiletools.commons.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.databinding.DialogExportSettingsBinding
 import com.ultimobiletools.commons.extensions.*
 
 class ExportSettingsDialog(
-    val activity: BaseSimpleActivity, val defaultFilename: String, val hidePath: Boolean,
+    val activity: BaseUltiActivity, val defaultFilename: String, val hidePath: Boolean,
     callback: (path: String, filename: String) -> Unit
 ) {
     init {

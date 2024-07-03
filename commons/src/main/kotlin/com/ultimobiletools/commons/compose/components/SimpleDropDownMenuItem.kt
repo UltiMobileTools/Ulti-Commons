@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.rememberMutableInteractionSource
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 
 private val dropDownPaddings = Modifier.padding(horizontal = 14.dp, vertical = 16.dp)
 
@@ -48,7 +48,7 @@ fun SimpleDropDownMenuItem(
                 text = text,
                 modifier = Modifier
                     .fillMaxWidth(),
-                color = SimpleTheme.colorScheme.onSurface
+                color = UltiTheme.colorScheme.onSurface
             )
         }
     )

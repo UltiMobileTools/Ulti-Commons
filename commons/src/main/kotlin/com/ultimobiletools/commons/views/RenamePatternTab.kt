@@ -8,7 +8,7 @@ import android.util.AttributeSet
 import android.widget.RelativeLayout
 import androidx.exifinterface.media.ExifInterface
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.databinding.DialogRenameItemsPatternBinding
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.isNougatPlus
@@ -25,7 +25,7 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
     var stopLooping = false     // we should request the permission on Android 30+ for all uris at once, not one by one
     var currentIncrementalNumber = 1
     var numbersCnt = 0
-    var activity: BaseSimpleActivity? = null
+    var activity: BaseUltiActivity? = null
     var paths = ArrayList<String>()
 
     private lateinit var binding: DialogRenameItemsPatternBinding
@@ -36,7 +36,7 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
         context.updateTextColors(binding.renameItemsHolder)
     }
 
-    override fun initTab(activity: BaseSimpleActivity, paths: ArrayList<String>) {
+    override fun initTab(activity: BaseUltiActivity, paths: ArrayList<String>) {
         this.activity = activity
         this.paths = paths
         binding.renameItemsValue.setText(activity.baseConfig.lastRenamePatternUsed)

@@ -39,7 +39,7 @@ import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.config
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.databinding.DialogColorPickerBinding
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.isQPlus
@@ -166,7 +166,7 @@ fun ColorPickerAlertDialog(
             Column(
                 Modifier
                     .fillMaxWidth(0.95f)
-                    .padding(SimpleTheme.dimens.padding.extraLarge)
+                    .padding(UltiTheme.dimens.padding.extraLarge)
             ) {
                 var dialogColorPickerBinding by remember { mutableStateOf<DialogColorPickerBinding?>(null) }
                 val currentColorHsv by remember { derivedStateOf { Hsv(FloatArray(3)).apply { Color.colorToHSV(color, this.value) } } }

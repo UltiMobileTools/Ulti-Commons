@@ -26,6 +26,7 @@ import com.ultimobiletools.commons.dialogs.*
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.models.*
 import kotlinx.collections.immutable.toImmutableList
+import com.ultimobiletools.commons.R
 
 class TestDialogActivity : ComponentActivity() {
 

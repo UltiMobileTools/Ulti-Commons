@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.interfaces.MyActionModeCallback
 import com.ultimobiletools.commons.models.RecyclerSelectionPayload
@@ -20,7 +20,7 @@ import kotlin.math.max
 import kotlin.math.min
 
 abstract class CustomRecyclerViewListAdapter<T>(
-    val activity: BaseSimpleActivity,
+    val activity: BaseUltiActivity,
     val recyclerView: CustomRecyclerView,
     diffUtil: DiffUtil.ItemCallback<T>,
     val itemClick: (T) -> Unit,

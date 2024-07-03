@@ -44,7 +44,7 @@
 
     <!-- Primary colors -->
     <color name="md_amber">#FFC107</color>
-    <color name="md_blue">#2196F3</color>
+    <color name="md_blue">#F57C00</color>
     <color name="md_blue_grey">#607D8B</color>
     <color name="md_brown">#795548</color>
     <color name="md_cyan">#00BCD4</color>
@@ -87,7 +87,7 @@
     <color name="md_blue_200">#90CAF9</color>
     <color name="md_blue_300">#64B5F6</color>
     <color name="md_blue_400">#42A5F5</color>
-    <color name="md_blue_500">#2196F3</color>
+    <color name="md_blue_500">#F57C00</color>
     <color name="md_blue_600">#1E88E5</color>
     <color name="md_blue_700">#1976D2</color>
     <color name="md_blue_800">#1565C0</color>

@@ -3,14 +3,14 @@ package com.ultimobiletools.commons.adapters
 import android.util.TypedValue
 import android.view.Menu
 import android.view.ViewGroup
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.extensions.getTextSize
 import com.ultimobiletools.commons.views.CustomRecyclerView
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.databinding.FilepickerFavoriteBinding
 
 class FilepickerFavoritesAdapter(
-    activity: BaseSimpleActivity, val paths: List<String>, recyclerView: CustomRecyclerView,
+    activity: BaseUltiActivity, val paths: List<String>, recyclerView: CustomRecyclerView,
     itemClick: (Any) -> Unit
 ) : CustomRecyclerViewAdapter(activity, recyclerView, itemClick) {
 

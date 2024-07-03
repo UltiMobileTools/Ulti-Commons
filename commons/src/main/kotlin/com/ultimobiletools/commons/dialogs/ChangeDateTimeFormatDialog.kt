@@ -29,7 +29,7 @@ import com.ultimobiletools.commons.compose.extensions.NoRippleTheme
 import com.ultimobiletools.commons.compose.extensions.rememberMutableInteractionSource
 import com.ultimobiletools.commons.compose.settings.SettingsHorizontalDivider
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.compose.theme.preferenceLabelColor
 import com.ultimobiletools.commons.databinding.DialogChangeDateTimeFormatBinding
 import com.ultimobiletools.commons.extensions.baseConfig
@@ -148,7 +148,7 @@ fun ChangeDateTimeFormatAlertDialog(
                         items = kinds, selected = selected,
                         setSelected = setSelected,
                         modifier = Modifier.padding(
-                            vertical = SimpleTheme.dimens.padding.extraLarge,
+                            vertical = UltiTheme.dimens.padding.extraLarge,
                         )
                     )
                     SettingsHorizontalDivider()
@@ -158,7 +158,7 @@ fun ChangeDateTimeFormatAlertDialog(
                             label = stringResource(id = R.string.use_24_hour_time_format),
                             initialValue = is24HoursSelected,
                             onChange = { is24HoursSelected = it },
-                            modifier = Modifier.padding(horizontal = SimpleTheme.dimens.padding.medium)
+                            modifier = Modifier.padding(horizontal = UltiTheme.dimens.padding.medium)
                         )
                     }
                 }
@@ -168,7 +168,7 @@ fun ChangeDateTimeFormatAlertDialog(
                     horizontalArrangement = Arrangement.End,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(top = SimpleTheme.dimens.padding.extraLarge, bottom = SimpleTheme.dimens.padding.extraLarge, end = SimpleTheme.dimens.padding.extraLarge)
+                        .padding(top = UltiTheme.dimens.padding.extraLarge, bottom = UltiTheme.dimens.padding.extraLarge, end = UltiTheme.dimens.padding.extraLarge)
                         .align(Alignment.BottomStart)
                 ) {
                     TextButton(onClick = {
@@ -205,8 +205,8 @@ internal fun DialogCheckBoxWithRadioAlignmentComponent(
     isPreferenceEnabled: Boolean = true,
     onChange: ((Boolean) -> Unit)? = null,
     checkboxColors: CheckboxColors = CheckboxDefaults.colors(
-        checkedColor = SimpleTheme.colorScheme.primary,
-        checkmarkColor = SimpleTheme.colorScheme.surface,
+        checkedColor = UltiTheme.colorScheme.primary,
+        checkmarkColor = UltiTheme.colorScheme.surface,
     )
 ) {
     val interactionSource = rememberMutableInteractionSource()

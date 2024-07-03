@@ -21,7 +21,7 @@ import com.ultimobiletools.commons.compose.alert_dialog.*
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.andThen
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.databinding.DialogUpgradeToProBinding
 import com.ultimobiletools.commons.extensions.getAlertDialogBuilder
 import com.ultimobiletools.commons.extensions.launchUpgradeToProIntent
@@ -98,7 +98,7 @@ fun UpgradeToProAlertDialog(
                 }
                 TextButton(
                     onClick = alertDialogState::hide,
-                    modifier = Modifier.padding(horizontal = SimpleTheme.dimens.padding.medium)
+                    modifier = Modifier.padding(horizontal = UltiTheme.dimens.padding.medium)
                 ) {
                     Text(text = stringResource(id = R.string.later))
                 }

@@ -13,7 +13,7 @@ import androidx.compose.ui.platform.LocalLayoutDirection
 import com.ultimobiletools.commons.compose.extensions.onEventValue
 import com.ultimobiletools.commons.compose.system_ui_controller.rememberSystemUiController
 import com.ultimobiletools.commons.compose.theme.LocalTheme
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.compose.theme.isNotLitWell
 import com.ultimobiletools.commons.compose.theme.isSurfaceLitWell
 import com.ultimobiletools.commons.compose.theme.model.Theme
@@ -35,7 +35,7 @@ internal fun ScreenBoxSettingsScaffold(paddingValues: PaddingValues, modifier: M
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(SimpleTheme.colorScheme.surface)
+            .background(UltiTheme.colorScheme.surface)
             .padding(
                 top = paddingValues.calculateTopPadding(),
                 start = paddingValues.calculateStartPadding(layoutDirection),

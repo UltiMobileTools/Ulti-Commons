@@ -22,7 +22,7 @@ import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.compose.extensions.BooleanPreviewParameterProvider
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 
 @Composable
 fun SettingsListItem(
@@ -50,8 +50,8 @@ fun SettingsListItem(
         },
         leadingContent = {
             val imageSize = Modifier
-                .size(SimpleTheme.dimens.icon.medium)
-                .padding(SimpleTheme.dimens.padding.medium)
+                .size(UltiTheme.dimens.icon.medium)
+                .padding(UltiTheme.dimens.padding.medium)
             when {
                 icon != null && isImage && tint != null -> Image(
                     modifier = imageSize,
@@ -106,8 +106,8 @@ fun SettingsListItem(
         },
         leadingContent = {
             val imageSize = Modifier
-                .size(SimpleTheme.dimens.icon.medium)
-                .padding(SimpleTheme.dimens.padding.medium)
+                .size(UltiTheme.dimens.icon.medium)
+                .padding(UltiTheme.dimens.padding.medium)
             when {
                 icon != null && isImage && tint != null -> Image(
                     modifier = imageSize,

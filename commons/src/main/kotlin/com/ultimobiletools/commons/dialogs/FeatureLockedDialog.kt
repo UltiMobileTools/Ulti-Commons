@@ -28,7 +28,7 @@ import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.composeDonateIntent
 import com.ultimobiletools.commons.compose.extensions.rememberMutableInteractionSource
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.databinding.DialogFeatureLockedBinding
 import com.ultimobiletools.commons.extensions.*
 
@@ -101,7 +101,7 @@ fun FeatureLockedAlertDialog(
                     Icons.Filled.Lock,
                     contentDescription = null,
                     modifier = Modifier
-                        .size(SimpleTheme.dimens.icon.large)
+                        .size(UltiTheme.dimens.icon.large)
                         .clickable(
                             indication = null,
                             interactionSource = rememberMutableInteractionSource(),

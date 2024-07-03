@@ -17,7 +17,7 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.unit.dp
 import com.ultimobiletools.commons.compose.theme.LocalTheme
 import com.ultimobiletools.commons.compose.theme.Shapes
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.compose.theme.light_grey_stroke
 import com.ultimobiletools.commons.compose.theme.model.Theme
 import com.ultimobiletools.commons.extensions.baseConfig
@@ -29,7 +29,7 @@ val dialogContainerColor
     @ReadOnlyComposable
     @Composable get() = when (LocalTheme.current) {
         is Theme.BlackAndWhite -> Color.Black
-        is Theme.SystemDefaultMaterialYou -> if (isSPlus()) colorResource(R.color.you_dialog_background_color) else SimpleTheme.colorScheme.surface
+        is Theme.SystemDefaultMaterialYou -> if (isSPlus()) colorResource(R.color.you_dialog_background_color) else UltiTheme.colorScheme.surface
         else -> {
             val context = LocalContext.current
             Color(context.baseConfig.backgroundColor)
@@ -49,7 +49,7 @@ val dialogShape = Shapes.extraLarge
 
 val dialogElevation = 0.dp
 
-val dialogTextColor @Composable @ReadOnlyComposable get() = SimpleTheme.colorScheme.onSurface
+val dialogTextColor @Composable @ReadOnlyComposable get() = UltiTheme.colorScheme.onSurface
 
 val Modifier.dialogBorder: Modifier
     @ReadOnlyComposable

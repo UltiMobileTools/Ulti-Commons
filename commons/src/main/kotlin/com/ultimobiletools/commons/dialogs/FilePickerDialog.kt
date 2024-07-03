@@ -9,7 +9,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.documentfile.provider.DocumentFile
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.adapters.FilepickerFavoritesAdapter
 import com.ultimobiletools.commons.adapters.FilepickerItemsAdapter
 import com.ultimobiletools.commons.extensions.*
@@ -30,7 +30,7 @@ import java.io.File
  * @param callback the callback used for returning the selected file/folder
  */
 class FilePickerDialog(
-    val activity: BaseSimpleActivity,
+    val activity: BaseUltiActivity,
     var currPath: String = Environment.getExternalStorageDirectory().toString(),
     val pickFile: Boolean = true,
     var showHidden: Boolean = false,

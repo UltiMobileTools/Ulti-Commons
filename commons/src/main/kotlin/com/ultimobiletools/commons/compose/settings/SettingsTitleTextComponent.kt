@@ -10,21 +10,21 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.sp
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 
 @Composable
 fun SettingsTitleTextComponent(
     modifier: Modifier = Modifier,
     text: String,
-    color: Color = SimpleTheme.colorScheme.primary,
+    color: Color = UltiTheme.colorScheme.primary,
     maxLines: Int = 1,
     overflow: TextOverflow = TextOverflow.Ellipsis
 ) {
-    Box(modifier = Modifier.padding(top = SimpleTheme.dimens.padding.extraLarge)) {
+    Box(modifier = Modifier.padding(top = UltiTheme.dimens.padding.extraLarge)) {
         Text(
             text = text.uppercase(),
             modifier = modifier
-                .padding(horizontal = SimpleTheme.dimens.padding.small),
+                .padding(horizontal = UltiTheme.dimens.padding.small),
             color = color,
             fontSize = 14.sp,
             maxLines = maxLines,

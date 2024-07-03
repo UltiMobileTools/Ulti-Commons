@@ -3,13 +3,13 @@ package com.ultimobiletools.commons.extensions
 import android.content.ContentValues
 import android.provider.MediaStore
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.models.FileDirItem
 import java.io.File
 import java.io.InputStream
 import java.io.OutputStream
 
-fun BaseSimpleActivity.copySingleFileSdk30(source: FileDirItem, destination: FileDirItem): Boolean {
+fun BaseUltiActivity.copySingleFileSdk30(source: FileDirItem, destination: FileDirItem): Boolean {
     val directory = destination.getParentPath()
     if (!createDirectorySync(directory)) {
         val error = String.format(getString(R.string.could_not_create_folder), directory)
@@ -53,7 +53,7 @@ fun BaseSimpleActivity.copySingleFileSdk30(source: FileDirItem, destination: Fil
     }
 }
 
-fun BaseSimpleActivity.copyOldLastModified(sourcePath: String, destinationPath: String) {
+fun BaseUltiActivity.copyOldLastModified(sourcePath: String, destinationPath: String) {
     val projection = arrayOf(MediaStore.Images.Media.DATE_TAKEN, MediaStore.Images.Media.DATE_MODIFIED)
     val uri = MediaStore.Files.getContentUri("external")
     val selection = "${MediaStore.MediaColumns.DATA} = ?"

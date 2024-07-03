@@ -26,6 +26,7 @@ import com.ultimobiletools.commons.compose.menus.OverflowMode
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
+import com.ultimobiletools.commons.R
 
 @Composable
 fun MainScreen(

@@ -6,7 +6,7 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import com.google.android.material.appbar.AppBarLayout
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.databinding.MenuSearchBinding
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.LOWER_ALPHA
@@ -108,6 +108,6 @@ class CustomSearchMenu(context: Context, attrs: AttributeSet) : AppBarLayout(con
         binding.topToolbarHolder.background?.applyColorFilter(context.getProperPrimaryColor().adjustAlpha(LOWER_ALPHA))
         binding.topToolbarSearch.setTextColor(contrastColor)
         binding.topToolbarSearch.setHintTextColor(contrastColor.adjustAlpha(MEDIUM_ALPHA))
-        (context as? BaseSimpleActivity)?.updateTopBarColors(binding.topToolbar, backgroundColor)
+        (context as? BaseUltiActivity)?.updateTopBarColors(binding.topToolbar, backgroundColor)
     }
 }

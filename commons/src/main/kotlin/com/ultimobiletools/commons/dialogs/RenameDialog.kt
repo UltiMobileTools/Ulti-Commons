@@ -4,14 +4,14 @@ import android.view.LayoutInflater
 import android.view.WindowManager
 import androidx.appcompat.app.AlertDialog
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.adapters.CustomRenameAdapter
 import com.ultimobiletools.commons.databinding.DialogRenameBinding
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.RENAME_PATTERN
 import com.ultimobiletools.commons.helpers.RENAME_SIMPLE
 import com.ultimobiletools.commons.views.CustomViewPager
-class RenameDialog(val activity: BaseSimpleActivity, val paths: ArrayList<String>, val useMediaFileExtension: Boolean, val callback: () -> Unit) {
+class RenameDialog(val activity: BaseUltiActivity, val paths: ArrayList<String>, val useMediaFileExtension: Boolean, val callback: () -> Unit) {
     var dialog: AlertDialog? = null
     val view = DialogRenameBinding.inflate(LayoutInflater.from(activity), null, false)
     var tabsAdapter: CustomRenameAdapter

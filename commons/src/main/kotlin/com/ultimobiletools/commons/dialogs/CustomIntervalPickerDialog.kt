@@ -34,7 +34,7 @@ import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.compose.components.RadioGroupDialogComponent
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.databinding.DialogCustomIntervalPickerBinding
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.DAY_SECONDS
@@ -151,9 +151,9 @@ fun CustomIntervalPickerAlertDialog(
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(
-                                top = SimpleTheme.dimens.padding.extraLarge,
-                                start = SimpleTheme.dimens.padding.extraLarge,
-                                end = SimpleTheme.dimens.padding.extraLarge
+                                top = UltiTheme.dimens.padding.extraLarge,
+                                start = UltiTheme.dimens.padding.extraLarge,
+                                end = UltiTheme.dimens.padding.extraLarge
                             )
                             .focusRequester(focusRequester),
                         value = textFieldValue,
@@ -172,7 +172,7 @@ fun CustomIntervalPickerAlertDialog(
                         selected = selected,
                         setSelected = setSelected,
                         modifier = Modifier.padding(
-                            vertical = SimpleTheme.dimens.padding.extraLarge,
+                            vertical = UltiTheme.dimens.padding.extraLarge,
                         )
                     )
                 }
@@ -183,9 +183,9 @@ fun CustomIntervalPickerAlertDialog(
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(
-                            top = SimpleTheme.dimens.padding.extraLarge,
-                            bottom = SimpleTheme.dimens.padding.extraLarge,
-                            end = SimpleTheme.dimens.padding.extraLarge
+                            top = UltiTheme.dimens.padding.extraLarge,
+                            bottom = UltiTheme.dimens.padding.extraLarge,
+                            end = UltiTheme.dimens.padding.extraLarge
                         )
                         .align(Alignment.BottomStart)
                 ) {

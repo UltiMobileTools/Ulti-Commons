@@ -6,7 +6,7 @@ import android.provider.MediaStore
 import android.util.AttributeSet
 import android.widget.RelativeLayout
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.databinding.TabRenameSimpleBinding
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.models.Android30RenameFormat
@@ -17,7 +17,7 @@ import java.io.File
 class RenameSimpleTab(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs), RenameTab {
     var ignoreClicks = false
     var stopLooping = false     // we should request the permission on Android 30+ for all uris at once, not one by one
-    var activity: BaseSimpleActivity? = null
+    var activity: BaseUltiActivity? = null
     var paths = ArrayList<String>()
 
     private lateinit var binding: TabRenameSimpleBinding
@@ -28,7 +28,7 @@ class RenameSimpleTab(context: Context, attrs: AttributeSet) : RelativeLayout(co
         context.updateTextColors(binding.renameSimpleHolder)
     }
 
-    override fun initTab(activity: BaseSimpleActivity, paths: ArrayList<String>) {
+    override fun initTab(activity: BaseUltiActivity, paths: ArrayList<String>) {
         this.activity = activity
         this.paths = paths
     }

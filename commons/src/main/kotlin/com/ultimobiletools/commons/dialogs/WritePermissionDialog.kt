@@ -30,7 +30,7 @@ import com.bumptech.glide.integration.compose.GlideImage
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.transition.DrawableCrossFadeFactory
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.compose.alert_dialog.AlertDialogState
 import com.ultimobiletools.commons.compose.alert_dialog.DialogSurface
 import com.ultimobiletools.commons.compose.alert_dialog.dialogTextColor
@@ -39,7 +39,7 @@ import com.ultimobiletools.commons.compose.components.LinkifyTextComponent
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.andThen
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.databinding.DialogWritePermissionBinding
 import com.ultimobiletools.commons.databinding.DialogWritePermissionOtgBinding
 import com.ultimobiletools.commons.extensions.fromHtml
@@ -115,8 +115,8 @@ class WritePermissionDialog(activity: Activity, val writePermissionDialogMode: W
         activity.getAlertDialogBuilder()
             .setPositiveButton(R.string.ok) { _, _ -> dialogConfirmed() }
             .setOnCancelListener {
-                BaseSimpleActivity.funAfterSAFPermission?.invoke(false)
-                BaseSimpleActivity.funAfterSAFPermission = null
+                BaseUltiActivity.funAfterSAFPermission?.invoke(false)
+                BaseUltiActivity.funAfterSAFPermission = null
             }
             .apply {
                 activity.setupDialogStuff(
@@ -170,8 +170,8 @@ fun WritePermissionAlertDialog(
                         text = stringResource(id = dialogTitle),
                         color = dialogTextColor,
                         modifier = Modifier
-                            .padding(horizontal = SimpleTheme.dimens.padding.extraLarge.plus(SimpleTheme.dimens.padding.large))
-                            .padding(top = SimpleTheme.dimens.padding.extraLarge.plus(SimpleTheme.dimens.padding.small)),
+                            .padding(horizontal = UltiTheme.dimens.padding.extraLarge.plus(UltiTheme.dimens.padding.large))
+                            .padding(top = UltiTheme.dimens.padding.extraLarge.plus(UltiTheme.dimens.padding.small)),
                         fontSize = 21.sp,
                         fontWeight = FontWeight.Bold,
                     )
@@ -191,16 +191,16 @@ fun WritePermissionAlertDialog(
                         WritePermissionDialog.WritePermissionDialogMode.Otg -> OTG(crossFadeTransition)
                         WritePermissionDialog.WritePermissionDialogMode.SdCard -> SDCard(crossFadeTransition)
                     }
-                    Spacer(Modifier.padding(vertical = SimpleTheme.dimens.padding.extraLarge))
+                    Spacer(Modifier.padding(vertical = UltiTheme.dimens.padding.extraLarge))
                 }
 
                 TextButton(
                     onClick = alertDialogState::hide andThen callback,
                     modifier = Modifier
                         .padding(
-                            top = SimpleTheme.dimens.padding.extraLarge,
-                            bottom = SimpleTheme.dimens.padding.extraLarge,
-                            end = SimpleTheme.dimens.padding.extraLarge
+                            top = UltiTheme.dimens.padding.extraLarge,
+                            bottom = UltiTheme.dimens.padding.extraLarge,
+                            end = UltiTheme.dimens.padding.extraLarge
                         )
                         .align(Alignment.BottomEnd)
                 ) {
@@ -259,7 +259,7 @@ private fun WritePermissionImage(
 ) {
     GlideImage(
         modifier = modifier
-            .padding(horizontal = SimpleTheme.dimens.padding.extraLarge.plus(SimpleTheme.dimens.padding.large)),
+            .padding(horizontal = UltiTheme.dimens.padding.extraLarge.plus(UltiTheme.dimens.padding.large)),
         model = drawable,
         contentDescription = null,
     ) { requestBuilder ->
@@ -273,8 +273,8 @@ private fun WritePermissionText(@StringRes text: Int) {
         text = stringResource(id = text),
         color = dialogTextColor,
         modifier = Modifier
-            .padding(horizontal = SimpleTheme.dimens.padding.extraLarge.plus(SimpleTheme.dimens.padding.medium))
-            .padding(vertical = SimpleTheme.dimens.padding.extraLarge),
+            .padding(horizontal = UltiTheme.dimens.padding.extraLarge.plus(UltiTheme.dimens.padding.medium))
+            .padding(vertical = UltiTheme.dimens.padding.extraLarge),
     )
 }
 
@@ -282,8 +282,8 @@ private fun WritePermissionText(@StringRes text: Int) {
 private fun WritePermissionText(text: Spanned) {
     LinkifyTextComponent(
         modifier = Modifier
-            .padding(horizontal = SimpleTheme.dimens.padding.extraLarge.plus(SimpleTheme.dimens.padding.medium))
-            .padding(vertical = SimpleTheme.dimens.padding.extraLarge),
+            .padding(horizontal = UltiTheme.dimens.padding.extraLarge.plus(UltiTheme.dimens.padding.medium))
+            .padding(vertical = UltiTheme.dimens.padding.extraLarge),
     ) {
         text
     }

@@ -25,11 +25,11 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.lifecycle.compose.LifecycleStartEffect
 import com.ultimobiletools.commons.compose.system_ui_controller.rememberSystemUiController
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.compose.theme.isLitWell
 import com.ultimobiletools.commons.extensions.darkenColor
 import com.ultimobiletools.commons.extensions.launchViewIntent
-
+import com.ultimobiletools.commons.R
 fun Context.getActivity(): Activity {
     return when (this) {
         is Activity -> this
@@ -47,8 +47,8 @@ fun rememberMutableInteractionSource() = remember { MutableInteractionSource() }
 fun AdjustNavigationBarColors() {
     val systemUiController = rememberSystemUiController()
     val isSystemInDarkTheme = isSystemInDarkTheme()
-    val isSurfaceLitWell = SimpleTheme.colorScheme.surface.isLitWell()
-    val navigationBarColor = Color(SimpleTheme.colorScheme.surface.toArgb().darkenColor()).copy(alpha = 0.5f)
+    val isSurfaceLitWell = UltiTheme.colorScheme.surface.isLitWell()
+    val navigationBarColor = Color(UltiTheme.colorScheme.surface.toArgb().darkenColor()).copy(alpha = 0.5f)
     DisposableEffect(systemUiController, isSystemInDarkTheme, navigationBarColor) {
         systemUiController.setNavigationBarColor(color = navigationBarColor, darkIcons = !isSystemInDarkTheme)
         systemUiController.navigationBarDarkContentEnabled = isSurfaceLitWell

@@ -19,7 +19,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.sp
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.compose.alert_dialog.*
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.andThen
@@ -28,7 +28,7 @@ import com.ultimobiletools.commons.databinding.DialogEnterPasswordBinding
 import com.ultimobiletools.commons.extensions.*
 
 class EnterPasswordDialog(
-    val activity: BaseSimpleActivity,
+    val activity: BaseUltiActivity,
     private val callback: (password: String) -> Unit,
     private val cancelCallback: () -> Unit
 ) {

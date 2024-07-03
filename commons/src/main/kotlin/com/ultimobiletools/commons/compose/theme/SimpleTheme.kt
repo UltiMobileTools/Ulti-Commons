@@ -10,7 +10,7 @@ import androidx.compose.runtime.ReadOnlyComposable
 import com.ultimobiletools.commons.compose.theme.model.Dimensions
 
 @Immutable
-object SimpleTheme {
+object UltiTheme {
     val dimens: Dimensions
         @Composable
         @ReadOnlyComposable

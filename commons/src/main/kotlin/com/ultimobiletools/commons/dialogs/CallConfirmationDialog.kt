@@ -25,7 +25,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.compose.alert_dialog.*
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
@@ -34,8 +34,9 @@ import com.ultimobiletools.commons.extensions.applyColorFilter
 import com.ultimobiletools.commons.extensions.getAlertDialogBuilder
 import com.ultimobiletools.commons.extensions.getProperTextColor
 import com.ultimobiletools.commons.extensions.setupDialogStuff
+import com.ultimobiletools.commons.R
 
-class CallConfirmationDialog(val activity: BaseSimpleActivity, val callee: String, private val callback: () -> Unit) {
+class CallConfirmationDialog(val activity: BaseUltiActivity, val callee: String, private val callback: () -> Unit) {
     private var view = DialogCallConfirmationBinding.inflate(activity.layoutInflater, null, false)
 
     init {

@@ -30,11 +30,11 @@ val iconsColor
 @Composable
 @ReadOnlyComposable
 fun preferenceValueColor(isEnabled: Boolean) =
-    if (isEnabled) SimpleTheme.colorScheme.onSurface.copy(alpha = 0.6f) else disabledTextColor
+    if (isEnabled) UltiTheme.colorScheme.onSurface.copy(alpha = 0.6f) else disabledTextColor
 
 @Composable
 @ReadOnlyComposable
-fun preferenceLabelColor(isEnabled: Boolean) = if (isEnabled) SimpleTheme.colorScheme.onSurface else disabledTextColor
+fun preferenceLabelColor(isEnabled: Boolean) = if (isEnabled) UltiTheme.colorScheme.onSurface else disabledTextColor
 
 fun Color.isLitWell(threshold: Float = LUMINANCE_THRESHOLD) = luminance() > threshold
 

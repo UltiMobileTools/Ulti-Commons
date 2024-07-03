@@ -13,14 +13,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.compose.alert_dialog.AlertDialogState
 import com.ultimobiletools.commons.compose.alert_dialog.DialogSurface
 import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.compose.components.RadioGroupDialogComponent
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.databinding.DialogChangeViewTypeBinding
 import com.ultimobiletools.commons.extensions.baseConfig
 import com.ultimobiletools.commons.extensions.getAlertDialogBuilder
@@ -30,7 +30,7 @@ import com.ultimobiletools.commons.helpers.VIEW_TYPE_LIST
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 
-class ChangeViewTypeDialog(val activity: BaseSimpleActivity, val callback: () -> Unit) {
+class ChangeViewTypeDialog(val activity: BaseUltiActivity, val callback: () -> Unit) {
     private var view: DialogChangeViewTypeBinding
     private var config = activity.baseConfig
 
@@ -99,16 +99,16 @@ fun ChangeViewTypeAlertDialog(
                         setSelected(selectedTitle)
                     },
                     modifier = Modifier.padding(
-                        vertical = SimpleTheme.dimens.padding.extraLarge,
+                        vertical = UltiTheme.dimens.padding.extraLarge,
                     ),
-                    verticalPadding = SimpleTheme.dimens.padding.extraLarge,
+                    verticalPadding = UltiTheme.dimens.padding.extraLarge,
                 )
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.End,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(end = SimpleTheme.dimens.padding.extraLarge)
+                        .padding(end = UltiTheme.dimens.padding.extraLarge)
                 ) {
                     TextButton(onClick = {
                         alertDialogState.hide()

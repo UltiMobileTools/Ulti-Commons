@@ -10,7 +10,7 @@ import androidx.core.app.NotificationCompat
 import androidx.core.util.Pair
 import androidx.documentfile.provider.DocumentFile
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.CONFLICT_KEEP_BOTH
 import com.ultimobiletools.commons.helpers.CONFLICT_SKIP
@@ -24,7 +24,7 @@ import java.io.OutputStream
 import java.lang.ref.WeakReference
 
 class CopyMoveTask(
-    val activity: BaseSimpleActivity, val copyOnly: Boolean, val copyMediaOnly: Boolean, val conflictResolutions: LinkedHashMap<String, Int>,
+    val activity: BaseUltiActivity, val copyOnly: Boolean, val copyMediaOnly: Boolean, val conflictResolutions: LinkedHashMap<String, Int>,
     listener: CopyMoveListener, val copyHidden: Boolean
 ) : AsyncTask<Pair<ArrayList<FileDirItem>, String>, Void, Boolean>() {
     private val INITIAL_PROGRESS_DELAY = 3000L

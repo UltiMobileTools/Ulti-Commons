@@ -18,7 +18,7 @@ import com.ultimobiletools.commons.compose.alert_dialog.*
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
 import com.ultimobiletools.commons.models.BlockedNumber
-
+import com.ultimobiletools.commons.R
 @Composable
 fun AddOrEditBlockedNumberAlertDialog(
     alertDialogState: AlertDialogState,

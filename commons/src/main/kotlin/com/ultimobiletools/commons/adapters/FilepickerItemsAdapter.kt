@@ -13,7 +13,7 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withC
 import com.bumptech.glide.request.RequestOptions
 import com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.databinding.ItemFilepickerListBinding
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.getFilePlaceholderDrawables
@@ -22,7 +22,7 @@ import com.ultimobiletools.commons.views.CustomRecyclerView
 import java.util.Locale
 
 class FilepickerItemsAdapter(
-    activity: BaseSimpleActivity, val fileDirItems: List<FileDirItem>, recyclerView: CustomRecyclerView,
+    activity: BaseUltiActivity, val fileDirItems: List<FileDirItem>, recyclerView: CustomRecyclerView,
     itemClick: (Any) -> Unit
 ) : CustomRecyclerViewAdapter(activity, recyclerView, itemClick), RecyclerViewFastScroller.OnPopupTextUpdate {
 

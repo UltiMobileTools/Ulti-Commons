@@ -17,17 +17,17 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.compose.alert_dialog.*
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.databinding.DialogCreateNewFolderBinding
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.isRPlus
 import java.io.File
 
-class CreateNewFolderDialog(val activity: BaseSimpleActivity, val path: String, val callback: (path: String) -> Unit) {
+class CreateNewFolderDialog(val activity: BaseUltiActivity, val path: String, val callback: (path: String) -> Unit) {
     init {
         val view = DialogCreateNewFolderBinding.inflate(activity.layoutInflater, null, false)
         view.folderPath.setText("${activity.humanizePath(path).trimEnd('/')}/")
@@ -178,12 +178,12 @@ fun CreateNewFolderAlertDialog(
                     enabled = false,
                     colors = OutlinedTextFieldDefaults.colors(
                         disabledTextColor = dialogTextColor,
-                        disabledBorderColor = SimpleTheme.colorScheme.primary,
-                        disabledLabelColor = SimpleTheme.colorScheme.primary,
+                        disabledBorderColor = UltiTheme.colorScheme.primary,
+                        disabledLabelColor = UltiTheme.colorScheme.primary,
                     )
                 )
 
-                Spacer(modifier = Modifier.padding(vertical = SimpleTheme.dimens.padding.medium))
+                Spacer(modifier = Modifier.padding(vertical = UltiTheme.dimens.padding.medium))
 
                 OutlinedTextField(
                     modifier = Modifier

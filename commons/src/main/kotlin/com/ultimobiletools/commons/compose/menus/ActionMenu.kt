@@ -32,7 +32,7 @@ import com.ultimobiletools.commons.compose.components.SimpleDropDownMenuItem
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.rememberMutableInteractionSource
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 
@@ -99,7 +99,7 @@ fun ActionMenu(
                             Text(
                                 text = name,
                                 fontSize = 14.sp,
-                                modifier = Modifier.padding(SimpleTheme.dimens.padding.medium),
+                                modifier = Modifier.padding(UltiTheme.dimens.padding.medium),
                             )
                         }
                     },
@@ -128,7 +128,7 @@ fun ActionMenu(
                     Text(
                         text = stringResource(id = R.string.more_options),
                         fontSize = 14.sp,
-                        modifier = Modifier.padding(SimpleTheme.dimens.padding.medium),
+                        modifier = Modifier.padding(UltiTheme.dimens.padding.medium),
                     )
                 }
             },

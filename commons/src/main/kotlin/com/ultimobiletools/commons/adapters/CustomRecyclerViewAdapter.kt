@@ -8,14 +8,14 @@ import androidx.appcompat.app.ActionBar
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.interfaces.MyActionModeCallback
 import com.ultimobiletools.commons.views.CustomRecyclerView
 import kotlin.math.max
 import kotlin.math.min
 
-abstract class CustomRecyclerViewAdapter(val activity: BaseSimpleActivity, val recyclerView: CustomRecyclerView, val itemClick: (Any) -> Unit) :
+abstract class CustomRecyclerViewAdapter(val activity: BaseUltiActivity, val recyclerView: CustomRecyclerView, val itemClick: (Any) -> Unit) :
     RecyclerView.Adapter<CustomRecyclerViewAdapter.ViewHolder>() {
     protected val baseConfig = activity.baseConfig
     protected val resources = activity.resources!!

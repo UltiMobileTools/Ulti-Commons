@@ -2,7 +2,7 @@ package com.ultimobiletools.commons.dialogs
 
 import androidx.appcompat.app.AlertDialog
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.databinding.DialogExportBlockedNumbersBinding
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.BLOCKED_NUMBERS_EXPORT_EXTENSION
@@ -10,7 +10,7 @@ import com.ultimobiletools.commons.helpers.ensureBackgroundThread
 import java.io.File
 
 class ExportBlockedNumbersDialog(
-    val activity: BaseSimpleActivity,
+    val activity: BaseUltiActivity,
     val path: String,
     val hidePath: Boolean,
     callback: (file: File) -> Unit,

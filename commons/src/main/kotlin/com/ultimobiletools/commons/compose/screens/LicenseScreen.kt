@@ -12,10 +12,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.compose.extensions.MyDevices
-import com.ultimobiletools.commons.compose.lists.SimpleLazyListScaffold
+import com.ultimobiletools.commons.compose.lists.UltiLazyListScaffold
 import com.ultimobiletools.commons.compose.settings.SettingsHorizontalDivider
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.helpers.*
 import com.ultimobiletools.commons.models.CustomLicense
 import kotlinx.collections.immutable.ImmutableList
@@ -27,7 +27,7 @@ internal fun LicenseScreen(
     thirdPartyLicens: ImmutableList<CustomLicense>,
     onLicenseClick: (urlId: Int) -> Unit,
 ) {
-    SimpleLazyListScaffold(
+    UltiLazyListScaffold(
         title = stringResource(id = R.string.third_party_licences),
         goBack = goBack
     ) {
@@ -35,7 +35,7 @@ internal fun LicenseScreen(
             Column {
                 LicenseItem(license, onLicenseClick)
                 if (index != thirdPartyLicens.lastIndex) {
-                    SettingsHorizontalDivider(modifier = Modifier.padding(bottom = SimpleTheme.dimens.padding.small))
+                    SettingsHorizontalDivider(modifier = Modifier.padding(bottom = UltiTheme.dimens.padding.small))
                 }
             }
         }
@@ -58,9 +58,9 @@ private fun LicenseItem(
     }, supportingContent = {
         Text(
             text = stringResource(id = customLicense.textId),
-            modifier = Modifier.padding(top = SimpleTheme.dimens.padding.extraSmall),
+            modifier = Modifier.padding(top = UltiTheme.dimens.padding.extraSmall),
         )
-    }, colors = ListItemDefaults.colors(headlineColor = SimpleTheme.colorScheme.primary, supportingColor = SimpleTheme.colorScheme.onSurface))
+    }, colors = ListItemDefaults.colors(headlineColor = UltiTheme.colorScheme.primary, supportingColor = UltiTheme.colorScheme.onSurface))
 }
 
 @Composable

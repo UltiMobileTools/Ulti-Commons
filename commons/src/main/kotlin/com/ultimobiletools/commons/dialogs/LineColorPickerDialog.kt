@@ -23,20 +23,20 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.updateLayoutParams
 import com.google.android.material.appbar.MaterialToolbar
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 import com.ultimobiletools.commons.compose.alert_dialog.AlertDialogState
 import com.ultimobiletools.commons.compose.alert_dialog.DialogSurface
 import com.ultimobiletools.commons.compose.alert_dialog.dialogTextColor
 import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.databinding.DialogLineColorPickerBinding
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.interfaces.LineColorPickerListener
 
 class LineColorPickerDialog(
-    val activity: BaseSimpleActivity, val color: Int, val isPrimaryColorPicker: Boolean, val primaryColors: Int = R.array.md_primary_colors,
+    val activity: BaseUltiActivity, val color: Int, val isPrimaryColorPicker: Boolean, val primaryColors: Int = R.array.md_primary_colors,
     val appIconIDs: ArrayList<Int>? = null, val toolbar: MaterialToolbar? = null, val callback: (wasPositivePressed: Boolean, color: Int) -> Unit
 ) {
     private val PRIMARY_COLORS_COUNT = 19
@@ -192,7 +192,7 @@ fun LineColorPickerAlertDialog(
             Column(
                 Modifier
                     .fillMaxWidth(0.95f)
-                    .padding(SimpleTheme.dimens.padding.extraLarge)
+                    .padding(UltiTheme.dimens.padding.extraLarge)
             ) {
                 val dialogTextColor = dialogTextColor
                 var dialogLineColorPickerBinding by remember { mutableStateOf<DialogLineColorPickerBinding?>(null) }

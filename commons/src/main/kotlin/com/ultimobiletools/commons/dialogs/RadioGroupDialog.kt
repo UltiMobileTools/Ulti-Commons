@@ -30,7 +30,7 @@ import com.ultimobiletools.commons.compose.components.RadioGroupDialogComponent
 import com.ultimobiletools.commons.compose.extensions.BooleanPreviewParameterProvider
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.databinding.DialogRadioGroupBinding
 import com.ultimobiletools.commons.extensions.getAlertDialogBuilder
 import com.ultimobiletools.commons.extensions.onGlobalLayout
@@ -38,6 +38,7 @@ import com.ultimobiletools.commons.extensions.setupDialogStuff
 import com.ultimobiletools.commons.models.RadioItem
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
+import com.ultimobiletools.commons.R
 
 class RadioGroupDialog(
     val activity: Activity, val items: ArrayList<RadioItem>, val checkedItemId: Int = -1, val titleId: Int = 0,
@@ -133,7 +134,7 @@ fun RadioGroupAlertDialog(
                             text = stringResource(id = titleId),
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .padding(top = 24.dp, bottom = SimpleTheme.dimens.padding.medium)
+                                .padding(top = 24.dp, bottom = UltiTheme.dimens.padding.medium)
                                 .padding(horizontal = 24.dp),
                             color = dialogTextColor,
                             fontSize = 21.sp
@@ -148,7 +149,7 @@ fun RadioGroupAlertDialog(
                             alertDialogState.hide()
                         },
                         modifier = Modifier.padding(
-                            vertical = SimpleTheme.dimens.padding.extraLarge,
+                            vertical = UltiTheme.dimens.padding.extraLarge,
                         )
                     )
                 }
@@ -160,7 +161,7 @@ fun RadioGroupAlertDialog(
                         },
                         modifier = Modifier
                             .align(Alignment.BottomEnd)
-                            .padding(top = SimpleTheme.dimens.padding.extraLarge, bottom = SimpleTheme.dimens.padding.extraLarge, end = SimpleTheme.dimens.padding.extraLarge)
+                            .padding(top = UltiTheme.dimens.padding.extraLarge, bottom = UltiTheme.dimens.padding.extraLarge, end = UltiTheme.dimens.padding.extraLarge)
                     ) {
                         Text(text = stringResource(id = R.string.ok))
                     }

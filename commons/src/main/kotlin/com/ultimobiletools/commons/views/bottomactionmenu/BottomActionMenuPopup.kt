@@ -11,16 +11,16 @@ import androidx.core.view.doOnLayout
 import androidx.core.view.updateLayoutParams
 import androidx.core.widget.PopupWindowCompat
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.ultimobiletools.commons.activities.BaseSimpleActivity
+import com.ultimobiletools.commons.activities.BaseUltiActivity
 
-class BottomActionMenuPopup(private val activity: BaseSimpleActivity, items: List<BottomActionMenuItem>) {
+class BottomActionMenuPopup(private val activity: BaseUltiActivity, items: List<BottomActionMenuItem>) {
     private val bottomActionMenuView = BottomActionMenuView(activity)
     private val popup = PopupWindow(activity, null, android.R.attr.popupMenuStyle)
     private var floatingActionButton: FloatingActionButton? = null
     private var underlayView: View? = null
     private var callback: BottomActionMenuCallback? = null
 
-    constructor(activity: BaseSimpleActivity, @MenuRes menuResId: Int) : this(activity, BottomActionMenuParser(activity).inflate(menuResId))
+    constructor(activity: BaseUltiActivity, @MenuRes menuResId: Int) : this(activity, BottomActionMenuParser(activity).inflate(menuResId))
 
     init {
         popup.contentView = bottomActionMenuView

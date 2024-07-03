@@ -85,7 +85,7 @@ internal fun ManageBlockedNumbersScreen(
     onEdit: (BlockedNumber) -> Unit,
     onCopy: (BlockedNumber) -> Unit,
 ) {
-    val dimens = SimpleTheme.dimens
+    val dimens = UltiTheme.dimens
     val startingPadding = remember { Modifier.padding(horizontal = dimens.padding.small) }
     val selectedIds: MutableState<Set<Long>> = rememberSaveable { mutableStateOf(emptySet()) }
     val hapticFeedback = LocalHapticFeedback.current
@@ -194,7 +194,7 @@ internal fun ManageBlockedNumbersScreen(
                     ids = blockedNumbers?.map { blockedNumber -> blockedNumber.id }.orEmpty()
                 )
             },
-            verticalArrangement = Arrangement.spacedBy(SimpleTheme.dimens.padding.extraSmall),
+            verticalArrangement = Arrangement.spacedBy(UltiTheme.dimens.padding.extraSmall),
             contentPadding = PaddingValues(bottom = paddingValues.calculateBottomPadding())
         ) {
             when {
@@ -324,7 +324,7 @@ private fun BlockedNumber(
         movableContentOf {
             Text(
                 text = blockedNumber.contactName.toString(),
-                modifier = modifier.padding(horizontal = SimpleTheme.dimens.padding.medium, vertical = SimpleTheme.dimens.padding.extraSmall)
+                modifier = modifier.padding(horizontal = UltiTheme.dimens.padding.medium, vertical = UltiTheme.dimens.padding.extraSmall)
             )
         }
     }
@@ -366,12 +366,12 @@ private fun blockedNumberListItemColors(
 ) = ListItemDefaults.colors(
     containerColor = if (isSelected) {
         if (LocalTheme.current is Theme.SystemDefaultMaterialYou) {
-            Color(SimpleTheme.colorScheme.primaryContainer.toArgb().darkenColor()).copy(alpha = 0.8f)
+            Color(UltiTheme.colorScheme.primaryContainer.toArgb().darkenColor()).copy(alpha = 0.8f)
         } else {
-            SimpleTheme.colorScheme.primary.copy(alpha = 0.3f)
+            UltiTheme.colorScheme.primary.copy(alpha = 0.3f)
         }
     } else {
-        SimpleTheme.colorScheme.surface
+        UltiTheme.colorScheme.surface
     },
     trailingIconColor = iconsColor
 )
@@ -381,7 +381,7 @@ private fun blockedNumberListItemColors(
 private fun BlockedNumberHeadlineContent(modifier: Modifier = Modifier, blockedNumber: BlockedNumber, hasContactName: Boolean) {
     Text(
         text = blockedNumber.number,
-        modifier = modifier.padding(horizontal = SimpleTheme.dimens.padding.medium),
+        modifier = modifier.padding(horizontal = UltiTheme.dimens.padding.medium),
         color = if (hasContactName) LocalContentColor.current.copy(alpha = 0.7f) else LocalContentColor.current
     )
 }
@@ -489,7 +489,7 @@ private fun ActionModeToolbar(
 @ReadOnlyComposable
 private fun actionModeBgColor(): Color =
     if (LocalTheme.current is Theme.SystemDefaultMaterialYou) {
-        SimpleTheme.colorScheme.primaryContainer
+        UltiTheme.colorScheme.primaryContainer
     } else {
         actionModeColor
     }
@@ -544,11 +544,11 @@ private fun NonActionModeToolbar(
     onImportBlockedNumbers: () -> Unit,
     onExportBlockedNumbers: () -> Unit
 ) {
-    SimpleScaffoldTopBar(
+    UltiScaffoldTopBar(
         title = { scrolledTextColor ->
             Text(
                 text = stringResource(id = R.string.manage_blocked_numbers),
-                modifier = Modifier.padding(start = SimpleTheme.dimens.padding.extraLarge),
+                modifier = Modifier.padding(start = UltiTheme.dimens.padding.extraLarge),
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
                 color = scrolledTextColor
@@ -581,11 +581,11 @@ private fun LazyListScope.emptyBlockedNumbers(
     item {
         Text(
             text = stringResource(id = R.string.not_blocking_anyone),
-            style = TextStyle(fontStyle = FontStyle.Italic, textAlign = TextAlign.Center, color = SimpleTheme.colorScheme.onSurface),
+            style = TextStyle(fontStyle = FontStyle.Italic, textAlign = TextAlign.Center, color = UltiTheme.colorScheme.onSurface),
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(top = SimpleTheme.dimens.padding.extraLarge, bottom = SimpleTheme.dimens.padding.small)
-                .padding(horizontal = SimpleTheme.dimens.padding.extraLarge)
+                .padding(top = UltiTheme.dimens.padding.extraLarge, bottom = UltiTheme.dimens.padding.small)
+                .padding(horizontal = UltiTheme.dimens.padding.extraLarge)
         )
     }
     item {
@@ -603,10 +603,10 @@ private fun LazyListScope.emptyBlockedNumbers(
                     style = TextStyle(
                         textAlign = TextAlign.Center,
                         textDecoration = TextDecoration.Underline,
-                        color = SimpleTheme.colorScheme.primary,
+                        color = UltiTheme.colorScheme.primary,
                         fontSize = 18.sp
                     ),
-                    modifier = Modifier.padding(SimpleTheme.dimens.padding.medium)
+                    modifier = Modifier.padding(UltiTheme.dimens.padding.medium)
                 )
             }
         }
@@ -622,8 +622,8 @@ private fun LazyListScope.noPermissionToBlock(
             style = TextStyle(fontStyle = FontStyle.Italic, textAlign = TextAlign.Center),
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(top = SimpleTheme.dimens.padding.extraLarge)
-                .padding(horizontal = SimpleTheme.dimens.padding.extraLarge)
+                .padding(top = UltiTheme.dimens.padding.extraLarge)
+                .padding(horizontal = UltiTheme.dimens.padding.extraLarge)
         )
     }
     item {
@@ -641,10 +641,10 @@ private fun LazyListScope.noPermissionToBlock(
                     style = TextStyle(
                         textAlign = TextAlign.Center,
                         textDecoration = TextDecoration.Underline,
-                        color = SimpleTheme.colorScheme.primary,
+                        color = UltiTheme.colorScheme.primary,
                         fontSize = 18.sp
                     ),
-                    modifier = Modifier.padding(SimpleTheme.dimens.padding.extraLarge)
+                    modifier = Modifier.padding(UltiTheme.dimens.padding.extraLarge)
                 )
             }
         }

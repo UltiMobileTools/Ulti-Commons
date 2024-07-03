@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.extensions.fromHtml
 import com.ultimobiletools.commons.extensions.removeUnderlines
 import com.ultimobiletools.commons.R
@@ -31,8 +31,8 @@ fun LinkifyTextComponent(
     val customLinkifyTextView = remember {
         TextView(context)
     }
-    val textColor = SimpleTheme.colorScheme.onSurface
-    val linkTextColor = SimpleTheme.colorScheme.primary
+    val textColor = UltiTheme.colorScheme.onSurface
+    val linkTextColor = UltiTheme.colorScheme.primary
     AndroidView(modifier = modifier, factory = { customLinkifyTextView }) { textView ->
         textView.setTextColor(textColor.toArgb())
         textView.setLinkTextColor(linkTextColor.toArgb())

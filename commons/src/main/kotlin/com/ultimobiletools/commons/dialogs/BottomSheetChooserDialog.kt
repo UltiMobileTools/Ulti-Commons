@@ -27,7 +27,7 @@ import com.ultimobiletools.commons.compose.bottom_sheet.BottomSheetSpacerEdgeToE
 import com.ultimobiletools.commons.compose.bottom_sheet.rememberBottomSheetDialogState
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
-import com.ultimobiletools.commons.compose.theme.SimpleTheme
+import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.databinding.ItemSimpleListBinding
 import com.ultimobiletools.commons.fragments.BaseBottomSheetDialogFragment
 import com.ultimobiletools.commons.models.SimpleListItem
@@ -93,11 +93,11 @@ fun ChooserBottomSheetDialog(
             fontSize = 21.sp,
             fontWeight = FontWeight.Bold,
             modifier = Modifier
-                .padding(SimpleTheme.dimens.padding.extraLarge)
-                .padding(top = SimpleTheme.dimens.padding.large)
+                .padding(UltiTheme.dimens.padding.extraLarge)
+                .padding(top = UltiTheme.dimens.padding.large)
         )
         for (item in items) {
-            val color = if (item.selected) SimpleTheme.colorScheme.primary else SimpleTheme.colorScheme.onSurface
+            val color = if (item.selected) UltiTheme.colorScheme.primary else UltiTheme.colorScheme.onSurface
             ListItem(
                 modifier = Modifier
                     .clickable {
