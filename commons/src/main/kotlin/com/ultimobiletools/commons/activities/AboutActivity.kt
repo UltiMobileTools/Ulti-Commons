@@ -278,7 +278,7 @@ class AboutActivity : ComponentActivity() {
     }
 
     private fun onRedditClick() {
-        launchViewIntent("https://www.reddit.com/r/ultimobiletools")
+        launchViewIntent("https://www.reddit.com/r/UltiMobileTools")
     }
 
 
