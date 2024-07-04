@@ -18,7 +18,7 @@ import com.ultimobiletools.commons.compose.settings.SettingsTitleTextComponent
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
 import com.ultimobiletools.commons.compose.theme.UltiTheme
 
-private val startingTitlePadding = Modifier.padding(start = 60.dp)
+private val startingTitlePadding = Modifier.padding(start = 10.dp)
 
 @Composable
 internal fun AboutScreen(
@@ -102,11 +102,11 @@ internal fun OtherSection(
                 icon = R.drawable.ic_unhide_vector
             )
         }
-        TwoLinerTextItem(
-            click = onLicenseClick,
-            text = stringResource(id = R.string.third_party_licences),
-            icon = R.drawable.ic_article_vector
-        )
+//        TwoLinerTextItem(
+//            click = onLicenseClick,
+//            text = stringResource(id = R.string.third_party_licences),
+//            icon = R.drawable.ic_article_vector
+//        )
         TwoLinerTextItem(
             click = onVersionClick,
             text = version,
@@ -243,7 +243,7 @@ private fun AboutScreenPreview() {
                 showPrivacyPolicy = true,
                 onPrivacyPolicyClick = {},
                 onLicenseClick = {},
-                version = "5.0.4",
+                version = "1.0.0",
                 onVersionClick = {}
             )
         }

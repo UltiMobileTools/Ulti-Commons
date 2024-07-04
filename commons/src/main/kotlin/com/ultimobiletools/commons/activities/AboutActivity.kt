@@ -76,7 +76,7 @@ class AboutActivity : ComponentActivity() {
                         }
                     },
                     socialSection = {
-                        if (showExternalLinks) {
+                        if (false) {
                             SocialSection(
                                 onFacebookClick = ::onFacebookClick,
                                 onGithubClick = ::onGithubClick,

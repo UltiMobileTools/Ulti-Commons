@@ -26,7 +26,7 @@ fun SettingsTitleTextComponent(
             modifier = modifier
                 .padding(horizontal = UltiTheme.dimens.padding.small),
             color = color,
-            fontSize = 14.sp,
+            fontSize = 18.sp,
             maxLines = maxLines,
             overflow = overflow
         )
