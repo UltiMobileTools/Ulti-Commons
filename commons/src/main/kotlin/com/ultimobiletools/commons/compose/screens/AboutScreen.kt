@@ -7,6 +7,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.transition.Visibility.Mode
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.lists.UltiColumnScaffold
@@ -45,7 +46,8 @@ internal fun HelpUsSection(
     onDonateClick: () -> Unit,
 ) {
     SettingsGroup(title = {
-        SettingsTitleTextComponent(text = stringResource(id = R.string.help_us), modifier = startingTitlePadding)
+        SettingsTitleTextComponent(text = stringResource(id = R.string.help_us),
+            modifier = startingTitlePadding)
     }) {
         if (showRateUs) {
             TwoLinerTextItem(text = stringResource(id = R.string.rate_us), icon = R.drawable.ic_star_vector, click = onRateUsClick)

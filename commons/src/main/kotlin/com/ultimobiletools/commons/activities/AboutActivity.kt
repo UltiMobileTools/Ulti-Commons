@@ -298,7 +298,7 @@ class AboutActivity : ComponentActivity() {
     }
 
     private fun onLicenseClick() {
-        Intent(applicationContext, com.ultimobiletools.commons.activities.UltiLicenseActivity::class.java).apply {
+        Intent(applicationContext, UltiLicenseActivity::class.java).apply {
             putExtra(APP_ICON_IDS, intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList<String>())
             putExtra(APP_LAUNCHER_NAME, intent.getStringExtra(APP_LAUNCHER_NAME) ?: "")
             putExtra(APP_LICENSES, intent.getLongExtra(APP_LICENSES, 0))
@@ -312,11 +312,11 @@ class AboutActivity : ComponentActivity() {
             Handler(Looper.getMainLooper()).postDelayed({
                 firstVersionClickTS = 0L
                 clicksSinceFirstClick = 0
-            }, com.ultimobiletools.commons.activities.AboutActivity.Companion.EASTER_EGG_TIME_LIMIT)
+            }, EASTER_EGG_TIME_LIMIT)
         }
 
         clicksSinceFirstClick++
-        if (clicksSinceFirstClick >= com.ultimobiletools.commons.activities.AboutActivity.Companion.EASTER_EGG_REQUIRED_CLICKS) {
+        if (clicksSinceFirstClick >= EASTER_EGG_REQUIRED_CLICKS) {
             toast(R.string.hello)
             firstVersionClickTS = 0L
             clicksSinceFirstClick = 0
