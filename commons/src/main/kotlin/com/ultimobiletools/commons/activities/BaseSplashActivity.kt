@@ -2,17 +2,41 @@ package com.ultimobiletools.commons.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.airbnb.lottie.LottieAnimationView
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.SIDELOADING_TRUE
 import com.ultimobiletools.commons.helpers.SIDELOADING_UNCHECKED
 
 abstract class BaseSplashActivity : AppCompatActivity() {
+
+    private var lottieView: LottieAnimationView? = null
+
+    abstract fun backgroundColor(): Int;
+
+    abstract fun animation(): Int;
+
     abstract fun initActivity()
+
+    abstract fun initData()
+
+    override fun onDestroy() {
+        super.onDestroy()
+        lottieView?.cancelAnimation()
+    }
+
+    fun setView() {
+        lottieView = findViewById(R.id.lottieView)
+        lottieView?.setBackgroundColor(backgroundColor())
+        lottieView?.setAnimation(animation())
+        lottieView?.playAnimation()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        setContentView(R.layout.activity_splash)
+        setView()
+        initData()
         if (baseConfig.appSideloadingStatus == SIDELOADING_UNCHECKED) {
             if (checkAppSideloading()) {
                 return

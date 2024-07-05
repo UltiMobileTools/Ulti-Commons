@@ -34,6 +34,8 @@ composeMaterial3 = "1.2.0-alpha09"
 #Glide
 glide = "4.16.0"
 glideCompose = "1.0.0-beta01"
+# lottie
+lottie = "6.4.1"
 #Room
 room = "2.6.0-rc01"
 #ezVcard
@@ -92,6 +94,10 @@ compose-view-binding = { module = "androidx.compose.ui:ui-viewbinding", version.
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 glide-compose = { module = "com.github.bumptech.glide:compose", version.ref = "glideCompose" }
 glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+
+#lottie
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+
 #Material
 material = { module = "com.google.android.material:material", version.ref = "material" }
 #Helpers

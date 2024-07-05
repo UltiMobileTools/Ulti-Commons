@@ -105,6 +105,8 @@ dependencies {
     api(libs.glide)
     ksp(libs.glide.compiler)
 
+    api(libs.lottie)
+
     api(libs.bundles.room)
     ksp(libs.androidx.room.compiler)
 }

@@ -15,7 +15,7 @@
         android:theme="@style/TranslucentTheme">
 
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".activities.SplashActivity"
             android:configChanges="orientation"
             android:exported="true">
             <intent-filter>
@@ -24,6 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:configChanges="orientation" />
 
         <activity
             android:name="com.ultimobiletools.commons.activities.AboutActivity"
