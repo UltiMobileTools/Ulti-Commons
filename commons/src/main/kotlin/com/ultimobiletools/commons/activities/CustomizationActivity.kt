@@ -73,9 +73,9 @@ class CustomizationActivity : BaseUltiActivity() {
                     runOnUiThread {
                         setupThemes()
                         val hideGoogleRelations = resources.getBoolean(R.bool.hide_google_relations) && !isThankYou
-                        binding.applyToAllHolder.beVisibleIf(
-                            storedSharedTheme == null && curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SYSTEM && !hideGoogleRelations
-                        )
+//                        binding.applyToAllHolder.beVisibleIf(
+//                            storedSharedTheme == null && curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SYSTEM && !hideGoogleRelations
+//                        )
                     }
                 } catch (e: Exception) {
                     toast(R.string.update_thank_you)
