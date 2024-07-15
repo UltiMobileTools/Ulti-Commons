@@ -20,7 +20,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = true
+            isMinifyEnabled = false
 //            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -33,6 +33,10 @@ android {
     buildFeatures {
         viewBinding = true
         compose = true
+    }
+
+    lint {
+        baseline = file("lint-baseline.xml")
     }
 
     composeOptions {

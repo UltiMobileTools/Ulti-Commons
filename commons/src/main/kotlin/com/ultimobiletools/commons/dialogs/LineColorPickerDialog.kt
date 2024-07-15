@@ -15,11 +15,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.viewinterop.AndroidViewBinding
 import androidx.compose.ui.window.DialogProperties
 import androidx.compose.ui.window.DialogWindowProvider
 import androidx.core.content.ContextCompat
+import androidx.core.content.ContextCompat.getColor
 import androidx.core.view.updateLayoutParams
 import com.google.android.material.appbar.MaterialToolbar
 import com.ultimobiletools.commons.R
@@ -328,7 +330,7 @@ private fun Context.getColors(id: Int) = resources.getIntArray(id).toCollection(
 private fun LineColorPickerAlertDialogPreview() {
     AppThemeSurface {
         LineColorPickerAlertDialog(alertDialogState = rememberAlertDialogState(),
-            color = R.color.color_primary,
+            color = colorResource(id = R.color.color_primary).toArgb(),
             isPrimaryColorPicker = true,
             onActiveColorChange = {}
         ) { _, _ -> }

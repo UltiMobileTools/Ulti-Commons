@@ -271,13 +271,10 @@
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
     </style>
 
-    <style name="PinNumberStyle.Base">
+    <style name="PinNumberStyle">
         <item name="android:gravity">center</item>
         <item name="android:padding">@dimen/small_margin</item>
         <item name="android:textSize">@dimen/big_text_size</item>
-    </style>
-
-    <style name="PinNumberStyle" parent="PinNumberStyle.Base">
         <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
     </style>
 
