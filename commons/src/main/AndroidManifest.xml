@@ -34,14 +34,14 @@
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/contributors"
-            android:parentActivityName="com.ultimobiletools.commons.activities.AboutActivity" />
+            android:parentActivityName="com.ultimobiletools.commons.activities.AppAboutActivity" />
 
         <activity
             android:name="com.ultimobiletools.commons.activities.QuestionsActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/frequently_asked_questions"
-            android:parentActivityName="com.ultimobiletools.commons.activities.AboutActivity" />
+            android:parentActivityName="com.ultimobiletools.commons.activities.AppAboutActivity" />
 
         <activity
             android:name=".activities.ManageBlockedNumbersActivity"

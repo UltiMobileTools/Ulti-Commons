@@ -7,7 +7,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.transition.Visibility.Mode
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.lists.UltiColumnScaffold
@@ -74,7 +73,6 @@ internal fun OtherSection(
     showWebsite: Boolean,
     showPrivacyPolicy: Boolean,
     onPrivacyPolicyClick: () -> Unit,
-    onLicenseClick: () -> Unit,
     version: String,
     onVersionClick: () -> Unit,
 ) {
@@ -242,7 +240,6 @@ private fun AboutScreenPreview() {
                 showWebsite = true,
                 showPrivacyPolicy = true,
                 onPrivacyPolicyClick = {},
-                onLicenseClick = {},
                 version = "1.0.0",
                 onVersionClick = {}
             )

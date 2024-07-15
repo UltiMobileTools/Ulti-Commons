@@ -120,7 +120,7 @@ class MainActivity : ComponentActivity() {
         getAppLauncherName: String = getAppLauncherName()
     ) {
         hideKeyboard()
-        Intent(applicationContext, com.ultimobiletools.commons.activities.AboutActivity::class.java).apply {
+        Intent(applicationContext, com.ultimobiletools.commons.activities.AppAboutActivity::class.java).apply {
             putExtra(APP_ICON_IDS, getAppIconIDs)
             putExtra(APP_LAUNCHER_NAME, getAppLauncherName)
             putExtra(APP_NAME, getString(appNameId))

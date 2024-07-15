@@ -627,7 +627,7 @@ abstract class BaseUltiActivity : AppCompatActivity() {
 
     fun startAboutActivity(appNameId: Int, licenseMask: Long, versionName: String, faqItems: ArrayList<FAQItem>, showFAQBeforeMail: Boolean) {
         hideKeyboard()
-        Intent(applicationContext, com.ultimobiletools.commons.activities.AboutActivity::class.java).apply {
+        Intent(applicationContext, com.ultimobiletools.commons.activities.AppAboutActivity::class.java).apply {
             putExtra(APP_ICON_IDS, getAppIconIDs())
             putExtra(APP_LAUNCHER_NAME, getAppLauncherName())
             putExtra(APP_NAME, getString(appNameId))

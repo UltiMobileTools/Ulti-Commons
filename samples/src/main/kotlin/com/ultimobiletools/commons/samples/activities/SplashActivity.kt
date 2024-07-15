@@ -1,5 +1,6 @@
 package com.ultimobiletools.commons.samples.activities
 
+import android.content.Intent
 import com.ultimobiletools.commons.activities.BaseSplashActivity
 import com.ultimobiletools.commons.samples.R
 
@@ -13,8 +14,8 @@ class SplashActivity : BaseSplashActivity() {
     }
 
     override fun initActivity() {
-//        startActivity(Intent(this, MainActivity::class.java))
-//        finish()
+        startActivity(Intent(this, MainActivity::class.java))
+        finish()
     }
 
     override fun initData() {

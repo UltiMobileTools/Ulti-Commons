@@ -25,7 +25,7 @@ import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.*
 import com.ultimobiletools.commons.models.FAQItem
 import com.ultimobiletools.commons.R
-class AboutActivity : ComponentActivity() {
+class AppAboutActivity : ComponentActivity() {
     private val appName get() = intent.getStringExtra(APP_NAME) ?: ""
 
     private var firstVersionClickTS = 0L
@@ -94,7 +94,6 @@ class AboutActivity : ComponentActivity() {
                         onWebsiteClick = ::onWebsiteClick,
                         showPrivacyPolicy = showExternalLinks,
                         onPrivacyPolicyClick = ::onPrivacyPolicyClick,
-                        onLicenseClick = ::onLicenseClick,
                         version = fullVersion,
                         onVersionClick = ::onVersionClick
                     )
@@ -295,15 +294,6 @@ class AboutActivity : ComponentActivity() {
         val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.ultimobiletools.")
         val url = "https://ultimobiletools.com/privacy/$appId.txt"
         launchViewIntent(url)
-    }
-
-    private fun onLicenseClick() {
-        Intent(applicationContext, UltiLicenseActivity::class.java).apply {
-            putExtra(APP_ICON_IDS, intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList<String>())
-            putExtra(APP_LAUNCHER_NAME, intent.getStringExtra(APP_LAUNCHER_NAME) ?: "")
-            putExtra(APP_LICENSES, intent.getLongExtra(APP_LICENSES, 0))
-            startActivity(this)
-        }
     }
 
     private fun onVersionClick() {

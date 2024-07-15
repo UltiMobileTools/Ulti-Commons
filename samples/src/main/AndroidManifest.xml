@@ -30,12 +30,12 @@
             android:configChanges="orientation" />
 
         <activity
-            android:name="com.ultimobiletools.commons.activities.AboutActivity"
+            android:name="com.ultimobiletools.commons.activities.AppAboutActivity"
             android:configChanges="orientation" />
 
         <activity
             android:name="com.ultimobiletools.commons.activities.CustomizaActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize" />
+            android:configChanges="orientation" />
 
         <activity
             android:name="com.ultimobiletools.commons.activities.ManageBlockedNumbersActivity"
