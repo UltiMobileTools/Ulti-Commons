@@ -1086,7 +1086,6 @@
     <string name="why_upgrade_zooming">Mastelio keitimas</string>
     <!-- License -->
     <string name="notice">Ši programėlė naudoja trečiųjų šalių bibliotekas, kurios palengvina man gyvenimą. Dėkoju.</string>
-    <string name="third_party_licences">Trečiųjų šalių licencijos</string>
     <string name="kotlin_title">Kotlin (programavimo kalba)</string>
     <string name="subsampling_title">Subsampling Scale Image View (atvaizdų rodinio mastelio keitimui)</string>
     <string name="glide_title">Glide (atvaizdų įkėlimas ir podėliavimas)</string>

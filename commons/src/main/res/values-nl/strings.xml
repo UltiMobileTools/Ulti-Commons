@@ -1080,7 +1080,6 @@
     <string name="why_upgrade_zooming">Zoomen</string>
     <!-- License -->
     <string name="notice">Deze app gebruikt de volgende bibliotheken van derden om het leven gemakkelijker te maken. Dank hiervoor.</string>
-    <string name="third_party_licences">Licenties van derden</string>
     <string name="kotlin_title">Kotlin (programmeertaal)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoomable imageviews)</string>
     <string name="glide_title">Glide (image loading and caching)</string>

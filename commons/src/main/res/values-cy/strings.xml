@@ -1220,7 +1220,6 @@
     <string name="why_upgrade_zooming">Zooming</string>
     <!-- License -->
     <string name="notice">Mae\'r ap hwn yn defnyddio\'r llyfrgelloedd trydydd parti canlynol i wneud bywyd yn haws. Diolch am bob un.</string>
-    <string name="third_party_licences">Trwyddedau trydydd parti</string>
     <string name="kotlin_title">Kotlin (iaith rhaglennu)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoomable imageviews)</string>
     <string name="glide_title">Glide (llwytho a cadw delweddau dros dro)</string>

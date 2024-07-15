@@ -1078,7 +1078,6 @@
     <string name="why_upgrade_zooming">Zoomer</string>
     <!-- License -->
     <string name="notice">Denne app bruger følgende 3.-parts biblioteker der gør at mit liv bliver lidt enklere. Tak.</string>
-    <string name="third_party_licences">3.-parts licencer</string>
     <string name="kotlin_title">Kotlin (programmeringssprog)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoombar billedvisning)</string>
     <string name="glide_title">Glide (billedindlæsning og -caching)</string>

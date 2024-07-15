@@ -30,7 +30,7 @@
 
     <application android:supportsRtl="true">
         <activity
-            android:name="com.ultimobiletools.commons.activities.ContributorsActivity"
+            android:name="com.ultimobiletools.commons.activities.CustomizaActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/contributors"
@@ -41,13 +41,6 @@
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/frequently_asked_questions"
-            android:parentActivityName="com.ultimobiletools.commons.activities.AboutActivity" />
-
-        <activity
-            android:name="com.ultimobiletools.commons.activities.UltiLicenseActivity"
-            android:configChanges="orientation"
-            android:exported="false"
-            android:label="@string/third_party_licences"
             android:parentActivityName="com.ultimobiletools.commons.activities.AboutActivity" />
 
         <activity

@@ -1134,7 +1134,6 @@
     <string name="why_upgrade_zooming">Zoom</string>
     <!-- License -->
     <string name="notice">Cette application utilise les bibliothèques tierces suivantes pour me simplifier la vie. Merci.</string>
-    <string name="third_party_licences">Licences tierces</string>
     <string name="kotlin_title">Kotlin (langage de programmation)</string>
     <string name="subsampling_title">Subsampling Scale Image View (affichage des images par zoom)</string>
     <string name="glide_title">Glide (chargement et mise en cache d\'images)</string>

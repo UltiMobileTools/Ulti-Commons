@@ -1045,7 +1045,6 @@
     <string name="why_upgrade_zooming">ズーミング</string>
     <!-- License -->
     <string name="notice">このアプリは、私の暮らしにゆとりを持たせるために、次のサードパーティのライブラリーを使用しています。ありがとうございます。</string>
-    <string name="third_party_licences">サードパーティー ライセンス</string>
     <string name="kotlin_title">Kotlin (プログラミング言語)</string>
     <string name="subsampling_title">Subsampling Scale Image View (ズーム可能画像ビュー)</string>
     <string name="glide_title">Glide (画像ローディングとキャッシング)</string>

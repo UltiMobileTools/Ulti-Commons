@@ -1077,7 +1077,6 @@
     <string name="why_upgrade_zooming">Zooming</string>
     <!-- License -->
     <string name="notice">मेरा जीवन आसान करने के लिए यह एप्प तीसरे पक्ष की लाइब्रेरी का इस्तेमाल करती हैं। धन्यवाद।</string>
-    <string name="third_party_licences">तीसरे पक्ष के लाइसेंस</string>
     <string name="kotlin_title">Kotlin (programming language)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoomable imageviews)</string>
     <string name="glide_title">Glide (image loading and caching)</string>

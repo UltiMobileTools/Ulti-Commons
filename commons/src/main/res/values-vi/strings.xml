@@ -1105,7 +1105,6 @@
     <string name="why_upgrade_zooming">Zooming</string>
     <!-- License -->
     <string name="notice">Ứng dụng này sử dụng các thư viện bên thứ ba sau đây để giúp tôi thực hiện dễ dàng hơn. Cảm ơn.</string>
-    <string name="third_party_licences">Giấy phép bên thứ ba</string>
     <string name="kotlin_title">Kotlin (ngôn ngữ lập trình)</string>
     <string name="subsampling_title">Lấy mẫu tỷ lệ xem hình ảnh (số lần xem hình ảnh có thể phóng to)</string>
     <string name="glide_title">Lướt (tải hình ảnh và bộ nhớ đệm)</string>

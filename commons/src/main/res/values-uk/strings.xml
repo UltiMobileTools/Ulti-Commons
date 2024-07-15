@@ -1173,7 +1173,6 @@
     <string name="why_upgrade_zooming">Масштабування</string>
     <!-- License -->
     <string name="notice">Цей додаток створено з використанням наступних бібліотек сторонніх розробників, що полегшує мою працю. Дякую.</string>
-    <string name="third_party_licences">Ліцензії третіх сторін</string>
     <string name="kotlin_title">Kotlin (мова програмування)</string>
     <string name="subsampling_title">Subsampling Scale Image View (можливість масштабувати зображення)</string>
     <string name="glide_title">Glide (завантаження і кешування зображень)</string>

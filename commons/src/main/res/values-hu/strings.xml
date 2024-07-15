@@ -1093,7 +1093,6 @@
     <string name="why_upgrade_zooming">Nagyítás</string>
     <!-- License -->
     <string name="notice">Ez az alkalmazás a következő harmadik féltől származó programkönyvtárakat használja az életem megkönnyítéséhez. Köszönöm.</string>
-    <string name="third_party_licences">Harmadik feles licencek</string>
     <string name="kotlin_title">Kotlin (programnyelv)</string>
     <string name="subsampling_title">Subsampling Scale Image View (nagyítható képnézetek)</string>
     <string name="glide_title">Glide (képbetöltés és gyorsítótárazás)</string>

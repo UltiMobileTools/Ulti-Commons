@@ -1100,7 +1100,6 @@
     <string name="why_upgrade_zooming">Zoomen</string>
     <!-- License -->
     <string name="notice">Diese Anwendung verwendet die folgenden Bibliotheken von Drittanbietern, um mir das Leben zu erleichtern. Vielen Dank dafür.</string>
-    <string name="third_party_licences">Drittanbieterlizenzen</string>
     <string name="kotlin_title">Kotlin (Programmiersprache)</string>
     <string name="subsampling_title">Subsampling Scale Image View (Zoombare Bilder)</string>
     <string name="glide_title">Glide (Bilder laden und zwischenspeichern)</string>

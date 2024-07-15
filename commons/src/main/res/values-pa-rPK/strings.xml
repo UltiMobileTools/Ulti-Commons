@@ -1046,7 +1046,6 @@
     <string name="why_upgrade_zooming">وڈا کرن</string>
     <!-- License -->
     <string name="notice">This app uses the following third party libraries to make my life easier. Thank you.</string>
-    <string name="third_party_licences">تیجی دھر دے لائیسنس</string>
     <string name="kotlin_title">کوٹلِن پرگرامنگ بولی</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoomable imageviews)</string>
     <string name="glide_title">گلائیڈ تصویر لوڈ کرن تے کیش کرن</string>

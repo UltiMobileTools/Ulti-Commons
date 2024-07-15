@@ -1140,7 +1140,6 @@
     <string name="why_upgrade_zooming">Zoomování</string>
     <!-- License -->
     <string name="notice">Tato aplikace používá pro ulehčení mé práce následující knihovny třetích stran. Děkuji.</string>
-    <string name="third_party_licences">Licence třetích stran</string>
     <string name="kotlin_title">Kotlin (programovací jazyk)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoomovatelné zobrazení obrázků)</string>
     <string name="glide_title">Glide (načítání a mezipaměť obrázků)</string>

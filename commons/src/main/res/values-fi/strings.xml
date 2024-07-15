@@ -1106,7 +1106,6 @@
     <string name="why_upgrade_zooming">Zoomaus</string>
     <!-- License -->
     <string name="notice">Tämä sovellus käyttää kolmannen osapuolen lisenssejä tehdäkseni elämästäni helpompaa. Kiitos.</string>
-    <string name="third_party_licences">Kolmansien osapuolien lisenssit</string>
     <string name="kotlin_title">Kotlin (ohjelmointikieli)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoomattavat kuvannäkymät)</string>
     <string name="glide_title">Glide (kuvien lataus ja välimuisti)</string>

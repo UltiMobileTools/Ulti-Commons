@@ -1114,7 +1114,6 @@
     <string name="why_upgrade_zooming">Zooming</string>
     <!-- License -->
     <string name="notice">Aplikazio honk hurrengo hirugarrenen liburutegi hauek erabiltzen ditu, nire bizitza errazago egiteko. Eskerrik asko.</string>
-    <string name="third_party_licences">Hirugarrenen lizentziak</string>
     <string name="kotlin_title">Kotlin (programazio-hizkuntza)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoomable imageviews)</string>
     <string name="glide_title">Glide (irudiak kargatzea eta cachean gordetzea)</string>

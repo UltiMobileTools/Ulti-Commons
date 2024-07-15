@@ -1106,7 +1106,6 @@
     <string name="why_upgrade_zooming">Zoomning</string>
     <!-- License -->
     <string name="notice">Denna app använder följande tredjepartsbibliotek för att göra mitt liv enklare. Tack.</string>
-    <string name="third_party_licences">Tredjepartslicenser</string>
     <string name="kotlin_title">Kotlin (programmeringsspråk)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoombara bildvyer)</string>
     <string name="glide_title">Glide (inläsning och cachning av bilder)</string>

@@ -1070,7 +1070,6 @@
     <string name="why_upgrade_zooming">Zooming</string>
     <!-- License -->
     <string name="notice">這程式使用了下列的第三方函式庫來讓我工作簡化。感謝。</string>
-    <string name="third_party_licences">第三方授權</string>
     <string name="kotlin_title">Kotlin（程式語言）</string>
     <string name="subsampling_title">Subsampling Scale Image View（可縮放圖片檢視）</string>
     <string name="glide_title">Glide（圖片載入與快取）</string>

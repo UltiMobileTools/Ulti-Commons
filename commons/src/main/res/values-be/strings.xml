@@ -1153,7 +1153,6 @@
     <string name="why_upgrade_zooming">Zooming</string>
     <!-- License -->
     <string name="notice">Гэта дадатак выкарыстоўвае наступныя іншыя бібліятэкі, каб палегчыць мне жыццё. Дзякуй.</string>
-    <string name="third_party_licences">Ліцэнзіі трэціх асоб</string>
     <string name="kotlin_title">Kotlin (мова праграмавання)</string>
     <string name="subsampling_title">Шкала падвыбаркі. Прагляд выявы (прагляды малюнкаў з магчымасцю маштабавання)</string>
     <string name="glide_title">Glide (загрузка малюнкаў і кэшаванне)</string>
