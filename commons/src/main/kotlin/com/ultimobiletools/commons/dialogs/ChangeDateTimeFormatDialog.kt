@@ -21,8 +21,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.compose.alert_dialog.AlertDialogState
-import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
+import com.ultimobiletools.commons.compose.dialog.AlertDialogState
+import com.ultimobiletools.commons.compose.dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.compose.components.RadioGroupDialogComponent
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.NoRippleTheme
@@ -36,7 +36,7 @@ import com.ultimobiletools.commons.extensions.baseConfig
 import com.ultimobiletools.commons.extensions.getAlertDialogBuilder
 import com.ultimobiletools.commons.extensions.setupDialogStuff
 import com.ultimobiletools.commons.helpers.*
-import com.ultimobiletools.commons.compose.alert_dialog.DialogSurface
+import com.ultimobiletools.commons.compose.dialog.DialogSurface
 import java.util.Calendar
 import java.util.Locale
 import kotlinx.collections.immutable.toImmutableList

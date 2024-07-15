@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.platform.LocalContext
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
+import com.ultimobiletools.commons.compose.dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.dialogs.ConfirmationAlertDialog
 import com.ultimobiletools.commons.extensions.launchViewIntent
 

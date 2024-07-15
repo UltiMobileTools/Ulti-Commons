@@ -50,7 +50,7 @@ import com.ultimobiletools.commons.compose.menus.ActionMenu
 import com.ultimobiletools.commons.compose.menus.OverflowMode
 import com.ultimobiletools.commons.compose.settings.SettingsCheckBoxComponent
 import com.ultimobiletools.commons.compose.settings.SettingsHorizontalDivider
-import com.ultimobiletools.commons.compose.system_ui_controller.rememberSystemUiController
+import com.ultimobiletools.commons.compose.system.rememberSystemUiController
 import com.ultimobiletools.commons.compose.theme.*
 import com.ultimobiletools.commons.compose.theme.model.Theme
 import com.ultimobiletools.commons.extensions.darkenColor

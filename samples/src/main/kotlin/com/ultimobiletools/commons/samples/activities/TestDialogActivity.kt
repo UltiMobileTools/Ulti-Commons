@@ -15,10 +15,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.ultimobiletools.commons.compose.alert_dialog.AlertDialogState
-import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
-import com.ultimobiletools.commons.compose.bottom_sheet.BottomSheetDialogState
-import com.ultimobiletools.commons.compose.bottom_sheet.rememberBottomSheetDialogState
+import com.ultimobiletools.commons.compose.dialog.AlertDialogState
+import com.ultimobiletools.commons.compose.dialog.rememberAlertDialogState
+import com.ultimobiletools.commons.compose.bottom.BottomSheetDialogState
+import com.ultimobiletools.commons.compose.bottom.rememberBottomSheetDialogState
 import com.ultimobiletools.commons.compose.extensions.config
 import com.ultimobiletools.commons.compose.extensions.rateStarsRedirectAndThankYou
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface

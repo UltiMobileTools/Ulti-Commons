@@ -9,9 +9,10 @@ import com.ultimobiletools.commons.extensions.contactsDB
 import com.ultimobiletools.commons.extensions.getByteArray
 import com.ultimobiletools.commons.extensions.getEmptyContact
 import com.ultimobiletools.commons.models.SimpleContact
-import com.ultimobiletools.commons.models.contacts.Contact
-import com.ultimobiletools.commons.models.contacts.*
-import com.ultimobiletools.commons.models.contacts.LocalContact
+import com.ultimobiletools.commons.models.Contact
+import com.ultimobiletools.commons.models.Group
+import com.ultimobiletools.commons.models.LocalContact
+import com.ultimobiletools.commons.models.Organization
 
 class LocalContactsHelper(val context: Context) {
     fun getAllContacts(favoritesOnly: Boolean = false): ArrayList<Contact> {

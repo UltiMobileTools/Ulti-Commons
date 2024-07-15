@@ -3,8 +3,7 @@ package com.ultimobiletools.commons.helpers
 import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.ultimobiletools.commons.models.PhoneNumber
-import com.ultimobiletools.commons.models.contacts.*
+import com.ultimobiletools.commons.models.*
 import java.util.ArrayList
 
 class Converters {
@@ -14,7 +13,7 @@ class Converters {
     private val numberType = object : TypeToken<List<PhoneNumber>>() {}.type
     private val numberConverterType = object : TypeToken<List<PhoneNumberConverter>>() {}.type
     private val emailType = object : TypeToken<List<Email>>() {}.type
-    private val addressType = object : TypeToken<List<Address>>() {}.type
+    private val addressType = object : TypeToken<List<UltiAddress>>() {}.type
     private val eventType = object : TypeToken<List<Event>>() {}.type
     private val imType = object : TypeToken<List<IM>>() {}.type
 
@@ -58,10 +57,10 @@ class Converters {
     fun emailListToJson(list: ArrayList<Email>): String = gson.toJson(list)
 
     @TypeConverter
-    fun jsonToAddressList(value: String): ArrayList<Address> = gson.fromJson(value, addressType)
+    fun jsonToAddressList(value: String): ArrayList<UltiAddress> = gson.fromJson(value, addressType)
 
     @TypeConverter
-    fun addressListToJson(list: ArrayList<Address>): String = gson.toJson(list)
+    fun addressListToJson(list: ArrayList<UltiAddress>): String = gson.toJson(list)
 
     @TypeConverter
     fun jsonToEventList(value: String): ArrayList<Event> = gson.fromJson(value, eventType)

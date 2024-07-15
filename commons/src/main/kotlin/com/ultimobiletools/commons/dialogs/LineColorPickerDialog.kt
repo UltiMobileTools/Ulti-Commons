@@ -24,10 +24,10 @@ import androidx.core.view.updateLayoutParams
 import com.google.android.material.appbar.MaterialToolbar
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.activities.BaseUltiActivity
-import com.ultimobiletools.commons.compose.alert_dialog.AlertDialogState
-import com.ultimobiletools.commons.compose.alert_dialog.DialogSurface
-import com.ultimobiletools.commons.compose.alert_dialog.dialogTextColor
-import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
+import com.ultimobiletools.commons.compose.dialog.AlertDialogState
+import com.ultimobiletools.commons.compose.dialog.DialogSurface
+import com.ultimobiletools.commons.compose.dialog.dialogTextColor
+import com.ultimobiletools.commons.compose.dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
 import com.ultimobiletools.commons.compose.theme.UltiTheme

@@ -32,10 +32,10 @@ import androidx.compose.ui.window.DialogWindowProvider
 import androidx.core.view.children
 import androidx.core.view.updateLayoutParams
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.compose.alert_dialog.AlertDialogState
-import com.ultimobiletools.commons.compose.alert_dialog.DialogSurface
-import com.ultimobiletools.commons.compose.alert_dialog.dialogBorder
-import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
+import com.ultimobiletools.commons.compose.dialog.AlertDialogState
+import com.ultimobiletools.commons.compose.dialog.DialogSurface
+import com.ultimobiletools.commons.compose.dialog.dialogBorder
+import com.ultimobiletools.commons.compose.dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.config
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface

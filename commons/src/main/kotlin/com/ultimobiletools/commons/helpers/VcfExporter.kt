@@ -13,7 +13,7 @@ import com.ultimobiletools.commons.extensions.getByteArray
 import com.ultimobiletools.commons.extensions.getDateTimeFromDateString
 import com.ultimobiletools.commons.extensions.showErrorToast
 import com.ultimobiletools.commons.extensions.toast
-import com.ultimobiletools.commons.models.contacts.Contact
+import com.ultimobiletools.commons.models.Contact
 import ezvcard.Ezvcard
 import ezvcard.VCard
 import ezvcard.VCardVersion

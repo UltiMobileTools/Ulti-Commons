@@ -19,10 +19,10 @@ import com.ultimobiletools.commons.helpers.*
 import com.ultimobiletools.commons.interfaces.ContactsDao
 import com.ultimobiletools.commons.interfaces.GroupsDao
 import com.ultimobiletools.commons.models.RadioItem
-import com.ultimobiletools.commons.models.contacts.Contact
-import com.ultimobiletools.commons.models.contacts.ContactSource
-import com.ultimobiletools.commons.models.contacts.Organization
-import com.ultimobiletools.commons.models.contacts.SocialAction
+import com.ultimobiletools.commons.models.Contact
+import com.ultimobiletools.commons.models.ContactSource
+import com.ultimobiletools.commons.models.Organization
+import com.ultimobiletools.commons.models.SocialAction
 import java.io.File
 
 val Context.contactsDB: ContactsDao get() = ContactsDatabase.getInstance(applicationContext).ContactsDao()

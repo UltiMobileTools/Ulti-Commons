@@ -22,10 +22,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.ultimobiletools.commons.compose.alert_dialog.AlertDialogState
-import com.ultimobiletools.commons.compose.alert_dialog.DialogSurface
-import com.ultimobiletools.commons.compose.alert_dialog.dialogTextColor
-import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
+import com.ultimobiletools.commons.compose.dialog.AlertDialogState
+import com.ultimobiletools.commons.compose.dialog.DialogSurface
+import com.ultimobiletools.commons.compose.dialog.dialogTextColor
+import com.ultimobiletools.commons.compose.dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.compose.components.RadioGroupDialogComponent
 import com.ultimobiletools.commons.compose.extensions.BooleanPreviewParameterProvider
 import com.ultimobiletools.commons.compose.extensions.MyDevices

@@ -14,7 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.net.toUri
-import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
+import com.ultimobiletools.commons.compose.dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.compose.extensions.enableEdgeToEdgeSimple
 import com.ultimobiletools.commons.compose.extensions.rateStarsRedirectAndThankYou
 import com.ultimobiletools.commons.compose.screens.*
@@ -181,7 +181,7 @@ class AboutActivity : ComponentActivity() {
 
     private fun launchFAQActivity() {
         val faqItems = intent.getSerializableExtra(APP_FAQ) as ArrayList<FAQItem>
-        Intent(applicationContext, com.ultimobiletools.commons.activities.FAQActivity::class.java).apply {
+        Intent(applicationContext, com.ultimobiletools.commons.activities.QuestionsActivity::class.java).apply {
             putExtra(APP_ICON_IDS, intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList<String>())
             putExtra(APP_LAUNCHER_NAME, intent.getStringExtra(APP_LAUNCHER_NAME) ?: "")
             putExtra(APP_FAQ, faqItems)

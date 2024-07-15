@@ -24,7 +24,7 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.lifecycle.compose.LifecycleStartEffect
-import com.ultimobiletools.commons.compose.system_ui_controller.rememberSystemUiController
+import com.ultimobiletools.commons.compose.system.rememberSystemUiController
 import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.compose.theme.isLitWell
 import com.ultimobiletools.commons.extensions.darkenColor

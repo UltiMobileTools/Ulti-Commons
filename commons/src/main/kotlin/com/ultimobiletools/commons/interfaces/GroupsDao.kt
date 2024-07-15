@@ -4,7 +4,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.ultimobiletools.commons.models.contacts.Group
+import com.ultimobiletools.commons.models.Group
 
 @Dao
 interface GroupsDao {

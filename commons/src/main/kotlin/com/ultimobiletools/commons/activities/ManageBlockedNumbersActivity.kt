@@ -14,7 +14,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
-import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
+import com.ultimobiletools.commons.compose.dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.compose.extensions.enableEdgeToEdgeSimple
 import com.ultimobiletools.commons.compose.extensions.onEventValue
 import com.ultimobiletools.commons.compose.screens.ManageBlockedNumbersScreen

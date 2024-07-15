@@ -13,8 +13,8 @@ import com.ultimobiletools.commons.helpers.FIRST_GROUP_ID
 import com.ultimobiletools.commons.helpers.getEmptyLocalContact
 import com.ultimobiletools.commons.interfaces.ContactsDao
 import com.ultimobiletools.commons.interfaces.GroupsDao
-import com.ultimobiletools.commons.models.contacts.Group
-import com.ultimobiletools.commons.models.contacts.LocalContact
+import com.ultimobiletools.commons.models.Group
+import com.ultimobiletools.commons.models.LocalContact
 import java.util.concurrent.Executors
 
 @Database(entities = [LocalContact::class, Group::class], version = 3, exportSchema = true)

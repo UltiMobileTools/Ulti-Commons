@@ -19,16 +19,6 @@ import com.ultimobiletools.commons.views.Breadcrumbs
 import com.ultimobiletools.commons.databinding.DialogFilepickerBinding
 import java.io.File
 
-/**
- * The only filepicker constructor with a couple optional parameters
- *
- * @param activity has to be activity to avoid some Theme.AppCompat issues
- * @param currPath initial path of the dialog, defaults to the external storage
- * @param pickFile toggle used to determine if we are picking a file or a folder
- * @param showHidden toggle for showing hidden items, whose name starts with a dot
- * @param showFAB toggle the displaying of a Floating Action Button for creating new folders
- * @param callback the callback used for returning the selected file/folder
- */
 class FilePickerDialog(
     val activity: BaseUltiActivity,
     var currPath: String = Environment.getExternalStorageDirectory().toString(),

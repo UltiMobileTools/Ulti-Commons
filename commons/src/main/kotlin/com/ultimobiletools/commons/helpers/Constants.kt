@@ -9,7 +9,7 @@ import android.util.Log
 import androidx.annotation.ChecksSdkIntAtLeast
 import androidx.annotation.StringRes
 import com.ultimobiletools.commons.extensions.normalizeString
-import com.ultimobiletools.commons.models.contacts.LocalContact
+import com.ultimobiletools.commons.models.LocalContact
 import com.ultimobiletools.commons.overloads.times
 import com.ultimobiletools.commons.R
 

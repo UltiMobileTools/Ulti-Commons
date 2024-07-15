@@ -22,7 +22,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.DialogProperties
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.compose.alert_dialog.*
+import com.ultimobiletools.commons.compose.dialog.*
 import com.ultimobiletools.commons.compose.components.LinkifyTextComponent
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.getActivity

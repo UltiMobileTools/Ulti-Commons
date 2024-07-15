@@ -26,8 +26,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.compose.theme.Shapes
-import com.ultimobiletools.commons.compose.alert_dialog.dialogBorder
-import com.ultimobiletools.commons.compose.alert_dialog.dialogContainerColor
+import com.ultimobiletools.commons.compose.dialog.dialogBorder
+import com.ultimobiletools.commons.compose.dialog.dialogContainerColor
 import com.ultimobiletools.commons.compose.components.SimpleDropDownMenuItem
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.rememberMutableInteractionSource

@@ -34,7 +34,7 @@
             android:configChanges="orientation" />
 
         <activity
-            android:name="com.ultimobiletools.commons.activities.CustomizationActivity"
+            android:name="com.ultimobiletools.commons.activities.CustomizaActivity"
             android:configChanges="orientation|keyboardHidden|screenSize" />
 
         <activity

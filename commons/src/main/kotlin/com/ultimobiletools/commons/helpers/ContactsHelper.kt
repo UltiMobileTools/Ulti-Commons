@@ -14,8 +14,7 @@ import android.text.TextUtils
 import android.util.SparseArray
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.extensions.*
-import com.ultimobiletools.commons.models.PhoneNumber
-import com.ultimobiletools.commons.models.contacts.*
+import com.ultimobiletools.commons.models.*
 import com.ultimobiletools.commons.overloads.times
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
@@ -183,7 +182,7 @@ class ContactsHelper(val context: Context) {
                 val nickname = ""
                 val numbers = ArrayList<PhoneNumber>()          // proper value is obtained below
                 val emails = ArrayList<Email>()
-                val addresses = ArrayList<Address>()
+                val addresses = ArrayList<UltiAddress>()
                 val events = ArrayList<Event>()
                 val notes = ""
                 val groups = ArrayList<Group>()
@@ -354,8 +353,8 @@ class ContactsHelper(val context: Context) {
         return emails
     }
 
-    private fun getAddresses(contactId: Int? = null): SparseArray<ArrayList<Address>> {
-        val addresses = SparseArray<ArrayList<Address>>()
+    private fun getAddresses(contactId: Int? = null): SparseArray<ArrayList<UltiAddress>> {
+        val addresses = SparseArray<ArrayList<UltiAddress>>()
         val uri = CommonDataKinds.StructuredPostal.CONTENT_URI
         val projection = arrayOf(
             Data.RAW_CONTACT_ID,
@@ -377,7 +376,7 @@ class ContactsHelper(val context: Context) {
                 addresses.put(id, ArrayList())
             }
 
-            addresses[id]!!.add(Address(address, type, label))
+            addresses[id]!!.add(UltiAddress(address, type, label))
         }
 
         return addresses

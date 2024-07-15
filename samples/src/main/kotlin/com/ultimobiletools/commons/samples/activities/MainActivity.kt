@@ -7,10 +7,10 @@ import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import com.ultimobiletools.commons.samples.R
-import com.ultimobiletools.commons.activities.CustomizationActivity
+import com.ultimobiletools.commons.activities.CustomizaActivity
 import com.ultimobiletools.commons.activities.ManageBlockedNumbersActivity
-import com.ultimobiletools.commons.compose.alert_dialog.AlertDialogState
-import com.ultimobiletools.commons.compose.alert_dialog.rememberAlertDialogState
+import com.ultimobiletools.commons.compose.dialog.AlertDialogState
+import com.ultimobiletools.commons.compose.dialog.rememberAlertDialogState
 import com.ultimobiletools.commons.compose.extensions.*
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
 import com.ultimobiletools.commons.dialogs.ConfirmationDialog
@@ -90,7 +90,7 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun startCustomizationActivity() {
-        Intent(applicationContext, CustomizationActivity::class.java).apply {
+        Intent(applicationContext, CustomizaActivity::class.java).apply {
             putExtra(APP_ICON_IDS, getAppIconIDs())
             putExtra(APP_LAUNCHER_NAME, getAppLauncherName())
             startActivity(this)

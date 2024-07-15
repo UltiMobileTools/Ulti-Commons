@@ -11,13 +11,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.DialogProperties
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.compose.alert_dialog.*
+import com.ultimobiletools.commons.compose.dialog.*
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
 import com.ultimobiletools.commons.databinding.DialogMessageBinding
 import com.ultimobiletools.commons.extensions.getAlertDialogBuilder
 import com.ultimobiletools.commons.extensions.setupDialogStuff
-import com.ultimobiletools.commons.compose.alert_dialog.AlertDialogState
+import com.ultimobiletools.commons.compose.dialog.AlertDialogState
 
 // similar fo ConfirmationDialog, but has a callback for negative button too
 class ConfirmationAdvancedDialog(

@@ -1,6 +1,6 @@
 package com.ultimobiletools.commons.views;
 
-import static com.ultimobiletools.commons.extensions.IntKt.adjustAlpha;
+import static com.ultimobiletools.commons.extensions.UltiIntKt.adjustAlpha;
 import static com.ultimobiletools.commons.helpers.ConstantsKt.MEDIUM_ALPHA;
 
 import android.content.Context;

@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.platform.LocalLayoutDirection
 import com.ultimobiletools.commons.compose.extensions.onEventValue
-import com.ultimobiletools.commons.compose.system_ui_controller.rememberSystemUiController
+import com.ultimobiletools.commons.compose.system.rememberSystemUiController
 import com.ultimobiletools.commons.compose.theme.LocalTheme
 import com.ultimobiletools.commons.compose.theme.UltiTheme
 import com.ultimobiletools.commons.compose.theme.isNotLitWell

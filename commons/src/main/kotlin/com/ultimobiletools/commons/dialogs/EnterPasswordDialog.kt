@@ -20,7 +20,7 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.sp
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.activities.BaseUltiActivity
-import com.ultimobiletools.commons.compose.alert_dialog.*
+import com.ultimobiletools.commons.compose.dialog.*
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.andThen
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface

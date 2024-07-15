@@ -9,7 +9,7 @@ import com.ultimobiletools.commons.extensions.getIntValue
 import com.ultimobiletools.commons.extensions.getStringValue
 import com.ultimobiletools.commons.models.PhoneNumber
 import com.ultimobiletools.commons.models.SimpleContact
-import com.ultimobiletools.commons.models.contacts.Contact
+import com.ultimobiletools.commons.models.Contact
 
 // used for sharing privately stored contacts in Simple Contacts with Simple Dialer, Simple SMS Messenger and Simple Calendar Pro
 class MyContactsContentProvider {
