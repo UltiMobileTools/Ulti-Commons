@@ -374,7 +374,7 @@
     <string name="app_icon_color_warning">OPOZORILO: Nekateri zaganjalniki ne znajo upravljati z ikono aplikacije, nastavljene po meri. Če ikona izgine, poskusite zagnati aplikacijo skozi Google Play ali kakšen drug pripomoček. Ko je aplikacija spet zagnana, nastavite nazaj privzeto oranžno ikono #F57C00. V najslabšem primeru bo potrebno aplikacijo ponovno namestiti.</string>
     <string name="share_colors_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
     <string name="shared_theme_note">Upoštevajte, da kljub uporabi Pro verzije, iz tehničnih razlogov še vedno potrebujete aplikacijo Preprosto hvala. Ta skrbi za sinhronizacijo barv.</string>
-    <string name="purchase_thank_you">Prosimo, kupite aplikacijo &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;, da odklenete to funkcijo in podprete razvoj. Hvala!</string>
+    <string name="purchase_thank_you">Prosimo, kupite aplikacijo &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;, da odklenete to funkcijo in podprete razvoj. Hvala!</string>
     <!-- Themes -->
     <string name="light_theme">Svetlo</string>
     <string name="dark_theme">Temno</string>
@@ -721,7 +721,7 @@
     <string name="during_day_at">Čez dan ob %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Nastavitve</string>
-    <string name="purchase_simple_thank_you">Kupite aplikacijo Simple Thank You</string>
+    <string name="purchase_ulti_thank_you">Kupite aplikacijo Ulti Thank You</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Prilagajanje barv</string>
     <string name="improved_color_customization">Izboljšana prilagoditev barv</string>
@@ -984,7 +984,7 @@
     <string name="donate_please">
         <![CDATA[
             Podzravljeni,<br><br>
-            upamo, da vam je aplikacija všeč. Ne vsebuje oglasov, zato vas prosimo, da podprete razvoj z nakupom aplikacije <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Thank You</a>. S tem bo tudi to sporočilo izginilo.<br><br>
+            upamo, da vam je aplikacija všeč. Ne vsebuje oglasov, zato vas prosimo, da podprete razvoj z nakupom aplikacije <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a>. S tem bo tudi to sporočilo izginilo.<br><br>
             Hvala!
         ]]>
     </string>
@@ -992,7 +992,7 @@
     <string name="donate_short">Prosimo, podprite nas z nakupom &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Enostavno hvala&lt;/a&gt;. Odklenile se bodo tudi vse funkcije aplikacije, vključno s prilagajanjem barv.</string>
     <string name="purchase">Kupi</string>
     <string name="get_simple_phone">Prenesi Enostaven telefon</string>
-    <string name="update_thank_you">Prosimo nadgradite Simple Thank You na zadnjo verzijo</string>
+    <string name="update_thank_you">Prosimo nadgradite Ulti Thank You na zadnjo verzijo</string>
     <string name="before_asking_question_read_faq">Pred zastavljanjem vprašanje preverite nastavitve aplikacije in preberite pogosta vprašanja in odgovore. Morda je rešitev že tam.</string>
     <string name="before_rate_read_faq">Preden nas ocenite vas prosimo, da najprej preverite nastavitve aplikacije in preberete pogosto zastavljena vprašanja. Če imate težave, je rešitev morda tam.</string>
     <string name="make_sure_latest">Prepričajte se tudi, da uporabljate najnovejšo različico aplikacije.</string>
@@ -1033,7 +1033,7 @@
     <string name="simple_music_player">Enostaven predvajalnik glasbe</string>
     <string name="simple_notes">Enostavne beležke</string>
     <string name="simple_sms_messenger">Enostavna SMS sporočila</string>
-    <string name="simple_thank_you">Enostavno hvala</string>
+    <string name="ulti_thank_you">Enostavno hvala</string>
     <string name="simple_voice_recorder">Enostaven snemalnik zvoka</string>
     <string name="app_launcher_short">Zaganjalnik aplikacij</string>
     <string name="calculator_short">Kalkulator</string>

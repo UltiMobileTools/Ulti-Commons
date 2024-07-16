@@ -690,7 +690,7 @@
     <string name="during_day_at">Au cours de la journée à %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Paramètres</string>
-    <string name="purchase_simple_thank_you">Acheter l\'application \"Merci simple\"</string>
+    <string name="purchase_ulti_thank_you">Acheter l\'application \"Merci simple\"</string>
     <string name="general_settings">Général</string>
     <string name="color_customization">Personnalisation des couleurs</string>
     <string name="improved_color_customization">Personnalisation améliorée des couleurs</string>
@@ -994,7 +994,7 @@
     <string name="simple_music_player">Lecteur de musique simple</string>
     <string name="simple_notes">Notes simples</string>
     <string name="simple_sms_messenger">Messagerie SMS simple</string>
-    <string name="simple_thank_you">Merci simple</string>
+    <string name="ulti_thank_you">Merci simple</string>
     <string name="simple_voice_recorder">Enregistreur vocal simple</string>
     <string name="app_launcher_short">Lanceur d\'applications</string>
     <string name="calculator_short">Calculatrice</string>

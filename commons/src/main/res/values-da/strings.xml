@@ -358,10 +358,10 @@
     <string name="app_icon_color_warning">ADVARSEL: Ikke alle app-launchers kan håndtere tilpasning af ikonfarve. Hvis et ikon skulle forsvinde kan du prøve at åbne appen via Google Play eller en widget.
        Når appen er åben kan du sætte farven til standardfarven #F57C00 igen. I værste fald må du geninstallere appen.</string>
     <string name="share_colors_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
-    <string name="shared_theme_note">Bemærk at selv om du bruger appens Pro-version, skal du af tekniske årsager stadig have Simple Thank You. Den tager sig af farvesynkronisering.</string>
+    <string name="shared_theme_note">Bemærk at selv om du bruger appens Pro-version, skal du af tekniske årsager stadig have Ulti Thank You. Den tager sig af farvesynkronisering.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Køb <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Thank You</a> for at låse denne funktion op og understøtte appens udvikling. Tak!
+            Køb <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a> for at låse denne funktion op og understøtte appens udvikling. Tak!
         ]]>
     </string>
     <!-- Themes -->
@@ -649,7 +649,7 @@
     <string name="during_day_at">I løbet af dagen kl. %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Indstillinger</string>
-    <string name="purchase_simple_thank_you">Køb Simple Thank You</string>
+    <string name="purchase_ulti_thank_you">Køb Ulti Thank You</string>
     <string name="general_settings">Generelt</string>
     <string name="color_customization">Farvetilpasning</string>
     <string name="improved_color_customization">Forbedret farvetilpasning</string>
@@ -869,15 +869,15 @@
     <string name="donate_please">
         <![CDATA[
             Hej<br><br>
-            Håber du kan lide denne app. Den indeholder ingen reklamer, så vær sød at købe appen <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Thank You</a>, som også vil forhindre at denne besked vises igen.<br><br>
+            Håber du kan lide denne app. Den indeholder ingen reklamer, så vær sød at købe appen <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a>, som også vil forhindre at denne besked vises igen.<br><br>
             På forhånd tak!
         ]]>
     </string>
-    <string name="donate_new">Hej,&lt;br&gt;&lt;br&gt;Jeg håber, at du nyder appen. Den indeholder ingen reklamer, og vi indsamler heller ikke dine data, men du kan støtte dens udvikling ved at købe &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. Du vil også få alle app-funktioner og farvetilpasning låst op.&lt;br&gt;&lt;br&gt;Tak!</string>
-    <string name="donate_short">Støt os ved at købe &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;, det vil også låse alle app-funktioner op, herunder farvetilpasning.</string>
+    <string name="donate_new">Hej,&lt;br&gt;&lt;br&gt;Jeg håber, at du nyder appen. Den indeholder ingen reklamer, og vi indsamler heller ikke dine data, men du kan støtte dens udvikling ved at købe &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. Du vil også få alle app-funktioner og farvetilpasning låst op.&lt;br&gt;&lt;br&gt;Tak!</string>
+    <string name="donate_short">Støt os ved at købe &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;, det vil også låse alle app-funktioner op, herunder farvetilpasning.</string>
     <string name="purchase">Køb</string>
     <string name="get_simple_phone">Få Simple Phone</string>
-    <string name="update_thank_you">Opdater venligst Simple Thank You til den seneste version</string>
+    <string name="update_thank_you">Opdater venligst Ulti Thank You til den seneste version</string>
     <string name="before_asking_question_read_faq">Inden du stiller et spørgsmål bedes du først tjekke appens indstillinger og læse de \"Ofte stillede spørgsmål\", måske finder du svaret der.</string>
     <string name="before_rate_read_faq">Tjek appens indstillinger og læs vores ofte stillede spørgsmål inden du vurderer os. Har du nogen problemer, kan du måske finde en løsning der.</string>
     <string name="make_sure_latest">Sørg også for at du bruger den seneste version af appen.</string>
@@ -889,7 +889,7 @@
     <string name="thank_you">Tak skal du have</string>
     <string name="widget_locked_pro">Widget\'en er låst.
 \nOpgrader til Pro-versionen for at låse den op.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -918,7 +918,7 @@
     <string name="simple_music_player">Simpel musikafspiller</string>
     <string name="simple_notes">Simple Notes</string>
     <string name="simple_sms_messenger">Simpel SMS Messenger</string>
-    <string name="simple_thank_you">Simpelt tak</string>
+    <string name="ulti_thank_you">Simpelt tak</string>
     <string name="simple_voice_recorder">Simpel stemmeoptager</string>
     <string name="app_launcher_short">Appstarter</string>
     <string name="calculator_short">Lommeregner</string>

@@ -717,7 +717,7 @@
     <string name="during_day_at">Протягом дня о %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Налаштування</string>
-    <string name="purchase_simple_thank_you">Придбати \"Просту Подяку\"</string>
+    <string name="purchase_ulti_thank_you">Придбати \"Просту Подяку\"</string>
     <string name="general_settings">Загальні</string>
     <string name="color_customization">Налаштування кольору</string>
     <string name="improved_color_customization">Покращено налаштування кольору</string>
@@ -979,7 +979,7 @@
     <string name="device_os">ОС пристрою: %s</string>
     <string name="donate_please">Привіт,&lt;br&gt;&lt;br&gt; сподіваюсь, вам подобається додаток. Він не містить реклами, будь ласка, підтримайте його розробку, придбавши додаток &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Проста Подяка&lt;/a&gt;. Покупка також відмінить повторне спливання цього повідомлення.&lt;br&gt;&lt;br&gt; Спасибі!</string>
     <string name="donate_new">Вітаю,&lt;br&gt;&lt;br&gt;сподіваюся, вам подобається застосунок. Він не містить реклами, також ми не збираємо ваші дані. Будь ласка, підтримайте розвиток, придбавши &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Просту подяку&lt;/a&gt;. Таким чином ви розблокуєте всі можливості застосунку, зокрема налаштування кольорів.&lt;br&gt;&lt;br&gt;Дякуємо!</string>
-    <string name="donate_short">Підтримайте нас, придбавши &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; будь ласка, це також розблокує всі функції застосунку, включаючи налаштування кольорів.</string>
+    <string name="donate_short">Підтримайте нас, придбавши &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; будь ласка, це також розблокує всі функції застосунку, включаючи налаштування кольорів.</string>
     <string name="purchase">Придбати</string>
     <string name="get_simple_phone">Замовити Простий Телефон</string>
     <string name="update_thank_you">Будь ласка, оновіть \"Просту Подяку\" до останньої версії</string>
@@ -1023,7 +1023,7 @@
     <string name="simple_music_player">Простий Музичний Програвач</string>
     <string name="simple_notes">Прості Нотатки</string>
     <string name="simple_sms_messenger">Прості SMS Повідомлення</string>
-    <string name="simple_thank_you">Проста Подяка</string>
+    <string name="ulti_thank_you">Проста Подяка</string>
     <string name="simple_voice_recorder">Простий диктофон</string>
     <string name="app_launcher_short">Лаунчер</string>
     <string name="calculator_short">Калькулятор</string>

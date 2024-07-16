@@ -614,7 +614,7 @@
     <string name="during_day_at">Saat pagi hari pada %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Pengaturan</string>
-    <string name="purchase_simple_thank_you">Beli Terima Kasih Simpel</string>
+    <string name="purchase_ulti_thank_you">Beli Terima Kasih Simpel</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Kustomisasi warna</string>
     <string name="improved_color_customization">Kustomisasi warna ditingkatkan</string>
@@ -925,7 +925,7 @@
     <string name="simple_music_player">Pemain Musik Simpel</string>
     <string name="simple_notes">Catatan Simpel</string>
     <string name="simple_sms_messenger">Perpesanan SMS Simpel</string>
-    <string name="simple_thank_you">Terima Kasih Simpel</string>
+    <string name="ulti_thank_you">Terima Kasih Simpel</string>
     <string name="simple_voice_recorder">Perekam Suara Simpel</string>
     <string name="app_launcher_short">Peluncur Aplikasi</string>
     <string name="calculator_short">Kalkulator</string>

@@ -353,10 +353,10 @@
     <string name="apply_to_all_apps">심플 시리즈 앱에 일괄적용</string>
     <string name="app_icon_color_warning">경고 : 일부 런처는 앱 아이콘 커스터마이징을 제대로 지원하지 않습니다. 앱의 아이콘이 사라졌다면, 플레이 스토어나 위젯을 통하여 앱을 실행한 뒤 기본값인 주황색(#F57C00)으로 다시 변경해주시기 바랍니다. 최악의 경우에는 앱을 재설치 해야할 수도 있습니다.</string>
     <string name="share_colors_success">색상이 성공적으로 변경되었습니다. \'공유\'라는 새로운 테마가 추가되었습니다. 앞으로 모든 앱의 색상을 변경할때 사용하세요.</string>
-    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Simple Thank You for technical reasons. It takes care of the color synchronization.</string>
+    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Ulti Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            이 기능을 이용하시려면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Thank You</a> 앱을 구매해주세요. 감사합니다!
+            이 기능을 이용하시려면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a> 앱을 구매해주세요. 감사합니다!
         ]]>
     </string>
     <!-- Themes -->
@@ -615,7 +615,7 @@
     <string name="during_day_at">During the day at %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">설정</string>
-    <string name="purchase_simple_thank_you">심플 Thank You 구매하기</string>
+    <string name="purchase_ulti_thank_you">심플 Thank You 구매하기</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Color customization</string>
     <string name="improved_color_customization">Improved color customization</string>
@@ -836,16 +836,16 @@
             안녕하세요.<br>
             우리의 애플리케이션이 도움이 되길 바랍니다.<br>
             사용하고 계신 애플리케이션은 광고 및 인앱 결제가 없는 무료 애플리케이션으로 별도의 수익이 발생하지 않습니다.<br>
-            당신이 원하신다면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Thank You</a> 앱을 다운받아 지원 하실 수 있습니다.<br>
-            \'Simple Thank You\' 앱이 설치되면 이 다이얼로그는 비 활성화 됩니다.<br>
+            당신이 원하신다면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a> 앱을 다운받아 지원 하실 수 있습니다.<br>
+            \'Ulti Thank You\' 앱이 설치되면 이 다이얼로그는 비 활성화 됩니다.<br>
             감사합니다.
         ]]>
     </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">구매</string>
     <string name="get_simple_phone">Get Simple Phone</string>
-    <string name="update_thank_you">Simple Thank You를 최신 버전으로 업데이트 해 주세요.</string>
+    <string name="update_thank_you">Ulti Thank You를 최신 버전으로 업데이트 해 주세요.</string>
     <string name="before_asking_question_read_faq">질문하기 전에 FAQ를 먼저 읽어 주세요. 해답이 있을지도 모릅니다.</string>
     <string name="before_rate_read_faq">Before you rate us, please check the app settings and read the Frequently Asked Questions first. If you have any problems, maybe the solution is there.</string>
     <string name="make_sure_latest">Also make sure that you are using the latest app version.</string>
@@ -856,7 +856,7 @@
     <string name="rate_our_app">Rate our app please :)</string>
     <string name="thank_you">Thank you</string>
     <string name="widget_locked_pro">The widget is locked.\nPlease upgrade to the Pro version to unlock it.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -885,7 +885,7 @@
     <string name="simple_music_player">Simple Music Player</string>
     <string name="simple_notes">Simple Notes</string>
     <string name="simple_sms_messenger">Simple SMS Messenger</string>
-    <string name="simple_thank_you">Simple Thank You</string>
+    <string name="ulti_thank_you">Ulti Thank You</string>
     <string name="simple_voice_recorder">Simple Voice Recorder</string>
     <string name="app_launcher_short">App Launcher</string>
     <string name="calculator_short">Calculator</string>

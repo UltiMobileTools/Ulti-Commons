@@ -372,8 +372,8 @@
     <string name="apply_to_all_apps">Прымяніць колеры да ўсіх простых праграм</string>
     <string name="app_icon_color_warning">Папярэджаньне: некаторыя пускавыя ўстаноўкі няправільна апрацоўваюць наладу значкоў прыкладанняў. У выпадку, калі значок знікне, паспрабуйце запусціць прыкладанне праз Google Play або якой-небудзь віджэт, калі ён даступны. Пасля запуску проста вярніце аранжавы значок па змаўчанні #F57C00. У горшым выпадку вам, магчыма, прыйдзецца пераўсталяваць дадатак.</string>
     <string name="share_colors_success">Колеры паспяхова абноўлены. Была дададзена новая тэма пад назвай \"Агульны доступ\", выкарыстоўвайце яе для абнаўлення ўсіх колераў праграм у будучыні.</string>
-    <string name="shared_theme_note">Звярніце ўвагу, што нават калі вы карыстаецеся версіяй праграмы Pro, вам усё роўна патрэбны Simple Thank You па тэхнічных прычынах. Ён клапоціцца аб сінхранізацыі колеру.</string>
-    <string name="purchase_thank_you">Купіце &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;, каб разблакіраваць гэту функцыю і падтрымаць распрацоўку. Дзякуй!</string>
+    <string name="shared_theme_note">Звярніце ўвагу, што нават калі вы карыстаецеся версіяй праграмы Pro, вам усё роўна патрэбны Ulti Thank You па тэхнічных прычынах. Ён клапоціцца аб сінхранізацыі колеру.</string>
+    <string name="purchase_thank_you">Купіце &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;, каб разблакіраваць гэту функцыю і падтрымаць распрацоўку. Дзякуй!</string>
     <!-- Themes -->
     <string name="light_theme">Светлая</string>
     <string name="dark_theme">Цёмная</string>
@@ -715,7 +715,7 @@
     <string name="during_day_at">На працягу дня ў %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Налады</string>
-    <string name="purchase_simple_thank_you">Purchase Simple Дзякуй</string>
+    <string name="purchase_ulti_thank_you">Purchase Simple Дзякуй</string>
     <string name="general_settings">Генерал</string>
     <string name="color_customization">Налады колераў</string>
     <string name="improved_color_customization">Палепшаная налада колеру</string>
@@ -971,11 +971,11 @@
     <string name="app_version">Версія праграмы: %s</string>
     <string name="device_os">АС прылады: %s</string>
     <string name="donate_please">Прывітанне,&lt;br&gt; &lt; br&gt; спадзяюся, вам спадабаецца прыкладанне. Ён не ўтрымлівае рэкламы, калі ласка, падтрымайце яго распрацоўку, купіўшы &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.дзякуй&gt; простае прыкладанне Дзякуй&lt;/a&gt;, яно таксама прадухіліць паўторнае адлюстраванне гэтага дыялогавага акна.&lt;br&gt; &lt; br&gt; Дзякуй!</string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Купіць</string>
     <string name="get_simple_phone">Атрымаць Simple Phone</string>
-    <string name="update_thank_you">Калі ласка, абнавіце Simple Thank You да апошняй версіі</string>
+    <string name="update_thank_you">Калі ласка, абнавіце Ulti Thank You да апошняй версіі</string>
     <string name="before_asking_question_read_faq">Перш чым задаць пытанне, праверце налады праграмы і спачатку прачытайце раздзел \"Часта задаюць пытанні\". Магчыма, рашэнне ёсць.</string>
     <string name="before_rate_read_faq">Перш чым ацэньваць нас, праверце налады праграмы і спачатку прачытайце раздзел \"Часта задаюць пытанні\". Калі ў вас ёсць якія-небудзь праблемы, магчыма, рашэнне ёсць.</string>
     <string name="make_sure_latest">Таксама пераканайцеся, што вы выкарыстоўваеце апошнюю версію праграмы.</string>
@@ -1013,7 +1013,7 @@
     <string name="simple_music_player">Simple Music Player</string>
     <string name="simple_notes">Simple Notes</string>
     <string name="simple_sms_messenger">Simple SMS Messenger</string>
-    <string name="simple_thank_you">Simple Thank You</string>
+    <string name="ulti_thank_you">Ulti Thank You</string>
     <string name="simple_voice_recorder">Simple Voice Recorder</string>
     <string name="app_launcher_short">Працоўны стол</string>
     <string name="calculator_short">Калькулятар</string>

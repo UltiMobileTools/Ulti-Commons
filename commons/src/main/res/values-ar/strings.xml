@@ -380,7 +380,7 @@
     <string name="apply_to_all_apps">تطبيق الألوان على جميع التطبيقات المشتركة</string>
     <string name="app_icon_color_warning">تحذير: بعض المشغّلات لا تتعامل مع تخصيص أيقونة التطبيق بشكل صحيح. في حال اختفاء الأيقونة، حاول تشغيل التطبيق من خلال Google Play أو ويدجت، إذا توفر. بمجرد تشغيله، قم فقط بتعيين الأيقونة البرتقالية الافتراضية #F57C00. قد تضطر إلى إعادة تثبيت التطبيق في أسوأ الأحوال.</string>
     <string name="share_colors_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \'المشتركة\'، يرجى إستخدام ذلك لتحديث جميع ألوان التطبيق في المستقبل.</string>
-    <string name="shared_theme_note">لاحظ أنه على الرغم من أنك تستخدم إصدار تطبيق Pro ، إلا أنك لا تزال بحاجة إلى Simple Thank You لأسباب فنية. يعتني بمزامنة الألوان.</string>
+    <string name="shared_theme_note">لاحظ أنه على الرغم من أنك تستخدم إصدار تطبيق Pro ، إلا أنك لا تزال بحاجة إلى Ulti Thank You لأسباب فنية. يعتني بمزامنة الألوان.</string>
     <string name="purchase_thank_you">
         <![CDATA[
              يرجى شراء<a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!
@@ -789,7 +789,7 @@
     <string name="during_day_at">خلال النهار في %02d: %02d</string>
     <!-- Settings -->
     <string name="settings">الإعدادات</string>
-    <string name="purchase_simple_thank_you">شراء تطبيق (Simple Thank You)</string>
+    <string name="purchase_ulti_thank_you">شراء تطبيق (Ulti Thank You)</string>
     <string name="general_settings">عام</string>
     <string name="color_customization">تخصيص الألوان</string>
     <string name="improved_color_customization">تحسين تكييف الألوان</string>
@@ -1054,7 +1054,7 @@
     <string name="donate_please">
         <![CDATA[
  مرحباً,<br><br>
-            أتمني أن مستمتعاً بالتطبيق. الذي لا يحتوي على إعلانات ، يرجى دعم تطويره من خلال شراء تطبيق <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Thank You</a>سيمنع هذا  مربع الحوار من الظهور مرة أخرى. <br><br>
+            أتمني أن مستمتعاً بالتطبيق. الذي لا يحتوي على إعلانات ، يرجى دعم تطويره من خلال شراء تطبيق <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a>سيمنع هذا  مربع الحوار من الظهور مرة أخرى. <br><br>
             شكرا!
         ]]>
     </string>
@@ -1062,7 +1062,7 @@
     <string name="donate_short">ادعمنا عن طريق شراء &lt;a href = https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple شكرا لك&lt;/a&gt; من فضلك ، كما أنه سيفتح جميع ميزات التطبيق بما في ذلك تخصيص الألوان.</string>
     <string name="purchase">شراء</string>
     <string name="get_simple_phone">احصل على هاتف بسيط</string>
-    <string name="update_thank_you">يرجى تحديث تطبيق (Simple Thank You) إلى أحدث إصدار</string>
+    <string name="update_thank_you">يرجى تحديث تطبيق (Ulti Thank You) إلى أحدث إصدار</string>
     <string name="before_asking_question_read_faq">قبل ان تسأل سؤالاً ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة المتداولة أولاً. ربما يكون الحل موجوداً.</string>
     <string name="before_rate_read_faq">قبل أن تقيمنا ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة الشائعة أولاً. إذا كان لديك أي مشاكل ، فربما يكون الحل موجوداً.</string>
     <string name="make_sure_latest">تأكد أيضاً من أنك تستخدم أحدث إصدار من التطبيق.</string>
@@ -1103,7 +1103,7 @@
     <string name="simple_music_player">مشغل موسيقى بسيط</string>
     <string name="simple_notes">Simple Notes</string>
     <string name="simple_sms_messenger">الرسائل البسيطة</string>
-    <string name="simple_thank_you">البسيط (شكراً لكم)</string>
+    <string name="ulti_thank_you">البسيط (شكراً لكم)</string>
     <string name="simple_voice_recorder">مسجل صوت البسيط</string>
     <string name="app_launcher_short">مشغل التطبيق</string>
     <string name="calculator_short">الحاسبة</string>

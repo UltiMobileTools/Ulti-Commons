@@ -687,7 +687,7 @@
     <string name="during_day_at">Během dne ve %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Nastavení</string>
-    <string name="purchase_simple_thank_you">Zakoupit Jednoduché děkuji</string>
+    <string name="purchase_ulti_thank_you">Zakoupit Jednoduché děkuji</string>
     <string name="general_settings">Obecné</string>
     <string name="color_customization">Přizpůsobení barev</string>
     <string name="improved_color_customization">Vylepšené přizpůsobení barev</string>
@@ -946,9 +946,9 @@
     <string name="additional_info">Dodatečné informace</string>
     <string name="app_version">Verze aplikace: %s</string>
     <string name="device_os">Operační systém zařízení: %s</string>
-    <string name="donate_please">Dobrý den,&lt;br&gt;&lt;br&gt; doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;, čímž také zabráníte opětovnému zobrazení tohoto dialogu.&lt;br&gt;&lt;br&gt; Děkujeme Vám!</string>
-    <string name="donate_new">Dobrý den,&lt;br&gt;&lt;br&gt;doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy a neshromažďuje vaše data, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. Budete mít také odemčené všechny funkce aplikace včetně přizpůsobení barev.&lt;br&gt;&lt;br&gt;Děkujeme Vám!</string>
-    <string name="donate_short">Podpořte nás prosím zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;, odemkne to také všechny funkce aplikace včetně přizpůsobení barev.</string>
+    <string name="donate_please">Dobrý den,&lt;br&gt;&lt;br&gt; doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;, čímž také zabráníte opětovnému zobrazení tohoto dialogu.&lt;br&gt;&lt;br&gt; Děkujeme Vám!</string>
+    <string name="donate_new">Dobrý den,&lt;br&gt;&lt;br&gt;doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy a neshromažďuje vaše data, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. Budete mít také odemčené všechny funkce aplikace včetně přizpůsobení barev.&lt;br&gt;&lt;br&gt;Děkujeme Vám!</string>
+    <string name="donate_short">Podpořte nás prosím zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;, odemkne to také všechny funkce aplikace včetně přizpůsobení barev.</string>
     <string name="purchase">Koupit</string>
     <string name="get_simple_phone">Získat Jednoduchý telefon</string>
     <string name="update_thank_you">Aktualizujte prosím Jednoduché děkuji na nejnovější verzi</string>
@@ -963,7 +963,7 @@
     <string name="thank_you">Děkujeme</string>
     <string name="widget_locked_pro">Widget je uzamčen.
 \nChcete-li jej odemknout, upgradujte na verzi Pro.</string>
-    <string name="features_locked">Tato funkce je uzamčena, pro odemknutí celé aplikace si prosím zakupte &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;.&lt;br &lt;br&gt;Jedná se pouze o jednorázovou platbu a pokud nebudete spokojeni, můžeme vám vrátit peníze.</string>
+    <string name="features_locked">Tato funkce je uzamčena, pro odemknutí celé aplikace si prosím zakupte &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;.&lt;br &lt;br&gt;Jedná se pouze o jednorázovou platbu a pokud nebudete spokojeni, můžeme vám vrátit peníze.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -992,7 +992,7 @@
     <string name="simple_music_player">Jednoduchý hudební přehrávač</string>
     <string name="simple_notes">Simple Notes</string>
     <string name="simple_sms_messenger">Jednoduché SMS zprávy</string>
-    <string name="simple_thank_you">Jednoduché děkuji</string>
+    <string name="ulti_thank_you">Jednoduché děkuji</string>
     <string name="simple_voice_recorder">Jednoduchý hlasový záznamník</string>
     <string name="app_launcher_short">Spouštěč aplikací</string>
     <string name="calculator_short">Kalkulačka</string>

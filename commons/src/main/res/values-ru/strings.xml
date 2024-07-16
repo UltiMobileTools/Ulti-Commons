@@ -690,7 +690,7 @@
     <string name="during_day_at">В течение дня в %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Настройки</string>
-    <string name="purchase_simple_thank_you">Купить \"Простое спасибо\"</string>
+    <string name="purchase_ulti_thank_you">Купить \"Простое спасибо\"</string>
     <string name="general_settings">Основные</string>
     <string name="color_customization">Настройка цвета</string>
     <string name="improved_color_customization">Улучшенная настройка цвета</string>
@@ -995,7 +995,7 @@
     <string name="simple_music_player">Простой музыкальный плеер</string>
     <string name="simple_notes">Простые заметки</string>
     <string name="simple_sms_messenger">Простые сообщения</string>
-    <string name="simple_thank_you">Простое спасибо</string>
+    <string name="ulti_thank_you">Простое спасибо</string>
     <string name="simple_voice_recorder">Простой диктофон</string>
     <string name="app_launcher_short">Рабочий стол</string>
     <string name="calculator_short">Калькулятор</string>

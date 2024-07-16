@@ -365,7 +365,7 @@
         Unha vez que a inicies, volve a axustar a icona ao laranxa por defecto #F57C00. No peor dos casos, pode que teñas que volver a instalar o aplicativo.</string>
     <string name="share_colors_success">Cores actualizadas correctamente. Engadiuse un novo tema chamado \'Compartido\'. Utilízao para actualizar as cores de todos os aplicativos no futuro.</string>
     <string name="shared_theme_note">Teña en conta que aínda que esteas a usar a versión da aplicación Pro, aínda necesitas Grazas Sinxelas por razóns técnicas. Encárgase da sincronización das cores.</string>
-    <string name="purchase_thank_you">Por favor, merca &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; para desbloquear esta función e axudar co desenvolvemento. Grazas!</string>
+    <string name="purchase_thank_you">Por favor, merca &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; para desbloquear esta función e axudar co desenvolvemento. Grazas!</string>
     <!-- Themes -->
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
@@ -652,7 +652,7 @@
     <string name="during_day_at">Durante o día en %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Axustes</string>
-    <string name="purchase_simple_thank_you">Mercar Grazas sinxelas</string>
+    <string name="purchase_ulti_thank_you">Mercar Grazas sinxelas</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Persoaliza a cor</string>
     <string name="improved_color_customization">Persoalización mellorada das cores</string>
@@ -949,7 +949,7 @@
     <string name="simple_music_player">Reproductor de música sinxelo</string>
     <string name="simple_notes">Notas sinxelas</string>
     <string name="simple_sms_messenger">Mensaxeiro de sms sinxelo</string>
-    <string name="simple_thank_you">Unicamente Grazas</string>
+    <string name="ulti_thank_you">Unicamente Grazas</string>
     <string name="simple_voice_recorder">Gravadora da voz sinxela</string>
     <string name="app_launcher_short">Lanzador de aplicacións</string>
     <string name="calculator_short">Calculadora</string>

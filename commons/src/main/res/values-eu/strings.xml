@@ -358,10 +358,10 @@
     <string name="app_icon_color_warning">ABISUA: Abiarazle batzuek aplikazio-ikonoaren pertsonalizazioa ez dute ondo kudeatu. Ikonoa desagertuz gero, saiatu aplikazioa Google Play bidez edo widgeten baten bidez abiarazten, eskuragarri badago.
         Behin abiarazi duzularik, berrezarri lehenetsitako ikono laranja (#F57C00). Kasurik okerrenean aplikazioa berrinstalatu dezakezu.</string>
     <string name="share_colors_success">Koloreak ondo eguneratu dira. \'Shared\' deituriko gai berria gehitu da, erabili hori aplikazio guztien koloreak eguneratzeko etorkizunean.</string>
-    <string name="shared_theme_note">Kontuan hartu Pro bertsioa erabili arren, Simple Thank You izaten jarraitu behar duzula arrazoi teknikoak direla eta. Kolorearen sinkronizazioaz arduratzen da.</string>
+    <string name="shared_theme_note">Kontuan hartu Pro bertsioa erabili arren, Ulti Thank You izaten jarraitu behar duzula arrazoi teknikoak direla eta. Kolorearen sinkronizazioaz arduratzen da.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Erosi <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Thank You</a> funtzio hau desblokeatzeko eta garatzaileari laguntzeko. Eskerrik asko!
+            Erosi <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a> funtzio hau desblokeatzeko eta garatzaileari laguntzeko. Eskerrik asko!
         ]]>
     </string>
     <!-- Themes -->
@@ -651,7 +651,7 @@
     <string name="during_day_at">Egunean zehar ordun honetan: %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Ezarpenak</string>
-    <string name="purchase_simple_thank_you">Erosi Simple Thank You</string>
+    <string name="purchase_ulti_thank_you">Erosi Ulti Thank You</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Koloreen pertsonalizazioa</string>
     <string name="improved_color_customization">Koloreen pertsonalizazio hobetua</string>
@@ -914,7 +914,7 @@
     <string name="donate_short">Lagundu iezaguzu &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Eskerrik asko&lt;/a&gt; erosiz, aplikazioen eginbide guztiak ere desblokeatuko ditu koloreen pertsonalizazioa barne.</string>
     <string name="purchase">Erosi</string>
     <string name="get_simple_phone">Eskuratu Telefono Sinplea</string>
-    <string name="update_thank_you">Eguneratu Simple Thank You azken bertsiora</string>
+    <string name="update_thank_you">Eguneratu Ulti Thank You azken bertsiora</string>
     <string name="before_asking_question_read_faq">Galdera bat egin aurretik, begiratu aplikazioaren ezarpenetan eta FAQ atala irakur ezazu. Konponbidea hor egon liteke.</string>
     <string name="before_rate_read_faq">Balorazioa egin baino lehen, Before you rate us, begiratu aplikazioaren ezarpenetan eta FAQ atala irakur ezazu. Arazorik baduzu, konponbidea hor egon liteke.</string>
     <string name="make_sure_latest">Horretaz gain, aplikazioaren azken bertsioa erabiltzen ari zarela egiaztatu.</string>
@@ -954,7 +954,7 @@
     <string name="simple_music_player">Simple Music Player</string>
     <string name="simple_notes">Simple Notes</string>
     <string name="simple_sms_messenger">Simple SMS Messenger</string>
-    <string name="simple_thank_you">Simple Thank You</string>
+    <string name="ulti_thank_you">Ulti Thank You</string>
     <string name="simple_voice_recorder">Simple Voice Recorder</string>
     <string name="app_launcher_short">Aplikazio abiarazlea</string>
     <string name="calculator_short">Kalkulagailua</string>

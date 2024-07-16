@@ -358,10 +358,10 @@
     <string name="app_icon_color_warning">VAROITUS: Jotkin käynnistinohjelmat eivät käsittele kuvakkeen mukauttamista oikein. Jos kuvake häviää, käynnistä sovellus Google Playn tai jonkin pienoissovelluksen kautta, jos mahdollista.
         Käynnistyksen jälkeen palauta kuvakkeen oranssi oletusväri #F57C00. Pahimmillaan saatat joutua asentamaan sovelluksen uudelleen.</string>
     <string name="share_colors_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
-    <string name="shared_theme_note">Huomioi, että vaikka käytössäsi on sovelluksen Pro-versio, Simple Thank You tarvitaan teknisistä syistä mm. värien synkronointiin.</string>
+    <string name="shared_theme_note">Huomioi, että vaikka käytössäsi on sovelluksen Pro-versio, Ulti Thank You tarvitaan teknisistä syistä mm. värien synkronointiin.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Osta <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
+            Osta <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
         ]]>
     </string>
     <!-- Themes -->
@@ -651,7 +651,7 @@
     <string name="during_day_at">Päivällä kello %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Asetukset</string>
-    <string name="purchase_simple_thank_you">Osta Simple Thank You</string>
+    <string name="purchase_ulti_thank_you">Osta Ulti Thank You</string>
     <string name="general_settings">Yleistä</string>
     <string name="color_customization">Värien mukautus</string>
     <string name="improved_color_customization">Parannettu värien mukautus</string>
@@ -912,7 +912,7 @@
     <string name="donate_please">
         <![CDATA[
             Hei,<br><br>
-            toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, tue sen kehitystä ostamalla <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Thank You</a> sovellus, tämä myös estää tämän ilmoituksen jatkossa.<br><br>
+            toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, tue sen kehitystä ostamalla <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a> sovellus, tämä myös estää tämän ilmoituksen jatkossa.<br><br>
             Kiitos!
         ]]>
     </string>
@@ -959,7 +959,7 @@
     <string name="simple_music_player">Yksinkertainen musiikkisoitin</string>
     <string name="simple_notes">Yksinkertaiset muistiinpanot</string>
     <string name="simple_sms_messenger">Yksinkertaiset viestit</string>
-    <string name="simple_thank_you">Yksinkertainen kiitos</string>
+    <string name="ulti_thank_you">Yksinkertainen kiitos</string>
     <string name="simple_voice_recorder">Yksinkertainen ääninauhuri</string>
     <string name="app_launcher_short">Sovelluskäynnistin</string>
     <string name="calculator_short">Laskin</string>

@@ -685,7 +685,7 @@
     <string name="during_day_at">Počas dňa o %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Nastavenia</string>
-    <string name="purchase_simple_thank_you">Kúpiť Jednoduché Ďakujem</string>
+    <string name="purchase_ulti_thank_you">Kúpiť Jednoduché Ďakujem</string>
     <string name="general_settings">Všeobecné</string>
     <string name="color_customization">Úprava farieb</string>
     <string name="improved_color_customization">Vylepšená úprava farieb</string>
@@ -954,7 +954,7 @@
     <string name="simple_music_player">Jednoduchý hudobný prehrávač</string>
     <string name="simple_notes">Jednoduché poznámky</string>
     <string name="simple_sms_messenger">Jednoduché SMS správy</string>
-    <string name="simple_thank_you">Jednoduché ďakujem</string>
+    <string name="ulti_thank_you">Jednoduché ďakujem</string>
     <string name="simple_voice_recorder">Jednoduchý nahrávač zvuku</string>
     <string name="app_launcher_short">Spúšťač aplikácií</string>
     <string name="calculator_short">Kalkulačka</string>

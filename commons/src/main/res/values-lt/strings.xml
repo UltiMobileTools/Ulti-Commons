@@ -683,7 +683,7 @@
     <string name="during_day_at">Dienos metu ties %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Nustatymai</string>
-    <string name="purchase_simple_thank_you">Įsigyti „Paprastą ačiū“</string>
+    <string name="purchase_ulti_thank_you">Įsigyti „Paprastą ačiū“</string>
     <string name="general_settings">Bendri</string>
     <string name="color_customization">Spalvos tinkinimas</string>
     <string name="improved_color_customization">Improved color customization</string>
@@ -903,8 +903,8 @@
     <string name="app_version">Programėlės versija: %s</string>
     <string name="device_os">Įrenginio OS: %s</string>
     <string name="donate_please">Sveiki,&lt;br&gt;&lt;br&gt; tikimės, jog jums patinka naudotis programėle. Joje nėra jokių reklamų, tad, prašome, palaikykite jos plėtojimą įsigydami programėlę, pavadinimu &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;„Paprastas ačiū“&lt;/a&gt;. Jos dėka, šis dialogas daugiau nebebus rodomas.&lt;br&gt;&lt;br&gt; Dėkojame!</string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Įsigyti</string>
     <string name="get_simple_phone">Get Simple Phone</string>
     <string name="update_thank_you">Atnaujinkite programėlę „Paprastas ačiū“ iki naujausios versijos</string>
@@ -927,7 +927,7 @@
     <string name="thank_you">Ačiū</string>
     <string name="widget_locked_pro">Valdiklis yra užrakintas.
 \nAtsinaujinkite į „Pro“ versiją, norėdami jį atrakinti.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Sveiki,&lt;br&gt;&lt;br&gt; tiesiog, norime jums pranešti, kad neseniai buvo išleistos naujos programėlės:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Galite jas atsisiųsti, spusteldami ant jų pavadinimų ar piktogramų.&lt;br&gt;&lt;br&gt;Ačiū</string>
     <string name="simple_app_launcher">Paprasta programėlių paleidyklė</string>
@@ -946,7 +946,7 @@
     <string name="simple_music_player">Paprastas muzikos grotuvas</string>
     <string name="simple_notes">Paprasti užrašai</string>
     <string name="simple_sms_messenger">Paprastos SMS žinutės</string>
-    <string name="simple_thank_you">Paprastas ačiū</string>
+    <string name="ulti_thank_you">Paprastas ačiū</string>
     <string name="simple_voice_recorder">Paprastas garso rašytuvas</string>
     <string name="app_launcher_short">Programėlių paleidyklė</string>
     <string name="calculator_short">Skaičiuotuvas</string>

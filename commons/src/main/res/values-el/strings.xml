@@ -650,7 +650,7 @@
     <string name="during_day_at">Κατά τη διάρκεια της ημέρας στις %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Ρυθμίσεις</string>
-    <string name="purchase_simple_thank_you">Αγοράστε το \"Απλά Σας ευχαριστώ\"</string>
+    <string name="purchase_ulti_thank_you">Αγοράστε το \"Απλά Σας ευχαριστώ\"</string>
     <string name="general_settings">Γενικά</string>
     <string name="color_customization">Προσαρμογή χρώματος</string>
     <string name="improved_color_customization">Βελτιωμένη προσαρμογή χρώματος</string>
@@ -889,7 +889,7 @@
     <string name="rate_our_app">Βαθμολογήστε την εφαρμογή μας παρακαλώ :)</string>
     <string name="thank_you">Σας Ευχαριστούμε</string>
     <string name="widget_locked_pro">Το widget είναι κλειδωμένο.\nΠαρακαλώ αναβαθμίστε σε Pro έκδοση, για να το ξεκλειδώσετε.</string>
-    <string name="features_locked">Αυτή η λειτουργία είναι κλειδωμένη, παρακαλούμε αγοράστε &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; για το ξεκλείδωμα της πλήρους εφαρμογής.&lt;br&gt;&lt;br&gt;Είναι μια εφάπαξ πληρωμή μόνο και αν δεν είστε ικανοποιημένοι, μπορούμε να σας επιστρέψουμε τα χρήματα.</string>
+    <string name="features_locked">Αυτή η λειτουργία είναι κλειδωμένη, παρακαλούμε αγοράστε &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; για το ξεκλείδωμα της πλήρους εφαρμογής.&lt;br&gt;&lt;br&gt;Είναι μια εφάπαξ πληρωμή μόνο και αν δεν είστε ικανοποιημένοι, μπορούμε να σας επιστρέψουμε τα χρήματα.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -918,7 +918,7 @@
     <string name="simple_music_player">Απλός Music Player</string>
     <string name="simple_notes">Απλές Σημειώσεις</string>
     <string name="simple_sms_messenger">Απλός SMS Messenger</string>
-    <string name="simple_thank_you">Απλά Σας Ευχαριστούμε</string>
+    <string name="ulti_thank_you">Απλά Σας Ευχαριστούμε</string>
     <string name="simple_voice_recorder">Απλή Εγγραφή Φωνής</string>
     <string name="app_launcher_short">Εκκινητής εφαρμογών</string>
     <string name="calculator_short">Αριθμομηχανή</string>

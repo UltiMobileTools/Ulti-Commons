@@ -613,7 +613,7 @@
     <string name="during_day_at">在日间的 %02d:%02d 内</string>
     <!-- Settings -->
     <string name="settings">设置</string>
-    <string name="purchase_simple_thank_you">感谢购买</string>
+    <string name="purchase_ulti_thank_you">感谢购买</string>
     <string name="general_settings">通用</string>
     <string name="color_customization">颜色定制</string>
     <string name="improved_color_customization">Improved color customization</string>
@@ -833,12 +833,12 @@
     <string name="donate_please">
         <![CDATA[
             哈囉，<br><br>
-            希望您喜歡這個應用程式。它不包含廣告，所以請購買<a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Thank You</a> 以支持應用程式開發，這個對話框也不會再出現。<br><br>
+            希望您喜歡這個應用程式。它不包含廣告，所以請購買<a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a> 以支持應用程式開發，這個對話框也不會再出現。<br><br>
             多謝！
         ]]>
     </string>
-    <string name="donate_new">你好，&lt;br&gt;&lt;br&gt;希望您喜欢这个应用程序。它不包含广告，我们也不收集您的数据，要支持它的开发， 请购买 &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt;. 您将解锁所有的应用功能，包括颜色自定义。&lt;br&gt;&lt;br&gt;谢谢你！</string>
-    <string name="donate_short">请购买 &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; 支持我们，购买后还可解锁所有应用功能，包括允许定制颜色。</string>
+    <string name="donate_new">你好，&lt;br&gt;&lt;br&gt;希望您喜欢这个应用程序。它不包含广告，我们也不收集您的数据，要支持它的开发， 请购买 &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. 您将解锁所有的应用功能，包括颜色自定义。&lt;br&gt;&lt;br&gt;谢谢你！</string>
+    <string name="donate_short">请购买 &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; 支持我们，购买后还可解锁所有应用功能，包括允许定制颜色。</string>
     <string name="purchase">购买</string>
     <string name="get_simple_phone">订购 Simple Phone</string>
     <string name="update_thank_you">请更新简单感谢到最新版本</string>
@@ -853,7 +853,7 @@
     <string name="thank_you">非常感谢</string>
     <string name="widget_locked_pro">小部件被锁定。
 \n请升级到专业版解锁。</string>
-    <string name="features_locked">此功能被锁，请购买 &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; 解锁完整版应用。&lt;br&gt;&lt;br&gt;这是一次性付款，如果您不满意，我们可以退款给您。</string>
+    <string name="features_locked">此功能被锁，请购买 &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; 解锁完整版应用。&lt;br&gt;&lt;br&gt;这是一次性付款，如果您不满意，我们可以退款给您。</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">嘿，&lt;br&gt;&lt;br&gt;我们最近发布了一些新的应用：&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; 您可以点击标题或图标来下载。&lt;br&gt;&lt;br&gt; 谢谢</string>
     <string name="simple_app_launcher">简单应用启动器</string>
@@ -872,7 +872,7 @@
     <string name="simple_music_player">简单音乐播放器</string>
     <string name="simple_notes">简单笔记</string>
     <string name="simple_sms_messenger">简单短信</string>
-    <string name="simple_thank_you">简单感谢</string>
+    <string name="ulti_thank_you">简单感谢</string>
     <string name="simple_voice_recorder">简单录音机</string>
     <string name="app_launcher_short">应用启动器</string>
     <string name="calculator_short">计算器</string>

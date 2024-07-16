@@ -644,7 +644,7 @@
     <string name="during_day_at">Overdag om %02d.%02du</string>
     <!-- Settings -->
     <string name="settings">Instellingen</string>
-    <string name="purchase_simple_thank_you">Eenvoudig Bedankje kopen</string>
+    <string name="purchase_ulti_thank_you">Eenvoudig Bedankje kopen</string>
     <string name="general_settings">Algemeen</string>
     <string name="color_customization">Kleuren aanpassen</string>
     <string name="improved_color_customization">Verbeterde aanpassing van kleuren</string>
@@ -933,7 +933,7 @@
     <string name="simple_music_player">Eenvoudige Muziekspeler</string>
     <string name="simple_notes">Eenvoudige Notities</string>
     <string name="simple_sms_messenger">Eenvoudig Berichtenbeheer (SMS)</string>
-    <string name="simple_thank_you">Eenvoudig Bedankje</string>
+    <string name="ulti_thank_you">Eenvoudig Bedankje</string>
     <string name="simple_voice_recorder">Eenvoudige Voicerecorder</string>
     <string name="app_launcher_short">App-launcher</string>
     <string name="calculator_short">Rekenmachine</string>

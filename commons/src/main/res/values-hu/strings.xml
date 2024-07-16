@@ -651,7 +651,7 @@
     <string name="during_day_at">Napközben ekkor: %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Beállítások</string>
-    <string name="purchase_simple_thank_you">Egyszerű köszönet megvásárlása</string>
+    <string name="purchase_ulti_thank_you">Egyszerű köszönet megvásárlása</string>
     <string name="general_settings">Általános</string>
     <string name="color_customization">Színek testreszabása</string>
     <string name="improved_color_customization">Továbbfejlesztett színtestreszabás</string>
@@ -953,7 +953,7 @@
     <string name="simple_music_player">Egyszerű zenelejátszó</string>
     <string name="simple_notes">Simple Notes</string>
     <string name="simple_sms_messenger">Egyszerű SMS üzenetküldő</string>
-    <string name="simple_thank_you">Egyszerű köszönet</string>
+    <string name="ulti_thank_you">Egyszerű köszönet</string>
     <string name="simple_voice_recorder">Egyszerű hangrögzítő</string>
     <string name="app_launcher_short">Alkalmazásindító</string>
     <string name="calculator_short">Számológép</string>

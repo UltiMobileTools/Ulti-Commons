@@ -686,7 +686,7 @@
     <string name="during_day_at">Durante el día a las %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Ajustes</string>
-    <string name="purchase_simple_thank_you">Comprar Simple Gracias</string>
+    <string name="purchase_ulti_thank_you">Comprar Simple Gracias</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Personalización del color</string>
     <string name="improved_color_customization">Personalización mejorada de los colores</string>
@@ -997,7 +997,7 @@
     <string name="simple_music_player">Reproductor Simple de Música</string>
     <string name="simple_notes">Notas Simples</string>
     <string name="simple_sms_messenger">Mensajero SMS Simple</string>
-    <string name="simple_thank_you">Simple Gracias</string>
+    <string name="ulti_thank_you">Simple Gracias</string>
     <string name="simple_voice_recorder">Grabadora de Voz Simple</string>
     <string name="app_launcher_short">Lanzador de aplicaciones</string>
     <string name="calculator_short">Calculadora</string>

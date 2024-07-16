@@ -373,7 +373,7 @@
     <string name="shared_theme_note">Имајте на уму да иако користите верзију апликације Про, и даље вам је потребна Једноставно хвала из техничких разлога. Брине о синхронизацији боја.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!
+            Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!
         ]]>
     </string>
     <!-- Themes -->
@@ -691,7 +691,7 @@
     <string name="during_day_at">Током дана у %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Подешавања</string>
-    <string name="purchase_simple_thank_you">Пазарите Simple Thank You</string>
+    <string name="purchase_ulti_thank_you">Пазарите Ulti Thank You</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Прилагођавање боја</string>
     <string name="improved_color_customization">Improved color customization</string>
@@ -938,7 +938,7 @@
     <string name="donate_please">
         <![CDATA[
             Поздрав,<br><br>
-            надамо се да уживате у апликацији. Она не садржи огласе, молимо вас да подржите њен развој куповином <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Thank You</a> апликације, то ће такође спречити овај дијалог од поновног појављивања.<br><br>
+            надамо се да уживате у апликацији. Она не садржи огласе, молимо вас да подржите њен развој куповином <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a> апликације, то ће такође спречити овај дијалог од поновног појављивања.<br><br>
             Хвала вам!
         ]]>
     </string>
@@ -946,7 +946,7 @@
     <string name="donate_short">Подржите нас тако што ћете купити &lt;а хреф=хттпс://плаи.гоогле.цом/сторе/аппс/детаилс\?ид=цом.симплемобилетоолс.тханкиоу&gt;Једноставно хвала&lt;/а&gt;, такође ће откључати све функције апликације, укључујући боју Подешавање.</string>
     <string name="purchase">Купите</string>
     <string name="get_simple_phone">Набавите једноставан телефон</string>
-    <string name="update_thank_you">Молимо вас ажурирајте Simple Thank You на најскорију верзију</string>
+    <string name="update_thank_you">Молимо вас ажурирајте Ulti Thank You на најскорију верзију</string>
     <string name="before_asking_question_read_faq">Пре постављања питања проверите подешавања апликације и прочитајте најчешће постављана питања. Можда су решења већ ту.</string>
     <string name="before_rate_read_faq">Пре него што нас оцените, проверите подешавања апликације и прво прочитајте Често постављана питања. Ако имате било каквих проблема, можда је решење ту.</string>
     <string name="make_sure_latest">Такође се уверите да користите најновију верзију апликације.</string>
@@ -995,7 +995,7 @@
     <string name="simple_music_player">Једноставан музички плејер</string>
     <string name="simple_notes">Једноставне белешке</string>
     <string name="simple_sms_messenger">Једноставан СМС Мессенгер</string>
-    <string name="simple_thank_you">Једноставно хвала</string>
+    <string name="ulti_thank_you">Једноставно хвала</string>
     <string name="simple_voice_recorder">Једноставан диктафон</string>
     <string name="app_launcher_short">Покретач апликација</string>
     <string name="calculator_short">Калкулатор</string>

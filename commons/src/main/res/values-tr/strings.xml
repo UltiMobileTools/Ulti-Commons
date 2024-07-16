@@ -648,7 +648,7 @@
     <string name="during_day_at">Gün boyunca %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Ayarlar</string>
-    <string name="purchase_simple_thank_you">Basit Teşekkürler\'i Satın Al</string>
+    <string name="purchase_ulti_thank_you">Basit Teşekkürler\'i Satın Al</string>
     <string name="general_settings">Genel</string>
     <string name="color_customization">Renk özelleştirme</string>
     <string name="improved_color_customization">İyileştirilmiş renk özelleştirmesi</string>
@@ -957,7 +957,7 @@
     <string name="simple_music_player">Basit Müzik Çalar</string>
     <string name="simple_notes">Basit Notlar</string>
     <string name="simple_sms_messenger">Basit SMS Messenger</string>
-    <string name="simple_thank_you">Basit Teşekkürler</string>
+    <string name="ulti_thank_you">Basit Teşekkürler</string>
     <string name="simple_voice_recorder">Basit Ses Kaydedici</string>
     <string name="app_launcher_short">Uygulama Başlatıcı</string>
     <string name="calculator_short">Hesap Makinesi</string>

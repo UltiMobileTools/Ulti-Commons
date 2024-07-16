@@ -715,7 +715,7 @@
     <string name="during_day_at">W ciągu dnia o %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Ustawienia</string>
-    <string name="purchase_simple_thank_you">Kup aplikację „Proste podziękowanie”</string>
+    <string name="purchase_ulti_thank_you">Kup aplikację „Proste podziękowanie”</string>
     <string name="general_settings">Ogólne</string>
     <string name="color_customization">Dostosowywanie kolorów</string>
     <string name="improved_color_customization">Ulepszone dostosowywanie kolorów</string>
@@ -1018,7 +1018,7 @@
     <string name="simple_music_player">Prosty odtwarzacz muzyki</string>
     <string name="simple_notes">Proste notatki</string>
     <string name="simple_sms_messenger">Proste wiadomości SMS</string>
-    <string name="simple_thank_you">Proste podziękowanie</string>
+    <string name="ulti_thank_you">Proste podziękowanie</string>
     <string name="simple_voice_recorder">Prosty rejestrator głosu</string>
     <string name="app_launcher_short">Launcher aplikacji</string>
     <string name="calculator_short">Kalkulator</string>
