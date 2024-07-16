@@ -18,7 +18,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import androidx.fragment.app.FragmentManager
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.adapters.setupSimpleListItem
+import com.ultimobiletools.commons.adapters.setupUltiListItem
 import com.ultimobiletools.commons.compose.dialog.dialogContainerColor
 import com.ultimobiletools.commons.compose.dialog.dialogTextColor
 import com.ultimobiletools.commons.compose.bottom.BottomSheetColumnDialogSurface
@@ -28,21 +28,21 @@ import com.ultimobiletools.commons.compose.bottom.rememberBottomSheetDialogState
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
 import com.ultimobiletools.commons.compose.theme.UltiTheme
-import com.ultimobiletools.commons.databinding.ItemSimpleListBinding
+import com.ultimobiletools.commons.databinding.ItemUltiListBinding
 import com.ultimobiletools.commons.fragments.BaseBottomSheetDialogFragment
-import com.ultimobiletools.commons.models.SimpleListItem
+import com.ultimobiletools.commons.models.UltiListItem
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 
 open class BottomSheetChooserDialog : BaseBottomSheetDialogFragment() {
 
-    var onItemClick: ((SimpleListItem) -> Unit)? = null
+    var onItemClick: ((UltiListItem) -> Unit)? = null
 
     override fun setupContentView(parent: ViewGroup) {
-        val listItems = arguments?.getParcelableArray(ITEMS) as Array<SimpleListItem>
+        val listItems = arguments?.getParcelableArray(ITEMS) as Array<UltiListItem>
         listItems.forEach { item ->
-            val view = ItemSimpleListBinding.inflate(layoutInflater, parent, false)
-            setupSimpleListItem(view, item) {
+            val view = ItemUltiListBinding.inflate(layoutInflater, parent, false)
+            setupUltiListItem(view, item) {
                 onItemClick?.invoke(it)
             }
             parent.addView(view.root)
@@ -61,8 +61,8 @@ open class BottomSheetChooserDialog : BaseBottomSheetDialogFragment() {
         fun createChooser(
             fragmentManager: FragmentManager,
             title: Int?,
-            items: Array<SimpleListItem>,
-            callback: (SimpleListItem) -> Unit
+            items: Array<UltiListItem>,
+            callback: (UltiListItem) -> Unit
         ): BottomSheetChooserDialog {
             val extras = Bundle().apply {
                 if (title != null) {
@@ -82,9 +82,9 @@ open class BottomSheetChooserDialog : BaseBottomSheetDialogFragment() {
 @Composable
 fun ChooserBottomSheetDialog(
     bottomSheetDialogState: BottomSheetDialogState,
-    items: ImmutableList<SimpleListItem>,
+    items: ImmutableList<UltiListItem>,
     modifier: Modifier = Modifier,
-    onItemClicked: (SimpleListItem) -> Unit
+    onItemClicked: (UltiListItem) -> Unit
 ) {
     BottomSheetColumnDialogSurface(modifier) {
         Text(
@@ -138,9 +138,9 @@ private fun ChooserBottomSheetDialogPreview() {
     AppThemeSurface {
         val list = remember {
             listOf(
-                SimpleListItem(1, R.string.record_video, R.drawable.ic_camera_vector),
-                SimpleListItem(2, R.string.record_audio, R.drawable.ic_microphone_vector, selected = true),
-                SimpleListItem(4, R.string.choose_contact, R.drawable.ic_add_person_vector)
+                UltiListItem(1, R.string.record_video, R.drawable.ic_camera_vector),
+                UltiListItem(2, R.string.record_audio, R.drawable.ic_microphone_vector, selected = true),
+                UltiListItem(4, R.string.choose_contact, R.drawable.ic_add_person_vector)
             ).toImmutableList()
         }
         ChooserBottomSheetDialog(bottomSheetDialogState = rememberBottomSheetDialogState(), items = list, onItemClicked = {})

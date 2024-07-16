@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">A(z) %s forrásfájl nem létezik</string>
     <string name="prepend_filenames">Fájlnevek eléfűzése</string>
     <string name="append_filenames">Fájlnevek hozzáfűzése</string>
-    <string name="simple_renaming">Egyszerű átnevezés</string>
+    <string name="ulti_renaming">Egyszerű átnevezés</string>
     <string name="pattern_renaming">Minta</string>
     <string name="string_to_add">Hozzáadandó karakterlánc</string>
     <string name="rename_date_time_pattern">%Y – év
@@ -359,7 +359,7 @@
     <string name="undo_changes_confirmation">Biztos, hogy visszavonja a módosításait\?</string>
     <string name="cannot_be_undone">Ez a művelet nem vonható vissza.</string>
     <string name="save_before_closing">Nem mentette a változtatásokat. Menti a kilépés előtt?</string>
-    <string name="apply_to_all_apps">Színek alkalmazása az összes Simple Apps alkalmazásra</string>
+    <string name="apply_to_all_apps">Színek alkalmazása az összes Ulti Apps alkalmazásra</string>
     <string name="app_icon_color_warning">FIGYELMEZTETÉS: Néhány indító nem megfelelően kezeli az alkalmazásikon testreszabását. Ha az ikon eltűnik, próbálja meg elindítani az alkalmazást a Google Playen vagy egy modulon keresztül, ha elérhető. Miután elindult, állítsa vissza az alapértelmezett narancssárga (#F57C00) ikont. A legrosszabb esetben újra kellhet telepítenie az alkalmazást.</string>
     <string name="share_colors_success">A színek sikeresen frissültek. Hozzáadott egy új, „Közös” nevű témát, a jövőben ezt használja az összes alkalmazás színének frissítéséhez.</string>
     <string name="shared_theme_note">Bár a Pro alkalmazásverziót használja, műszaki okokból így is szükséges az Egyszerű köszönet alkalmazás telepítése, az gondoskodik ugyanis a színek szinkronizálásáról.</string>
@@ -913,7 +913,7 @@
     <string name="donate_new">Üdv,&lt;br&gt;&lt;br&gt; remélem tetszik az alkalmazás. Nem tartalmaz hirdetéseket, és adatokat sem gyűjtünk. Kérjük támogassa a fejlesztést az &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Utána feloldja az összes alkalmazásfunkciót, mint a színek testreszabása.&lt;br&gt;&lt;br&gt; Köszönöm!</string>
     <string name="donate_short">Támogasson minket az &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Egyszerű köszönet&lt;/a&gt; megvásárlásával. Ez feloldja az összes alkalmazásfunkciót, köztük a színek testreszabását is.</string>
     <string name="purchase">Vásárlás</string>
-    <string name="get_simple_phone">Egyszerű telefon beszerzése</string>
+    <string name="get_ulti_phone">Egyszerű telefon beszerzése</string>
     <string name="update_thank_you">Frissítse az Egyszerű köszönet alkalmazást a legújabb verzióra</string>
     <string name="before_asking_question_read_faq">Mielőtt kérdezne, ellenőrizze az alkalmazás beállításait, és először olvassa el a Gyakran Ismételt Kérdéseket. Talán ott van a megoldás.</string>
     <string name="before_rate_read_faq">Az értékelés előtt nézze meg az alkalmazás beállításait, és olvassa el a gyakran ismételt kérdéseket. Ha problémája van, lehet, hogy a megoldás már ott van.</string>

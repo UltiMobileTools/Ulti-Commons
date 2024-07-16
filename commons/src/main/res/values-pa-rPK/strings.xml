@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">Source file %s doesn\'t exist</string>
     <string name="prepend_filenames">پہلے بھاگ وچ فائلاں دے ناؤں پایو</string>
     <string name="append_filenames">لکھت بعد فائلاں دے ناؤں شامل کرو</string>
-    <string name="simple_renaming">سادے ناؤں بدلدے</string>
+    <string name="ulti_renaming">سادے ناؤں بدلدے</string>
     <string name="pattern_renaming">نمونہ</string>
     <string name="string_to_add">پاوݨ لئی لکھت</string>
     <string name="rename_date_time_pattern">%Y - سال
@@ -868,7 +868,7 @@
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">کھریدیو</string>
-    <string name="get_simple_phone">سادی فون ویچی جا رہا اے</string>
+    <string name="get_ulti_phone">سادی فون ویچی جا رہا اے</string>
     <string name="update_thank_you">Please update Ulti Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Before you ask a question, please check the app settings and read the Frequently Asked Questions first. Maybe the solution is there.</string>
     <string name="before_rate_read_faq">Before you rate us, please check the app settings and read the Frequently Asked Questions first. If you have any problems, maybe the solution is there.</string>
@@ -1096,5 +1096,5 @@
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details\?id=com.ultimobiletools.xxx.pro</string>
     <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at public@ultimobiletools.com and you will get it. That makes it easy to try it out :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
-    <string name="developer_description">A group of simple, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
+    <string name="developer_description">A group of ulti, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
 </resources>

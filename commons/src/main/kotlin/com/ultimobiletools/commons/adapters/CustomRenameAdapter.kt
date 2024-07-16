@@ -30,7 +30,7 @@ class CustomRenameAdapter(val activity: BaseUltiActivity, val paths: ArrayList<S
     override fun isViewFromObject(view: View, item: Any) = view == item
 
     private fun layoutSelection(position: Int): Int = when (position) {
-        0 -> R.layout.tab_rename_simple
+        0 -> R.layout.tab_rename_ulti
         1 -> R.layout.tab_rename_pattern
         else -> throw RuntimeException("Only 2 tabs allowed")
     }

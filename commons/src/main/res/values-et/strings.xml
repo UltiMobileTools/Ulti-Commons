@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">Lähtefaili %s pole olemas</string>
     <string name="prepend_filenames">Lisa faili nimele prefiks</string>
     <string name="append_filenames">Lisa faili nimele suffiks</string>
-    <string name="simple_renaming">Lihtne ümbernimetamine</string>
+    <string name="ulti_renaming">Lihtne ümbernimetamine</string>
     <string name="pattern_renaming">Muster</string>
     <string name="string_to_add">Lisa sõne</string>
     <string name="rename_date_time_pattern">%Y - aasta
@@ -914,7 +914,7 @@
     <string name="donate_new">Tere,&lt;br&gt;&lt;br&gt; loodan, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Seejärel muutuvad kasutatavaks ka rakenduse lisafunktsionaalsused ja värvide kohandamine.&lt;br&gt;&lt;br&gt;Täname!</string>
     <string name="donate_short">Palun toeta meid ostes rakenduse &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Muu hulgas avab see antud rakenduse kõik funktsionaalsused ja sealhulgas võimaldab kohandada liidese värve.</string>
     <string name="purchase">Osta</string>
-    <string name="get_simple_phone">Telli rakendus Lihtne telefon</string>
+    <string name="get_ulti_phone">Telli rakendus Lihtne telefon</string>
     <string name="update_thank_you">Palun uuenda raklendus Lihtne tänuavaldus viimase versioonini</string>
     <string name="before_asking_question_read_faq">Enne küsimuse esitamist palun kontrolli rakenduse seadeid ja loe esmalt lehte „Korduma kippuvad küsimused„“. Võib-olla on lahendus seal olemas.</string>
     <string name="before_rate_read_faq">Enne kui hindad meid, palun kontrolli rakenduse seadeid ja loe esmalt lehte „Korduma kippuvad küsimused“. Kui sul on rakenduse kasutamisel mingeid probleeme, võib-olla on lahendus seal kirjas.</string>

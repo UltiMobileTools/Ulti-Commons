@@ -15,7 +15,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import com.ultimobiletools.commons.compose.dialog.rememberAlertDialogState
-import com.ultimobiletools.commons.compose.extensions.enableEdgeToEdgeSimple
+import com.ultimobiletools.commons.compose.extensions.enableEdgeToEdgeUlti
 import com.ultimobiletools.commons.compose.extensions.onEventValue
 import com.ultimobiletools.commons.compose.screens.ManageBlockedNumbersScreen
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
@@ -57,7 +57,7 @@ class ManageBlockedNumbersActivity : BaseUltiActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdgeSimple()
+        enableEdgeToEdgeUlti()
         setContent {
             val context = LocalContext.current
             val blockedNumbers by manageBlockedNumbersViewModel.blockedNumbers.collectAsStateWithLifecycle()

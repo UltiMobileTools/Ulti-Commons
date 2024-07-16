@@ -145,7 +145,7 @@ private fun Sequence<Dp>.sumOfDps(): Dp {
     return sum
 }
 
-fun ComponentActivity.enableEdgeToEdgeSimple() {
+fun ComponentActivity.enableEdgeToEdgeUlti() {
     WindowCompat.setDecorFitsSystemWindows(window, false)
 }
 

@@ -22,23 +22,23 @@ import com.ultimobiletools.commons.compose.theme.UltiTheme
 private val dropDownPaddings = Modifier.padding(horizontal = 14.dp, vertical = 16.dp)
 
 @Composable
-fun SimpleDropDownMenuItem(
+fun UltiDropDownMenuItem(
     modifier: Modifier = Modifier,
     interactionSource: MutableInteractionSource = rememberMutableInteractionSource(),
     indication: Indication? = LocalIndication.current,
     @StringRes text: Int,
     onClick: () -> Unit
-) = SimpleDropDownMenuItem(modifier = modifier, text = stringResource(id = text), onClick = onClick, interactionSource = interactionSource, indication = indication)
+) = UltiDropDownMenuItem(modifier = modifier, text = stringResource(id = text), onClick = onClick, interactionSource = interactionSource, indication = indication)
 
 @Composable
-fun SimpleDropDownMenuItem(
+fun UltiDropDownMenuItem(
     modifier: Modifier = Modifier,
     text: String,
     interactionSource: MutableInteractionSource = rememberMutableInteractionSource(),
     indication: Indication? = LocalIndication.current,
     onClick: () -> Unit
 ) =
-    SimpleDropDownMenuItem(
+    UltiDropDownMenuItem(
         modifier = modifier,
         interactionSource = interactionSource,
         indication = indication,
@@ -54,7 +54,7 @@ fun SimpleDropDownMenuItem(
     )
 
 @Composable
-fun SimpleDropDownMenuItem(
+fun UltiDropDownMenuItem(
     modifier: Modifier = Modifier,
     interactionSource: MutableInteractionSource = rememberMutableInteractionSource(),
     indication: Indication? = LocalIndication.current,
@@ -71,8 +71,8 @@ fun SimpleDropDownMenuItem(
 
 @MyDevices
 @Composable
-private fun SimpleDropDownMenuItemPreview() {
+private fun UltiDropDownMenuItemPreview() {
     AppThemeSurface {
-        SimpleDropDownMenuItem(text = com.ultimobiletools.commons.R.string.copy, onClick = {})
+        UltiDropDownMenuItem(text = com.ultimobiletools.commons.R.string.copy, onClick = {})
     }
 }

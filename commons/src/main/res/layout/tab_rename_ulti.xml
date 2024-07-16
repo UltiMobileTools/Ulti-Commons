@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.ultimobiletools.commons.views.RenameSimpleTab xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/rename_simple_holder"
+<com.ultimobiletools.commons.views.RenameUltiTab xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rename_ulti_holder"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingStart="@dimen/activity_margin"
@@ -8,13 +8,13 @@
     android:paddingEnd="@dimen/activity_margin">
 
     <com.ultimobiletools.commons.views.CustomTextInputLayout
-        android:id="@+id/rename_simple_hint"
+        android:id="@+id/rename_ulti_hint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/string_to_add">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/rename_simple_value"
+            android:id="@+id/rename_ulti_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_margin"
@@ -25,13 +25,13 @@
     </com.ultimobiletools.commons.views.CustomTextInputLayout>
 
     <RadioGroup
-        android:id="@+id/rename_simple_radio_group"
+        android:id="@+id/rename_ulti_radio_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/rename_simple_hint">
+        android:layout_below="@+id/rename_ulti_hint">
 
         <com.ultimobiletools.commons.views.CustomCompatRadioButton
-            android:id="@+id/rename_simple_radio_append"
+            android:id="@+id/rename_ulti_radio_append"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
@@ -40,7 +40,7 @@
             android:text="@string/append_filenames" />
 
         <com.ultimobiletools.commons.views.CustomCompatRadioButton
-            android:id="@+id/rename_simple_radio_prepend"
+            android:id="@+id/rename_ulti_radio_prepend"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/normal_margin"
@@ -48,4 +48,4 @@
             android:text="@string/prepend_filenames" />
 
     </RadioGroup>
-</com.ultimobiletools.commons.views.RenameSimpleTab>
+</com.ultimobiletools.commons.views.RenameUltiTab>

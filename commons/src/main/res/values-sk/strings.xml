@@ -207,7 +207,7 @@
     <string name="source_file_doesnt_exist">Zdrojový súbor %s neexistuje</string>
     <string name="prepend_filenames">Pridať pred názvy súborov</string>
     <string name="append_filenames">Pridať za názvy súborov</string>
-    <string name="simple_renaming">Jednoduché premenovanie</string>
+    <string name="ulti_renaming">Jednoduché premenovanie</string>
     <string name="pattern_renaming">Vzor</string>
     <string name="string_to_add">Reťazec na pridanie</string>
     <string name="rename_date_time_pattern">%Y - rok\n%M - mesiac\n%D - deň\n%h - hodina\n%m - minúta\n%s - sekunda\n%i - číslo narastajúce od 1</string>
@@ -913,7 +913,7 @@
     <string name="donate_new">Zdravím,&lt;br&gt;&lt;br&gt;dúfame, že sa vám naša apka páči. Neobsahuje žiadne reklamy a ani nezbiera vaše údaje, podporte prosíme jej vývoj zakúpením aplikácie &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Jednoduché ďakujem&lt;/a&gt;. Budete tým mať zároveň odomknuté všetky funkcie vrátane zmeny farieb.&lt;br&gt;&lt;br&gt;Ďakujeme!</string>
     <string name="donate_short">Podporte nás prosím kúpou &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Jednoduchého Ďakujem&lt;/a&gt;, odomkne to zároveň všetky funkcie apky vrátane zmeny farieb.</string>
     <string name="purchase">Zakúpiť</string>
-    <string name="get_simple_phone">Objednať Jednoduchý Telefón</string>
+    <string name="get_ulti_phone">Objednať Jednoduchý Telefón</string>
     <string name="update_thank_you">Prosím aktualizujte Jednoduché Ďakujem na najnovšiu verziu</string>
     <string name="before_asking_question_read_faq">Predtým, ako sa niečo opýtate, si prosím prejdite nastavenia aplikácie a prečítajte Často Kladené Otázky. Možno v nich nájdete svoju odpoveď.</string>
     <string name="before_rate_read_faq">Predtým, ako nás ohodnotíte, si prosím prejdite nastavenia aplikácie a prečítajte Často Kladené Otázky. Ak máte nejaké problémy, možno v nich nájdete riešenia.</string>

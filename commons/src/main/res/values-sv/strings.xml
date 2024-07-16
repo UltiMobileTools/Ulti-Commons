@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">Källfilen %s finns inte</string>
     <string name="prepend_filenames">Lägg till före filnamnen</string>
     <string name="append_filenames">Lägg till efter filnamnen</string>
-    <string name="simple_renaming">Enkel namnändring</string>
+    <string name="ulti_renaming">Enkel namnändring</string>
     <string name="pattern_renaming">Mönster</string>
     <string name="string_to_add">String to add</string>
     <string name="rename_date_time_pattern">%Y - år\n%M - månad\n%D - dag\n%h - timme\n%m - minut\n%s - sekund\n%i - number increasing from 1</string>
@@ -354,7 +354,7 @@
     <string name="undo_changes_confirmation">Är du säker på att du vill ångra dina ändringar?</string>
     <string name="cannot_be_undone">Denna åtgärd kan inte ångras.</string>
     <string name="save_before_closing">Du har ändringar som inte är sparade. Spara innan du lämnar?</string>
-    <string name="apply_to_all_apps">Använd färgerna i alla Simple-appar</string>
+    <string name="apply_to_all_apps">Använd färgerna i alla Ulti-appar</string>
     <string name="app_icon_color_warning">VARNING: Vissa launchers hanterar inte anpassning av appikoner korrekt. Om ikonen försvinner, försök att starta appen via Google Play eller någon widget, om tillgänglig. När den väl har lanserats, ställ bara tillbaka den orange standardikonen #F57C00. Du kanske måste installera om appen i värsta fall.</string>
     <string name="share_colors_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
     <string name="shared_theme_note">Observera att även om du använder Pro-appversionen behöver du fortfarande Ulti Thank You av tekniska skäl. Den tar hand om färgsynkroniseringen.</string>
@@ -917,7 +917,7 @@
     <string name="donate_new">Hejsvejs,&lt;br&gt;&lt;br&gt;hoppas du gillar appen. Den innehåller inga annonser och samlar inte in data om dig heller, vänligen stöd dess vidare utveckling genom att köpa &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. Du får ytterligare funktioner inklusive färganpassning.&lt;br&gt;&lt;br&gt;Tackar!</string>
     <string name="donate_short">Vänligen, stöd oss genom att köpa &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. Det låser även upp ytterligare funktioner inklusive färganpassning.</string>
     <string name="purchase">Köp</string>
-    <string name="get_simple_phone">Skaffa Simple Phone</string>
+    <string name="get_ulti_phone">Skaffa Ulti Phone</string>
     <string name="update_thank_you">Uppdatera Ulti Thank You till den senaste versionen</string>
     <string name="before_asking_question_read_faq">Innan du frågar, vänligen kolla appens inställningar och läs FAQ:en först. Kanske finns lösningen där.</string>
     <string name="before_rate_read_faq">Innan du betygsätter oss, vänligen kolla appens inställningar och läs FAQ:en innan. Om du har några problem, kanske finns lösningen där.</string>

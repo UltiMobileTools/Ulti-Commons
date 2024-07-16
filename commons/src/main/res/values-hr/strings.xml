@@ -207,7 +207,7 @@
     <string name="source_file_doesnt_exist">Izvorna datoteka %s ne postoji</string>
     <string name="prepend_filenames">Dodavanje na početak imena datoteke</string>
     <string name="append_filenames">Dodavanje naziva datoteka</string>
-    <string name="simple_renaming">Jednostavno preimenovanje</string>
+    <string name="ulti_renaming">Jednostavno preimenovanje</string>
     <string name="pattern_renaming">Uzorak</string>
     <string name="string_to_add">Znakovni niz za dodavanje</string>
     <string name="rename_date_time_pattern">%Y – godina
@@ -961,7 +961,7 @@
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Kupi</string>
-    <string name="get_simple_phone">Nabavi „Jednostavni telefon”</string>
+    <string name="get_ulti_phone">Nabavi „Jednostavni telefon”</string>
     <string name="update_thank_you">Ažurirajte „Jednostavno hvala” na najnoviju verziju</string>
     <string name="before_asking_question_read_faq">Prije nego što postaviš pitanje, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Rješenje možda već postoji.</string>
     <string name="before_rate_read_faq">Prije nego što nas ocijeniš, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Ako imaš bilo koji problem, rješenje možda već postoji.</string>

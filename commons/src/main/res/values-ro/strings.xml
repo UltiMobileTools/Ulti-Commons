@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">Fişierul sursă %s nu există</string>
     <string name="prepend_filenames">Adaugă înainte de numele fişierelor</string>
     <string name="append_filenames">Adaugă după finalul numelor fişierelor</string>
-    <string name="simple_renaming">Redenumire simplă</string>
+    <string name="ulti_renaming">Redenumire simplă</string>
     <string name="pattern_renaming">Model</string>
     <string name="string_to_add">Şir de caractere de adăugat</string>
     <string name="rename_date_time_pattern">%Y - an\n%M - lună\n%D - zi\n%h - oră\n%m - minut\n%s - secondă\n%i - numărul crescând de la 1</string>
@@ -358,7 +358,7 @@
     <string name="undo_changes_confirmation">Sunteți sigur că vreţi să anulați modificările?</string>
     <string name="cannot_be_undone">This action cannot be undone.</string>
     <string name="save_before_closing">Aveți modificări nesalvate. Salvați înainte de a ieși?</string>
-    <string name="apply_to_all_apps">Aplicaţi culorile pentru toate aplicaţiile Simple Apps</string>
+    <string name="apply_to_all_apps">Aplicaţi culorile pentru toate aplicaţiile Ulti Apps</string>
     <string name="app_icon_color_warning">AVERTISMENT: Unele lansatoare nu gestionează corect personalizarea pictogramelor aplicațiilor. În cazul în care pictograma va dispărea, încercați să lansați aplicația prin Google Play sau prin intermediul unui widget, dacă este posibil. Odată lansată, pur şi simplu setaţi din nou culoarea pictogramei portocalie #F57C00. În cel mai rău caz s-ar putea să fie nevoie să reinstalaţi aplicatia.</string>
     <string name="share_colors_success">Culorile au fost actualizate cu succes. A fost adăugată o nouă temă numită \'Partajată\', vă rugăm să o folosiți pentru actualizarea tuturor culorilor aplicației în viitor.</string>
     <string name="shared_theme_note">Rețineți că, chiar dacă utilizați versiunea Pro a aplicației, aveți nevoie de Ulti Thank You din motive tehnice. Acesta se ocupă de sincronizarea culorilor.</string>
@@ -910,7 +910,7 @@
     <string name="donate_new">Salut,&lt;br&gt;&lt;br&gt;sper că vă bucurați de aplicație. Nu conține reclame și nici nu vă colectăm datele, vă rugăm să susțineți dezvoltarea ei prin cumpărarea aplicației &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. De asemenea, veți avea deblocate toate funcțiile aplicației precum și personalizarea culorilor.&lt;br&gt;&lt;br&gt;Vă mulțumesc!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Cumpără</string>
-    <string name="get_simple_phone">Get Simple Phone</string>
+    <string name="get_ulti_phone">Get Ulti Phone</string>
     <string name="update_thank_you">Vă rugăm să actualizați Ulti Thank You la cea mai recentă versiune</string>
     <string name="before_asking_question_read_faq">Înainte de a pune o întrebare, vă rugăm să verificați setările aplicației și să citiți mai întâi Întrebările frecvente. Este posibil ca soluția să se afle acolo.</string>
     <string name="before_rate_read_faq">Înainte de a ne evalua, vă rugăm să verificați setările aplicației și să citiți mai întâi Întrebările frecvente. Dacă aveți probleme, este posibil ca soluția să se afle acolo.</string>
@@ -940,7 +940,7 @@
     <string name="ulti_calendar">Calendar Simplu</string>
     <string name="ulti_camera">Cameră Simplă</string>
     <string name="ulti_clock">Ceas Simplu</string>
-    <string name="ulti_contacts">Contacte Simple</string>
+    <string name="ulti_contacts">Contacte Ulti</string>
     <string name="ulti_dialer">Telefon Simplu</string>
     <string name="ulti_draw">Desenează Simplu</string>
     <string name="ulti_file_manager">Manager de Fișiere Simplu</string>
@@ -949,10 +949,10 @@
     <string name="ulti_keyboard">Tastatură simplă</string>
     <string name="ulti_launcher">Ulti Launcher</string>
     <string name="ulti_music_player">Player Muzical Simplu</string>
-    <string name="ulti_notes">Note Simple</string>
+    <string name="ulti_notes">Note Ulti</string>
     <string name="ulti_sms_messenger">SMS Messenger Simplu</string>
     <string name="ulti_thank_you">Mulțumesc Simplu</string>
-    <string name="ulti_voice_recorder">Înregistrări Vocale Simple</string>
+    <string name="ulti_voice_recorder">Înregistrări Vocale Ulti</string>
     <string name="app_launcher_short">Lansator aplicaţii</string>
     <string name="calculator_short">Calculator</string>
     <string name="calendar_short">Calendar</string>
@@ -985,7 +985,7 @@
     <string name="faq_2_title_commons">Vreau să te sprijin, dar nu pot dona bani. Pot să fac altceva?</string>
     <string name="faq_2_text_commons">
         <![CDATA[
-            Da, bineînțeles. Puteți să răspândiți vestea despre aplicațiile Simple sau să oferiți feedback și evaluări bune pe magaziul Google Play. De asemenea, puteți ajuta prin traducerea aplicațiilor într-o limbă nouă sau doar prin actualizarea unor traduceri existente.
+            Da, bineînțeles. Puteți să răspândiți vestea despre aplicațiile Ulti sau să oferiți feedback și evaluări bune pe magaziul Google Play. De asemenea, puteți ajuta prin traducerea aplicațiilor într-o limbă nouă sau doar prin actualizarea unor traduceri existente.
             Ghidul de traducere se găsește la <a href="https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">acest site</a>, sau pur și simplu contactați-ne la <a href="mailto:public@ultimobiletools.com">public@ultimobiletools.com</a> dacă aveți întrebări.
         ]]>
     </string>
@@ -1156,5 +1156,5 @@
     <string name="deprecated_app">DEPRECIAT: Această versiune a aplicației nu mai este întreținută, obțineți versiunea Pro la https://play.google.com/store/apps/details?id=com.ultimobiletools.xxx.pro</string>
     <string name="pro_app_refund">Nu uitați că, dacă dezinstalați orice aplicație plătită în termen de 2 ore, veți fi rambursat automat. Dacă doriți o rambursare oricând mai târziu, contactați-ne la public@ultimobiletools.com și o veți obține. Astfel, este ușor să o încercați. :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
-    <string name="developer_description">Un grup de aplicații Android simple, open source, cu widget-uri personalizabile, fără reclame și permisiuni inutile.</string>
+    <string name="developer_description">Un grup de aplicații Android ulti, open source, cu widget-uri personalizabile, fără reclame și permisiuni inutile.</string>
 </resources>

@@ -15,7 +15,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.net.toUri
 import com.ultimobiletools.commons.compose.dialog.rememberAlertDialogState
-import com.ultimobiletools.commons.compose.extensions.enableEdgeToEdgeSimple
+import com.ultimobiletools.commons.compose.extensions.enableEdgeToEdgeUlti
 import com.ultimobiletools.commons.compose.extensions.rateStarsRedirectAndThankYou
 import com.ultimobiletools.commons.compose.screens.*
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
@@ -38,7 +38,7 @@ class AppAboutActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdgeSimple()
+        enableEdgeToEdgeUlti()
         setContent {
             val context = LocalContext.current
             val resources = context.resources

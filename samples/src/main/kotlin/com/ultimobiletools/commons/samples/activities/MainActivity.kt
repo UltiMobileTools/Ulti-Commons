@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        enableEdgeToEdgeSimple()
+        enableEdgeToEdgeUlti()
         setContent {
             AppThemeSurface {
                 val showMoreApps = onEventValue { !resources.getBoolean(com.ultimobiletools.commons.R.bool.hide_google_relations) }

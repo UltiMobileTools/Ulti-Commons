@@ -208,7 +208,7 @@
     <string name="source_file_doesnt_exist">Le fichier source \"%s\" n\'existe pas</string>
     <string name="prepend_filenames">Ajouter un préfixe aux noms de fichiers</string>
     <string name="append_filenames">Ajouter un suffixe aux noms de fichiers</string>
-    <string name="simple_renaming">Renommer simplement</string>
+    <string name="ulti_renaming">Renommer simplement</string>
     <string name="pattern_renaming">Modèle</string>
     <string name="string_to_add">Chaîne à ajouter</string>
     <string name="rename_date_time_pattern">%Y - année
@@ -370,8 +370,8 @@
     <string name="apply_to_all_apps">Appliquer les couleurs à l\'ensemble de la suite d\'applications \"simple\"</string>
     <string name="app_icon_color_warning">AVERTISSEMENT : certains lanceurs ne gèrent pas correctement la personnalisation des icônes des applications. Au cas où l\'icône disparaîtrait, essayez de lancer l\'application via Google Play ou d\'un quelconque widget, si disponible. Une fois lancée, paramétrez simplement l\'icône orange par défaut avec la valeur RGB suivante : #F57C00. Dans le pire des cas, vous devrez peut-être réinstaller l\'application.</string>
     <string name="share_colors_success">Actualisation des couleurs réussie. Un nouveau thème nommé \"Partagé\" a été ajouté. Veuillez utiliser dorénavant ce thème pour actualiser les couleurs de toutes les applications.</string>
-    <string name="shared_theme_note">Veuillez noter que même si vous utilisez la version \"Pro\" de l\'application, pour des raisons techniques, vous aurez toujours besoin de l\'application \"Merci simple\", puisqu\'elle gère la synchronisation des couleurs.</string>
-    <string name="purchase_thank_you">Veuillez acheter l\'application &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;\"Merci simple\"&lt;/a&gt; pour déverrouiller cette fonctionnalité et soutenir son développement. Merci !</string>
+    <string name="shared_theme_note">Veuillez noter que même si vous utilisez la version \"Pro\" de l\'application, pour des raisons techniques, vous aurez toujours besoin de l\'application \"Merci ulti\", puisqu\'elle gère la synchronisation des couleurs.</string>
+    <string name="purchase_thank_you">Veuillez acheter l\'application &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;\"Merci ulti\"&lt;/a&gt; pour déverrouiller cette fonctionnalité et soutenir son développement. Merci !</string>
     <!-- Themes -->
     <string name="light_theme">Clair</string>
     <string name="dark_theme">Sombre</string>
@@ -690,7 +690,7 @@
     <string name="during_day_at">Au cours de la journée à %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Paramètres</string>
-    <string name="purchase_ulti_thank_you">Acheter l\'application \"Merci simple\"</string>
+    <string name="purchase_ulti_thank_you">Acheter l\'application \"Merci ulti\"</string>
     <string name="general_settings">Général</string>
     <string name="color_customization">Personnalisation des couleurs</string>
     <string name="improved_color_customization">Personnalisation améliorée des couleurs</string>
@@ -930,7 +930,7 @@
     <string name="email_label">Envoyez vos commentaires ou suggestions à</string>
     <string name="upgrade_to_pro">Passer à la version \"Pro\"</string>
     <string name="more_apps">Plus d\'applications</string>
-    <string name="more_apps_from_us">Plus d\'applications simples</string>
+    <string name="more_apps_from_us">Plus d\'applications ultis</string>
     <string name="invite_friends">Inviter des amis</string>
     <string name="share_text">Salut, viens voir %1$s sur %2$s</string>
     <string name="invite_via">Inviter via</string>
@@ -939,7 +939,7 @@
     <string name="donate">Faire un don</string>
     <string name="follow_us">Suivez-nous</string>
     <string name="copyright">v. %1$s
-\nDroits d\'auteur © Outils mobiles simples %2$d</string>
+\nDroits d\'auteur © Outils mobiles ultis %2$d</string>
     <string name="support">Assistance</string>
     <string name="help_us">Aidez-nous</string>
     <string name="social">Réseaux sociaux</string>
@@ -950,12 +950,12 @@
     <string name="additional_info">Informations supplémentaires</string>
     <string name="app_version">Version de l\'application : %s</string>
     <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>
-    <string name="donate_please">Bonjour,&lt;br&gt;&lt;br&gt; Nous espérons que vous appréciez cette application. Elle ne contient aucune publicité, mais vous pouvez soutenir son développement en achetant l\'application &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;\"Merci simple\"&lt;/a&gt;. Cela empêchera également cette fenêtre de s\'afficher à l\'avenir.&lt;br&gt;&lt;br&gt; Merci !</string>
-    <string name="donate_new">Bonjour,&lt;br&gt;&lt;br&gt;Nous espérons que vous appréciez cette application. Elle ne contient aucune publicité et nous ne collectons pas vos données personnelles. Vous pouvez soutenir son développement en achetant l\'application &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;\"Merci simple\"&lt;/a&gt;. Vous obtiendrez toutes les fonctionnalités de l\'application, y compris le déblocage de la personnalisation des couleurs.&lt;br&gt;&lt;br&gt;Merci !</string>
-    <string name="donate_short">Soutenez-nous s\'il vous plaît en achetant l\'application &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;\"Merci simple\"&lt;/a&gt;. Vous obtiendrez toutes les fonctionnalités de l\'application, y compris le déblocage de la personnalisation des couleurs.</string>
+    <string name="donate_please">Bonjour,&lt;br&gt;&lt;br&gt; Nous espérons que vous appréciez cette application. Elle ne contient aucune publicité, mais vous pouvez soutenir son développement en achetant l\'application &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;\"Merci ulti\"&lt;/a&gt;. Cela empêchera également cette fenêtre de s\'afficher à l\'avenir.&lt;br&gt;&lt;br&gt; Merci !</string>
+    <string name="donate_new">Bonjour,&lt;br&gt;&lt;br&gt;Nous espérons que vous appréciez cette application. Elle ne contient aucune publicité et nous ne collectons pas vos données personnelles. Vous pouvez soutenir son développement en achetant l\'application &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;\"Merci ulti\"&lt;/a&gt;. Vous obtiendrez toutes les fonctionnalités de l\'application, y compris le déblocage de la personnalisation des couleurs.&lt;br&gt;&lt;br&gt;Merci !</string>
+    <string name="donate_short">Soutenez-nous s\'il vous plaît en achetant l\'application &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;\"Merci ulti\"&lt;/a&gt;. Vous obtiendrez toutes les fonctionnalités de l\'application, y compris le déblocage de la personnalisation des couleurs.</string>
     <string name="purchase">Acheter</string>
-    <string name="get_simple_phone">Commander un \"Smartphone simple\"</string>
-    <string name="update_thank_you">Veuillez mettre à jour l\'application \"Merci simple\"</string>
+    <string name="get_ulti_phone">Commander un \"Smartphone ulti\"</string>
+    <string name="update_thank_you">Veuillez mettre à jour l\'application \"Merci ulti\"</string>
     <string name="before_asking_question_read_faq">Avant de poser une question, veuillez tout d\'abord vérifier les paramètres de l\'application et lire la foire aux questions. Il est possible que la solution s\'y trouve.</string>
     <string name="before_rate_read_faq">Avant de nous évaluer, veuillez tout d\'abord vérifier les paramètres de l\'application et lire la foire aux questions. Si vous rencontrez un problème, il est possible que la solution s\'y trouve.</string>
     <string name="make_sure_latest">Assurez-vous également d\'utiliser la version la plus récente de l\'application.</string>
@@ -975,27 +975,27 @@
     <string name="thank_you">Merci</string>
     <string name="widget_locked_pro">Le widget est verrouillé.
 \nVeuillez passer à la version \"Pro\" pour le déverrouiller.</string>
-    <string name="features_locked">Cette fonctionnalité est verrouillée. Veuillez acheter l\'application &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;\"Merci simple\"&lt;/a&gt; pour déverrouiller toutes les fonctionnalités.&lt;br&gt;&lt;br&gt;Il s\'agit d\'un paiement unique et nous vous rembourserons en cas d\'insatisfaction.</string>
+    <string name="features_locked">Cette fonctionnalité est verrouillée. Veuillez acheter l\'application &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;\"Merci ulti\"&lt;/a&gt; pour déverrouiller toutes les fonctionnalités.&lt;br&gt;&lt;br&gt;Il s\'agit d\'un paiement unique et nous vous rembourserons en cas d\'insatisfaction.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Bonjour,&lt;br&gt;&lt;br&gt; Nous vous informons que de nouvelles applications ont été publiées récemment :&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Vous pouvez les télécharger en appuyant sur leurs titres ou icônes.&lt;br&gt;&lt;br&gt; Merci</string>
-    <string name="ulti_app_launcher">Lanceur d\'applications simple</string>
-    <string name="ulti_calculator">Calculatrice simple</string>
-    <string name="ulti_calendar">Agenda simple</string>
-    <string name="ulti_camera">Appareil photo simple</string>
-    <string name="ulti_clock">Horloge simple</string>
-    <string name="ulti_contacts">Contacts simples</string>
-    <string name="ulti_dialer">Téléphone simple</string>
-    <string name="ulti_draw">Dessin simple</string>
-    <string name="ulti_file_manager">Gestionnaire de fichiers simple</string>
-    <string name="ulti_flashlight">Lampe de poche simple</string>
-    <string name="ulti_gallery">Galerie simple</string>
-    <string name="ulti_keyboard">Clavier simple</string>
-    <string name="ulti_launcher">Lanceur simple</string>
-    <string name="ulti_music_player">Lecteur de musique simple</string>
-    <string name="ulti_notes">Notes simples</string>
-    <string name="ulti_sms_messenger">Messagerie SMS simple</string>
-    <string name="ulti_thank_you">Merci simple</string>
-    <string name="ulti_voice_recorder">Enregistreur vocal simple</string>
+    <string name="ulti_app_launcher">Lanceur d\'applications ulti</string>
+    <string name="ulti_calculator">Calculatrice ulti</string>
+    <string name="ulti_calendar">Agenda ulti</string>
+    <string name="ulti_camera">Appareil photo ulti</string>
+    <string name="ulti_clock">Horloge ulti</string>
+    <string name="ulti_contacts">Contacts ultis</string>
+    <string name="ulti_dialer">Téléphone ulti</string>
+    <string name="ulti_draw">Dessin ulti</string>
+    <string name="ulti_file_manager">Gestionnaire de fichiers ulti</string>
+    <string name="ulti_flashlight">Lampe de poche ulti</string>
+    <string name="ulti_gallery">Galerie ulti</string>
+    <string name="ulti_keyboard">Clavier ulti</string>
+    <string name="ulti_launcher">Lanceur ulti</string>
+    <string name="ulti_music_player">Lecteur de musique ulti</string>
+    <string name="ulti_notes">Notes ultis</string>
+    <string name="ulti_sms_messenger">Messagerie SMS Ulti</string>
+    <string name="ulti_thank_you">Merci ulti</string>
+    <string name="ulti_voice_recorder">Enregistreur vocal ulti</string>
     <string name="app_launcher_short">Lanceur d\'applications</string>
     <string name="calculator_short">Calculatrice</string>
     <string name="calendar_short">Agenda</string>
@@ -1021,7 +1021,7 @@
     <string name="faq_1_title_commons">Comment se fait-il que je ne vois pas ce widget d\'applications dans la liste des widgets \?</string>
     <string name="faq_1_text_commons">C\'est probablement parce que vous avez déplacé l\'application sur une carte SD. Dans ce cas, il existe une limitation du système Android qui masque les widgets des applications concernées. La seule solution consiste à déplacer l\'application vers le stockage interne via les paramètres de votre appareil.</string>
     <string name="faq_2_title_commons">Je souhaiterais vous apporter mon soutien, mais je ne peux pas vous donner d\'argent. Y a-t-il autre chose que je puisse faire \?</string>
-    <string name="faq_2_text_commons">Oui, bien sûr. Vous pouvez faire connaître nos applications simples autour de vous ou bien nous évaluer avec de bons commentaires. Vous pouvez également nous aider en traduisant nos applications dans une nouvelle langue ou, tout simplement, mettre à jour certaines traductions existantes. Vous trouverez notre guide de traduction sur &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ce site web&lt;/a&gt;. Vous pouvez également nous contacter à cette adresse électronique si vous avez des questions : &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt;.</string>
+    <string name="faq_2_text_commons">Oui, bien sûr. Vous pouvez faire connaître nos applications ultis autour de vous ou bien nous évaluer avec de bons commentaires. Vous pouvez également nous aider en traduisant nos applications dans une nouvelle langue ou, tout simplement, mettre à jour certaines traductions existantes. Vous trouverez notre guide de traduction sur &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ce site web&lt;/a&gt;. Vous pouvez également nous contacter à cette adresse électronique si vous avez des questions : &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt;.</string>
     <string name="faq_3_title_commons">J\'ai supprimé certains fichiers par erreur. Comment puis-je les récupérer \?</string>
     <string name="faq_3_text_commons">Malheureusement, vous ne le pouvez pas. Les fichiers sont supprimés immédiatement après l\'apparition de la fenêtre de confirmation de suppression. D\'autre part, aucune corbeille n\'est disponible.</string>
     <string name="faq_4_title_commons">Je n\'aime pas les couleurs du widget. Puis-je les modifier \?</string>
@@ -1043,7 +1043,7 @@
     <string name="translation">Traduction</string>
     <string name="development">Développement</string>
     <string name="other_help">Autre aide</string>
-    <string name="contributors_label">Cette liste recense toutes les personnes qui ont apporté une aide notable à l\'une des applications de la suite \"Outils mobiles simples\", et pas seulement à celle-ci. Les traductions sont gérées par des bénévoles. Faites-nous savoir si vous souhaitez également apporter votre aide. Le guide de la traduction se trouve sur &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ce site web&lt;/a&gt;. Par ailleurs, vous pouvez nous contacter à cette adresse électronique : &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; si jamais vous aviez des questions. Merci à tous les contributeurs et autres soutiens !</string>
+    <string name="contributors_label">Cette liste recense toutes les personnes qui ont apporté une aide notable à l\'une des applications de la suite \"Outils mobiles ultis\", et pas seulement à celle-ci. Les traductions sont gérées par des bénévoles. Faites-nous savoir si vous souhaitez également apporter votre aide. Le guide de la traduction se trouve sur &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ce site web&lt;/a&gt;. Par ailleurs, vous pouvez nous contacter à cette adresse électronique : &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; si jamais vous aviez des questions. Merci à tous les contributeurs et autres soutiens !</string>
     <string name="translation_arabic">Arabe</string>
     <string name="translation_azerbaijani">Azerbaïdjanais</string>
     <string name="translation_bengali">Bengali</string>
@@ -1192,5 +1192,5 @@
     <string name="deprecated_app">ATTENTION : cette version de l\'application n\'est plus maintenue à jour. Veuillez vous procurer la version \"Pro\" à l\'adresse web suivante : https://play.google.com/store/apps/details\?id=com.ultimobiletools.xxx.pro</string>
     <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les deux heures qui suivent son achat, le remboursement sera automatique. À tout moment, si vous souhaitez un remboursement, contactez-nous à l\'adresse électronique suivante : public@ultimobiletools.com et vous l\'obtiendrez dans les plus brefs délais. Cela facilite l\'essai de nos applications :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
-    <string name="developer_description">Une suite d\'applications Android simples, à code source ouvert, comprenant des widgets personnalisables, sans publicités ni permissions inutiles.</string>
+    <string name="developer_description">Une suite d\'applications Android ultis, à code source ouvert, comprenant des widgets personnalisables, sans publicités ni permissions inutiles.</string>
 </resources>

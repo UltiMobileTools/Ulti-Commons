@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">原始檔案 %s 不存在</string>
     <string name="prepend_filenames">檔名前綴</string>
     <string name="append_filenames">附加檔名</string>
-    <string name="simple_renaming">簡易重新命名</string>
+    <string name="ulti_renaming">簡易重新命名</string>
     <string name="pattern_renaming">格式重新命名</string>
     <string name="string_to_add">添加文字</string>
     <string name="rename_date_time_pattern">%Y - 年\n%M - 月\n%D - 日\n%h - 小時\n%m - 分鐘\n%s - 秒鐘\n%i - 數字從1增加起</string>
@@ -869,7 +869,7 @@
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">購買</string>
-    <string name="get_simple_phone">Get Simple Phone</string>
+    <string name="get_ulti_phone">Get Ulti Phone</string>
     <string name="update_thank_you">請更新[Ulti Thank You]至最新版本</string>
     <string name="before_asking_question_read_faq">在您發問前，請先檢查程式設定及閱讀[常見問題]。或許解決方法就在那裡。</string>
     <string name="before_rate_read_faq">在您給我們評價前，請先檢查程式設定及閱讀[常見問題]。如果您遇到任何困難，或許解決方法就在那裡。</string>
@@ -1121,5 +1121,5 @@
     <string name="deprecated_app">已捨棄: 這版本的應用程式不再維護，在這取得專業版  https://play.google.com/store/apps/details?id=com.ultimobiletools.xxx.pro</string>
     <string name="pro_app_refund">別忘記如果您在2小時內解除安裝任何付費應用程式，將會自動被退款。若您在之後隨時想退款，只要透過 @ultimobiletools.com 聯絡我們，即可收到退款。這麼一來輕鬆就能試用了 :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
-    <string name="developer_description">A group of simple, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
+    <string name="developer_description">A group of ulti, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
 </resources>

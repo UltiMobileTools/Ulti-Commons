@@ -207,7 +207,7 @@
     <string name="source_file_doesnt_exist">Изворни код датотеке %s не постоји</string>
     <string name="prepend_filenames">Додај префикс именима датотека</string>
     <string name="append_filenames">Додај суфикс именима датотека</string>
-    <string name="simple_renaming">Једноставно преименовање</string>
+    <string name="ulti_renaming">Једноставно преименовање</string>
     <string name="pattern_renaming">Шаблон</string>
     <string name="string_to_add">Низ за додавање</string>
     <string name="rename_date_time_pattern">%Y - година 
@@ -366,7 +366,7 @@
     <string name="undo_changes_confirmation">Да ли желите да поништите измене?</string>
     <string name="cannot_be_undone">Ова радња се не може опозвати.</string>
     <string name="save_before_closing">Имате несачуване измене. Сачувај пре изласка?</string>
-    <string name="apply_to_all_apps">Примени боје на све Simple Apps</string>
+    <string name="apply_to_all_apps">Примени боје на све Ulti Apps</string>
     <string name="app_icon_color_warning">УПОЗОРЕЊЕ: Неки покретачи се не зналазе са изменама икона апликација. Ако икона нестане, покрените апликацију преко Гугл плеја или неког виџета, ако су доступни.
         Када покренете, подесите подразумевајућу наранџасту икону #F57C00. У најгорем случају ћете морати да реинсталирате апликацију.</string>
     <string name="share_colors_success">Боје су ажуриране успешно. Нова тема под именом \'Shared\' је додата, молимо вас да је користите за ажурирање свих боја у будућности.</string>
@@ -945,7 +945,7 @@
     <string name="donate_new">Здраво,&lt;бр&gt;&lt;бр&gt;надам се да уживате у апликацији. Не садржи огласе, а ни ми не прикупљамо ваше податке, подржите његов развој куповином &lt;а хреф=хттпс://плаи.гоогле.цом/сторе/аппс/детаилс\?ид=цом.симплемобилетоолс.тханкиоу&gt;Једноставно хвала Ви&lt;/а&gt;. Такође ћете имати откључане све функције апликације, укључујући прилагођавање боја.&lt;бр&gt;&lt;бр&gt;Хвала!</string>
     <string name="donate_short">Подржите нас тако што ћете купити &lt;а хреф=хттпс://плаи.гоогле.цом/сторе/аппс/детаилс\?ид=цом.симплемобилетоолс.тханкиоу&gt;Једноставно хвала&lt;/а&gt;, такође ће откључати све функције апликације, укључујући боју Подешавање.</string>
     <string name="purchase">Купите</string>
-    <string name="get_simple_phone">Набавите једноставан телефон</string>
+    <string name="get_ulti_phone">Набавите једноставан телефон</string>
     <string name="update_thank_you">Молимо вас ажурирајте Ulti Thank You на најскорију верзију</string>
     <string name="before_asking_question_read_faq">Пре постављања питања проверите подешавања апликације и прочитајте најчешће постављана питања. Можда су решења већ ту.</string>
     <string name="before_rate_read_faq">Пре него што нас оцените, проверите подешавања апликације и прво прочитајте Често постављана питања. Ако имате било каквих проблема, можда је решење ту.</string>

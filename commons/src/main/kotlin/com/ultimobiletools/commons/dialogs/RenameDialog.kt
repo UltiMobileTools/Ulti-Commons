@@ -43,7 +43,7 @@ class RenameDialog(val activity: BaseUltiActivity, val paths: ArrayList<String>,
 
             dialogTabLayout.onTabSelectionChanged(tabSelectedAction = {
                 viewPager.currentItem = when {
-                    it.text.toString().equals(root.context.resources.getString(R.string.simple_renaming), true) -> RENAME_SIMPLE
+                    it.text.toString().equals(root.context.resources.getString(R.string.ulti_renaming), true) -> RENAME_SIMPLE
                     else -> RENAME_PATTERN
                 }
             })

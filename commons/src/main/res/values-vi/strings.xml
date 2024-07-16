@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">Tệp nguồn %s không tồn tại</string>
     <string name="prepend_filenames">Thêm vào đầu tên tập tin</string>
     <string name="append_filenames">Thêm vào cuối tên tập tin</string>
-    <string name="simple_renaming">Đổi tên đơn giản</string>
+    <string name="ulti_renaming">Đổi tên đơn giản</string>
     <string name="pattern_renaming">Mẫu</string>
     <string name="string_to_add">Chuỗi để thêm</string>
     <string name="rename_date_time_pattern">%Y - năm\n%M - tháng\n%D - ngày\n%h - giờ\n%m - phút\n%s - giây\n%i - số tăng từ 1</string>
@@ -354,11 +354,11 @@
     <string name="undo_changes_confirmation">Bạn có chắc chắn muốn hoàn tác các thay đổi của mình?</string>
     <string name="cannot_be_undone">Hành động này không thể được hoàn tác.</string>
     <string name="save_before_closing">Bạn có các thay đổi chưa lưu. Lưu trước khi thoát?</string>
-    <string name="apply_to_all_apps">Áp dụng màu sắc cho tất cả Simple Apps</string>
+    <string name="apply_to_all_apps">Áp dụng màu sắc cho tất cả Ulti Apps</string>
     <string name="app_icon_color_warning">CẢNH BÁO: Một số trình khởi chạy không xử lý tùy chỉnh biểu tượng ứng dụng đúng cách. Trong trường hợp biểu tượng biến mất, hãy thử khởi chạy ứng dụng qua Google Play hoặc một số tiện ích, nếu có.
          Sau khi khởi chạy, chỉ cần đặt lại biểu tượng màu cam mặc định #F57C00. Bạn có thể phải cài đặt lại ứng dụng trong trường hợp xấu nhất.</string>
     <string name="share_colors_success">Màu sắc được cập nhật thành công. Một chủ đề mới có tên \'Shared\' đã được thêm vào, vui lòng sử dụng chủ đề đó để cập nhật tất cả các màu của ứng dụng trong tương lai.</string>
-    <string name="shared_theme_note">Chú ý rằng mặc dù bạn đang dùng phiên bản Pro, bạn vẫn cần Simple Cám ơn vì lý do kỹ thuật. Nó đảm nhiệm việc đồng bộ hóa màu sắc.</string>
+    <string name="shared_theme_note">Chú ý rằng mặc dù bạn đang dùng phiên bản Pro, bạn vẫn cần Ulti Cám ơn vì lý do kỹ thuật. Nó đảm nhiệm việc đồng bộ hóa màu sắc.</string>
     <string name="purchase_thank_you">
         <![CDATA[
             Làm ơn hãy mua ứng dụng <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Thank You</a> để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!
@@ -651,7 +651,7 @@
     <string name="during_day_at">Trong ngày lúc %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Cài đặt</string>
-    <string name="purchase_ulti_thank_you">Cảm ơn vì đã mua hàng Simple</string>
+    <string name="purchase_ulti_thank_you">Cảm ơn vì đã mua hàng Ulti</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Tùy chỉnh màu sắc</string>
     <string name="improved_color_customization">Cải thiện tùy chỉnh màu sắc</string>
@@ -904,7 +904,7 @@
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Mua hàng</string>
-    <string name="get_simple_phone">Get Simple Phone</string>
+    <string name="get_ulti_phone">Get Ulti Phone</string>
     <string name="update_thank_you">Vui lòng cập nhật Ulti Thank You lên phiên bản mới nhất</string>
     <string name="before_asking_question_read_faq">Trước khi bạn đặt câu hỏi, vui lòng kiểm tra cài đặt ứng dụng và đọc Câu hỏi thường gặp trước. Có thể giải pháp ở đó.</string>
     <string name="before_rate_read_faq">Trước khi bạn đánh giá chúng tôi, vui lòng kiểm tra cài đặt ứng dụng và đọc Câu hỏi thường gặp trước. Nếu bạn gặp vấn đề, có thể giải pháp ở đó.</string>
@@ -1156,5 +1156,5 @@
     <string name="deprecated_app">THÔNG BÁO: Phiên bản của ứng dụng này không còn được duy trì, hãy tải phiên bản Pro tại https://play.google.com/store/apps/details?id=com.ultimobiletools.xxx.pro</string>
     <string name="pro_app_refund">Đừng quên rằng nếu bạn gỡ cài đặt bất kỳ ứng dụng phải trả tiền nào trong vòng 2 giờ, bạn sẽ tự động được hoàn lại tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại public@ultimobiletools.com và bạn sẽ nhận được nó.Thật dễ dàng đúng không :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
-    <string name="developer_description">A group of simple, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
+    <string name="developer_description">A group of ulti, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
 </resources>

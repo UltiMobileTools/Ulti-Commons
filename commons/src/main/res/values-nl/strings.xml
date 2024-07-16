@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">Bronbestand %s bestaat niet</string>
     <string name="prepend_filenames">Tekst voor bestandsnaam invoegen</string>
     <string name="append_filenames">Tekst na bestandsnaam invoegen</string>
-    <string name="simple_renaming">Eenvoudig hernoemen</string>
+    <string name="ulti_renaming">Eenvoudig hernoemen</string>
     <string name="pattern_renaming">Patroon</string>
     <string name="string_to_add">Toe te voegen tekst</string>
     <string name="rename_date_time_pattern">%Y - jaar\n%M - maand\n%D - dag\n%h - uur\n%m - minuut\n%s - seconde\n%i - getal oplopend vanaf 1</string>
@@ -884,7 +884,7 @@
     <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt;Hopelijk gebruik je deze app met veel plezier. Het bevat geen advertenties en we verzamelen totaal geen gegevens. Je kunt de ontwikkeling ondersteunen door &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Eenvoudig Bedankje&lt;/a&gt; aan te schaffen. Hiermee ontgrendel je alle functies in onze apps en kun je de kleuren voor alle apps aanpassen.&lt;br&gt;&lt;br&gt;Dankjewel!</string>
     <string name="donate_short">Ondersteun ons door de app &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Eenvoudig Bedankje&lt;/a&gt; aan te schaffen. Dit zal alle functionaliteit in de apps ontgrendelen.</string>
     <string name="purchase">Kopen</string>
-    <string name="get_simple_phone">Eenvoudige Telefoon downloaden</string>
+    <string name="get_ulti_phone">Eenvoudige Telefoon downloaden</string>
     <string name="update_thank_you">Update Eenvoudig Bedankje naar de nieuwste versie</string>
     <string name="before_asking_question_read_faq">Controleer bij problemen eerst de instellingen van de app en neem de Veelgestelde vragen door. Misschien staat de oplossing daar.</string>
     <string name="before_rate_read_faq">Controleer eerst de app-instellingen en lees de veelgestelde vragen voordat u ons beoordeelt. Als er problemen zijn, staat de oplossing misschien daar.</string>

@@ -206,7 +206,7 @@
     <string name="source_file_doesnt_exist">Arquivo de origem %s não existe</string>
     <string name="prepend_filenames">Adicionar ao início dos nomes</string>
     <string name="append_filenames">Adicionar ao fim dos nomes</string>
-    <string name="simple_renaming">Renomeação simples</string>
+    <string name="ulti_renaming">Renomeação ultis</string>
     <string name="pattern_renaming">Padrão</string>
     <string name="string_to_add">Texto a adicionar</string>
     <string name="rename_date_time_pattern">%Y - ano\n%M - mês\n%D - dia\n%h - hora\n%m - minuto\n%s - segundo\n%i – aumento numérico de 1</string>
@@ -359,14 +359,14 @@
     <string name="undo_changes_confirmation">Tem certeza que deseja desfazer as alterações?</string>
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
-    <string name="apply_to_all_apps">Aplicar cores a todos os aplicativos Simple</string>
+    <string name="apply_to_all_apps">Aplicar cores a todos os aplicativos Ulti</string>
     <string name="app_icon_color_warning">AVISO: Alguns lançadores não são capazes de lidar corretamente com a customização de ícones. Nestes casos, se o icone desaparecer tente abrir o aplicativo pelo Google Play, ou através de um widget, se disponível.
         Ao entrar, simplesmente reverta a cor do ícone para o valor padrão (laranja #F57C00). No pior dos casos pode ser preciso reinstalar o aplicativo.</string>
     <string name="share_colors_success">Cores atualizadas com sucesso. Um novo tema chamado \'Compartilhado\' foi adicionado, use-o para atualizar as cores de todos os apps no futuro.</string>
     <string name="shared_theme_note">Embora você esteja usando a versão Pro do aplicativo, o Ulti Thank You ainda é necessário para fins técnicos. Ele realiza a sincronização de cores.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Por favor compre o <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Agradecimento Simple</a> para desbloquear esta função e apoiar o desenvolvimento. Obrigado!
+            Por favor compre o <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Agradecimento Ulti</a> para desbloquear esta função e apoiar o desenvolvimento. Obrigado!
         ]]>
     </string>
     <!-- Themes -->
@@ -926,7 +926,7 @@
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Comprar</string>
-    <string name="get_simple_phone">Ordem Telefones Simples</string>
+    <string name="get_ulti_phone">Ordem Telefones Ultis</string>
     <string name="update_thank_you">Por favor, atualize o Ulti Thank You para a versão mais recente</string>
     <string name="before_asking_question_read_faq">Antes de fazer uma pergunta, por favor verifique as configurações do aplicativo e leia a lista de Perguntas Frequentes.</string>
     <string name="before_rate_read_faq">Antes de nos avaliar, por favor verifique as configurações do aplicativo e leia a lista de Perguntas Frequentes. Se você tiver algum problema, talvez a solução esteja lá.</string>
@@ -951,24 +951,24 @@
             Obrigado
         ]]>
     </string>
-    <string name="ulti_app_launcher">Lançador de Aplicativos Simples</string>
-    <string name="ulti_calculator">Calculadora Simples</string>
-    <string name="ulti_calendar">Calendário Simples</string>
-    <string name="ulti_camera">Câmera Simples</string>
-    <string name="ulti_clock">Relógio Simples</string>
-    <string name="ulti_contacts">Contatos Simples</string>
-    <string name="ulti_dialer">Discador Simples</string>
-    <string name="ulti_draw">Desenhos Simples</string>
-    <string name="ulti_file_manager">Gerenciador Simples</string>
-    <string name="ulti_flashlight">Lanterna Simples</string>
-    <string name="ulti_gallery">Galeria Simples</string>
-    <string name="ulti_keyboard">Teclado Simples</string>
-    <string name="ulti_launcher">Launcher Simples</string>
-    <string name="ulti_music_player">Player de Música Simples</string>
-    <string name="ulti_notes">Notas Simples</string>
-    <string name="ulti_sms_messenger">Mensagens SMS Simples</string>
-    <string name="ulti_thank_you">Obrigado Simples</string>
-    <string name="ulti_voice_recorder">Gravador de Voz Simples</string>
+    <string name="ulti_app_launcher">Lançador de Aplicativos Ultis</string>
+    <string name="ulti_calculator">Calculadora Ultis</string>
+    <string name="ulti_calendar">Calendário Ultis</string>
+    <string name="ulti_camera">Câmera Ultis</string>
+    <string name="ulti_clock">Relógio Ultis</string>
+    <string name="ulti_contacts">Contatos Ultis</string>
+    <string name="ulti_dialer">Discador Ultis</string>
+    <string name="ulti_draw">Desenhos Ultis</string>
+    <string name="ulti_file_manager">Gerenciador Ultis</string>
+    <string name="ulti_flashlight">Lanterna Ultis</string>
+    <string name="ulti_gallery">Galeria Ultis</string>
+    <string name="ulti_keyboard">Teclado Ultis</string>
+    <string name="ulti_launcher">Launcher Ultis</string>
+    <string name="ulti_music_player">Player de Música Ultis</string>
+    <string name="ulti_notes">Notas Ultis</string>
+    <string name="ulti_sms_messenger">Mensagens SMS Ultis</string>
+    <string name="ulti_thank_you">Obrigado Ultis</string>
+    <string name="ulti_voice_recorder">Gravador de Voz Ultis</string>
     <string name="app_launcher_short">Lançador de Aplicativos</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
@@ -1090,7 +1090,7 @@
     <!-- Calendar Pro -->
     <string name="why_upgrade_time_zone_support">Suporte de fuso-horário</string>
     <string name="why_upgrade_attendees_emails">Participantes e lembretes por e-mail</string>
-    <string name="why_upgrade_easy_event_importing">Importação de eventos simples</string>
+    <string name="why_upgrade_easy_event_importing">Importação de eventos ultis</string>
     <string name="why_upgrade_new_widgets">Novos widgets</string>
     <!-- Contacts Pro -->
     <string name="why_upgrade_duplicate_contact_merging">Junção de contatos duplicados melhorada</string>
@@ -1166,5 +1166,5 @@
     <string name="deprecated_app">OBSOLETO: Esta versão do app não recebe mais atualizações. Por favor obtenha a versão Pro em https://play.google.com/store/apps/details?id=com.ultimobiletools.xxx.pro</string>
     <string name="pro_app_refund">Não se esqueça de que se você desinstalar um aplicativo pago em menos de duas horas você receberá reembolsado(a) automaticamente. Se você precisar de um reembolso após isso, entre em contato conosco através public@ultimobiletools.com. Isso torna tudo mais fácil se você quiser testar :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
-    <string name="developer_description">Um grupo de aplicativos simples, open source, para Android com widgets personalizados, sem anúncios nem permissões desnecessárias.</string>
+    <string name="developer_description">Um grupo de aplicativos ultis, open source, para Android com widgets personalizados, sem anúncios nem permissões desnecessárias.</string>
 </resources>

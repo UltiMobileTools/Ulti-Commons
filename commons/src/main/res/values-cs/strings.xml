@@ -208,7 +208,7 @@
     <string name="source_file_doesnt_exist">Zdrojový soubor %s neexistuje</string>
     <string name="prepend_filenames">Přidat před názvy souborů</string>
     <string name="append_filenames">Přidat za názvy souborů</string>
-    <string name="simple_renaming">Jednoduché přejmenování</string>
+    <string name="ulti_renaming">Jednoduché přejmenování</string>
     <string name="pattern_renaming">Vzor</string>
     <string name="string_to_add">Přidat řetězec</string>
     <string name="rename_date_time_pattern">%Y – rok
@@ -950,7 +950,7 @@
     <string name="donate_new">Dobrý den,&lt;br&gt;&lt;br&gt;doufáme, že se vám aplikace líbí. Neobsahuje žádné reklamy a neshromažďuje vaše data, podpořte prosím její vývoj zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. Budete mít také odemčené všechny funkce aplikace včetně přizpůsobení barev.&lt;br&gt;&lt;br&gt;Děkujeme Vám!</string>
     <string name="donate_short">Podpořte nás prosím zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;, odemkne to také všechny funkce aplikace včetně přizpůsobení barev.</string>
     <string name="purchase">Koupit</string>
-    <string name="get_simple_phone">Získat Jednoduchý telefon</string>
+    <string name="get_ulti_phone">Získat Jednoduchý telefon</string>
     <string name="update_thank_you">Aktualizujte prosím Jednoduché děkuji na nejnovější verzi</string>
     <string name="before_asking_question_read_faq">Před položením otázky se prosím podívejte do nastavení aplikace a přečtěte si často kladené otázky. Možná v nich naleznete svou odpověď.</string>
     <string name="before_rate_read_faq">Před hodnocením se prosím podívejte do nastavení aplikace a přečtěte si často kladené otázky. Máte-li nějaké problémy, možná v nich naleznete řešení.</string>

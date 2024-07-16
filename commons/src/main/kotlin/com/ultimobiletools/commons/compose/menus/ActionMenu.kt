@@ -28,7 +28,7 @@ import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.compose.theme.Shapes
 import com.ultimobiletools.commons.compose.dialog.dialogBorder
 import com.ultimobiletools.commons.compose.dialog.dialogContainerColor
-import com.ultimobiletools.commons.compose.components.SimpleDropDownMenuItem
+import com.ultimobiletools.commons.compose.components.UltiDropDownMenuItem
 import com.ultimobiletools.commons.compose.extensions.MyDevices
 import com.ultimobiletools.commons.compose.extensions.rememberMutableInteractionSource
 import com.ultimobiletools.commons.compose.theme.AppThemeSurface
@@ -116,7 +116,7 @@ fun ActionMenu(
                     }
                 }
             } else {
-                SimpleDropDownMenuItem(onClick = item.doAction, text = name)
+                UltiDropDownMenuItem(onClick = item.doAction, text = name)
             }
         }
     }
@@ -151,7 +151,7 @@ fun ActionMenu(
         ) {
             for (item in overflowActions) {
                 key(item.hashCode()) {
-                    SimpleDropDownMenuItem(text = item.nameRes, onClick = {
+                    UltiDropDownMenuItem(text = item.nameRes, onClick = {
                         onMenuToggle(false)
                         item.doAction()
                     })

@@ -213,7 +213,7 @@
     <string name="source_file_doesnt_exist">Dyw\'r ffeil tarddiad %s ddim yn bodoli</string>
     <string name="prepend_filenames">Rhagddodi enwau ffeiliau</string>
     <string name="append_filenames">Ôl-ddodi enwau ffeiliau</string>
-    <string name="simple_renaming">Simple renaming</string>
+    <string name="ulti_renaming">Ulti renaming</string>
     <string name="pattern_renaming">Pattern</string>
     <string name="string_to_add">String to add</string>
     <string name="rename_date_time_pattern">%Y - year\n%M - month\n%D - day\n%h - hour\n%m - minute\n%s - second\n%i - number increasing from 1</string>
@@ -378,7 +378,7 @@
     <string name="undo_changes_confirmation">Wyt ti yn bendant eisiau dad-wneud a cholli dy newidiadau?</string>
     <string name="cannot_be_undone">This action cannot be undone.</string>
     <string name="save_before_closing">Mae gennyt newidiadau heb eu cadw. Cadw cyn gadael?</string>
-    <string name="apply_to_all_apps">Rhoi\'r lliwiau ar waith ym mhob ap Simple</string>
+    <string name="apply_to_all_apps">Rhoi\'r lliwiau ar waith ym mhob ap Ulti</string>
     <string name="app_icon_color_warning">RHYBUDD: Mae rhai lansiwyr yn methu ag ymdrin addasiadau i apiau yn gywir. Yn yr achos bod yr eicon yn diflannu, rho gynnig ar lansio\'r ap trwy Google Play neu ryw declyn, os ar gael.
         Unwaith y bydd wedi lansio, ail-osoda\'r eicon oren rhagosodedig #F57C00. Yn yr achos gwaethaf, bydd rhaid ail-osod yr ap.</string>
     <string name="share_colors_success">Diweddarwyd y lliwiau yn llwyddiannus. Mae thema newydd o\'r enw \'Rhennir\' wedi ei ychwanegu. Defnyddia honno i ddiweddaru lliwiau pob ap yn y dyfodol.</string>
@@ -1020,7 +1020,7 @@
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Prynu</string>
-    <string name="get_simple_phone">Get Simple Phone</string>
+    <string name="get_ulti_phone">Get Ulti Phone</string>
     <string name="update_thank_you">Diweddara Ulti Thank You i\'r fersiwn diweddaraf</string>
     <string name="before_asking_question_read_faq">Cyn gofyn cwestiwn, gwiria osodiadau\'r ap a\'r atebion i Gwestiynau Cyffredin yn gyntaf. Gall fod y datrysiad yno.</string>
     <string name="before_rate_read_faq">Before you rate us, please check the app settings and read the Frequently Asked Questions first. If you have any problems, maybe the solution is there.</string>
@@ -1275,5 +1275,5 @@
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.ultimobiletools.xxx.pro</string>
     <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at public@ultimobiletools.com and you will get it. That makes it easy to try it out :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
-    <string name="developer_description">A group of simple, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
+    <string name="developer_description">A group of ulti, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
 </resources>

@@ -7,42 +7,42 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.ultimobiletools.commons.extensions.*
-import com.ultimobiletools.commons.models.SimpleListItem
+import com.ultimobiletools.commons.models.UltiListItem
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.databinding.ItemSimpleListBinding
+import com.ultimobiletools.commons.databinding.ItemUltiListBinding
 
-open class SimpleListItemAdapter(val activity: Activity, val onItemClicked: (SimpleListItem) -> Unit) :
-    ListAdapter<SimpleListItem, SimpleListItemAdapter.SimpleItemViewHolder>(SimpleListItemDiffCallback()) {
+open class UltiListItemAdapter(val activity: Activity, val onItemClicked: (UltiListItem) -> Unit) :
+    ListAdapter<UltiListItem, UltiListItemAdapter.UltiItemViewHolder>(UltiListItemDiffCallback()) {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SimpleItemViewHolder {
-        val view = activity.layoutInflater.inflate(R.layout.item_simple_list, parent, false)
-        return SimpleItemViewHolder(view)
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UltiItemViewHolder {
+        val view = activity.layoutInflater.inflate(R.layout.item_ulti_list, parent, false)
+        return UltiItemViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: SimpleItemViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: UltiItemViewHolder, position: Int) {
         val route = getItem(position)
         holder.bindView(route)
     }
 
-    open inner class SimpleItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val binding = ItemSimpleListBinding.bind(itemView)
-        fun bindView(item: SimpleListItem) {
-            setupSimpleListItem(binding, item, onItemClicked)
+    open inner class UltiItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val binding = ItemUltiListBinding.bind(itemView)
+        fun bindView(item: UltiListItem) {
+            setupUltiListItem(binding, item, onItemClicked)
         }
     }
 
-    private class SimpleListItemDiffCallback : DiffUtil.ItemCallback<SimpleListItem>() {
-        override fun areItemsTheSame(oldItem: SimpleListItem, newItem: SimpleListItem): Boolean {
-            return SimpleListItem.areItemsTheSame(oldItem, newItem)
+    private class UltiListItemDiffCallback : DiffUtil.ItemCallback<UltiListItem>() {
+        override fun areItemsTheSame(oldItem: UltiListItem, newItem: UltiListItem): Boolean {
+            return UltiListItem.areItemsTheSame(oldItem, newItem)
         }
 
-        override fun areContentsTheSame(oldItem: SimpleListItem, newItem: SimpleListItem): Boolean {
-            return SimpleListItem.areContentsTheSame(oldItem, newItem)
+        override fun areContentsTheSame(oldItem: UltiListItem, newItem: UltiListItem): Boolean {
+            return UltiListItem.areContentsTheSame(oldItem, newItem)
         }
     }
 }
 
-fun setupSimpleListItem(view: ItemSimpleListBinding, item: SimpleListItem, onItemClicked: (SimpleListItem) -> Unit) {
+fun setupUltiListItem(view: ItemUltiListBinding, item: UltiListItem, onItemClicked: (UltiListItem) -> Unit) {
     view.apply {
         val color = if (item.selected) {
             root.context.getProperPrimaryColor()

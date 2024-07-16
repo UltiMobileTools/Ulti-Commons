@@ -47,14 +47,14 @@ fun UltiScaffoldTopBar(
             )
         },
         navigationIcon = {
-            SimpleNavigationIcon(
+            UltiNavigationIcon(
                 goBack = goBack,
                 navigationIconInteractionSource = navigationIconInteractionSource,
                 iconColor = scrolledColor
             )
         },
         scrollBehavior = scrollBehavior,
-        colors = simpleTopAppBarColors(statusBarColor, colorTransitionFraction, contrastColor),
+        colors = ultiTopAppBarColors(statusBarColor, colorTransitionFraction, contrastColor),
         modifier = modifier.topAppBarPaddings(),
         windowInsets = topAppBarInsets()
     )
@@ -77,14 +77,14 @@ fun UltiScaffoldTopBar(
             title(scrolledColor)
         },
         navigationIcon = {
-            SimpleNavigationIcon(
+            UltiNavigationIcon(
                 goBack = goBack,
                 navigationIconInteractionSource = navigationIconInteractionSource,
                 iconColor = scrolledColor
             )
         },
         scrollBehavior = scrollBehavior,
-        colors = simpleTopAppBarColors(statusBarColor, colorTransitionFraction, contrastColor),
+        colors = ultiTopAppBarColors(statusBarColor, colorTransitionFraction, contrastColor),
         modifier = modifier.topAppBarPaddings(),
         windowInsets = topAppBarInsets()
     )
@@ -108,7 +108,7 @@ fun UltiScaffoldTopBar(
             title(scrolledColor)
         },
         navigationIcon = {
-            SimpleNavigationIcon(
+            UltiNavigationIcon(
                 goBack = goBack,
                 navigationIconInteractionSource = navigationIconInteractionSource,
                 iconColor = scrolledColor
@@ -116,14 +116,14 @@ fun UltiScaffoldTopBar(
         },
         actions = actions,
         scrollBehavior = scrollBehavior,
-        colors = simpleTopAppBarColors(statusBarColor, colorTransitionFraction, contrastColor),
+        colors = ultiTopAppBarColors(statusBarColor, colorTransitionFraction, contrastColor),
         modifier = modifier.topAppBarPaddings(),
         windowInsets = topAppBarInsets()
     )
 }
 
 @Composable
-fun simpleTopAppBarColors(
+fun ultiTopAppBarColors(
     statusBarColor: Int,
     colorTransitionFraction: Float,
     contrastColor: Color
@@ -149,7 +149,7 @@ fun Modifier.topAppBarPaddings(
 }
 
 @Composable
-fun SimpleNavigationIcon(
+fun UltiNavigationIcon(
     modifier: Modifier = Modifier,
     navigationIconInteractionSource: MutableInteractionSource = rememberMutableInteractionSource(),
     goBack: () -> Unit,
@@ -166,12 +166,12 @@ fun SimpleNavigationIcon(
                 )
             ) { goBack() }
     ) {
-        SimpleBackIcon(iconColor)
+        UltiBackIcon(iconColor)
     }
 }
 
 @Composable
-fun SimpleBackIcon(iconColor: Color?) {
+fun UltiBackIcon(iconColor: Color?) {
     if (iconColor == null) {
         Icon(
             imageVector = Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(id = R.string.back),

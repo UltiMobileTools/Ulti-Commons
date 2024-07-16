@@ -207,7 +207,7 @@
     <string name="source_file_doesnt_exist">Зыходны файл %s не існуе</string>
     <string name="prepend_filenames">Перад назвай файла</string>
     <string name="append_filenames">Пасля назвы файла</string>
-    <string name="simple_renaming">Простае перайменаванне</string>
+    <string name="ulti_renaming">Простае перайменаванне</string>
     <string name="pattern_renaming">Шаблон</string>
     <string name="string_to_add">Радок для дадання</string>
     <string name="rename_date_time_pattern">%Y - год
@@ -715,7 +715,7 @@
     <string name="during_day_at">На працягу дня ў %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Налады</string>
-    <string name="purchase_ulti_thank_you">Purchase Simple Дзякуй</string>
+    <string name="purchase_ulti_thank_you">Purchase Ulti Дзякуй</string>
     <string name="general_settings">Генерал</string>
     <string name="color_customization">Налады колераў</string>
     <string name="improved_color_customization">Палепшаная налада колеру</string>
@@ -974,7 +974,7 @@
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Купіць</string>
-    <string name="get_simple_phone">Атрымаць Simple Phone</string>
+    <string name="get_ulti_phone">Атрымаць Ulti Phone</string>
     <string name="update_thank_you">Калі ласка, абнавіце Ulti Thank You да апошняй версіі</string>
     <string name="before_asking_question_read_faq">Перш чым задаць пытанне, праверце налады праграмы і спачатку прачытайце раздзел \"Часта задаюць пытанні\". Магчыма, рашэнне ёсць.</string>
     <string name="before_rate_read_faq">Перш чым ацэньваць нас, праверце налады праграмы і спачатку прачытайце раздзел \"Часта задаюць пытанні\". Калі ў вас ёсць якія-небудзь праблемы, магчыма, рашэнне ёсць.</string>

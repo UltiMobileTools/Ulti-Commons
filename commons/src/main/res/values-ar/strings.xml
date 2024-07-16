@@ -213,7 +213,7 @@
     <string name="source_file_doesnt_exist">الملف الأصل %s غير موجود</string>
     <string name="prepend_filenames">إسباق أسماء الملفات</string>
     <string name="append_filenames">إلحاق أسماء الملفات</string>
-    <string name="simple_renaming">إعادة تسمية بسيطة</string>
+    <string name="ulti_renaming">إعادة تسمية بسيطة</string>
     <string name="pattern_renaming">النمط</string>
     <string name="string_to_add">السلسلة التي تريد إضافتها</string>
     <string name="rename_date_time_pattern">%Y - سنة\n%M - شهر\n%D - يوم\n%h - ساعة\n%m - دقيقة\n%s - ثانية\n%i - الرقم يزداد من 1</string>
@@ -1058,10 +1058,10 @@
             شكرا!
         ]]>
     </string>
-    <string name="donate_new">مرحبا ، &lt;br&gt;&lt;br&gt;آمل أن تستمتع بالتطبيق. لا يحتوي على إعلانات ولا نجمع بياناتك أيضا ، يرجى دعم تطويره عن طريق شراء &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple شكرا لك.&lt;/a&gt; سيكون لديك أيضا جميع ميزات التطبيق بما في ذلك تخصيص الألوان غير مقفلة. &lt;br&gt;&lt;br&gt;شكرًا لك!</string>
-    <string name="donate_short">ادعمنا عن طريق شراء &lt;a href = https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple شكرا لك&lt;/a&gt; من فضلك ، كما أنه سيفتح جميع ميزات التطبيق بما في ذلك تخصيص الألوان.</string>
+    <string name="donate_new">مرحبا ، &lt;br&gt;&lt;br&gt;آمل أن تستمتع بالتطبيق. لا يحتوي على إعلانات ولا نجمع بياناتك أيضا ، يرجى دعم تطويره عن طريق شراء &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti شكرا لك.&lt;/a&gt; سيكون لديك أيضا جميع ميزات التطبيق بما في ذلك تخصيص الألوان غير مقفلة. &lt;br&gt;&lt;br&gt;شكرًا لك!</string>
+    <string name="donate_short">ادعمنا عن طريق شراء &lt;a href = https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti شكرا لك&lt;/a&gt; من فضلك ، كما أنه سيفتح جميع ميزات التطبيق بما في ذلك تخصيص الألوان.</string>
     <string name="purchase">شراء</string>
-    <string name="get_simple_phone">احصل على هاتف بسيط</string>
+    <string name="get_ulti_phone">احصل على هاتف بسيط</string>
     <string name="update_thank_you">يرجى تحديث تطبيق (Ulti Thank You) إلى أحدث إصدار</string>
     <string name="before_asking_question_read_faq">قبل ان تسأل سؤالاً ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة المتداولة أولاً. ربما يكون الحل موجوداً.</string>
     <string name="before_rate_read_faq">قبل أن تقيمنا ، يرجى التحقق من إعدادات التطبيق وقراءة الأسئلة الشائعة أولاً. إذا كان لديك أي مشاكل ، فربما يكون الحل موجوداً.</string>
@@ -1074,7 +1074,7 @@
     <string name="thank_you">شكراً جزيلاً</string>
     <string name="widget_locked_pro">الأداة مقفلة.
 \nيرجى الترقية إلى إصدار Pro لإلغاء قفله.</string>
-    <string name="features_locked">هذه الميزة مقفلة ، يرجى شراء &lt;a href = https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple شكرا لك&lt;/a&gt; على إلغاء قفل التطبيق الكامل ، &lt;br&gt;&lt;br&gt;إنها دفعة لمرة واحدة فقط وإذا لم تكن راضيا ، فيمكننا رد الأموال إليك.</string>
+    <string name="features_locked">هذه الميزة مقفلة ، يرجى شراء &lt;a href = https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti شكرا لك&lt;/a&gt; على إلغاء قفل التطبيق الكامل ، &lt;br&gt;&lt;br&gt;إنها دفعة لمرة واحدة فقط وإذا لم تكن راضيا ، فيمكننا رد الأموال إليك.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[

@@ -206,7 +206,7 @@
     <string name="source_file_doesnt_exist">O ficheiro de origem %s não existe</string>
     <string name="prepend_filenames">Introduzir antes do nome do ficheiro</string>
     <string name="append_filenames">Introduzir depois do nome do ficheiro</string>
-    <string name="simple_renaming">Mudar nome</string>
+    <string name="ulti_renaming">Mudar nome</string>
     <string name="pattern_renaming">Padrão</string>
     <string name="string_to_add">Texto a adicionar</string>
     <string name="rename_date_time_pattern">%Y - ano\n%M - mês\n%D - dia\n%h - horas\n%m - minutos\n%s - segundos\n%i - incremento númerico a partir de 1</string>
@@ -359,9 +359,9 @@
     <string name="undo_changes_confirmation">Tem a certeza de que pretende desfazer as alterações\?</string>
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não guardadas. Pretende guardar antes de sair\?</string>
-    <string name="apply_to_all_apps">Aplicar cores a todas as aplicações Simple</string>
+    <string name="apply_to_all_apps">Aplicar cores a todas as aplicações Ulti</string>
     <string name="app_icon_color_warning">AVISO: alguns launchers não gerem correctamente a personalização dos ícones. Se o ícone desaparecer, tente iniciar a aplicação através da Google Play ou do widget. Depois de iniciar a aplicação, reverta para a cor original (#F57C00). Em último caso, poderá ser necessário reinstalar a aplicação.</string>
-    <string name="share_colors_success">Cores atualizadas com sucesso. Foi criado o novo tema \'Partilhado\', que pode utilizar para atualizar as cores de todas as aplicações Simple.</string>
+    <string name="share_colors_success">Cores atualizadas com sucesso. Foi criado o novo tema \'Partilhado\', que pode utilizar para atualizar as cores de todas as aplicações Ulti.</string>
     <string name="shared_theme_note">Tenha em atenção que, mesmo que esteja a utilizar a versão Pro, tem que instalar a aplicação Ulti Thank You por motivos técnicos. Esta aplicação controla a sincronização de cores.</string>
     <string name="purchase_thank_you">
         <![CDATA[
@@ -914,7 +914,7 @@
     <!-- About -->
     <string name="about">Acerca</string>
     <string name="website">Site</string>
-    <string name="website_label">Mais aplicações Simple e código-fonte em</string>
+    <string name="website_label">Mais aplicações Ulti e código-fonte em</string>
     <string name="email_label">Envie os seus comentários ou sugestões para</string>
     <string name="upgrade_to_pro">Atualizar para versão Pro</string>
     <string name="more_apps">Mais aplicações</string>
@@ -941,7 +941,7 @@
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Comprar</string>
-    <string name="get_simple_phone">Obter Simple Phone</string>
+    <string name="get_ulti_phone">Obter Ulti Phone</string>
     <string name="update_thank_you">Deve atualizar a aplicação Ulti Thank You para a versão mais recente</string>
     <string name="before_asking_question_read_faq">Antes de colocar uma questão, verifique as FAQ. Pode ser que a solução esteja lá.</string>
     <string name="before_rate_read_faq">Antes de dar uma avaliação, analise as definições da aplicação e leia as FAQ. Pode ser que a solução para o seu problema esteja aí mesmo.</string>
@@ -1097,7 +1097,7 @@
     <!-- Contacts Pro -->
     <string name="why_upgrade_duplicate_contact_merging">Melhorias na triagem e combinação de contactos duplicados</string>
     <string name="why_upgrade_font_size_customization">Personalização do tipo de letra</string>
-    <string name="why_upgrade_private_contact_sharing">Partilha opcional de contactos entre as aplicações Simple</string>
+    <string name="why_upgrade_private_contact_sharing">Partilha opcional de contactos entre as aplicações Ulti</string>
     <string name="why_upgrade_customizable_contact_ringtones">Personalização de sons por contacto</string>
     <string name="why_upgrade_contact_filtering">Filtro de contactos</string>
     <string name="why_upgrade_contact_private_contacts">Contactos guardados localmente</string>

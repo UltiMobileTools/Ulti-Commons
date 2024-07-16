@@ -16,8 +16,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import com.ultimobiletools.commons.compose.extensions.MyDevices
-import com.ultimobiletools.commons.compose.lists.SimpleScaffold
-import com.ultimobiletools.commons.compose.lists.simpleTopAppBarColors
+import com.ultimobiletools.commons.compose.lists.UltiScaffold
+import com.ultimobiletools.commons.compose.lists.ultiTopAppBarColors
 import com.ultimobiletools.commons.compose.lists.topAppBarInsets
 import com.ultimobiletools.commons.compose.lists.topAppBarPaddings
 import com.ultimobiletools.commons.compose.menus.ActionItem
@@ -38,7 +38,7 @@ fun MainScreen(
     openAbout: () -> Unit,
     moreAppsFromUs: () -> Unit,
 ) {
-    SimpleScaffold(
+    UltiScaffold(
         customTopBar = { scrolledColor: Color, _: MutableInteractionSource, scrollBehavior: TopAppBarScrollBehavior, statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color ->
             TopAppBar(
                 title = {},
@@ -60,7 +60,7 @@ fun MainScreen(
                     )
                 },
                 scrollBehavior = scrollBehavior,
-                colors = simpleTopAppBarColors(statusBarColor, colorTransitionFraction, contrastColor),
+                colors = ultiTopAppBarColors(statusBarColor, colorTransitionFraction, contrastColor),
                 modifier = Modifier.topAppBarPaddings(),
                 windowInsets = topAppBarInsets()
             )

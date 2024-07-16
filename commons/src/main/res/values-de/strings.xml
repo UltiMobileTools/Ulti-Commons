@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">Quelldatei ‚%s‘ existiert nicht</string>
     <string name="prepend_filenames">Text dem Dateinamen voranstellen</string>
     <string name="append_filenames">Text dem Dateinamen anhängen</string>
-    <string name="simple_renaming">Einfaches Umbenennen</string>
+    <string name="ulti_renaming">Einfaches Umbenennen</string>
     <string name="pattern_renaming">Muster</string>
     <string name="string_to_add">Anzufügender Text</string>
     <string name="rename_date_time_pattern">%Y - Jahr
@@ -919,7 +919,7 @@
     <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt;wir hoffen, dass dir die App gefällt. Sie enthält keine Werbung und wir sammeln auch nicht deine Daten. Bitte unterstütze die Entwicklung der App, indem du &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Einfaches Dankeschön&lt;/a&gt; kaufst. Du bekommst dann auch alle Funktionen der App, einschließlich der Farbanpassung, freigeschaltet.&lt;br&gt;&lt;br&gt;Dankeschön!</string>
     <string name="donate_short">Unterstütze uns, indem du &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Einfaches Dankeschön&lt;/a&gt; kaufst. Damit werden auch alle Funktionen der App, einschließlich der Farbanpassung, freigeschaltet.</string>
     <string name="purchase">Kaufen</string>
-    <string name="get_simple_phone">Simple Phone bestellen</string>
+    <string name="get_ulti_phone">Ulti Phone bestellen</string>
     <string name="update_thank_you">Bitte Ulti Thank You auf die neueste Version aktualisieren</string>
     <string name="before_asking_question_read_faq">Bevor du eine Frage stellst, überprüfe bitte die App-Einstellungen und lies dir die häufig gestellten Fragen (FAQ) durch. Vielleicht findest du dort eine Lösung.</string>
     <string name="before_rate_read_faq">Bevor du eine Bewertung abgibst, schaue bitte in die Einstellungen der Anwendung und lies dir die häufig gestellten Fragen (FAQ) durch. Vielleicht findest du dort eine Lösung.</string>

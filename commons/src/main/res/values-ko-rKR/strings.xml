@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">원본 파일 %s 이(가) 존재하지 않습니다</string>
     <string name="prepend_filenames">앞에 이름 덧붙이기</string>
     <string name="append_filenames">뒤에 이름 덧붙이기</string>
-    <string name="simple_renaming">심플 이름 바꾸기</string>
+    <string name="ulti_renaming">심플 이름 바꾸기</string>
     <string name="pattern_renaming">패턴</string>
     <string name="string_to_add">추가할 문장</string>
     <string name="rename_date_time_pattern">%Y - 년\n%M - 월\n%D - 일\n%h - 시\n%m - 분\n%s - 초\n%i - number increasing from 1</string>
@@ -844,7 +844,7 @@
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">구매</string>
-    <string name="get_simple_phone">Get Simple Phone</string>
+    <string name="get_ulti_phone">Get Ulti Phone</string>
     <string name="update_thank_you">Ulti Thank You를 최신 버전으로 업데이트 해 주세요.</string>
     <string name="before_asking_question_read_faq">질문하기 전에 FAQ를 먼저 읽어 주세요. 해답이 있을지도 모릅니다.</string>
     <string name="before_rate_read_faq">Before you rate us, please check the app settings and read the Frequently Asked Questions first. If you have any problems, maybe the solution is there.</string>
@@ -1094,5 +1094,5 @@
     <string name="deprecated_app">구버전 경고: 이 버전의 앱은 더이상 관리되지 않습니다. Pro 버전을 설치해 주세요: https://play.google.com/store/apps/details?id=com.ultimobiletools.xxx.pro</string>
     <string name="pro_app_refund">플레이스토어에서 구매한 앱은 2시간 내에 삭제하면 자동으로 환불받을 수 있다는 사실을 항상 잊지 마시기 바랍니다. 만약 이후에 환불이 필요하시다면, public@ultimobiletools.com 으로 연락 주시면 해결해 드리겠습니다. 이제 한번 써보는 것도 나쁘지 않겠죠 :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
-    <string name="developer_description">A group of simple, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
+    <string name="developer_description">A group of ulti, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>
 </resources>

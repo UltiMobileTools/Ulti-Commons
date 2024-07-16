@@ -7,25 +7,25 @@ import android.util.AttributeSet
 import android.widget.RelativeLayout
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.activities.BaseUltiActivity
-import com.ultimobiletools.commons.databinding.TabRenameSimpleBinding
+import com.ultimobiletools.commons.databinding.TabRenameUltiBinding
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.models.Android30RenameFormat
 import com.ultimobiletools.commons.models.FileDirItem
 import com.ultimobiletools.commons.interfaces.RenameTab
 import java.io.File
 
-class RenameSimpleTab(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs), RenameTab {
+class RenameUltiTab(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs), RenameTab {
     var ignoreClicks = false
     var stopLooping = false     // we should request the permission on Android 30+ for all uris at once, not one by one
     var activity: BaseUltiActivity? = null
     var paths = ArrayList<String>()
 
-    private lateinit var binding: TabRenameSimpleBinding
+    private lateinit var binding: TabRenameUltiBinding
 
     override fun onFinishInflate() {
         super.onFinishInflate()
-        binding = TabRenameSimpleBinding.bind(this)
-        context.updateTextColors(binding.renameSimpleHolder)
+        binding = TabRenameUltiBinding.bind(this)
+        context.updateTextColors(binding.renameUltiHolder)
     }
 
     override fun initTab(activity: BaseUltiActivity, paths: ArrayList<String>) {
@@ -35,8 +35,8 @@ class RenameSimpleTab(context: Context, attrs: AttributeSet) : RelativeLayout(co
 
     override fun dialogConfirmed(useMediaFileExtension: Boolean, callback: (success: Boolean) -> Unit) {
         stopLooping = false
-        val valueToAdd = binding.renameSimpleValue.text.toString()
-        val append = binding.renameSimpleRadioGroup.checkedRadioButtonId == binding.renameSimpleRadioAppend.id
+        val valueToAdd = binding.renameUltiValue.text.toString()
+        val append = binding.renameUltiRadioGroup.checkedRadioButtonId == binding.renameUltiRadioAppend.id
 
         if (valueToAdd.isEmpty()) {
             callback(false)

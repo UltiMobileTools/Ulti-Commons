@@ -207,7 +207,7 @@
     <string name="source_file_doesnt_exist">El archivo %s no existe</string>
     <string name="prepend_filenames">Anteponer los nombres de los archivo</string>
     <string name="append_filenames">Agregar los nombres del archivo</string>
-    <string name="simple_renaming">Cambiar el nombre facilmente</string>
+    <string name="ulti_renaming">Cambiar el nombre facilmente</string>
     <string name="pattern_renaming">Patrón</string>
     <string name="string_to_add">Cadena para agregar</string>
     <string name="rename_date_time_pattern">%Y - Año\n%M - Mes\n%D - Día\n%h - Hora\n%m - Minuto\n%s - Segundo\n%i - número aumentando desde 1</string>
@@ -360,14 +360,14 @@
     <string name="undo_changes_confirmation">¿Seguro que quiere deshacer los cambios?</string>
     <string name="cannot_be_undone">Esta acción no se puede deshacer.</string>
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
-    <string name="apply_to_all_apps">Aplicar colores a todas las aplicaciones Simple Apps</string>
+    <string name="apply_to_all_apps">Aplicar colores a todas las aplicaciones Ulti Apps</string>
     <string name="app_icon_color_warning">ADVERTENCIA: Algunos launchers no manejan correctamente la personalización del icono de la aplicación. En caso de que el icono desaparezca, intente iniciar la aplicación a través de Google Play o algún widget, si está disponible.
         Una vez iniciado, simplemente vuelva a establecer el ícono naranja predeterminado #F57C00. Es posible que tengas que volver a instalar la aplicación en el peor de los casos.</string>
     <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Compartido\', por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
-    <string name="shared_theme_note">Tenga en cuenta que aunque esté utilizando la versión de la aplicación Pro, aún necesita Simple Gracias por razones técnicas. Se encarga de la sincronización del color.</string>
+    <string name="shared_theme_note">Tenga en cuenta que aunque esté utilizando la versión de la aplicación Pro, aún necesita Ulti Gracias por razones técnicas. Se encarga de la sincronización del color.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Por favor compra <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Gracias</a> para desbloquear esta función y ayudar al desarrollo. ¡Gracias!
+            Por favor compra <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Gracias</a> para desbloquear esta función y ayudar al desarrollo. ¡Gracias!
         ]]>
     </string>
     <!-- Themes -->
@@ -686,7 +686,7 @@
     <string name="during_day_at">Durante el día a las %02d:%02d</string>
     <!-- Settings -->
     <string name="settings">Ajustes</string>
-    <string name="purchase_ulti_thank_you">Comprar Simple Gracias</string>
+    <string name="purchase_ulti_thank_you">Comprar Ulti Gracias</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Personalización del color</string>
     <string name="improved_color_customization">Personalización mejorada de los colores</string>
@@ -949,15 +949,15 @@
     <string name="donate_please">
         <![CDATA[
             Hola,<br><br>
-            Espero que estés disfrutando de la aplicación. No contiene anuncios, por lo que debe respaldar su desarrollo comprando la aplicación <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Simple Gracias</a>, también evitará que este diálogo vuelva a aparecer.<br><br>
+            Espero que estés disfrutando de la aplicación. No contiene anuncios, por lo que debe respaldar su desarrollo comprando la aplicación <a href="https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou">Ulti Gracias</a>, también evitará que este diálogo vuelva a aparecer.<br><br>
             ¡Gracias!
         ]]>
     </string>
-    <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;espero que estés disfrutando de la aplicación. No contiene anuncios y tampoco recopilamos sus datos. Apoye su desarrollo comprando &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Gracias&lt;/a&gt;. También desbloqueará todas las funciones de la aplicación, incluida la personalización del color.&lt;br&gt;&lt;br&gt;¡Gracias!</string>
-    <string name="donate_short">Apóyenos comprando &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Gracias&lt;/a&gt; por favor, también desbloqueará todas las funciones de la aplicación, incluido los colores.</string>
+    <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;espero que estés disfrutando de la aplicación. No contiene anuncios y tampoco recopilamos sus datos. Apoye su desarrollo comprando &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Gracias&lt;/a&gt;. También desbloqueará todas las funciones de la aplicación, incluida la personalización del color.&lt;br&gt;&lt;br&gt;¡Gracias!</string>
+    <string name="donate_short">Apóyenos comprando &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Gracias&lt;/a&gt; por favor, también desbloqueará todas las funciones de la aplicación, incluido los colores.</string>
     <string name="purchase">Comprar</string>
-    <string name="get_simple_phone">Conseguir un teléfono sencillo</string>
-    <string name="update_thank_you">Por favor, actualice Simple Gracias a la última versión</string>
+    <string name="get_ulti_phone">Conseguir un teléfono sencillo</string>
+    <string name="update_thank_you">Por favor, actualice Ulti Gracias a la última versión</string>
     <string name="before_asking_question_read_faq">Antes de hacer una pregunta, lea las preguntas más frecuentes. Quizás la solución esté ahí.</string>
     <string name="before_rate_read_faq">Antes de calificarnos, verifique la configuración de la aplicación y lea primero las preguntas frecuentes. Si tiene algún problema, tal vez la solución esté ahí.</string>
     <string name="make_sure_latest">También asegúrese de estar utilizando la última versión de la aplicación.</string>
@@ -968,7 +968,7 @@
     <string name="rate_our_app">Califica nuestra aplicación por favor :)</string>
     <string name="thank_you">Gracias</string>
     <string name="widget_locked_pro">El widget está bloqueado.\nActualice a la versión Pro para desbloquearlo.</string>
-    <string name="features_locked">Esta función está bloqueada, compre &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Gracias&lt;/a&gt; por desbloquear la aplicación completa.&lt;br &lt;br&gt;Es un pago único y si no está satisfecho, podemos reembolsarselo.</string>
+    <string name="features_locked">Esta función está bloqueada, compre &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Gracias&lt;/a&gt; por desbloquear la aplicación completa.&lt;br &lt;br&gt;Es un pago único y si no está satisfecho, podemos reembolsarselo.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -981,24 +981,24 @@
             Gracias
         ]]>
     </string>
-    <string name="ulti_app_launcher">Lanzador de Aplicaciones Simple </string>
-    <string name="ulti_calculator">Calculadora Simple</string>
-    <string name="ulti_calendar">Calendario Simple</string>
-    <string name="ulti_camera">Cámara Simple</string>
-    <string name="ulti_clock">Reloj Simple</string>
-    <string name="ulti_contacts">Contactos Simples</string>
-    <string name="ulti_dialer">Marcador Simple</string>
-    <string name="ulti_draw">Dibuja Simple</string>
-    <string name="ulti_file_manager">Administrador Simple de Archivos</string>
-    <string name="ulti_flashlight">Linterna Simple</string>
-    <string name="ulti_gallery">Galería Simple</string>
+    <string name="ulti_app_launcher">Lanzador de Aplicaciones Ulti </string>
+    <string name="ulti_calculator">Calculadora Ulti</string>
+    <string name="ulti_calendar">Calendario Ulti</string>
+    <string name="ulti_camera">Cámara Ulti</string>
+    <string name="ulti_clock">Reloj Ulti</string>
+    <string name="ulti_contacts">Contactos Ultis</string>
+    <string name="ulti_dialer">Marcador Ulti</string>
+    <string name="ulti_draw">Dibuja Ulti</string>
+    <string name="ulti_file_manager">Administrador Ulti de Archivos</string>
+    <string name="ulti_flashlight">Linterna Ulti</string>
+    <string name="ulti_gallery">Galería Ulti</string>
     <string name="ulti_keyboard">Teclado Sencillo</string>
     <string name="ulti_launcher">Lanzador sencillo</string>
-    <string name="ulti_music_player">Reproductor Simple de Música</string>
-    <string name="ulti_notes">Notas Simples</string>
-    <string name="ulti_sms_messenger">Mensajero SMS Simple</string>
-    <string name="ulti_thank_you">Simple Gracias</string>
-    <string name="ulti_voice_recorder">Grabadora de Voz Simple</string>
+    <string name="ulti_music_player">Reproductor Ulti de Música</string>
+    <string name="ulti_notes">Notas Ultis</string>
+    <string name="ulti_sms_messenger">Mensajero SMS Ulti</string>
+    <string name="ulti_thank_you">Ulti Gracias</string>
+    <string name="ulti_voice_recorder">Grabadora de Voz Ulti</string>
     <string name="app_launcher_short">Lanzador de aplicaciones</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendario</string>
@@ -1216,5 +1216,5 @@
     <string name="deprecated_app">OBSOLETO: Esta versión de la aplicación ya no es mantenida, obtén la versión Pro en https://play.google.com/store/apps/details?id=com.ultimobiletools.xxx.pro</string>
     <string name="pro_app_refund">No olvides que si desinstalas cualquier aplicación de paga dentro de un periodo de 2 horas, automáticamente recibirás un rembolso. Si quieres un rembolso en cualquier otro momento, solo contáctanos en public@ultimobiletools.com y lo recibirás. Eso hace que sea fácil probarlo :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
-    <string name="developer_description">Un grupo de aplicaciones de Android simples y de código abierto con widgets personalizables, sin anuncios y permisos innecesarios.</string>
+    <string name="developer_description">Un grupo de aplicaciones de Android ultis y de código abierto con widgets personalizables, sin anuncios y permisos innecesarios.</string>
 </resources>

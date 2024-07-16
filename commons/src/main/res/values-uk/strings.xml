@@ -209,7 +209,7 @@
     <string name="source_file_doesnt_exist">Вихідний файл %s не існує</string>
     <string name="prepend_filenames">Префікс імен файлів</string>
     <string name="append_filenames">Суфікс імен файлів</string>
-    <string name="simple_renaming">Просте перейменування</string>
+    <string name="ulti_renaming">Просте перейменування</string>
     <string name="pattern_renaming">Шаблон</string>
     <string name="string_to_add">Рядок для додавання</string>
     <string name="rename_date_time_pattern">%Y - рік\n%M - місяць\n%D - день\n%h - година\n%m - хвилина\n%s - секунда\n%i - номер від 1</string>
@@ -366,7 +366,7 @@
     <string name="undo_changes_confirmation">Ви впевнені, що хочете скасувати зміни?</string>
     <string name="cannot_be_undone">Цю дію неможливо скасувати.</string>
     <string name="save_before_closing">Ви маєте незбережені зміни. Зберегти перед виходом?</string>
-    <string name="apply_to_all_apps">Застосувати кольори до усіх додатків Simple Apps</string>
+    <string name="apply_to_all_apps">Застосувати кольори до усіх додатків Ulti Apps</string>
     <string name="app_icon_color_warning">УВАГА: Деякі лончери некоректно опрацьовують зміну піктограми додатків. Якщо піктограма додатка зникне, спробуйте запустити його через Google Play або віджет, якщо доступний.
         Після запуску просто поверніть стандартний колір піктограми: #F57C00. У найгіршому випадку вам доведеться перевстановити додаток.</string>
     <string name="share_colors_success">Кольори успішно оновлено. Було додано нову тему під назвою \'Загальна\', використовуйте її для оновлення кольорів усіх додатків у майбутньому.</string>
@@ -981,7 +981,7 @@
     <string name="donate_new">Вітаю,&lt;br&gt;&lt;br&gt;сподіваюся, вам подобається застосунок. Він не містить реклами, також ми не збираємо ваші дані. Будь ласка, підтримайте розвиток, придбавши &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Просту подяку&lt;/a&gt;. Таким чином ви розблокуєте всі можливості застосунку, зокрема налаштування кольорів.&lt;br&gt;&lt;br&gt;Дякуємо!</string>
     <string name="donate_short">Підтримайте нас, придбавши &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; будь ласка, це також розблокує всі функції застосунку, включаючи налаштування кольорів.</string>
     <string name="purchase">Придбати</string>
-    <string name="get_simple_phone">Замовити Простий Телефон</string>
+    <string name="get_ulti_phone">Замовити Простий Телефон</string>
     <string name="update_thank_you">Будь ласка, оновіть \"Просту Подяку\" до останньої версії</string>
     <string name="before_asking_question_read_faq">Перш ніж запитувати, будь ласка, ознайомтесь із налаштуваннями додатка та прочитайте Часті Питання. Можливо, відповідь там.</string>
     <string name="before_rate_read_faq">Перш ніж ви оціните нас, будь ласка перегляньте налаштування додатка та прочитайте Часті Питання. Якщо у вас виникнуть проблеми, можливо там буде вирішення.</string>

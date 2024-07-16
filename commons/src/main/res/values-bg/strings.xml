@@ -206,7 +206,7 @@
     <string name="source_file_doesnt_exist">Изходния файл %s не съществува</string>
     <string name="prepend_filenames">Представка на файлови имена</string>
     <string name="append_filenames">Прибавяне на файлови имена</string>
-    <string name="simple_renaming">Обикновено преименуване</string>
+    <string name="ulti_renaming">Обикновено преименуване</string>
     <string name="pattern_renaming">Шаблон</string>
     <string name="string_to_add">Текст за добавяне</string>
     <string name="rename_date_time_pattern">%Y - година
@@ -887,7 +887,7 @@
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Купи</string>
-    <string name="get_simple_phone">Поръчване на Обикновен Смартфон</string>
+    <string name="get_ulti_phone">Поръчване на Обикновен Смартфон</string>
     <string name="update_thank_you">Моля, обноврте Обикновено Благодаря до последното издание</string>
     <string name="before_asking_question_read_faq">Преди да зададете въпрос, моля, проверете настройките на приложението и първо прочетете често задаваните въпроси. Може би решението може да бъде намерено там.</string>
     <string name="before_rate_read_faq">Преди да ни оцените, моля, проверете настройките на приложението и първо прочетете често задаваните въпроси. Ако имате някакви проблеми, може би решението може да бъде намерено там.</string>

@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">Kildefilen %s eksisterer ikke</string>
     <string name="prepend_filenames">Tilføj forrest til filnavne</string>
     <string name="append_filenames">Tilføj bagerst til filnavne</string>
-    <string name="simple_renaming">Simple omdøbning</string>
+    <string name="ulti_renaming">Ulti omdøbning</string>
     <string name="pattern_renaming">Mønster</string>
     <string name="string_to_add">Tekststreng der skal tilføjes</string>
     <string name="rename_date_time_pattern">%Y - år\n%M - måned\n%D - dag\n%h - time\n%m - minut\n%s - sekund\n%i - tal stigende fra 1</string>
@@ -354,7 +354,7 @@
     <string name="undo_changes_confirmation">Er du sikker på at du vil fortryde ændringerne?</string>
     <string name="cannot_be_undone">Handlingen kan ikke fortrydes.</string>
     <string name="save_before_closing">Du har ændringer der ikke er gemt. Vil du gemme dem?</string>
-    <string name="apply_to_all_apps">Anvend farverne på alle Simple Apps</string>
+    <string name="apply_to_all_apps">Anvend farverne på alle Ulti Apps</string>
     <string name="app_icon_color_warning">ADVARSEL: Ikke alle app-launchers kan håndtere tilpasning af ikonfarve. Hvis et ikon skulle forsvinde kan du prøve at åbne appen via Google Play eller en widget.
        Når appen er åben kan du sætte farven til standardfarven #F57C00 igen. I værste fald må du geninstallere appen.</string>
     <string name="share_colors_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
@@ -876,7 +876,7 @@
     <string name="donate_new">Hej,&lt;br&gt;&lt;br&gt;Jeg håber, at du nyder appen. Den indeholder ingen reklamer, og vi indsamler heller ikke dine data, men du kan støtte dens udvikling ved at købe &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. Du vil også få alle app-funktioner og farvetilpasning låst op.&lt;br&gt;&lt;br&gt;Tak!</string>
     <string name="donate_short">Støt os ved at købe &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;, det vil også låse alle app-funktioner op, herunder farvetilpasning.</string>
     <string name="purchase">Køb</string>
-    <string name="get_simple_phone">Få Simple Phone</string>
+    <string name="get_ulti_phone">Få Ulti Phone</string>
     <string name="update_thank_you">Opdater venligst Ulti Thank You til den seneste version</string>
     <string name="before_asking_question_read_faq">Inden du stiller et spørgsmål bedes du først tjekke appens indstillinger og læse de \"Ofte stillede spørgsmål\", måske finder du svaret der.</string>
     <string name="before_rate_read_faq">Tjek appens indstillinger og læs vores ofte stillede spørgsmål inden du vurderer os. Har du nogen problemer, kan du måske finde en løsning der.</string>

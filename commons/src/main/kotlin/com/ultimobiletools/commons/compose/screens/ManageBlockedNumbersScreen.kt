@@ -42,7 +42,7 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.ultimobiletools.commons.R
-import com.ultimobiletools.commons.compose.components.SimpleDropDownMenuItem
+import com.ultimobiletools.commons.compose.components.UltiDropDownMenuItem
 import com.ultimobiletools.commons.compose.extensions.*
 import com.ultimobiletools.commons.compose.lists.*
 import com.ultimobiletools.commons.compose.menus.ActionItem
@@ -97,7 +97,7 @@ internal fun ManageBlockedNumbersScreen(
         clearSelection()
     }
 
-    SimpleScaffold(
+    UltiScaffold(
         darkStatusBarIcons = !isInActionMode,
         customTopBar = { scrolledColor: Color,
                          navigationInteractionSource: MutableInteractionSource,
@@ -400,7 +400,7 @@ private fun BlockedNumberTrailingContent(modifier: Modifier = Modifier, onDelete
         onDismissRequest = dismissMenu,
         modifier = modifier
     ) {
-        SimpleDropDownMenuItem(onClick = {
+        UltiDropDownMenuItem(onClick = {
             onCopy()
             dismissMenu()
         }, text = {
@@ -411,7 +411,7 @@ private fun BlockedNumberTrailingContent(modifier: Modifier = Modifier, onDelete
                 fontWeight = FontWeight.Normal
             )
         })
-        SimpleDropDownMenuItem(onClick = {
+        UltiDropDownMenuItem(onClick = {
             onDelete()
             dismissMenu()
         }, text = {
@@ -471,7 +471,7 @@ private fun ActionModeToolbar(
 
         },
         navigationIcon = {
-            SimpleNavigationIcon(navigationIconInteractionSource = navigationIconInteractionSource, goBack = onBackClick, iconColor = textColor)
+            UltiNavigationIcon(navigationIconInteractionSource = navigationIconInteractionSource, goBack = onBackClick, iconColor = textColor)
         },
         actions = {
             BlockedNumberActionMenu(selectedIdsCount = selectedIdsCount, onDelete = onDelete, onCopy = onCopy, iconColor = textColor)

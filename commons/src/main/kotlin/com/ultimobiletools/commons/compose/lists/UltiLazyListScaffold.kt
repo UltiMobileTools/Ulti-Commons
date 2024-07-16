@@ -254,7 +254,7 @@ fun UltiLazyListScaffold(
 }
 
 @Composable
-fun SimpleScaffold(
+fun UltiScaffold(
     modifier: Modifier = Modifier,
     darkStatusBarIcons: Boolean = true,
     customTopBar: @Composable (scrolledColor: Color, navigationInteractionSource: MutableInteractionSource, scrollBehavior: TopAppBarScrollBehavior, statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color) -> Unit,

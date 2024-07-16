@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">El fitxer d\'origen %s no existeix</string>
     <string name="prepend_filenames">Preposa als noms de fitxer</string>
     <string name="append_filenames">Afegeix els noms de fitxer</string>
-    <string name="simple_renaming">Canvi de nom senzill</string>
+    <string name="ulti_renaming">Canvi de nom senzill</string>
     <string name="pattern_renaming">Patró</string>
     <string name="string_to_add">Cadena a afegir</string>
     <string name="rename_date_time_pattern">%Y - any
@@ -359,7 +359,7 @@
     <string name="undo_changes_confirmation">Segur que voleu desfer els canvis\?</string>
     <string name="cannot_be_undone">Aquesta acció no es pot desfer.</string>
     <string name="save_before_closing">Hi ha canvis no desats. Els voleu desar abans de sortir\?</string>
-    <string name="apply_to_all_apps">Aplica els colors a totes les aplicacions Simple</string>
+    <string name="apply_to_all_apps">Aplica els colors a totes les aplicacions Ulti</string>
     <string name="app_icon_color_warning">ADVERTÈNCIA: Alguns llançadors no gestionen correctament la personalització de la icona d\'aplicació. En cas que la icona desaparegui, proveu de llançar l\'aplicació mitjançant Google Play o algun giny, si està disponible. Un cop llançat, configureu la icona de color taronja predeterminat #F57C00. És possible que calgui tornar a instal·lar l\'aplicació en el pitjor dels casos.</string>
     <string name="share_colors_success">Colors actualitzats correctament. S\'ha afegit un tema nou anomenat «Compartit». Feu-lo servir per actualitzar tots els colors de l\'aplicació en el futur.</string>
     <string name="shared_theme_note">Tingueu en compte que tot i que utilitzeu la versió Pro de l\'aplicació, encara cal tenir Ulti Thank You per motius tècnics. S\'ocupa de la sincronització del color.</string>
@@ -912,7 +912,7 @@
     <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;espero que gaudiu de l\'aplicació. No conté anuncis i tampoc es recopilen les vostres dades. Si us plau, doneu suport al seu desenvolupament comprant &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Thank Tou&lt;/a&gt;. També disposareu de totes les funcions de l\'aplicació incloent-hi la personalització del color desbloquejada.&lt;br&gt;&lt;br&gt;Gràcies!</string>
     <string name="donate_short">Ajudeu-nos comprant la &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;, també desbloquejarà totes les funcions de l\'aplicació incloent-hi la personalització del color.</string>
     <string name="purchase">Compra</string>
-    <string name="get_simple_phone">Encarregueu un Simple Phone</string>
+    <string name="get_ulti_phone">Encarregueu un Ulti Phone</string>
     <string name="update_thank_you">Si us plau, actualitzeu Ulti Thank You a la darrera versió</string>
     <string name="before_asking_question_read_faq">Abans de fer una pregunta, reviseu la configuració de l\'aplicació i llegiu les preguntes més freqüents. Potser hi és la solució.</string>
     <string name="before_rate_read_faq">Abans de fer una valoració, reviseu la configuració de l\'aplicació i llegiu les preguntes més freqüents. Si teniu problemes, potser hi és la solució.</string>
@@ -1149,5 +1149,5 @@
     <string name="deprecated_app">OBSOLETA: Aquesta versió de l\'aplicació ja no es manté, obteniu la versió Pro a https://play.google.com/store/apps/details\?id=com.ultimobiletools.xxx.pro</string>
     <string name="pro_app_refund">No oblideu que si desinstal·leu qualsevol aplicació de pagament en un termini de 2 hores, el càrrec es retornarà automàticament. Si voleu un reemborsament més tard, poseu-vos en contacte amb nosaltres a public@ultimobiletools.com i el rebreu. Això fa que sigui fàcil provar-ho :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
-    <string name="developer_description">Un grup d\'aplicacions Android simples i de codi obert amb ginys personalitzables, sense anuncis ni permisos innecessaris.</string>
+    <string name="developer_description">Un grup d\'aplicacions Android ultis i de codi obert amb ginys personalitzables, sense anuncis ni permisos innecessaris.</string>
 </resources>

@@ -206,7 +206,7 @@
     <string name="source_file_doesnt_exist">Pradinio failo %s nėra</string>
     <string name="prepend_filenames">Prieš failo pavadinimą</string>
     <string name="append_filenames">Po failo pavadinimo</string>
-    <string name="simple_renaming">Paprastas pervadinimas</string>
+    <string name="ulti_renaming">Paprastas pervadinimas</string>
     <string name="pattern_renaming">Šablonas</string>
     <string name="string_to_add">String to add</string>
     <string name="rename_date_time_pattern">%Y - metai
@@ -906,7 +906,7 @@
     <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
     <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Įsigyti</string>
-    <string name="get_simple_phone">Get Simple Phone</string>
+    <string name="get_ulti_phone">Get Ulti Phone</string>
     <string name="update_thank_you">Atnaujinkite programėlę „Paprastas ačiū“ iki naujausios versijos</string>
     <string name="before_asking_question_read_faq">Prieš užduodami klausimą, pasižiūrėkite programėlės nustatymuose ir, iš pradžių, perskaitykite dažniausiai užduodamus klausimus. Galbūt, sprendimas yra aprašytas ten.</string>
     <string name="before_rate_read_faq">Prieš mus įvertindami, pasižiūrėkite programėlės nustatymuose ir, iš pradžių, perskaitykite dažniausiai užduodamus klausimus. Galbūt, sprendimas yra aprašytas ten.</string>

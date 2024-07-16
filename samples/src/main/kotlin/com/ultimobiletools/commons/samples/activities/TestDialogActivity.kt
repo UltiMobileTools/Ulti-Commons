@@ -104,9 +104,9 @@ class TestDialogActivity : ComponentActivity() {
         BottomSheetContent {
             val list = remember {
                 listOf(
-                    SimpleListItem(1, R.string.record_video, R.drawable.ic_camera_vector),
-                    SimpleListItem(2, R.string.record_audio, R.drawable.ic_microphone_vector, selected = true),
-                    SimpleListItem(4, R.string.choose_contact, R.drawable.ic_add_person_vector)
+                    UltiListItem(1, R.string.record_video, R.drawable.ic_camera_vector),
+                    UltiListItem(2, R.string.record_audio, R.drawable.ic_microphone_vector, selected = true),
+                    UltiListItem(4, R.string.choose_contact, R.drawable.ic_add_person_vector)
                 ).toImmutableList()
             }
             ChooserBottomSheetDialog(

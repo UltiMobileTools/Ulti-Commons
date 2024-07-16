@@ -205,7 +205,7 @@
     <string name="source_file_doesnt_exist">%s kaynak dosyası mevcut değil</string>
     <string name="prepend_filenames">Ön dosya adları</string>
     <string name="append_filenames">Dosya adlarını ekle</string>
-    <string name="simple_renaming">Basit yeniden adlandırma</string>
+    <string name="ulti_renaming">Basit yeniden adlandırma</string>
     <string name="pattern_renaming">Desen</string>
     <string name="string_to_add">Eklenecek dize</string>
     <string name="rename_date_time_pattern">%Y - yıl\n%M - ay\n%D - gün\n%h - saat\n%m - dakika\n%s - saniye\n%i - 1\'den artan sayı</string>
@@ -916,7 +916,7 @@
     <string name="donate_new">Merhaba,&lt;br&gt;&lt;br&gt; umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor ve verilerinizi de toplamıyoruz, lütfen &lt;href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Basit Teşekkürler&lt;/a&gt; uygulamasını satın alarak geliştirmeyi destekleyin. Ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.&lt;br&gt;&lt;br&gt; Teşekkürler!</string>
     <string name="donate_short">Lütfen &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Basit Teşekkürler&lt;/a&gt; uygulamasını satın alarak bizi destekleyin, ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.</string>
     <string name="purchase">Satın al</string>
-    <string name="get_simple_phone">Basit Telefon Sipariş Edin</string>
+    <string name="get_ulti_phone">Basit Telefon Sipariş Edin</string>
     <string name="update_thank_you">Lütfen Basit Teşekkürler\'i son sürüme güncelleyin</string>
     <string name="before_asking_question_read_faq">Bir soru sormadan önce, lütfen uygulama ayarlarını gözden geçirin ve önce Sık Sorulan Sorular bölümünü okuyun. Belki çözüm oradadır.</string>
     <string name="before_rate_read_faq">Bize puan vermeden önce lütfen uygulama ayarlarını gözden geçirin ve önce Sık Sorulan Sorular bölümünü okuyun. Herhangi bir sorunuz varsa, belki çözüm oradadır.</string>
