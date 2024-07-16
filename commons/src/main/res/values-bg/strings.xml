@@ -880,7 +880,6 @@
     <string name="privacy_policy">Политика за поверителност</string>
     <string name="version_placeholder">Version %s</string>
     <string name="hello">Здравейте :)</string>
-    <string name="about_footer">Направено с ❤️ в Словакия</string>
     <string name="additional_info">Допълнителна информация</string>
     <string name="app_version">Версия на приложението: %s</string>
     <string name="device_os">ОС на устройството: %s</string>

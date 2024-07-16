@@ -942,7 +942,6 @@
     <string name="privacy_policy">Informativa sulla riservatezza</string>
     <string name="version_placeholder">Versione %s</string>
     <string name="hello">Ciao :)</string>
-    <string name="about_footer">Fatto con ❤️ in Slovacchia</string>
     <string name="additional_info">Informazioni aggiuntive</string>
     <string name="app_version">Versione app: %s</string>
     <string name="device_os">SO dispositivo: %s</string>

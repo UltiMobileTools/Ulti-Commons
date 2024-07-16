@@ -863,7 +863,6 @@
     <string name="privacy_policy">Politik om beskyttelse af personlige oplysninger</string>
     <string name="version_placeholder">Version %s</string>
     <string name="hello">Hej :)</string>
-    <string name="about_footer">Udviklet med ❤️ i Slovakiet</string>
     <string name="additional_info">Yderligere info</string>
     <string name="app_version">Appversion: %s</string>
     <string name="device_os">Enheds-OS: %s</string>

@@ -947,7 +947,6 @@
     <string name="privacy_policy">Политика конфиденциальности</string>
     <string name="version_placeholder">Версия %s</string>
     <string name="hello">Привет :)</string>
-    <string name="about_footer">Сделано с ❤️ в Словакии</string>
     <string name="additional_info">Дополнительная информация</string>
     <string name="app_version">Версия приложения: %s</string>
     <string name="device_os">ОС устройства: %s</string>

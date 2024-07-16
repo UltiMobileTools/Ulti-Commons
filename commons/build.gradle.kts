@@ -34,11 +34,6 @@ android {
         viewBinding = true
         compose = true
     }
-
-    lint {
-        baseline = file("lint-baseline.xml")
-    }
-
     composeOptions {
         kotlinCompilerExtensionVersion = libs.versions.composeCompiler.get()
     }

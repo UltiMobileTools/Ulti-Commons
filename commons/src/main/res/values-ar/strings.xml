@@ -1048,7 +1048,6 @@
     <string name="privacy_policy">سياسة الخصوصية</string>
     <string name="version_placeholder">Version %s</string>
     <string name="hello">مرحبًا :)</string>
-    <string name="about_footer">صنع بـ ❤️ في سلوفاكيا</string>
     <string name="additional_info">معلومات إضافية</string>
     <string name="app_version">إصدار التطبيق: %s</string>
     <string name="device_os">نظام تشغيل الجهاز: %s</string>

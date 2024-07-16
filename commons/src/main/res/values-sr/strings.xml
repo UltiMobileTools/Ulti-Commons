@@ -932,7 +932,6 @@
     <string name="privacy_policy">Правила о приватности</string>
     <string name="version_placeholder">Version %s</string>
     <string name="hello">Здраво :)</string>
-    <string name="about_footer">Произведено са ❤️ у Словачкој</string>
     <string name="additional_info">Додатне информације</string>
     <string name="app_version">Верзија апликације: %s</string>
     <string name="device_os">Оперативни систем уређаја: %s</string>

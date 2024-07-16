@@ -864,7 +864,6 @@
     <string name="privacy_policy">Πολιτική Απορρήτου</string>
     <string name="version_placeholder">Έκδοση %s</string>
     <string name="hello">Γεια :)</string>
-    <string name="about_footer">Φτιαγμένο με ❤️ στη Σλοβακία</string>
     <string name="additional_info">Πρόσθετες πληροφορίες</string>
     <string name="app_version">Έκδοση εφαρμογής: %s</string>
     <string name="device_os">OS Συσκευής: %s</string>

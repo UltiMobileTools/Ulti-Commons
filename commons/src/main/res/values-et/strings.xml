@@ -907,7 +907,6 @@
     <string name="privacy_policy">Privaatsuspoliitika</string>
     <string name="version_placeholder">Versioon %s</string>
     <string name="hello">Hei :)</string>
-    <string name="about_footer">Tehtud Slovakkias suure ❤️\'ga</string>
     <string name="additional_info">Lisateave</string>
     <string name="app_version">Rakenduse versioon: %s</string>
     <string name="device_os">Seadme operatsioonisüsteem: %s</string>

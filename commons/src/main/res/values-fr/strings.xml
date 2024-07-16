@@ -947,7 +947,6 @@
     <string name="privacy_policy">Politique de confidentialité</string>
     <string name="version_placeholder">Version %s</string>
     <string name="hello">Bonjour :)</string>
-    <string name="about_footer">Codée avec ❤️ en Slovaquie</string>
     <string name="additional_info">Informations supplémentaires</string>
     <string name="app_version">Version de l\'application : %s</string>
     <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>
