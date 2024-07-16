@@ -855,7 +855,7 @@
     <string name="rate">Vurder</string>
     <string name="donate">Donér</string>
     <string name="follow_us">Følg os</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Hjælp os</string>
     <string name="social">Social</string>
@@ -902,24 +902,24 @@
             Tak
         ]]>
     </string>
-    <string name="simple_app_launcher">Simpel appstarter</string>
-    <string name="simple_calculator">Simpel lommeregner</string>
-    <string name="simple_calendar">Simpel kalender</string>
-    <string name="simple_camera">Simpelt kamera</string>
-    <string name="simple_clock">Simpelt ur</string>
-    <string name="simple_contacts">Simple Contacts</string>
-    <string name="simple_dialer">Simpel Dialer</string>
-    <string name="simple_draw">Simpel tegneapp</string>
-    <string name="simple_file_manager">Simple File Manager</string>
-    <string name="simple_flashlight">Simpel lommelygte</string>
-    <string name="simple_gallery">Simpelt galleri</string>
-    <string name="simple_keyboard">Simpelt tastatur</string>
-    <string name="simple_launcher">Simpel Launcher</string>
-    <string name="simple_music_player">Simpel musikafspiller</string>
-    <string name="simple_notes">Simple Notes</string>
-    <string name="simple_sms_messenger">Simpel SMS Messenger</string>
+    <string name="ulti_app_launcher">Simpel appstarter</string>
+    <string name="ulti_calculator">Simpel lommeregner</string>
+    <string name="ulti_calendar">Simpel kalender</string>
+    <string name="ulti_camera">Simpelt kamera</string>
+    <string name="ulti_clock">Simpelt ur</string>
+    <string name="ulti_contacts">Ulti Contacts</string>
+    <string name="ulti_dialer">Simpel Dialer</string>
+    <string name="ulti_draw">Simpel tegneapp</string>
+    <string name="ulti_file_manager">Ulti File Manager</string>
+    <string name="ulti_flashlight">Simpel lommelygte</string>
+    <string name="ulti_gallery">Simpelt galleri</string>
+    <string name="ulti_keyboard">Simpelt tastatur</string>
+    <string name="ulti_launcher">Simpel Launcher</string>
+    <string name="ulti_music_player">Simpel musikafspiller</string>
+    <string name="ulti_notes">Ulti Notes</string>
+    <string name="ulti_sms_messenger">Simpel SMS Messenger</string>
     <string name="ulti_thank_you">Simpelt tak</string>
-    <string name="simple_voice_recorder">Simpel stemmeoptager</string>
+    <string name="ulti_voice_recorder">Simpel stemmeoptager</string>
     <string name="app_launcher_short">Appstarter</string>
     <string name="calculator_short">Lommeregner</string>
     <string name="calendar_short">Kalender</string>
@@ -983,7 +983,7 @@
     <string name="other_help">Anden hjælp</string>
     <string name="contributors_label">
         <![CDATA[
-            Denne liste indeholder alle, der har hjulpet med en app i Simple Mobile Tools-pakken, ikke kun denne. Oversættelser håndteres af frivillige,
+            Denne liste indeholder alle, der har hjulpet med en app i Ulti Mobile Tools-pakken, ikke kun denne. Oversættelser håndteres af frivillige,
             så lad os vide, hvis du også vil hjælpe. Vejledningen til oversættelse findes på <a href="https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">denne hjemmeside</a>, eller send en mail til <a href="mailto:public@ultimobiletools.com">public@ultimobiletools.com</a>, hvis du har spørgsmål.
             Tak til alle bidragydere og andre støtter!
         ]]>

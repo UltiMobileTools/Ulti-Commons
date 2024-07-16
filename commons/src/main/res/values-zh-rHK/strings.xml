@@ -819,7 +819,7 @@
     <string name="donate">捐赠</string>
     <string name="follow_us">关注我们</string>
     <string name="copyright">v %1$s
-\n版权所有 © Simple Mobile Tools %2$d</string>
+\n版权所有 © Ulti Mobile Tools %2$d</string>
     <string name="support">支持</string>
     <string name="help_us">帮助我们</string>
     <string name="social">社交网络</string>
@@ -856,24 +856,24 @@
     <string name="features_locked">此功能被锁，请购买 &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; 解锁完整版应用。&lt;br&gt;&lt;br&gt;这是一次性付款，如果您不满意，我们可以退款给您。</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">嘿，&lt;br&gt;&lt;br&gt;我们最近发布了一些新的应用：&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; 您可以点击标题或图标来下载。&lt;br&gt;&lt;br&gt; 谢谢</string>
-    <string name="simple_app_launcher">简单应用启动器</string>
-    <string name="simple_calculator">简单计算器</string>
-    <string name="simple_calendar">简单日历</string>
-    <string name="simple_camera">简单相机</string>
-    <string name="simple_clock">简单时钟</string>
-    <string name="simple_contacts">简单通讯录</string>
-    <string name="simple_dialer">简单拨号器</string>
-    <string name="simple_draw">简单绘图</string>
-    <string name="simple_file_manager">简单文件管理器</string>
-    <string name="simple_flashlight">简单手电筒</string>
-    <string name="simple_gallery">简单图库</string>
-    <string name="simple_keyboard">简单键盘</string>
-    <string name="simple_launcher">简单启动器</string>
-    <string name="simple_music_player">简单音乐播放器</string>
-    <string name="simple_notes">简单笔记</string>
-    <string name="simple_sms_messenger">简单短信</string>
+    <string name="ulti_app_launcher">简单应用启动器</string>
+    <string name="ulti_calculator">简单计算器</string>
+    <string name="ulti_calendar">简单日历</string>
+    <string name="ulti_camera">简单相机</string>
+    <string name="ulti_clock">简单时钟</string>
+    <string name="ulti_contacts">简单通讯录</string>
+    <string name="ulti_dialer">简单拨号器</string>
+    <string name="ulti_draw">简单绘图</string>
+    <string name="ulti_file_manager">简单文件管理器</string>
+    <string name="ulti_flashlight">简单手电筒</string>
+    <string name="ulti_gallery">简单图库</string>
+    <string name="ulti_keyboard">简单键盘</string>
+    <string name="ulti_launcher">简单启动器</string>
+    <string name="ulti_music_player">简单音乐播放器</string>
+    <string name="ulti_notes">简单笔记</string>
+    <string name="ulti_sms_messenger">简单短信</string>
     <string name="ulti_thank_you">简单感谢</string>
-    <string name="simple_voice_recorder">简单录音机</string>
+    <string name="ulti_voice_recorder">简单录音机</string>
     <string name="app_launcher_short">应用启动器</string>
     <string name="calculator_short">计算器</string>
     <string name="calendar_short">日历</string>
@@ -930,7 +930,7 @@
     <string name="translation">翻译</string>
     <string name="development">开发</string>
     <string name="other_help">其他帮助</string>
-    <string name="contributors_label">此列表包含对 Simple Mobile Tools 套件中的任何应用程序有显著帮助的所有人，而不仅仅是这个应用程序。 翻译由志愿者处理，如果您也想提供帮助，请告诉我们。 翻译指南位于 &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;，或者如果你有任何问题，欢迎发送电子邮件到 &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt;。感谢所有贡献者和其他支持者！</string>
+    <string name="contributors_label">此列表包含对 Ulti Mobile Tools 套件中的任何应用程序有显著帮助的所有人，而不仅仅是这个应用程序。 翻译由志愿者处理，如果您也想提供帮助，请告诉我们。 翻译指南位于 &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;，或者如果你有任何问题，欢迎发送电子邮件到 &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt;。感谢所有贡献者和其他支持者！</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

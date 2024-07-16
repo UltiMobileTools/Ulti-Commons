@@ -848,7 +848,7 @@
     <string name="rate">評分</string>
     <string name="donate">捐贈</string>
     <string name="follow_us">追蹤我們</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -894,24 +894,24 @@
             謝謝
         ]]>
     </string>
-    <string name="simple_app_launcher">Simple App Launcher</string>
-    <string name="simple_calculator">Simple Calculator</string>
-    <string name="simple_calendar">Simple Calendar</string>
-    <string name="simple_camera">Simple Camera</string>
-    <string name="simple_clock">Simple Clock</string>
-    <string name="simple_contacts">Simple Contacts</string>
-    <string name="simple_dialer">Simple Dialer</string>
-    <string name="simple_draw">Simple Draw</string>
-    <string name="simple_file_manager">Simple File Manager</string>
-    <string name="simple_flashlight">Simple Flashlight</string>
-    <string name="simple_gallery">Simple Gallery</string>
-    <string name="simple_keyboard">Simple Keyboard</string>
-    <string name="simple_launcher">Simple Launcher</string>
-    <string name="simple_music_player">Simple Music Player</string>
-    <string name="simple_notes">Simple Notes</string>
-    <string name="simple_sms_messenger">Simple SMS Messenger</string>
+    <string name="ulti_app_launcher">Ulti App Launcher</string>
+    <string name="ulti_calculator">Ulti Calculator</string>
+    <string name="ulti_calendar">Ulti Calendar</string>
+    <string name="ulti_camera">Ulti Camera</string>
+    <string name="ulti_clock">Ulti Clock</string>
+    <string name="ulti_contacts">Ulti Contacts</string>
+    <string name="ulti_dialer">Ulti Dialer</string>
+    <string name="ulti_draw">Ulti Draw</string>
+    <string name="ulti_file_manager">Ulti File Manager</string>
+    <string name="ulti_flashlight">Ulti Flashlight</string>
+    <string name="ulti_gallery">Ulti Gallery</string>
+    <string name="ulti_keyboard">Ulti Keyboard</string>
+    <string name="ulti_launcher">Ulti Launcher</string>
+    <string name="ulti_music_player">Ulti Music Player</string>
+    <string name="ulti_notes">Ulti Notes</string>
+    <string name="ulti_sms_messenger">Ulti SMS Messenger</string>
     <string name="ulti_thank_you">Ulti Thank You</string>
-    <string name="simple_voice_recorder">Simple Voice Recorder</string>
+    <string name="ulti_voice_recorder">Ulti Voice Recorder</string>
     <string name="app_launcher_short">App Launcher</string>
     <string name="calculator_short">計算機</string>
     <string name="calendar_short">行事曆</string>
@@ -976,7 +976,7 @@
     <string name="other_help">Other help</string>
     <string name="contributors_label">
         <![CDATA[
-            This list contains everyone that noticeably helped any app within the Simple Mobile Tools suite, not only this one. Translations are handled by volunteers,
+            This list contains everyone that noticeably helped any app within the Ulti Mobile Tools suite, not only this one. Translations are handled by volunteers,
             let us know if you want to help too. The guide to translating is at <a href="https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:public@ultimobiletools.com">public@ultimobiletools.com</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>

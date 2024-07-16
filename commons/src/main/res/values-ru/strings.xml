@@ -939,7 +939,7 @@
     <string name="donate">Поддержать разработчика</string>
     <string name="follow_us">Подписаться на нас</string>
     <string name="copyright">v%1$s
-\nАвторские права © Simple Mobile Tools %2$d</string>
+\nАвторские права © Ulti Mobile Tools %2$d</string>
     <string name="support">Поддержка</string>
     <string name="help_us">Помочь нам</string>
     <string name="social">Сообщество</string>
@@ -979,24 +979,24 @@
             Спасибо
         ]]>
     </string>
-    <string name="simple_app_launcher">Простой запуск приложений</string>
-    <string name="simple_calculator">Простой калькулятор</string>
-    <string name="simple_calendar">Простой календарь</string>
-    <string name="simple_camera">Простая камера</string>
-    <string name="simple_clock">Простые часы</string>
-    <string name="simple_contacts">Простые контакты</string>
-    <string name="simple_dialer">Простой телефон</string>
-    <string name="simple_draw">Простое рисование</string>
-    <string name="simple_file_manager">Простой менеджер файлов</string>
-    <string name="simple_flashlight">Простой фонарик</string>
-    <string name="simple_gallery">Простая галерея</string>
-    <string name="simple_keyboard">Простая клавиатура</string>
-    <string name="simple_launcher">Простой рабочий стол</string>
-    <string name="simple_music_player">Простой музыкальный плеер</string>
-    <string name="simple_notes">Простые заметки</string>
-    <string name="simple_sms_messenger">Простые сообщения</string>
+    <string name="ulti_app_launcher">Простой запуск приложений</string>
+    <string name="ulti_calculator">Простой калькулятор</string>
+    <string name="ulti_calendar">Простой календарь</string>
+    <string name="ulti_camera">Простая камера</string>
+    <string name="ulti_clock">Простые часы</string>
+    <string name="ulti_contacts">Простые контакты</string>
+    <string name="ulti_dialer">Простой телефон</string>
+    <string name="ulti_draw">Простое рисование</string>
+    <string name="ulti_file_manager">Простой менеджер файлов</string>
+    <string name="ulti_flashlight">Простой фонарик</string>
+    <string name="ulti_gallery">Простая галерея</string>
+    <string name="ulti_keyboard">Простая клавиатура</string>
+    <string name="ulti_launcher">Простой рабочий стол</string>
+    <string name="ulti_music_player">Простой музыкальный плеер</string>
+    <string name="ulti_notes">Простые заметки</string>
+    <string name="ulti_sms_messenger">Простые сообщения</string>
     <string name="ulti_thank_you">Простое спасибо</string>
-    <string name="simple_voice_recorder">Простой диктофон</string>
+    <string name="ulti_voice_recorder">Простой диктофон</string>
     <string name="app_launcher_short">Рабочий стол</string>
     <string name="calculator_short">Калькулятор</string>
     <string name="calendar_short">Календарь</string>
@@ -1058,7 +1058,7 @@
     <string name="other_help">Другая помощь</string>
     <string name="contributors_label">
         <![CDATA[
-            В данном списке перечислены все, кто заметно помог любому приложению из набора Simple Mobile Tools, а не только этому. Переводы выполняются волонтёрами,
+            В данном списке перечислены все, кто заметно помог любому приложению из набора Ulti Mobile Tools, а не только этому. Переводы выполняются волонтёрами,
             дайте нам знать, если вы тоже хотите помочь. Руководство по переводу находится <a href="https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:public@ultimobiletools.com">public@ultimobiletools.com</a>, если у вас есть какие-либо вопросы.
             Спасибо всем участникам и другим помощникам!
         ]]>

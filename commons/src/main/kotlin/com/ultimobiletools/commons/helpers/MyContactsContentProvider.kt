@@ -11,7 +11,7 @@ import com.ultimobiletools.commons.models.PhoneNumber
 import com.ultimobiletools.commons.models.SimpleContact
 import com.ultimobiletools.commons.models.Contact
 
-// used for sharing privately stored contacts in Simple Contacts with Simple Dialer, Simple SMS Messenger and Simple Calendar Pro
+// used for sharing privately stored contacts in Ulti Contacts with Ulti Dialer, Ulti SMS Messenger and Ulti Calendar Pro
 class MyContactsContentProvider {
     companion object {
         private const val AUTHORITY = "com.ultimobiletools.commons.contactsprovider"

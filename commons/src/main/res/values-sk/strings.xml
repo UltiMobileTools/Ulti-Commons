@@ -892,7 +892,7 @@
     <string name="rate">Ohodnotiť</string>
     <string name="donate">Podporiť</string>
     <string name="follow_us">Sledujte nás</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">Podpora</string>
     <string name="help_us">Pomôžte nám</string>
     <string name="social">Sociálne siete</string>
@@ -938,24 +938,24 @@
             Vďaka
         ]]>
     </string>
-    <string name="simple_app_launcher">Jednoduchý spúšťač aplikácií</string>
-    <string name="simple_calculator">Jednoduchá kalkulačka</string>
-    <string name="simple_calendar">Jednoduchý kalendár</string>
-    <string name="simple_camera">Jednoduchý fotoaparát</string>
-    <string name="simple_clock">Jednoduché hodinky</string>
-    <string name="simple_contacts">Jednoduché kontakty</string>
-    <string name="simple_dialer">Jednoduchý telefón</string>
-    <string name="simple_draw">Jednoduché kreslenie</string>
-    <string name="simple_file_manager">Jednoduchý správca súborov</string>
-    <string name="simple_flashlight">Jednoduchá baterka</string>
-    <string name="simple_gallery">Jednoduchá galéria</string>
-    <string name="simple_keyboard">Jednoduchá klávesnica</string>
-    <string name="simple_launcher">Jednoduchý spúšťač</string>
-    <string name="simple_music_player">Jednoduchý hudobný prehrávač</string>
-    <string name="simple_notes">Jednoduché poznámky</string>
-    <string name="simple_sms_messenger">Jednoduché SMS správy</string>
+    <string name="ulti_app_launcher">Jednoduchý spúšťač aplikácií</string>
+    <string name="ulti_calculator">Jednoduchá kalkulačka</string>
+    <string name="ulti_calendar">Jednoduchý kalendár</string>
+    <string name="ulti_camera">Jednoduchý fotoaparát</string>
+    <string name="ulti_clock">Jednoduché hodinky</string>
+    <string name="ulti_contacts">Jednoduché kontakty</string>
+    <string name="ulti_dialer">Jednoduchý telefón</string>
+    <string name="ulti_draw">Jednoduché kreslenie</string>
+    <string name="ulti_file_manager">Jednoduchý správca súborov</string>
+    <string name="ulti_flashlight">Jednoduchá baterka</string>
+    <string name="ulti_gallery">Jednoduchá galéria</string>
+    <string name="ulti_keyboard">Jednoduchá klávesnica</string>
+    <string name="ulti_launcher">Jednoduchý spúšťač</string>
+    <string name="ulti_music_player">Jednoduchý hudobný prehrávač</string>
+    <string name="ulti_notes">Jednoduché poznámky</string>
+    <string name="ulti_sms_messenger">Jednoduché SMS správy</string>
     <string name="ulti_thank_you">Jednoduché ďakujem</string>
-    <string name="simple_voice_recorder">Jednoduchý nahrávač zvuku</string>
+    <string name="ulti_voice_recorder">Jednoduchý nahrávač zvuku</string>
     <string name="app_launcher_short">Spúšťač aplikácií</string>
     <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendár</string>
@@ -1020,7 +1020,7 @@
     <string name="other_help">Iná pomoc</string>
     <string name="contributors_label">
         <![CDATA[
-            Tento zoznam obsahuje každého, kto citeľne pomohol ktorejkoľvek apke z celej sady Simple Mobile Tools, nie iba tejto apke. Preklady sú spracovávané dobrovoľníkmi,
+            Tento zoznam obsahuje každého, kto citeľne pomohol ktorejkoľvek apke z celej sady Ulti Mobile Tools, nie iba tejto apke. Preklady sú spracovávané dobrovoľníkmi,
             dajte nám vedieť, ak chcete pomôcť tiež. Návod na prekladanie je na <a href="https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo ak máte nejaké otázky, tak nám jednoducho napíšte na <a href="mailto:public@ultimobiletools.com">public@ultimobiletools.com</a>.
             Ďakujeme všetkým prispievateľom a iným podporovateľom!
         ]]>

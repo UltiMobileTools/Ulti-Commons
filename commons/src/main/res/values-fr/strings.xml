@@ -978,24 +978,24 @@
     <string name="features_locked">Cette fonctionnalité est verrouillée. Veuillez acheter l\'application &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;\"Merci simple\"&lt;/a&gt; pour déverrouiller toutes les fonctionnalités.&lt;br&gt;&lt;br&gt;Il s\'agit d\'un paiement unique et nous vous rembourserons en cas d\'insatisfaction.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Bonjour,&lt;br&gt;&lt;br&gt; Nous vous informons que de nouvelles applications ont été publiées récemment :&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Vous pouvez les télécharger en appuyant sur leurs titres ou icônes.&lt;br&gt;&lt;br&gt; Merci</string>
-    <string name="simple_app_launcher">Lanceur d\'applications simple</string>
-    <string name="simple_calculator">Calculatrice simple</string>
-    <string name="simple_calendar">Agenda simple</string>
-    <string name="simple_camera">Appareil photo simple</string>
-    <string name="simple_clock">Horloge simple</string>
-    <string name="simple_contacts">Contacts simples</string>
-    <string name="simple_dialer">Téléphone simple</string>
-    <string name="simple_draw">Dessin simple</string>
-    <string name="simple_file_manager">Gestionnaire de fichiers simple</string>
-    <string name="simple_flashlight">Lampe de poche simple</string>
-    <string name="simple_gallery">Galerie simple</string>
-    <string name="simple_keyboard">Clavier simple</string>
-    <string name="simple_launcher">Lanceur simple</string>
-    <string name="simple_music_player">Lecteur de musique simple</string>
-    <string name="simple_notes">Notes simples</string>
-    <string name="simple_sms_messenger">Messagerie SMS simple</string>
+    <string name="ulti_app_launcher">Lanceur d\'applications simple</string>
+    <string name="ulti_calculator">Calculatrice simple</string>
+    <string name="ulti_calendar">Agenda simple</string>
+    <string name="ulti_camera">Appareil photo simple</string>
+    <string name="ulti_clock">Horloge simple</string>
+    <string name="ulti_contacts">Contacts simples</string>
+    <string name="ulti_dialer">Téléphone simple</string>
+    <string name="ulti_draw">Dessin simple</string>
+    <string name="ulti_file_manager">Gestionnaire de fichiers simple</string>
+    <string name="ulti_flashlight">Lampe de poche simple</string>
+    <string name="ulti_gallery">Galerie simple</string>
+    <string name="ulti_keyboard">Clavier simple</string>
+    <string name="ulti_launcher">Lanceur simple</string>
+    <string name="ulti_music_player">Lecteur de musique simple</string>
+    <string name="ulti_notes">Notes simples</string>
+    <string name="ulti_sms_messenger">Messagerie SMS simple</string>
     <string name="ulti_thank_you">Merci simple</string>
-    <string name="simple_voice_recorder">Enregistreur vocal simple</string>
+    <string name="ulti_voice_recorder">Enregistreur vocal simple</string>
     <string name="app_launcher_short">Lanceur d\'applications</string>
     <string name="calculator_short">Calculatrice</string>
     <string name="calendar_short">Agenda</string>

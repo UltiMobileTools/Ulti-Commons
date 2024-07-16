@@ -856,7 +856,7 @@
     <string name="rate">Βαθμολογία</string>
     <string name="donate">Δωρεά</string>
     <string name="follow_us">Ακολουθήστε μας</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">Υποστήριξη</string>
     <string name="help_us">Βοηθήστε μας</string>
     <string name="social">Κοινωνικά</string>
@@ -902,24 +902,24 @@
             Ευχαριστούμε
         ]]>
     </string>
-    <string name="simple_app_launcher">Απλός Εκκινητής</string>
-    <string name="simple_calculator">Απλή Αριθμομηχανή</string>
-    <string name="simple_calendar">Απλό Ημερολόγιο</string>
-    <string name="simple_camera">Απλή Κάμερα</string>
-    <string name="simple_clock">Απλό Ρολόι</string>
-    <string name="simple_contacts">Απλές Επαφές</string>
-    <string name="simple_dialer">Απλή Κλήση</string>
-    <string name="simple_draw">Απλή Ζωγραφική</string>
-    <string name="simple_file_manager">Απλός Διαχειριστής Αρχείων</string>
-    <string name="simple_flashlight">Απλός Φακός</string>
-    <string name="simple_gallery">Απλή Συλλογή</string>
-    <string name="simple_keyboard">Απλό Πληκτρολόγιο</string>
-    <string name="simple_launcher">Απλός Εκκινητής</string>
-    <string name="simple_music_player">Απλός Music Player</string>
-    <string name="simple_notes">Απλές Σημειώσεις</string>
-    <string name="simple_sms_messenger">Απλός SMS Messenger</string>
+    <string name="ulti_app_launcher">Απλός Εκκινητής</string>
+    <string name="ulti_calculator">Απλή Αριθμομηχανή</string>
+    <string name="ulti_calendar">Απλό Ημερολόγιο</string>
+    <string name="ulti_camera">Απλή Κάμερα</string>
+    <string name="ulti_clock">Απλό Ρολόι</string>
+    <string name="ulti_contacts">Απλές Επαφές</string>
+    <string name="ulti_dialer">Απλή Κλήση</string>
+    <string name="ulti_draw">Απλή Ζωγραφική</string>
+    <string name="ulti_file_manager">Απλός Διαχειριστής Αρχείων</string>
+    <string name="ulti_flashlight">Απλός Φακός</string>
+    <string name="ulti_gallery">Απλή Συλλογή</string>
+    <string name="ulti_keyboard">Απλό Πληκτρολόγιο</string>
+    <string name="ulti_launcher">Απλός Εκκινητής</string>
+    <string name="ulti_music_player">Απλός Music Player</string>
+    <string name="ulti_notes">Απλές Σημειώσεις</string>
+    <string name="ulti_sms_messenger">Απλός SMS Messenger</string>
     <string name="ulti_thank_you">Απλά Σας Ευχαριστούμε</string>
-    <string name="simple_voice_recorder">Απλή Εγγραφή Φωνής</string>
+    <string name="ulti_voice_recorder">Απλή Εγγραφή Φωνής</string>
     <string name="app_launcher_short">Εκκινητής εφαρμογών</string>
     <string name="calculator_short">Αριθμομηχανή</string>
     <string name="calendar_short">Ημερολόγιο</string>
@@ -984,7 +984,7 @@
     <string name="other_help">Άλλη Βοήθεια</string>
     <string name="contributors_label">
         <![CDATA[
-            Αυτή η λίστα περιέχει όλους όσους βοήθησαν αισθητά οποιαδήποτε εφαρμογή της σουίτας Simple Mobile Tools, όχι μόνο αυτή. Οι μεταφράσεις γίνονται από εθελοντές,
+            Αυτή η λίστα περιέχει όλους όσους βοήθησαν αισθητά οποιαδήποτε εφαρμογή της σουίτας Ulti Mobile Tools, όχι μόνο αυτή. Οι μεταφράσεις γίνονται από εθελοντές,
             πείτε μας αν θέλετε να βοηθήσετε κι εσείς. Ο οδηγός για τη μετάφραση βρίσκεται στον <a href="https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ιστότοπο</a>, ή επικοινωνήστε μαζί μας στο <a href="mailto:public@ultimobiletools.com">public@ultimobiletools.com</a> αν έχετε οποιεσδήποτε ερωτήσεις.
             Ευχαριστούμε όλους τους συνεισφέροντες και υποστηρικτές!
         ]]>

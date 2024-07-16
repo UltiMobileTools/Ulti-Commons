@@ -970,7 +970,7 @@
     <string name="rate">Ocenite</string>
     <string name="donate">Donirajte</string>
     <string name="follow_us">Sledite nam</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -1017,24 +1017,24 @@
             Hvala
         ]]>
     </string>
-    <string name="simple_app_launcher">Enostaven zaganjalnik aplikacij</string>
-    <string name="simple_calculator">Enostaven kalkulator</string>
-    <string name="simple_calendar">Enostaven koledar</string>
-    <string name="simple_camera">Enostavna kamera</string>
-    <string name="simple_clock">Enostavna ura</string>
-    <string name="simple_contacts">Enostavni stiki</string>
-    <string name="simple_dialer">Enostaven telefon</string>
-    <string name="simple_draw">Enostavno risanje</string>
-    <string name="simple_file_manager">Enostaven upravitelj datotek</string>
-    <string name="simple_flashlight">Enostavna svetilka</string>
-    <string name="simple_gallery">Enostavna galerija</string>
-    <string name="simple_keyboard">Enostavna tipkovnica</string>
-    <string name="simple_launcher">Enostaven zaganjalnik</string>
-    <string name="simple_music_player">Enostaven predvajalnik glasbe</string>
-    <string name="simple_notes">Enostavne beležke</string>
-    <string name="simple_sms_messenger">Enostavna SMS sporočila</string>
+    <string name="ulti_app_launcher">Enostaven zaganjalnik aplikacij</string>
+    <string name="ulti_calculator">Enostaven kalkulator</string>
+    <string name="ulti_calendar">Enostaven koledar</string>
+    <string name="ulti_camera">Enostavna kamera</string>
+    <string name="ulti_clock">Enostavna ura</string>
+    <string name="ulti_contacts">Enostavni stiki</string>
+    <string name="ulti_dialer">Enostaven telefon</string>
+    <string name="ulti_draw">Enostavno risanje</string>
+    <string name="ulti_file_manager">Enostaven upravitelj datotek</string>
+    <string name="ulti_flashlight">Enostavna svetilka</string>
+    <string name="ulti_gallery">Enostavna galerija</string>
+    <string name="ulti_keyboard">Enostavna tipkovnica</string>
+    <string name="ulti_launcher">Enostaven zaganjalnik</string>
+    <string name="ulti_music_player">Enostaven predvajalnik glasbe</string>
+    <string name="ulti_notes">Enostavne beležke</string>
+    <string name="ulti_sms_messenger">Enostavna SMS sporočila</string>
     <string name="ulti_thank_you">Enostavno hvala</string>
-    <string name="simple_voice_recorder">Enostaven snemalnik zvoka</string>
+    <string name="ulti_voice_recorder">Enostaven snemalnik zvoka</string>
     <string name="app_launcher_short">Zaganjalnik aplikacij</string>
     <string name="calculator_short">Kalkulator</string>
     <string name="calendar_short">Koledar</string>
@@ -1087,7 +1087,7 @@
     <string name="translation">Prevajanje</string>
     <string name="development">Razvoj</string>
     <string name="other_help">Druga pomoč</string>
-    <string name="contributors_label">Ta seznam vsebuje vsakogar, ki je opazno pomagal katerikoli aplikaciji iz paketa Simple Mobile Tools, ne le tej. Za prevode skrbijo prostovoljci. Sporočite nam, če želite pomagati tudi vi. Vodnik za prevajanje je na naslovu&lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, ali nas kontaktirajte na &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; če imate kakršna koli vprašanja. Hvala vsem sodelujočim in drugim podpornikom!</string>
+    <string name="contributors_label">Ta seznam vsebuje vsakogar, ki je opazno pomagal katerikoli aplikaciji iz paketa Ulti Mobile Tools, ne le tej. Za prevode skrbijo prostovoljci. Sporočite nam, če želite pomagati tudi vi. Vodnik za prevajanje je na naslovu&lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, ali nas kontaktirajte na &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; če imate kakršna koli vprašanja. Hvala vsem sodelujočim in drugim podpornikom!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

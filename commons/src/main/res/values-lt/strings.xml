@@ -891,7 +891,7 @@
     <string name="donate">Paaukoti</string>
     <string name="follow_us">Sekite mus</string>
     <string name="copyright">v %1$s
-\nAutorių teisės © Simple Mobile Tools %2$d</string>
+\nAutorių teisės © Ulti Mobile Tools %2$d</string>
     <string name="support">Palaikymas</string>
     <string name="help_us">Padėkite mums</string>
     <string name="social">Socialiniai tinklai</string>
@@ -930,24 +930,24 @@
     <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Sveiki,&lt;br&gt;&lt;br&gt; tiesiog, norime jums pranešti, kad neseniai buvo išleistos naujos programėlės:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Galite jas atsisiųsti, spusteldami ant jų pavadinimų ar piktogramų.&lt;br&gt;&lt;br&gt;Ačiū</string>
-    <string name="simple_app_launcher">Paprasta programėlių paleidyklė</string>
-    <string name="simple_calculator">Paprastas skaičiuotuvas</string>
-    <string name="simple_calendar">Paprastas kalendorius</string>
-    <string name="simple_camera">Paprasta kamera</string>
-    <string name="simple_clock">Paprastas laikrodis</string>
-    <string name="simple_contacts">Paprasti adresatai</string>
-    <string name="simple_dialer">Paprastas rinkiklis</string>
-    <string name="simple_draw">Paprastas piešimas</string>
-    <string name="simple_file_manager">Paprasta failų tvarkytuvė</string>
-    <string name="simple_flashlight">Paprastas žibintuvėlis</string>
-    <string name="simple_gallery">Paprasta galerija</string>
-    <string name="simple_keyboard">Paprasta klaviatūra</string>
-    <string name="simple_launcher">Simple Launcher</string>
-    <string name="simple_music_player">Paprastas muzikos grotuvas</string>
-    <string name="simple_notes">Paprasti užrašai</string>
-    <string name="simple_sms_messenger">Paprastos SMS žinutės</string>
+    <string name="ulti_app_launcher">Paprasta programėlių paleidyklė</string>
+    <string name="ulti_calculator">Paprastas skaičiuotuvas</string>
+    <string name="ulti_calendar">Paprastas kalendorius</string>
+    <string name="ulti_camera">Paprasta kamera</string>
+    <string name="ulti_clock">Paprastas laikrodis</string>
+    <string name="ulti_contacts">Paprasti adresatai</string>
+    <string name="ulti_dialer">Paprastas rinkiklis</string>
+    <string name="ulti_draw">Paprastas piešimas</string>
+    <string name="ulti_file_manager">Paprasta failų tvarkytuvė</string>
+    <string name="ulti_flashlight">Paprastas žibintuvėlis</string>
+    <string name="ulti_gallery">Paprasta galerija</string>
+    <string name="ulti_keyboard">Paprasta klaviatūra</string>
+    <string name="ulti_launcher">Ulti Launcher</string>
+    <string name="ulti_music_player">Paprastas muzikos grotuvas</string>
+    <string name="ulti_notes">Paprasti užrašai</string>
+    <string name="ulti_sms_messenger">Paprastos SMS žinutės</string>
     <string name="ulti_thank_you">Paprastas ačiū</string>
-    <string name="simple_voice_recorder">Paprastas garso rašytuvas</string>
+    <string name="ulti_voice_recorder">Paprastas garso rašytuvas</string>
     <string name="app_launcher_short">Programėlių paleidyklė</string>
     <string name="calculator_short">Skaičiuotuvas</string>
     <string name="calendar_short">Kalendorius</string>
@@ -995,7 +995,7 @@
     <string name="translation">Vertimas</string>
     <string name="development">Plėtojimas</string>
     <string name="other_help">Kita pagalba</string>
-    <string name="contributors_label">Šiame sąraše yra žmonės, kurie daug prisidėjo prie visų „Simple Mobile Tools“ rinkinio programėlių, o ne vien tik prie šios. Programėles į kitas kalbas verčia savanoriai, tad praneškite mums, jei taip pat norite padėti. Vertimo vadovą rasite &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;šioje svetainėje&lt;/a&gt; arba, jei turite klausimų, susisiekite su mumis el. paštu &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt;. Dėkojame visiems, kas prisidėjo ar kitaip mus palaikė!</string>
+    <string name="contributors_label">Šiame sąraše yra žmonės, kurie daug prisidėjo prie visų „Ulti Mobile Tools“ rinkinio programėlių, o ne vien tik prie šios. Programėles į kitas kalbas verčia savanoriai, tad praneškite mums, jei taip pat norite padėti. Vertimo vadovą rasite &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;šioje svetainėje&lt;/a&gt; arba, jei turite klausimų, susisiekite su mumis el. paštu &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt;. Dėkojame visiems, kas prisidėjo ar kitaip mus palaikė!</string>
     <string name="translation_arabic">Arabų</string>
     <string name="translation_azerbaijani">Azerbaidžaniečių</string>
     <string name="translation_bengali">Bengalų</string>

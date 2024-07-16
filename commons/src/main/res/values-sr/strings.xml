@@ -924,7 +924,7 @@
     <string name="rate">Rate</string>
     <string name="donate">Донирај</string>
     <string name="follow_us">Запратите нас</string>
-    <string name="copyright">v %1$s\nАуторска права © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nАуторска права © Ulti Mobile Tools %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -979,24 +979,24 @@
             Хвала
         ]]>
     </string>
-    <string name="simple_app_launcher">Једноставан покретач апликација</string>
-    <string name="simple_calculator">Једноставан калкулатор</string>
-    <string name="simple_calendar">Једноставан календар</string>
-    <string name="simple_camera">Једноставна камера</string>
-    <string name="simple_clock">Једноставан сат</string>
-    <string name="simple_contacts">Simple Contacts</string>
-    <string name="simple_dialer">Једноставан бројчаник</string>
-    <string name="simple_draw">Једноставан цртеж</string>
-    <string name="simple_file_manager">Једноставан менаџер фолдера</string>
-    <string name="simple_flashlight">Једноставна лампа</string>
-    <string name="simple_gallery">Једноставна галерија</string>
-    <string name="simple_keyboard">Једноставна тастатура</string>
-    <string name="simple_launcher">Једноставан покретач</string>
-    <string name="simple_music_player">Једноставан музички плејер</string>
-    <string name="simple_notes">Једноставне белешке</string>
-    <string name="simple_sms_messenger">Једноставан СМС Мессенгер</string>
+    <string name="ulti_app_launcher">Једноставан покретач апликација</string>
+    <string name="ulti_calculator">Једноставан калкулатор</string>
+    <string name="ulti_calendar">Једноставан календар</string>
+    <string name="ulti_camera">Једноставна камера</string>
+    <string name="ulti_clock">Једноставан сат</string>
+    <string name="ulti_contacts">Ulti Contacts</string>
+    <string name="ulti_dialer">Једноставан бројчаник</string>
+    <string name="ulti_draw">Једноставан цртеж</string>
+    <string name="ulti_file_manager">Једноставан менаџер фолдера</string>
+    <string name="ulti_flashlight">Једноставна лампа</string>
+    <string name="ulti_gallery">Једноставна галерија</string>
+    <string name="ulti_keyboard">Једноставна тастатура</string>
+    <string name="ulti_launcher">Једноставан покретач</string>
+    <string name="ulti_music_player">Једноставан музички плејер</string>
+    <string name="ulti_notes">Једноставне белешке</string>
+    <string name="ulti_sms_messenger">Једноставан СМС Мессенгер</string>
     <string name="ulti_thank_you">Једноставно хвала</string>
-    <string name="simple_voice_recorder">Једноставан диктафон</string>
+    <string name="ulti_voice_recorder">Једноставан диктафон</string>
     <string name="app_launcher_short">Покретач апликација</string>
     <string name="calculator_short">Калкулатор</string>
     <string name="calendar_short">Календар</string>

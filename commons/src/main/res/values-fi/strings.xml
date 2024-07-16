@@ -898,7 +898,7 @@
     <string name="rate">Arvostele</string>
     <string name="donate">Lahjoita</string>
     <string name="follow_us">Seuraa</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">Tuki</string>
     <string name="help_us">Auta meitä</string>
     <string name="social">Sosiaalinen</string>
@@ -943,24 +943,24 @@
     <string name="features_locked">Tämä ominaisuus on lukittu. Osta &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Simple Kiitos&lt;/a&gt; koko sovelluksen lukituksen avaamisesta.&lt;br &lt;br&gt;Se on vain kertamaksu, ja jos et ole tyytyväinen, voimme hyvittää sinulle.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hei,&lt;br&gt;&lt;br&gt; halusin vain kertoa että uusi sovellus on julkaistu:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Voit ladata sen koskettamalla otsikkoa.&lt;br&gt;&lt;br&gt; Kiitos</string>
-    <string name="simple_app_launcher">Yksinkertainen App Launcher</string>
-    <string name="simple_calculator">Yksinkertainen laskin</string>
-    <string name="simple_calendar">Yksinkertainen kalenteri</string>
-    <string name="simple_camera">Yksinkertainen kamera</string>
-    <string name="simple_clock">Yksinkertainen kello</string>
-    <string name="simple_contacts">Yksinkertaiset yhteystiedot</string>
-    <string name="simple_dialer">Yksinkertainen valitsin</string>
-    <string name="simple_draw">Yksinkertainen arvonta</string>
-    <string name="simple_file_manager">Yksinkertainen tiedostonhallinta</string>
-    <string name="simple_flashlight">Yksinkertainen taskulamppu</string>
-    <string name="simple_gallery">Yksinkertainen galleria</string>
-    <string name="simple_keyboard">Yksinkertainen näppäimistö</string>
-    <string name="simple_launcher">Yksinkertainen käynnistin</string>
-    <string name="simple_music_player">Yksinkertainen musiikkisoitin</string>
-    <string name="simple_notes">Yksinkertaiset muistiinpanot</string>
-    <string name="simple_sms_messenger">Yksinkertaiset viestit</string>
+    <string name="ulti_app_launcher">Yksinkertainen App Launcher</string>
+    <string name="ulti_calculator">Yksinkertainen laskin</string>
+    <string name="ulti_calendar">Yksinkertainen kalenteri</string>
+    <string name="ulti_camera">Yksinkertainen kamera</string>
+    <string name="ulti_clock">Yksinkertainen kello</string>
+    <string name="ulti_contacts">Yksinkertaiset yhteystiedot</string>
+    <string name="ulti_dialer">Yksinkertainen valitsin</string>
+    <string name="ulti_draw">Yksinkertainen arvonta</string>
+    <string name="ulti_file_manager">Yksinkertainen tiedostonhallinta</string>
+    <string name="ulti_flashlight">Yksinkertainen taskulamppu</string>
+    <string name="ulti_gallery">Yksinkertainen galleria</string>
+    <string name="ulti_keyboard">Yksinkertainen näppäimistö</string>
+    <string name="ulti_launcher">Yksinkertainen käynnistin</string>
+    <string name="ulti_music_player">Yksinkertainen musiikkisoitin</string>
+    <string name="ulti_notes">Yksinkertaiset muistiinpanot</string>
+    <string name="ulti_sms_messenger">Yksinkertaiset viestit</string>
     <string name="ulti_thank_you">Yksinkertainen kiitos</string>
-    <string name="simple_voice_recorder">Yksinkertainen ääninauhuri</string>
+    <string name="ulti_voice_recorder">Yksinkertainen ääninauhuri</string>
     <string name="app_launcher_short">Sovelluskäynnistin</string>
     <string name="calculator_short">Laskin</string>
     <string name="calendar_short">Kalenteri</string>
@@ -1015,7 +1015,7 @@
     <string name="translation">Käännös</string>
     <string name="development">Kehitys</string>
     <string name="other_help">Muu apu</string>
-    <string name="contributors_label">Tämä lista sisältää kaikki ne, jotka ovat merkittävästi auttaneet Simple Mobile Tools-sovelluskokoelman sovelluksissa. Vapaahtoiset tekevätk käännöksiä; ole yhteydessä, jos haluat myös auttaa. Ohje käännöksiin löytyy &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tästä osoitteesta&lt;/a&gt;, tai ole vain yhteydessä sähköpostitse &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; jos sinulla on kysymyksiä. Kiitos kaikille osallistujille ja tukijoille!</string>
+    <string name="contributors_label">Tämä lista sisältää kaikki ne, jotka ovat merkittävästi auttaneet Ulti Mobile Tools-sovelluskokoelman sovelluksissa. Vapaahtoiset tekevätk käännöksiä; ole yhteydessä, jos haluat myös auttaa. Ohje käännöksiin löytyy &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;tästä osoitteesta&lt;/a&gt;, tai ole vain yhteydessä sähköpostitse &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; jos sinulla on kysymyksiä. Kiitos kaikille osallistujille ja tukijoille!</string>
     <string name="translation_arabic">Arabia</string>
     <string name="translation_azerbaijani">Azerbaidžan</string>
     <string name="translation_bengali">Bengali</string>

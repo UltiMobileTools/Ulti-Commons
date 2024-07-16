@@ -898,7 +898,7 @@
     <string name="rate">Értékelés</string>
     <string name="donate">Támogatás</string>
     <string name="follow_us">Kövessen minket</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">Támogatás</string>
     <string name="help_us">Segítsen nekünk</string>
     <string name="social">Közösségi média</string>
@@ -937,24 +937,24 @@
     <string name="features_locked">Ez a funkció zárolt, vásárolja meg az &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Egyszerű köszönet&lt;/a&gt; alkalmazást a teljes alkalmazás feloldásához.&lt;br&gt;&lt;br&gt;Ez egy egyszeri fizetés, és ha nem lesz elégedett, akkor visszatérítjük az árát.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Üdv!&lt;br&gt;&lt;br&gt;Csak tájékoztatni szeretnénk, hogy megjelent néhány új alkalmazás:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; A címeikre vagy ikonjaikra kattintva töltheti le őket.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
-    <string name="simple_app_launcher">Egyszerű alkalmazásindító</string>
-    <string name="simple_calculator">Egyszerű számológép</string>
-    <string name="simple_calendar">Egyszerű naptár</string>
-    <string name="simple_camera">Egyszerű kamera</string>
-    <string name="simple_clock">Egyszerű óra</string>
-    <string name="simple_contacts">Egyszerű névjegyek</string>
-    <string name="simple_dialer">Egyszerű tárcsázó</string>
-    <string name="simple_draw">Egyszerű rajzolás</string>
-    <string name="simple_file_manager">Egyszerű fájlkezelő</string>
-    <string name="simple_flashlight">Egyszerű zseblámpa</string>
-    <string name="simple_gallery">Egyszerű galéria</string>
-    <string name="simple_keyboard">Egyszerű billentyűzet</string>
-    <string name="simple_launcher">Egyszerű indító</string>
-    <string name="simple_music_player">Egyszerű zenelejátszó</string>
-    <string name="simple_notes">Simple Notes</string>
-    <string name="simple_sms_messenger">Egyszerű SMS üzenetküldő</string>
+    <string name="ulti_app_launcher">Egyszerű alkalmazásindító</string>
+    <string name="ulti_calculator">Egyszerű számológép</string>
+    <string name="ulti_calendar">Egyszerű naptár</string>
+    <string name="ulti_camera">Egyszerű kamera</string>
+    <string name="ulti_clock">Egyszerű óra</string>
+    <string name="ulti_contacts">Egyszerű névjegyek</string>
+    <string name="ulti_dialer">Egyszerű tárcsázó</string>
+    <string name="ulti_draw">Egyszerű rajzolás</string>
+    <string name="ulti_file_manager">Egyszerű fájlkezelő</string>
+    <string name="ulti_flashlight">Egyszerű zseblámpa</string>
+    <string name="ulti_gallery">Egyszerű galéria</string>
+    <string name="ulti_keyboard">Egyszerű billentyűzet</string>
+    <string name="ulti_launcher">Egyszerű indító</string>
+    <string name="ulti_music_player">Egyszerű zenelejátszó</string>
+    <string name="ulti_notes">Ulti Notes</string>
+    <string name="ulti_sms_messenger">Egyszerű SMS üzenetküldő</string>
     <string name="ulti_thank_you">Egyszerű köszönet</string>
-    <string name="simple_voice_recorder">Egyszerű hangrögzítő</string>
+    <string name="ulti_voice_recorder">Egyszerű hangrögzítő</string>
     <string name="app_launcher_short">Alkalmazásindító</string>
     <string name="calculator_short">Számológép</string>
     <string name="calendar_short">Naptár</string>
@@ -1002,7 +1002,7 @@
     <string name="translation">Fordítás</string>
     <string name="development">Fejlesztés</string>
     <string name="other_help">Egyéb segítség</string>
-    <string name="contributors_label">Ez a lista mindenkit tartalmaz, aki jelentősen segített a Simple Mobile Tools csomag bármely alkalmazásában, nem csak ebben a konkrét alkalmazásban. A fordítást önkéntesek végzik; lépjen kapcsolatba velünk, ha be szeretne segíteni. Elérhető egy &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;rövid útmutató a fordítás menetéről&lt;/a&gt;, és ha további kérdése maradt, a &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; e-mail-címen léphet kapcsolatba velünk. Köszönet minden közreműködőnek és egyéb támogatónak!</string>
+    <string name="contributors_label">Ez a lista mindenkit tartalmaz, aki jelentősen segített a Ulti Mobile Tools csomag bármely alkalmazásában, nem csak ebben a konkrét alkalmazásban. A fordítást önkéntesek végzik; lépjen kapcsolatba velünk, ha be szeretne segíteni. Elérhető egy &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;rövid útmutató a fordítás menetéről&lt;/a&gt;, és ha további kérdése maradt, a &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; e-mail-címen léphet kapcsolatba velünk. Köszönet minden közreműködőnek és egyéb támogatónak!</string>
     <string name="translation_arabic">Arab</string>
     <string name="translation_azerbaijani">Azerbajdzsáni</string>
     <string name="translation_bengali">Bengáli</string>

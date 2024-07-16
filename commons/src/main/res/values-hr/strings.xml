@@ -940,7 +940,7 @@
     <string name="rate">Ocjena</string>
     <string name="donate">Doniraj</string>
     <string name="follow_us">Prati nas</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">Podrška</string>
     <string name="help_us">Pomogni nam</string>
     <string name="social">Društvene mreže</string>
@@ -985,24 +985,24 @@
     <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hej,&lt;br&gt;&lt;br&gt; nedavno su objavljene nove aplikacije:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Možeš ih preuzeti pritiskom na njihove naslove ili ikone.&lt;br&gt;&lt;br&gt; Hvala</string>
-    <string name="simple_app_launcher">Jednostavni pokretač aplikacija</string>
-    <string name="simple_calculator">Jednostavni kalkulator</string>
-    <string name="simple_calendar">Jednostavni kalendar</string>
-    <string name="simple_camera">Jednostavna kamera</string>
-    <string name="simple_clock">Jednostavni sat</string>
-    <string name="simple_contacts">Jednostavni kontakti</string>
-    <string name="simple_dialer">Jednostavni birač</string>
-    <string name="simple_draw">Jednostavno crtanje</string>
-    <string name="simple_file_manager">Jednostavni upravljač datoteka</string>
-    <string name="simple_flashlight">Jednostavna svjetiljka</string>
-    <string name="simple_gallery">Jednostavna galerija</string>
-    <string name="simple_keyboard">Jednostavna tipkovnica</string>
-    <string name="simple_launcher">Jednostavni pokretač</string>
-    <string name="simple_music_player">Jednostavni player glazbe</string>
-    <string name="simple_notes">Jednostavne bilješke</string>
-    <string name="simple_sms_messenger">Jednostavni SMS messenger</string>
+    <string name="ulti_app_launcher">Jednostavni pokretač aplikacija</string>
+    <string name="ulti_calculator">Jednostavni kalkulator</string>
+    <string name="ulti_calendar">Jednostavni kalendar</string>
+    <string name="ulti_camera">Jednostavna kamera</string>
+    <string name="ulti_clock">Jednostavni sat</string>
+    <string name="ulti_contacts">Jednostavni kontakti</string>
+    <string name="ulti_dialer">Jednostavni birač</string>
+    <string name="ulti_draw">Jednostavno crtanje</string>
+    <string name="ulti_file_manager">Jednostavni upravljač datoteka</string>
+    <string name="ulti_flashlight">Jednostavna svjetiljka</string>
+    <string name="ulti_gallery">Jednostavna galerija</string>
+    <string name="ulti_keyboard">Jednostavna tipkovnica</string>
+    <string name="ulti_launcher">Jednostavni pokretač</string>
+    <string name="ulti_music_player">Jednostavni player glazbe</string>
+    <string name="ulti_notes">Jednostavne bilješke</string>
+    <string name="ulti_sms_messenger">Jednostavni SMS messenger</string>
     <string name="ulti_thank_you">Jednostavno hvala</string>
-    <string name="simple_voice_recorder">Jednostavni diktafon</string>
+    <string name="ulti_voice_recorder">Jednostavni diktafon</string>
     <string name="app_launcher_short">Pokretač aplikacija</string>
     <string name="calculator_short">Kalkulator</string>
     <string name="calendar_short">Kalendar</string>
@@ -1052,7 +1052,7 @@
     <string name="translation">Prijevod</string>
     <string name="development">Razvoj</string>
     <string name="other_help">Ostala pomoć</string>
-    <string name="contributors_label">This list contains everyone that noticeably helped any app within the Simple Mobile Tools suite, not only this one. Translations are handled by volunteers, let us know if you want to help too. The guide to translating is at &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, or just contact us at &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; if you have any questions. Thanks to all contributors and other supporters!</string>
+    <string name="contributors_label">This list contains everyone that noticeably helped any app within the Ulti Mobile Tools suite, not only this one. Translations are handled by volunteers, let us know if you want to help too. The guide to translating is at &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt;, or just contact us at &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; if you have any questions. Thanks to all contributors and other supporters!</string>
     <string name="translation_arabic">Arapski</string>
     <string name="translation_azerbaijani">Azerbajdžanski</string>
     <string name="translation_bengali">Bengalski</string>

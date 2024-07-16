@@ -926,7 +926,7 @@
     <string name="rate">Avaliar</string>
     <string name="donate">Donativos</string>
     <string name="follow_us">Siga-nos</string>
-    <string name="copyright">V %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">V %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">Apoio</string>
     <string name="help_us">Ajude-nos</string>
     <string name="social">Redes sociais</string>
@@ -957,24 +957,24 @@
     <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Olá.&lt;br&gt;&lt;br&gt; Temos novidades! Uma nova aplicação ficou disponível recentemente:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Pode descarregar a nova aplicação carregando no seu título ou ícone.&lt;br&gt;&lt;br&gt; Obrigado</string>
-    <string name="simple_app_launcher">Simple App Launcher</string>
-    <string name="simple_calculator">Simple Calculator</string>
-    <string name="simple_calendar">Simple Calendar</string>
-    <string name="simple_camera">Simple Camera</string>
-    <string name="simple_clock">Simple Clock</string>
-    <string name="simple_contacts">Simple Contacts</string>
-    <string name="simple_dialer">Simple Dialer</string>
-    <string name="simple_draw">Simple Draw</string>
-    <string name="simple_file_manager">Simple File Manager</string>
-    <string name="simple_flashlight">Simple Flashlight</string>
-    <string name="simple_gallery">Simple Gallery</string>
-    <string name="simple_keyboard">Simple Keyboard</string>
-    <string name="simple_launcher">Simple Launcher</string>
-    <string name="simple_music_player">Simple Music Player</string>
-    <string name="simple_notes">Simple Notes</string>
-    <string name="simple_sms_messenger">Simple SMS Messenger</string>
+    <string name="ulti_app_launcher">Ulti App Launcher</string>
+    <string name="ulti_calculator">Ulti Calculator</string>
+    <string name="ulti_calendar">Ulti Calendar</string>
+    <string name="ulti_camera">Ulti Camera</string>
+    <string name="ulti_clock">Ulti Clock</string>
+    <string name="ulti_contacts">Ulti Contacts</string>
+    <string name="ulti_dialer">Ulti Dialer</string>
+    <string name="ulti_draw">Ulti Draw</string>
+    <string name="ulti_file_manager">Ulti File Manager</string>
+    <string name="ulti_flashlight">Ulti Flashlight</string>
+    <string name="ulti_gallery">Ulti Gallery</string>
+    <string name="ulti_keyboard">Ulti Keyboard</string>
+    <string name="ulti_launcher">Ulti Launcher</string>
+    <string name="ulti_music_player">Ulti Music Player</string>
+    <string name="ulti_notes">Ulti Notes</string>
+    <string name="ulti_sms_messenger">Ulti SMS Messenger</string>
     <string name="ulti_thank_you">Ulti Thank You</string>
-    <string name="simple_voice_recorder">Simple Voice Recorder</string>
+    <string name="ulti_voice_recorder">Ulti Voice Recorder</string>
     <string name="app_launcher_short">App Launcher</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
@@ -1026,7 +1026,7 @@
     <string name="translation">Tradução</string>
     <string name="development">Desenvolvimento</string>
     <string name="other_help">Mais ajuda</string>
-    <string name="contributors_label">Esta lista menciona todos aqueles que, de alguma forma, ajudaram significativamente no desenvolvimento das Simple Mobile Tools e não apenas desta aplicação. As traduções estão a cargo de voluntários. Se quiser participar, encontra o guia no &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;nosso site&lt;/a&gt; ou então, contacte-nos para &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; se tiver alguma questão. Obrigado a todos os que contribuiram e nos apoiaram!</string>
+    <string name="contributors_label">Esta lista menciona todos aqueles que, de alguma forma, ajudaram significativamente no desenvolvimento das Ulti Mobile Tools e não apenas desta aplicação. As traduções estão a cargo de voluntários. Se quiser participar, encontra o guia no &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;nosso site&lt;/a&gt; ou então, contacte-nos para &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; se tiver alguma questão. Obrigado a todos os que contribuiram e nos apoiaram!</string>
     <string name="translation_arabic">Árabe</string>
     <string name="translation_azerbaijani">Azeri</string>
     <string name="translation_bengali">Bengalês</string>

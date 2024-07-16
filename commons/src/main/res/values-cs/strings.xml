@@ -935,7 +935,7 @@
     <string name="rate">Ohodnotit</string>
     <string name="donate">Podpořit</string>
     <string name="follow_us">Sledujte nás</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">Podpora</string>
     <string name="help_us">Pomozte nám</string>
     <string name="social">Sociální sítě</string>
@@ -976,24 +976,24 @@
             Děkuji
         ]]>
     </string>
-    <string name="simple_app_launcher">Jednoduchý spouštěč aplikací</string>
-    <string name="simple_calculator">Jednoduchá kalkulačka</string>
-    <string name="simple_calendar">Jednoduchý kalendář</string>
-    <string name="simple_camera">Jednoduchý fotoaparát</string>
-    <string name="simple_clock">Jednoduché hodiny</string>
-    <string name="simple_contacts">Simple Contacts</string>
-    <string name="simple_dialer">Jednoduchý telefon</string>
-    <string name="simple_draw">Jednoduché kreslení</string>
-    <string name="simple_file_manager">Simple File Manager</string>
-    <string name="simple_flashlight">Jednoduchá svítilna</string>
-    <string name="simple_gallery">Jednoduchá galerie</string>
-    <string name="simple_keyboard">Jednoduchá klávesnice</string>
-    <string name="simple_launcher">Jednoduchý spouštěč</string>
-    <string name="simple_music_player">Jednoduchý hudební přehrávač</string>
-    <string name="simple_notes">Simple Notes</string>
-    <string name="simple_sms_messenger">Jednoduché SMS zprávy</string>
+    <string name="ulti_app_launcher">Jednoduchý spouštěč aplikací</string>
+    <string name="ulti_calculator">Jednoduchá kalkulačka</string>
+    <string name="ulti_calendar">Jednoduchý kalendář</string>
+    <string name="ulti_camera">Jednoduchý fotoaparát</string>
+    <string name="ulti_clock">Jednoduché hodiny</string>
+    <string name="ulti_contacts">Ulti Contacts</string>
+    <string name="ulti_dialer">Jednoduchý telefon</string>
+    <string name="ulti_draw">Jednoduché kreslení</string>
+    <string name="ulti_file_manager">Ulti File Manager</string>
+    <string name="ulti_flashlight">Jednoduchá svítilna</string>
+    <string name="ulti_gallery">Jednoduchá galerie</string>
+    <string name="ulti_keyboard">Jednoduchá klávesnice</string>
+    <string name="ulti_launcher">Jednoduchý spouštěč</string>
+    <string name="ulti_music_player">Jednoduchý hudební přehrávač</string>
+    <string name="ulti_notes">Ulti Notes</string>
+    <string name="ulti_sms_messenger">Jednoduché SMS zprávy</string>
     <string name="ulti_thank_you">Jednoduché děkuji</string>
-    <string name="simple_voice_recorder">Jednoduchý hlasový záznamník</string>
+    <string name="ulti_voice_recorder">Jednoduchý hlasový záznamník</string>
     <string name="app_launcher_short">Spouštěč aplikací</string>
     <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendář</string>
@@ -1049,7 +1049,7 @@
     <string name="translation">Překlad</string>
     <string name="development">Vývoj</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">Tento seznam obsahuje všechny, kteří výrazně pomohli jakékoli aplikaci v rámci sady Simple Mobile Tools, nejen této. O překlady se starají dobrovolníci, dejte nám vědět, pokud chcete pomoci i Vy. Průvodce překladem je na &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;této webové stránce&lt;/a&gt;. Pokud máte nějaké dotazy, kontaktujte nás na adrese &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt;. Děkujeme všem přispěvatelům a dalším podporovatelům!</string>
+    <string name="contributors_label">Tento seznam obsahuje všechny, kteří výrazně pomohli jakékoli aplikaci v rámci sady Ulti Mobile Tools, nejen této. O překlady se starají dobrovolníci, dejte nám vědět, pokud chcete pomoci i Vy. Průvodce překladem je na &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;této webové stránce&lt;/a&gt;. Pokud máte nějaké dotazy, kontaktujte nás na adrese &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt;. Děkujeme všem přispěvatelům a dalším podporovatelům!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

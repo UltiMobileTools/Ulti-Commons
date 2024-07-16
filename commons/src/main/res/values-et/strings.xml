@@ -899,7 +899,7 @@
     <string name="donate">Toeta meid</string>
     <string name="follow_us">Jälgi meid</string>
     <string name="copyright">v %1$s
-\nAutoriõigused © Simple Mobile Tools (Lihtsad mobiiitarvikud) %2$d</string>
+\nAutoriõigused © Ulti Mobile Tools (Lihtsad mobiiitarvikud) %2$d</string>
     <string name="support">Kasutajatugi</string>
     <string name="help_us">Osale arenduses</string>
     <string name="social">Sotsiaalmeedia</string>
@@ -938,24 +938,24 @@
     <string name="features_locked">See funktsionaalsus on lukus, palun osta rakendus &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt; ning kogu rakendus on siis kasutatav.See on ainult ühekordne makse ja kui sa ei jää rahule, saame raha tagasi maksta.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hei,&lt;br&gt;&lt;br&gt; tahtsime lihtsalt teada anda, et oleme teinud mõned uued rakendused :&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Klõpsides ikooni või nimel saad sa neid alla laadida.&lt;br&gt;&lt;br&gt; Tänud</string>
-    <string name="simple_app_launcher">Lihtne rakenduste käivitaja</string>
-    <string name="simple_calculator">Lihtne kalkulaator</string>
-    <string name="simple_calendar">Lihtne kalender</string>
-    <string name="simple_camera">Lihtne kaamera</string>
-    <string name="simple_clock">Lihtne kell</string>
-    <string name="simple_contacts">Lihtsad kontaktid</string>
-    <string name="simple_dialer">Lihtne telefon</string>
-    <string name="simple_draw">Lihtne joonistaja</string>
-    <string name="simple_file_manager">Lihtne failihaldur</string>
-    <string name="simple_flashlight">Lihtne taskulamp</string>
-    <string name="simple_gallery">Lihtne galerii</string>
-    <string name="simple_keyboard">Lihtne klahvistik</string>
-    <string name="simple_launcher">Lihtne käivitaja</string>
-    <string name="simple_music_player">Lihtne muusikamängija</string>
-    <string name="simple_notes">Lihtne märkmik</string>
-    <string name="simple_sms_messenger">Lihtne SMS sõnumiklient</string>
+    <string name="ulti_app_launcher">Lihtne rakenduste käivitaja</string>
+    <string name="ulti_calculator">Lihtne kalkulaator</string>
+    <string name="ulti_calendar">Lihtne kalender</string>
+    <string name="ulti_camera">Lihtne kaamera</string>
+    <string name="ulti_clock">Lihtne kell</string>
+    <string name="ulti_contacts">Lihtsad kontaktid</string>
+    <string name="ulti_dialer">Lihtne telefon</string>
+    <string name="ulti_draw">Lihtne joonistaja</string>
+    <string name="ulti_file_manager">Lihtne failihaldur</string>
+    <string name="ulti_flashlight">Lihtne taskulamp</string>
+    <string name="ulti_gallery">Lihtne galerii</string>
+    <string name="ulti_keyboard">Lihtne klahvistik</string>
+    <string name="ulti_launcher">Lihtne käivitaja</string>
+    <string name="ulti_music_player">Lihtne muusikamängija</string>
+    <string name="ulti_notes">Lihtne märkmik</string>
+    <string name="ulti_sms_messenger">Lihtne SMS sõnumiklient</string>
     <string name="ulti_thank_you">Lihtne tänuavaldus</string>
-    <string name="simple_voice_recorder">Lihtne helisalvestaja</string>
+    <string name="ulti_voice_recorder">Lihtne helisalvestaja</string>
     <string name="app_launcher_short">Rakenduste käivitaja</string>
     <string name="calculator_short">Kalkulaator</string>
     <string name="calendar_short">Kalender</string>

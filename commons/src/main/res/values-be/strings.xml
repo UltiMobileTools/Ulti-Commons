@@ -959,7 +959,7 @@
     <string name="donate">Ахвяраваць</string>
     <string name="follow_us">Сачыце за намі</string>
     <string name="copyright">Версія %1$s
-\nАўтарскае права © Simple Mobile Tools %2$d</string>
+\nАўтарскае права © Ulti Mobile Tools %2$d</string>
     <string name="support">Падтрымка</string>
     <string name="help_us">Дапамажы нам</string>
     <string name="social">Сацыяльны</string>
@@ -997,24 +997,24 @@
     <string name="features_locked">Гэта функцыя заблакіравана, купіце &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Просты дзякуй&lt;/a&gt; за разблакіроўку поўнай праграмы. &lt;br&gt;&lt;br&gt;Гэта аднаразовая аплата, і калі вы не будзеце задаволены, мы можам вярнуць вам грошы.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Гэй,&lt;br&gt;&lt;br&gt;проста паведамляю вам, што нядаўна былі выпушчаны некаторыя новыя праграмы:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Вы можаце загрузіць іх, націснуўшы іх загалоўкі або значкі.&lt;br&gt;&lt;br&gt; дзякуй</string>
-    <string name="simple_app_launcher">Simple App Launcher</string>
-    <string name="simple_calculator">Simple Calculator</string>
-    <string name="simple_calendar">Simple Calendar</string>
-    <string name="simple_camera">Simple Camera</string>
-    <string name="simple_clock">Simple Clock</string>
-    <string name="simple_contacts">Simple Contacts</string>
-    <string name="simple_dialer">Simple Dialer</string>
-    <string name="simple_draw">Simple Draw</string>
-    <string name="simple_file_manager">Simple File Manager</string>
-    <string name="simple_flashlight">Simple Flashlight</string>
-    <string name="simple_gallery">Simple Gallery</string>
-    <string name="simple_keyboard">Simple Keyboard</string>
-    <string name="simple_launcher">Simple Launcher</string>
-    <string name="simple_music_player">Simple Music Player</string>
-    <string name="simple_notes">Simple Notes</string>
-    <string name="simple_sms_messenger">Simple SMS Messenger</string>
+    <string name="ulti_app_launcher">Ulti App Launcher</string>
+    <string name="ulti_calculator">Ulti Calculator</string>
+    <string name="ulti_calendar">Ulti Calendar</string>
+    <string name="ulti_camera">Ulti Camera</string>
+    <string name="ulti_clock">Ulti Clock</string>
+    <string name="ulti_contacts">Ulti Contacts</string>
+    <string name="ulti_dialer">Ulti Dialer</string>
+    <string name="ulti_draw">Ulti Draw</string>
+    <string name="ulti_file_manager">Ulti File Manager</string>
+    <string name="ulti_flashlight">Ulti Flashlight</string>
+    <string name="ulti_gallery">Ulti Gallery</string>
+    <string name="ulti_keyboard">Ulti Keyboard</string>
+    <string name="ulti_launcher">Ulti Launcher</string>
+    <string name="ulti_music_player">Ulti Music Player</string>
+    <string name="ulti_notes">Ulti Notes</string>
+    <string name="ulti_sms_messenger">Ulti SMS Messenger</string>
     <string name="ulti_thank_you">Ulti Thank You</string>
-    <string name="simple_voice_recorder">Simple Voice Recorder</string>
+    <string name="ulti_voice_recorder">Ulti Voice Recorder</string>
     <string name="app_launcher_short">Працоўны стол</string>
     <string name="calculator_short">Калькулятар</string>
     <string name="calendar_short">Каляндар</string>
@@ -1062,7 +1062,7 @@
     <string name="translation">Пераклад</string>
     <string name="development">Распрацоўка</string>
     <string name="other_help">Іншая дапамога</string>
-    <string name="contributors_label">У гэтым спісе ёсць усе, хто прыкметна дапамог любому дадатку ў наборы Simple Mobile Tools, не толькі гэтаму. Tперакладам займаюцца валанцёры, дайце нам ведаць, калі вы таксама хочаце дапамагчы. Кіраўніцтва па перакладзе знаходзіцца на &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; гэты сайт&lt;/a&gt;, або проста звяжыцеся з намі па адрасе &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; калі ў вас ёсць якія-небудзь пытанні. Дзякуй усім удзельнікам і іншым прыхільнікам!</string>
+    <string name="contributors_label">У гэтым спісе ёсць усе, хто прыкметна дапамог любому дадатку ў наборы Ulti Mobile Tools, не толькі гэтаму. Tперакладам займаюцца валанцёры, дайце нам ведаць, калі вы таксама хочаце дапамагчы. Кіраўніцтва па перакладзе знаходзіцца на &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; гэты сайт&lt;/a&gt;, або проста звяжыцеся з намі па адрасе &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; калі ў вас ёсць якія-небудзь пытанні. Дзякуй усім удзельнікам і іншым прыхільнікам!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

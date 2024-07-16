@@ -966,7 +966,7 @@
     <string name="rate">Оцінити</string>
     <string name="donate">Підтримати розробника</string>
     <string name="follow_us">Підписатися на нас</string>
-    <string name="copyright">v %1$s\nАвторські права © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nАвторські права © Ulti Mobile Tools %2$d</string>
     <string name="support">Підтримка</string>
     <string name="help_us">Допоможіть нам</string>
     <string name="social">Соціальні мережі</string>
@@ -1007,24 +1007,24 @@
             Спасибі
         ]]>
     </string>
-    <string name="simple_app_launcher">Простий Лаунчер</string>
-    <string name="simple_calculator">Простий Калькулятор</string>
-    <string name="simple_calendar">Простий Календар</string>
-    <string name="simple_camera">Проста Камера</string>
-    <string name="simple_clock">Простий Годинник</string>
-    <string name="simple_contacts">Прості контакти</string>
-    <string name="simple_dialer">Простий Телефон</string>
-    <string name="simple_draw">Просте Малювання</string>
-    <string name="simple_file_manager">Простий Файловий Менеджер</string>
-    <string name="simple_flashlight">Простий Ліхтарик</string>
-    <string name="simple_gallery">Проста Галерея</string>
-    <string name="simple_keyboard">Проста Клавіатура</string>
-    <string name="simple_launcher">Простий Лаунчер</string>
-    <string name="simple_music_player">Простий Музичний Програвач</string>
-    <string name="simple_notes">Прості Нотатки</string>
-    <string name="simple_sms_messenger">Прості SMS Повідомлення</string>
+    <string name="ulti_app_launcher">Простий Лаунчер</string>
+    <string name="ulti_calculator">Простий Калькулятор</string>
+    <string name="ulti_calendar">Простий Календар</string>
+    <string name="ulti_camera">Проста Камера</string>
+    <string name="ulti_clock">Простий Годинник</string>
+    <string name="ulti_contacts">Прості контакти</string>
+    <string name="ulti_dialer">Простий Телефон</string>
+    <string name="ulti_draw">Просте Малювання</string>
+    <string name="ulti_file_manager">Простий Файловий Менеджер</string>
+    <string name="ulti_flashlight">Простий Ліхтарик</string>
+    <string name="ulti_gallery">Проста Галерея</string>
+    <string name="ulti_keyboard">Проста Клавіатура</string>
+    <string name="ulti_launcher">Простий Лаунчер</string>
+    <string name="ulti_music_player">Простий Музичний Програвач</string>
+    <string name="ulti_notes">Прості Нотатки</string>
+    <string name="ulti_sms_messenger">Прості SMS Повідомлення</string>
     <string name="ulti_thank_you">Проста Подяка</string>
-    <string name="simple_voice_recorder">Простий диктофон</string>
+    <string name="ulti_voice_recorder">Простий диктофон</string>
     <string name="app_launcher_short">Лаунчер</string>
     <string name="calculator_short">Калькулятор</string>
     <string name="calendar_short">Календар</string>
@@ -1082,7 +1082,7 @@
     <string name="translation">Переклад</string>
     <string name="development">Розробка</string>
     <string name="other_help">Інша допомога</string>
-    <string name="contributors_label">У цьому списку є всі, хто помітно допоміг будь-якому додатку в наборі Simple Mobile Tools, не тільки цьому. Перекладами займаються волонтери. Якщо ви також хочете допомогти, то повідомте нас. Посібник з перекладу знаходиться на вебсайті &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;за цією адресою&lt;/a&gt; або просто зв\'яжіться з нами через електронну пошту &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt;, якщо у вас виникли запитання. Дякуємо всім помічникам та всім, хто підтримує!</string>
+    <string name="contributors_label">У цьому списку є всі, хто помітно допоміг будь-якому додатку в наборі Ulti Mobile Tools, не тільки цьому. Перекладами займаються волонтери. Якщо ви також хочете допомогти, то повідомте нас. Посібник з перекладу знаходиться на вебсайті &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;за цією адресою&lt;/a&gt; або просто зв\'яжіться з нами через електронну пошту &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt;, якщо у вас виникли запитання. Дякуємо всім помічникам та всім, хто підтримує!</string>
     <string name="translation_arabic">Арабська</string>
     <string name="translation_azerbaijani">Азербайджанська</string>
     <string name="translation_bengali">Бенгальська</string>

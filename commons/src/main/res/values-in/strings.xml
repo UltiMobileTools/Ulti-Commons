@@ -860,7 +860,7 @@
     <string name="rate">Nilai</string>
     <string name="donate">Donasi</string>
     <string name="follow_us">Ikuti kami</string>
-    <string name="copyright">v %1$s\nHak cipta © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nHak cipta © Ulti Mobile Tools %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -909,24 +909,24 @@
             Terima kasih
         ]]>
     </string>
-    <string name="simple_app_launcher">Peluncur Aplikasi Simpel</string>
-    <string name="simple_calculator">Kalkulator Simpel</string>
-    <string name="simple_calendar">Kalender Simpel</string>
-    <string name="simple_camera">Kamera Simpel</string>
-    <string name="simple_clock">Jam Simpel</string>
-    <string name="simple_contacts">Kontak Simpel</string>
-    <string name="simple_dialer">Telepon Simpel</string>
-    <string name="simple_draw">Gambar Simpel</string>
-    <string name="simple_file_manager">Pengelola Berkas Simpel</string>
-    <string name="simple_flashlight">Senter Simpel</string>
-    <string name="simple_gallery">Galeri Simpel</string>
-    <string name="simple_keyboard">Papan Ketik Simpel</string>
-    <string name="simple_launcher">Peluncur Simpel</string>
-    <string name="simple_music_player">Pemain Musik Simpel</string>
-    <string name="simple_notes">Catatan Simpel</string>
-    <string name="simple_sms_messenger">Perpesanan SMS Simpel</string>
+    <string name="ulti_app_launcher">Peluncur Aplikasi Simpel</string>
+    <string name="ulti_calculator">Kalkulator Simpel</string>
+    <string name="ulti_calendar">Kalender Simpel</string>
+    <string name="ulti_camera">Kamera Simpel</string>
+    <string name="ulti_clock">Jam Simpel</string>
+    <string name="ulti_contacts">Kontak Simpel</string>
+    <string name="ulti_dialer">Telepon Simpel</string>
+    <string name="ulti_draw">Gambar Simpel</string>
+    <string name="ulti_file_manager">Pengelola Berkas Simpel</string>
+    <string name="ulti_flashlight">Senter Simpel</string>
+    <string name="ulti_gallery">Galeri Simpel</string>
+    <string name="ulti_keyboard">Papan Ketik Simpel</string>
+    <string name="ulti_launcher">Peluncur Simpel</string>
+    <string name="ulti_music_player">Pemain Musik Simpel</string>
+    <string name="ulti_notes">Catatan Simpel</string>
+    <string name="ulti_sms_messenger">Perpesanan SMS Simpel</string>
     <string name="ulti_thank_you">Terima Kasih Simpel</string>
-    <string name="simple_voice_recorder">Perekam Suara Simpel</string>
+    <string name="ulti_voice_recorder">Perekam Suara Simpel</string>
     <string name="app_launcher_short">Peluncur Aplikasi</string>
     <string name="calculator_short">Kalkulator</string>
     <string name="calendar_short">Kalender</string>
@@ -980,7 +980,7 @@
     <string name="translation">Terjemahan</string>
     <string name="development">Pengembangan</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">Daftar ini berisi semua orang yang secara nyata membantu aplikasi apa pun dalam rangkaian Simple Mobile Tools, tidak hanya yang ini. Penerjemahan ditangani oleh sukarelawan, beri tahu kami jika Anda ingin membantu juga. Panduan untuk menerjemahkan ada di &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;situs web ini&lt;/a&gt;, atau hubungi kami di &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; jika Anda memiliki pertanyaan. Terima kasih kepada semua kontributor dan pendukung lainnya!</string>
+    <string name="contributors_label">Daftar ini berisi semua orang yang secara nyata membantu aplikasi apa pun dalam rangkaian Ulti Mobile Tools, tidak hanya yang ini. Penerjemahan ditangani oleh sukarelawan, beri tahu kami jika Anda ingin membantu juga. Panduan untuk menerjemahkan ada di &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;situs web ini&lt;/a&gt;, atau hubungi kami di &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; jika Anda memiliki pertanyaan. Terima kasih kepada semua kontributor dan pendukung lainnya!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

@@ -895,7 +895,7 @@
     <string name="rate">Oyla</string>
     <string name="donate">Bağış yap</string>
     <string name="follow_us">Bizi takip edin</string>
-    <string name="copyright">v %1$s\nTelif hakkı © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nTelif hakkı © Ulti Mobile Tools %2$d</string>
     <string name="support">Destek</string>
     <string name="help_us">Bize yardım edin</string>
     <string name="social">Sosyal</string>
@@ -941,24 +941,24 @@
             Teşekkürler
         ]]>
     </string>
-    <string name="simple_app_launcher">Basit Uygulama Başlatıcı</string>
-    <string name="simple_calculator">Basit Hesap Makinesi</string>
-    <string name="simple_calendar">Basit Takvim</string>
-    <string name="simple_camera">Basit Kamera</string>
-    <string name="simple_clock">Basit Saat</string>
-    <string name="simple_contacts">Basit Kişiler</string>
-    <string name="simple_dialer">Basit Çevirici</string>
-    <string name="simple_draw">Basit Çizim</string>
-    <string name="simple_file_manager">Basit Dosya Yöneticisi</string>
-    <string name="simple_flashlight">Basit Fener</string>
-    <string name="simple_gallery">Basit Galeri</string>
-    <string name="simple_keyboard">Basit Klavye</string>
-    <string name="simple_launcher">Basit Başlatıcı</string>
-    <string name="simple_music_player">Basit Müzik Çalar</string>
-    <string name="simple_notes">Basit Notlar</string>
-    <string name="simple_sms_messenger">Basit SMS Messenger</string>
+    <string name="ulti_app_launcher">Basit Uygulama Başlatıcı</string>
+    <string name="ulti_calculator">Basit Hesap Makinesi</string>
+    <string name="ulti_calendar">Basit Takvim</string>
+    <string name="ulti_camera">Basit Kamera</string>
+    <string name="ulti_clock">Basit Saat</string>
+    <string name="ulti_contacts">Basit Kişiler</string>
+    <string name="ulti_dialer">Basit Çevirici</string>
+    <string name="ulti_draw">Basit Çizim</string>
+    <string name="ulti_file_manager">Basit Dosya Yöneticisi</string>
+    <string name="ulti_flashlight">Basit Fener</string>
+    <string name="ulti_gallery">Basit Galeri</string>
+    <string name="ulti_keyboard">Basit Klavye</string>
+    <string name="ulti_launcher">Basit Başlatıcı</string>
+    <string name="ulti_music_player">Basit Müzik Çalar</string>
+    <string name="ulti_notes">Basit Notlar</string>
+    <string name="ulti_sms_messenger">Basit SMS Messenger</string>
     <string name="ulti_thank_you">Basit Teşekkürler</string>
-    <string name="simple_voice_recorder">Basit Ses Kaydedici</string>
+    <string name="ulti_voice_recorder">Basit Ses Kaydedici</string>
     <string name="app_launcher_short">Uygulama Başlatıcı</string>
     <string name="calculator_short">Hesap Makinesi</string>
     <string name="calendar_short">Takvim</string>
@@ -1017,7 +1017,7 @@
     <string name="other_help">Diğer yardımlar</string>
     <string name="contributors_label">
         <![CDATA[
-            Bu liste, yalnızca buna değil, Simple Mobile Tools paketindeki herhangi bir uygulamaya belirgin şekilde yardımcı olan herkesi içerir. Çeviriler gönüllüler tarafından yapılır,
+            Bu liste, yalnızca buna değil, Ulti Mobile Tools paketindeki herhangi bir uygulamaya belirgin şekilde yardımcı olan herkesi içerir. Çeviriler gönüllüler tarafından yapılır,
             siz de yardım etmek isterseniz bize bildirin. Çeviri rehberi <a href="https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:public@ultimobiletools.com">public@ultimobiletools.com</a> adresinden bize ulaşın.
             Tüm katkıda bulunanlara ve diğer destekçilere teşekkürler!
         ]]>

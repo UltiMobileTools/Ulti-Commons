@@ -964,7 +964,7 @@
     <string name="rate">Oceń</string>
     <string name="donate">Przekaż datek</string>
     <string name="follow_us">Śledź nas</string>
-    <string name="copyright">Wersja %1$s\n© Simple Mobile Tools %2$d</string>
+    <string name="copyright">Wersja %1$s\n© Ulti Mobile Tools %2$d</string>
     <string name="support">Wsparcie</string>
     <string name="help_us">Pomóż nam</string>
     <string name="social">Portale społecznościowe</string>
@@ -1002,24 +1002,24 @@
     <string name="features_locked">Ta funkcja jest zablokowana. Kup &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Proste podziękowanie&lt;/a&gt;, aby odblokować pełną wersję aplikacji.&lt;br&gt;&lt;br&gt;Jest to płatność jednorazowa, a jeśli nie będziesz zadowolony(-a), możemy Ci zwrócić pieniądze.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Cześć!&lt;br&gt;&lt;br&gt; Dajemy Ci znać, że ostatnio zostało wydanych kilka nowych aplikacji:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Możesz je pobrać, naciskając ich nazwy lub ikony.&lt;br&gt;&lt;br&gt; Dzięki!</string>
-    <string name="simple_app_launcher">Prosty launcher aplikacji</string>
-    <string name="simple_calculator">Prosty kalkulator</string>
-    <string name="simple_calendar">Prosty kalendarz</string>
-    <string name="simple_camera">Prosty aparat</string>
-    <string name="simple_clock">Prosty zegar</string>
-    <string name="simple_contacts">Proste kontakty</string>
-    <string name="simple_dialer">Prosty telefon</string>
-    <string name="simple_draw">Prosty szkicownik</string>
-    <string name="simple_file_manager">Prosty menedżer plików</string>
-    <string name="simple_flashlight">Prosta latarka</string>
-    <string name="simple_gallery">Prosta galeria</string>
-    <string name="simple_keyboard">Prosta klawiatura</string>
-    <string name="simple_launcher">Prosty launcher</string>
-    <string name="simple_music_player">Prosty odtwarzacz muzyki</string>
-    <string name="simple_notes">Proste notatki</string>
-    <string name="simple_sms_messenger">Proste wiadomości SMS</string>
+    <string name="ulti_app_launcher">Prosty launcher aplikacji</string>
+    <string name="ulti_calculator">Prosty kalkulator</string>
+    <string name="ulti_calendar">Prosty kalendarz</string>
+    <string name="ulti_camera">Prosty aparat</string>
+    <string name="ulti_clock">Prosty zegar</string>
+    <string name="ulti_contacts">Proste kontakty</string>
+    <string name="ulti_dialer">Prosty telefon</string>
+    <string name="ulti_draw">Prosty szkicownik</string>
+    <string name="ulti_file_manager">Prosty menedżer plików</string>
+    <string name="ulti_flashlight">Prosta latarka</string>
+    <string name="ulti_gallery">Prosta galeria</string>
+    <string name="ulti_keyboard">Prosta klawiatura</string>
+    <string name="ulti_launcher">Prosty launcher</string>
+    <string name="ulti_music_player">Prosty odtwarzacz muzyki</string>
+    <string name="ulti_notes">Proste notatki</string>
+    <string name="ulti_sms_messenger">Proste wiadomości SMS</string>
     <string name="ulti_thank_you">Proste podziękowanie</string>
-    <string name="simple_voice_recorder">Prosty rejestrator głosu</string>
+    <string name="ulti_voice_recorder">Prosty rejestrator głosu</string>
     <string name="app_launcher_short">Launcher aplikacji</string>
     <string name="calculator_short">Kalkulator</string>
     <string name="calendar_short">Kalendarz</string>
@@ -1078,7 +1078,7 @@
     <string name="other_help">Inna pomoc</string>
     <string name="contributors_label">
         <![CDATA[
-            Ta lista zawiera wszystkich, którzy zauważalnie pomogli przy którejkolwiek z prostych aplikacji od Simple Mobile Tools, nie tylko przy tej. Tłumaczeniami zajmują się wolontariusze;
+            Ta lista zawiera wszystkich, którzy zauważalnie pomogli przy którejkolwiek z prostych aplikacji od Ulti Mobile Tools, nie tylko przy tej. Tłumaczeniami zajmują się wolontariusze;
             daj nam znać, jeśli też chcesz pomóc. Instrukcja jak tłumaczyć znajduje się na <a href="https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej stronie</a>, albo po prostu skontaktuj się z nami pod adresem <a href="mailto:public@ultimobiletools.com">public@ultimobiletools.com</a>, jeśli masz jakiekolwiek pytania.
             Dziękuję wszystkim współtwórcom i innym wspierającym!
         ]]>

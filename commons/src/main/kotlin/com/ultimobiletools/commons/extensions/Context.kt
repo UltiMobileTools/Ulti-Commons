@@ -985,7 +985,7 @@ fun Context.isUsingGestureNavigation(): Boolean {
 
 fun Context.getCornerRadius() = resources.getDimension(R.dimen.rounded_corner_radius_small)
 
-// we need the Default Dialer functionality only in Simple Dialer and in Simple Contacts for now
+// we need the Default Dialer functionality only in Ulti Dialer and in Ulti Contacts for now
 fun Context.isDefaultDialer(): Boolean {
     return if (!packageName.startsWith("com.ultimobiletools.contacts") && !packageName.startsWith("com.ultimobiletools.dialer")) {
         true

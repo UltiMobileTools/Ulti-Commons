@@ -1040,7 +1040,7 @@
     <string name="rate">تقييم</string>
     <string name="donate">تبرع</string>
     <string name="follow_us">تابعنا</string>
-    <string name="copyright">v %1$s\nحقوق النشر © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nحقوق النشر © Ulti Mobile Tools %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -1087,24 +1087,24 @@
             شكراً
         ]]>
     </string>
-    <string name="simple_app_launcher">درج التطبيقات البسيط</string>
-    <string name="simple_calculator">الحاسبة البسيطة</string>
-    <string name="simple_calendar">التقويم البسيط</string>
-    <string name="simple_camera">الكاميرا البسيطة</string>
-    <string name="simple_clock">الساعة البسيطة</string>
-    <string name="simple_contacts">Simple Contacts</string>
-    <string name="simple_dialer">الهاتف البسيط</string>
-    <string name="simple_draw">الرسام البسيط</string>
-    <string name="simple_file_manager">Simple File Manager</string>
-    <string name="simple_flashlight">مصباح يدوي بسيط</string>
-    <string name="simple_gallery">الاستديو البسيط</string>
-    <string name="simple_keyboard">لوحة مفاتيح بسيطة</string>
-    <string name="simple_launcher">مشغل التطبيق البسيط</string>
-    <string name="simple_music_player">مشغل موسيقى بسيط</string>
-    <string name="simple_notes">Simple Notes</string>
-    <string name="simple_sms_messenger">الرسائل البسيطة</string>
+    <string name="ulti_app_launcher">درج التطبيقات البسيط</string>
+    <string name="ulti_calculator">الحاسبة البسيطة</string>
+    <string name="ulti_calendar">التقويم البسيط</string>
+    <string name="ulti_camera">الكاميرا البسيطة</string>
+    <string name="ulti_clock">الساعة البسيطة</string>
+    <string name="ulti_contacts">Ulti Contacts</string>
+    <string name="ulti_dialer">الهاتف البسيط</string>
+    <string name="ulti_draw">الرسام البسيط</string>
+    <string name="ulti_file_manager">Ulti File Manager</string>
+    <string name="ulti_flashlight">مصباح يدوي بسيط</string>
+    <string name="ulti_gallery">الاستديو البسيط</string>
+    <string name="ulti_keyboard">لوحة مفاتيح بسيطة</string>
+    <string name="ulti_launcher">مشغل التطبيق البسيط</string>
+    <string name="ulti_music_player">مشغل موسيقى بسيط</string>
+    <string name="ulti_notes">Ulti Notes</string>
+    <string name="ulti_sms_messenger">الرسائل البسيطة</string>
     <string name="ulti_thank_you">البسيط (شكراً لكم)</string>
-    <string name="simple_voice_recorder">مسجل صوت البسيط</string>
+    <string name="ulti_voice_recorder">مسجل صوت البسيط</string>
     <string name="app_launcher_short">مشغل التطبيق</string>
     <string name="calculator_short">الحاسبة</string>
     <string name="calendar_short">التقويم</string>
@@ -1156,7 +1156,7 @@
     <string name="translation">الترجمة</string>
     <string name="development">التطوير</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">تحتوي هذه القائمة على كل شخص ساعد بشكل ملحوظ أي تطبيق داخل مجموعة Simple Mobile Tools ، وليس هذا التطبيق فقط. يتم التعامل مع الترجمات من قبل متطوعين ، أخبرنا إذا كنت تريد المساعدة أيضا. دليل الترجمة موجود على &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; هذا الموقع&lt;/a&gt;، أو فقط اتصل بنا على &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; إذا كان لديك أي أسئلة. شكرا لجميع المساهمين والداعمين الآخرين!</string>
+    <string name="contributors_label">تحتوي هذه القائمة على كل شخص ساعد بشكل ملحوظ أي تطبيق داخل مجموعة Ulti Mobile Tools ، وليس هذا التطبيق فقط. يتم التعامل مع الترجمات من قبل متطوعين ، أخبرنا إذا كنت تريد المساعدة أيضا. دليل الترجمة موجود على &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt; هذا الموقع&lt;/a&gt;، أو فقط اتصل بنا على &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; إذا كان لديك أي أسئلة. شكرا لجميع المساهمين والداعمين الآخرين!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>

@@ -904,7 +904,7 @@
     <string name="rate">Bewertung</string>
     <string name="donate">Spenden</string>
     <string name="follow_us">Folge uns</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">Unterstützung</string>
     <string name="help_us">Hilf uns</string>
     <string name="social">Soziale Medien</string>
@@ -943,24 +943,24 @@
     <string name="features_locked">Diese Funktion ist gesperrt; bitte kaufe &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Schlichtes Dankeschön&lt;/a&gt;, um die volle Anwendung freizuschalten.&lt;br&gt;&lt;br&gt;Es ist eine einmalige Zahlung und wenn du nicht zufrieden bist, können wir das Geld zurückerstatten.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">Hey,&lt;br&gt;&lt;br&gt; nur eine kleine Info zu einigen neu veröffentlichten Apps:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Du kannst sie durch Drücken auf den Namen herunterladen.&lt;br&gt;&lt;br&gt; Danke</string>
-    <string name="simple_app_launcher">Einfacher App-Launcher</string>
-    <string name="simple_calculator">Schlichter Rechner</string>
-    <string name="simple_calendar">Schlichter Kalender</string>
-    <string name="simple_camera">Einfache Kamera</string>
-    <string name="simple_clock">Einfache Uhr</string>
-    <string name="simple_contacts">Schlichte Kontakte</string>
-    <string name="simple_dialer">Schlichtes Telefon</string>
-    <string name="simple_draw">Schlichtes Zeichnen</string>
-    <string name="simple_file_manager">Schlichter Dateimanager</string>
-    <string name="simple_flashlight">Schlichte Taschenlampe</string>
-    <string name="simple_gallery">Schlichte Galerie</string>
-    <string name="simple_keyboard">Schlichte Tastatur</string>
-    <string name="simple_launcher">Einfacher Launcher</string>
-    <string name="simple_music_player">Schlichter Musikplayer</string>
-    <string name="simple_notes">Schlichte Notizen</string>
-    <string name="simple_sms_messenger">Schlichter SMS-Messenger</string>
+    <string name="ulti_app_launcher">Einfacher App-Launcher</string>
+    <string name="ulti_calculator">Schlichter Rechner</string>
+    <string name="ulti_calendar">Schlichter Kalender</string>
+    <string name="ulti_camera">Einfache Kamera</string>
+    <string name="ulti_clock">Einfache Uhr</string>
+    <string name="ulti_contacts">Schlichte Kontakte</string>
+    <string name="ulti_dialer">Schlichtes Telefon</string>
+    <string name="ulti_draw">Schlichtes Zeichnen</string>
+    <string name="ulti_file_manager">Schlichter Dateimanager</string>
+    <string name="ulti_flashlight">Schlichte Taschenlampe</string>
+    <string name="ulti_gallery">Schlichte Galerie</string>
+    <string name="ulti_keyboard">Schlichte Tastatur</string>
+    <string name="ulti_launcher">Einfacher Launcher</string>
+    <string name="ulti_music_player">Schlichter Musikplayer</string>
+    <string name="ulti_notes">Schlichte Notizen</string>
+    <string name="ulti_sms_messenger">Schlichter SMS-Messenger</string>
     <string name="ulti_thank_you">Einfaches Dankeschön</string>
-    <string name="simple_voice_recorder">Einfaches Diktiergerät</string>
+    <string name="ulti_voice_recorder">Einfaches Diktiergerät</string>
     <string name="app_launcher_short">App-Startprogramm</string>
     <string name="calculator_short">Rechner</string>
     <string name="calendar_short">Kalender</string>

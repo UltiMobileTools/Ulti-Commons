@@ -892,7 +892,7 @@
     <string name="rate">Valora</string>
     <string name="donate">Doa</string>
     <string name="follow_us">Síguenos</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">Soporte</string>
     <string name="help_us">Axúdanos</string>
     <string name="social">Social</string>
@@ -933,24 +933,24 @@
             Grazas
         ]]>
     </string>
-    <string name="simple_app_launcher">Lanzador de aplicacións sinxelo</string>
-    <string name="simple_calculator">Calculadora sinxela</string>
-    <string name="simple_calendar">Almanaque sinxelo</string>
-    <string name="simple_camera">Cámara sinxela</string>
-    <string name="simple_clock">Reloxo sinxelo</string>
-    <string name="simple_contacts">Contactos sinxelos</string>
-    <string name="simple_dialer">Marcador sinxelo</string>
-    <string name="simple_draw">Debuxo sinxelo</string>
-    <string name="simple_file_manager">Xestor de ficheiros sinxelo</string>
-    <string name="simple_flashlight">Lanterna sinxela</string>
-    <string name="simple_gallery">Galería sinxela</string>
-    <string name="simple_keyboard">Teclado sinxelo</string>
-    <string name="simple_launcher">Lanzador sinxelo</string>
-    <string name="simple_music_player">Reproductor de música sinxelo</string>
-    <string name="simple_notes">Notas sinxelas</string>
-    <string name="simple_sms_messenger">Mensaxeiro de sms sinxelo</string>
+    <string name="ulti_app_launcher">Lanzador de aplicacións sinxelo</string>
+    <string name="ulti_calculator">Calculadora sinxela</string>
+    <string name="ulti_calendar">Almanaque sinxelo</string>
+    <string name="ulti_camera">Cámara sinxela</string>
+    <string name="ulti_clock">Reloxo sinxelo</string>
+    <string name="ulti_contacts">Contactos sinxelos</string>
+    <string name="ulti_dialer">Marcador sinxelo</string>
+    <string name="ulti_draw">Debuxo sinxelo</string>
+    <string name="ulti_file_manager">Xestor de ficheiros sinxelo</string>
+    <string name="ulti_flashlight">Lanterna sinxela</string>
+    <string name="ulti_gallery">Galería sinxela</string>
+    <string name="ulti_keyboard">Teclado sinxelo</string>
+    <string name="ulti_launcher">Lanzador sinxelo</string>
+    <string name="ulti_music_player">Reproductor de música sinxelo</string>
+    <string name="ulti_notes">Notas sinxelas</string>
+    <string name="ulti_sms_messenger">Mensaxeiro de sms sinxelo</string>
     <string name="ulti_thank_you">Unicamente Grazas</string>
-    <string name="simple_voice_recorder">Gravadora da voz sinxela</string>
+    <string name="ulti_voice_recorder">Gravadora da voz sinxela</string>
     <string name="app_launcher_short">Lanzador de aplicacións</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Almanaque</string>
@@ -998,7 +998,7 @@
     <string name="translation">Tradución</string>
     <string name="development">Creadores</string>
     <string name="other_help">Outra axuda</string>
-    <string name="contributors_label">Esta lista contén todolos que axudaron notablemente a calquera aplicación da suite Simple Mobile Tools para móbiles, non só esta. As traducións corren a cargo de voluntarios, avísanos se tamén queres axudar. A guía para traducir atopase &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;este sitio web&lt;/a&gt;, ou póñase en contacto connosco en &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; se tes algunha dúbida. Grazas a todos os colaboradores e outros seguidores!</string>
+    <string name="contributors_label">Esta lista contén todolos que axudaron notablemente a calquera aplicación da suite Ulti Mobile Tools para móbiles, non só esta. As traducións corren a cargo de voluntarios, avísanos se tamén queres axudar. A guía para traducir atopase &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;este sitio web&lt;/a&gt;, ou póñase en contacto connosco en &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; se tes algunha dúbida. Grazas a todos os colaboradores e outros seguidores!</string>
     <string name="translation_arabic">Árabe</string>
     <string name="translation_azerbaijani">Azerbaillan</string>
     <string name="translation_bengali">Bengalí</string>

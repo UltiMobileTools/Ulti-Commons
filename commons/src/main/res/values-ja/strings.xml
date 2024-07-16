@@ -847,7 +847,7 @@
     <string name="rate">評価する</string>
     <string name="donate">寄付</string>
     <string name="follow_us">フォローしてください</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nCopyright © Ulti Mobile Tools %2$d</string>
     <string name="support">サポート</string>
     <string name="help_us">ご協力のお願い</string>
     <string name="social">ソーシャル メディア</string>
@@ -884,24 +884,24 @@
     <string name="features_locked">この機能はロックされています。ロックを解除するには、 &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt; を購入する必要があります。&lt;br&gt;&lt;br&gt;お支払いは1回のみで、ご満足いただけない場合はご返金いたします。</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">こんにちは、&lt;br&gt;&lt;br&gt; 最近、新しいアプリをいくつかリリースしたのでお知らせします:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; アイコンかタイトルをタップするだけでダウンロードできます。&lt;br&gt;&lt;br&gt; ありがとうございます</string>
-    <string name="simple_app_launcher">Simple App ランチャー</string>
-    <string name="simple_calculator">Simple電卓</string>
-    <string name="simple_calendar">Simpleカレンダー</string>
-    <string name="simple_camera">Simpleカメラ</string>
-    <string name="simple_clock">Simple時計</string>
-    <string name="simple_contacts">Simpleコンタクト</string>
-    <string name="simple_dialer">Simpleダイヤラー</string>
-    <string name="simple_draw">Simpleお絵かき</string>
-    <string name="simple_file_manager">Simpleファイルマネージャー</string>
-    <string name="simple_flashlight">Simpleフラッシュライト</string>
-    <string name="simple_gallery">Simpleギャラリー</string>
-    <string name="simple_keyboard">シンプルキーボード</string>
-    <string name="simple_launcher">Simpleランチャー</string>
-    <string name="simple_music_player">Simple音楽プレーヤー</string>
-    <string name="simple_notes">Simpleメモ</string>
-    <string name="simple_sms_messenger">Simpleショートメール</string>
+    <string name="ulti_app_launcher">Simple App ランチャー</string>
+    <string name="ulti_calculator">Simple電卓</string>
+    <string name="ulti_calendar">Simpleカレンダー</string>
+    <string name="ulti_camera">Simpleカメラ</string>
+    <string name="ulti_clock">Simple時計</string>
+    <string name="ulti_contacts">Simpleコンタクト</string>
+    <string name="ulti_dialer">Simpleダイヤラー</string>
+    <string name="ulti_draw">Simpleお絵かき</string>
+    <string name="ulti_file_manager">Simpleファイルマネージャー</string>
+    <string name="ulti_flashlight">Simpleフラッシュライト</string>
+    <string name="ulti_gallery">Simpleギャラリー</string>
+    <string name="ulti_keyboard">シンプルキーボード</string>
+    <string name="ulti_launcher">Simpleランチャー</string>
+    <string name="ulti_music_player">Simple音楽プレーヤー</string>
+    <string name="ulti_notes">Simpleメモ</string>
+    <string name="ulti_sms_messenger">Simpleショートメール</string>
     <string name="ulti_thank_you">Ulti Thank You</string>
-    <string name="simple_voice_recorder">Simpleボイスレコーダー</string>
+    <string name="ulti_voice_recorder">Simpleボイスレコーダー</string>
     <string name="app_launcher_short">アプリランチャー</string>
     <string name="calculator_short">電卓</string>
     <string name="calendar_short">カレンダー</string>
@@ -955,7 +955,7 @@
     <string name="translation">翻訳</string>
     <string name="development">開発</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">このリストには、このアプリだけでなく、Simple Mobile Tools スイート内の特定のアプリを著しく助けた人たちが含まれています。翻訳はボランティアによって行われています。翻訳を行いたい場合はお知らせください。翻訳ガイドは &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;こちらのWebサイト&lt;/a&gt; にあります。ご不明な点がございましたら、 &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; までお問い合わせください。すべての貢献者ならびにすべてのサポーターに感謝いたします！</string>
+    <string name="contributors_label">このリストには、このアプリだけでなく、Ulti Mobile Tools スイート内の特定のアプリを著しく助けた人たちが含まれています。翻訳はボランティアによって行われています。翻訳を行いたい場合はお知らせください。翻訳ガイドは &lt;a href=https://github.com/ultimobiletools/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;こちらのWebサイト&lt;/a&gt; にあります。ご不明な点がございましたら、 &lt;a href=mailto:public@ultimobiletools.com&gt;public@ultimobiletools.com&lt;/a&gt; までお問い合わせください。すべての貢献者ならびにすべてのサポーターに感謝いたします！</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>
