@@ -1,14 +1,17 @@
 package com.ultimobiletools.commons.activities
 
+import android.animation.Animator
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.airbnb.lottie.LottieAnimationView
+import com.google.android.material.snackbar.BaseTransientBottomBar.AnimationMode
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.SIDELOADING_TRUE
 import com.ultimobiletools.commons.helpers.SIDELOADING_UNCHECKED
 
-abstract class BaseSplashActivity : AppCompatActivity() {
+abstract class BaseSplashActivity : AppCompatActivity(), Animator.AnimatorListener {
 
     private var lottieView: LottieAnimationView? = null
 
@@ -30,7 +33,9 @@ abstract class BaseSplashActivity : AppCompatActivity() {
         lottieView?.setBackgroundColor(backgroundColor())
         lottieView?.setAnimation(animation())
         lottieView?.playAnimation()
+        lottieView?.addAnimatorListener(this)
     }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -79,5 +84,17 @@ abstract class BaseSplashActivity : AppCompatActivity() {
         } else {
             initActivity()
         }
+    }
+
+    override fun onAnimationStart(p0: Animator) {
+    }
+
+    override fun onAnimationEnd(p0: Animator) {
+    }
+
+    override fun onAnimationCancel(p0: Animator) {
+    }
+
+    override fun onAnimationRepeat(p0: Animator) {
     }
 }
