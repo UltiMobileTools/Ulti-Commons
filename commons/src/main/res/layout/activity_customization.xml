@@ -200,23 +200,23 @@
 
             </RelativeLayout>
 
-            <RelativeLayout
-                android:id="@+id/apply_to_all_holder"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/customization_app_icon_color_holder"
-                android:layout_centerHorizontal="true"
-                android:layout_margin="@dimen/big_margin"
-                android:visibility="gone">
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/apply_to_all_holder"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/customization_app_icon_color_holder"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_margin="@dimen/big_margin"-->
+<!--                android:visibility="gone">-->
 
-                <android.widget.TextView
-                    android:id="@+id/apply_to_all"
-                    style="@style/ColoredButtonStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/apply_to_all_apps" />
+<!--                <android.widget.TextView-->
+<!--                    android:id="@+id/apply_to_all"-->
+<!--                    style="@style/ColoredButtonStyle"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/apply_to_all_apps" />-->
 
-            </RelativeLayout>
+<!--            </RelativeLayout>-->
         </RelativeLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
