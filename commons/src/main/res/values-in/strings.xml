@@ -798,8 +798,6 @@
     <string name="saturday_short">Sab</string>
     <string name="sunday_short">Min</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Versi aplikasi Anda tidak akan diperbarui lagi. Silakan tingkatkan ke versi Pro untuk menerima perbaikan baru.</string>
-    <string name="upgrade_to_pro_long_click">Versi aplikasi Anda tidak akan diperbarui lagi. Silakan tingkatkan ke versi Pro untuk menerima perbaikan baru dengan mengetuk di sini.</string>
     <string name="it_is_free">Versi Pro tetap gratis hingga: %s. Jika anda mengunduhnya sampai batas waktu tersebut, anda bisa menggunakannya gratis selamanya.</string>
     <string name="more_info">Info selengkapnya</string>
     <string name="upgrade">Tingkatkan</string>

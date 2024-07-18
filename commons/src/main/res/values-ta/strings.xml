@@ -827,8 +827,6 @@
     <string name="saturday_short">ச</string>
     <string name="sunday_short">ஞா</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Your app version will not be updated anymore. Please upgrade to the Pro version to receive new fixes and other improvements.</string>
-    <string name="upgrade_to_pro_long_click">Your app version will not be updated anymore. Please upgrade to the Pro version to receive new fixes and other improvements by clicking here.</string>
     <string name="it_is_free">It is free till: %s. If you download it till then, you will be able to use it for free forever.</string>
     <string name="more_info">மேலும் தகவல்</string>
     <string name="upgrade">தரமுயர்த்து</string>

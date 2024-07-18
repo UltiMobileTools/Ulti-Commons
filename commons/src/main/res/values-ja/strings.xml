@@ -793,8 +793,6 @@
     <string name="saturday_short">土</string>
     <string name="sunday_short">日</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">アプリのバージョンはこれ以上更新されません。新しい修正や改善を受けるには、Pro版へアップグレードしてください。</string>
-    <string name="upgrade_to_pro_long_click">このアプリのバージョンはこれ以上更新されません。新たな修正と改善を受けるには、ここをタップしてPro版にアップグレードしてください。</string>
     <string name="it_is_free">%sまで無料です。それまでにダウンロードすれば、永久に無料でご利用いただけます。 </string>
     <string name="more_info">もっと見る</string>
     <string name="upgrade">アップグレードする</string>

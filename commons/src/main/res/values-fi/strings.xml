@@ -836,8 +836,6 @@
     <string name="saturday_short">La</string>
     <string name="sunday_short">Su</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Sovellusversiotasi ei enää päivitetä. Hanki päivitys Pro-versioon vastaanottaaksesi uusimmat korjaukset ja kohennukset.</string>
-    <string name="upgrade_to_pro_long_click">Sovellusversiotasi ei enää päivitetä. Hanki päivitys Pro-versioon vastaanottaaksesi uusimmat korjaukset ja kohennukset klikkaamalla tästä.</string>
     <string name="it_is_free">Se on ilmainen %s asti. Jos lataat ennen sitä, voit käyttää sovellusta ilmaiseksi ikuisesti.</string>
     <string name="more_info">Lisää tietoa</string>
     <string name="upgrade">Päivitä</string>

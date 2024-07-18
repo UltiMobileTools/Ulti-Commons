@@ -829,8 +829,6 @@
     <string name="saturday_short">Za</string>
     <string name="sunday_short">Zo</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Deze app zal niet langer worden bijgewerkt. Upgrade naar de Pro-versie om gebruik te kunnen maken van nieuwe functies en verbeteringen.</string>
-    <string name="upgrade_to_pro_long_click">Deze app zal niet langer worden bijgewerkt. Klik hier om te upgraden naar de Pro-versie en gebruik te maken van nieuwe functies en verbeteringen.</string>
     <string name="it_is_free">Het is gratis tot: %s. Als het voordien is gedownload, is het voor altijd gratis te gebruiken.</string>
     <string name="more_info">Meer informatie</string>
     <string name="upgrade">Upgraden</string>

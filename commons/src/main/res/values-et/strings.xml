@@ -836,8 +836,6 @@
     <string name="saturday_short">Sat</string>
     <string name="sunday_short">Sun</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Seda rakenduse versiooni me enam ei uuenda. Täiendused ja parandused leiad nüüd Pro-versioonist.</string>
-    <string name="upgrade_to_pro_long_click">Sellele rakenduse versioonile enam uuendusi ei lisandu. Kui soovid parandusi ja täiendusi, siis klõpsates siin võta kasutusele Pro-versioon.</string>
     <string name="it_is_free">See rakendus on tasuta kuni %s. Kui laadid ta alla enne seda, siis on ta tasuta kasutamiseks ilma ajalise piiranguta.</string>
     <string name="more_info">Lisateave</string>
     <string name="upgrade">Uuenda</string>

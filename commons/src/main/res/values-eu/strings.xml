@@ -836,8 +836,6 @@
     <string name="saturday_short">Lr</string>
     <string name="sunday_short">Ig</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Zure aplikazioaren bertsioa ez da berriro berrituko. Aldatu Pro bertsiora konponketa eta hobekuntza gehiago jasotzeko.</string>
-    <string name="upgrade_to_pro_long_click">Zure aplikazioaren bertsioa ez da berriro berrituko. Aldatu Pro bertsiora konponketa eta hobekuntza gehiago jasotzeko hemen klik eginez.</string>
     <string name="it_is_free">%s arte dohainik da. Hori baino lehen deskargatuz gero, betiko dohainik erabili ahal izango duzu.</string>
     <string name="more_info">Informazio gehiago</string>
     <string name="upgrade">Bertsio-berritu</string>

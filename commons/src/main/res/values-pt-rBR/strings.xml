@@ -863,8 +863,6 @@
     <string name="saturday_short">Sáb</string>
     <string name="sunday_short">Dom</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">A versão do seu aplicativo não será mais atualizada. Atualize para a versão Pro para receber novas correções e outras melhorias.</string>
-    <string name="upgrade_to_pro_long_click">A versão do seu aplicativo não será mais atualizada. Atualize para a versão Pro para receber novas correções e outras melhorias clicando aqui.</string>
     <string name="it_is_free">Grátis até: %s. Se você baixar antes disso, poderá utilizar gratuitamente para sempre.</string>
     <string name="more_info">Mais informação</string>
     <string name="upgrade">Atualizar</string>

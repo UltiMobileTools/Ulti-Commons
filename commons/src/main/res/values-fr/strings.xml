@@ -876,8 +876,6 @@
     <string name="saturday_short">Sam.</string>
     <string name="sunday_short">Dim.</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">La version de votre application ne sera plus mise à jour. Veuillez passer à la version \"Pro\" pour recevoir de nouveaux correctifs et bénéficier d\'autres améliorations.</string>
-    <string name="upgrade_to_pro_long_click">La version de votre application ne sera plus mise à jour. Veuillez passer à la version \"Pro\" pour recevoir de nouveaux correctifs et bénéficier d\'autres améliorations en cliquant ici.</string>
     <string name="it_is_free">Elle est gratuite jusqu\'au : %s. Si vous la téléchargez avant cette date, vous pourrez l\'utiliser gratuitement à vie.</string>
     <string name="more_info">Plus d\'informations</string>
     <string name="upgrade">Mettre à jour</string>

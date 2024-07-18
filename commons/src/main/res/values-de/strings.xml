@@ -842,8 +842,6 @@
     <string name="saturday_short">Sa</string>
     <string name="sunday_short">So</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Deine App-Version wird keine weiteren Aktualisierungen erhalten. Wechsle zur Pro-Version, um Fehlerkorrekturen, Verbesserungen und neue Funktionen zu erhalten.</string>
-    <string name="upgrade_to_pro_long_click">Deine App-Version wird keine weiteren Aktualisierungen erhalten. Wechsle zur Pro-Version, um Fehlerkorrekturen, Verbesserungen und neue Funktionen zu erhalten, indem du hier tippst.</string>
     <string name="it_is_free">Sie ist gratis bis: %s. Wenn du sie bis dahin herunterlädst, darfst du sie für immer gratis nutzen.</string>
     <string name="more_info">Mehr Infos</string>
     <string name="upgrade">Pro-Version installieren</string>

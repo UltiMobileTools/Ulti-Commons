@@ -836,8 +836,6 @@
     <string name="saturday_short">Szo</string>
     <string name="sunday_short">Vas</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Az Ön alkalmazásverziója már nem lesz frissítve. Frissítsen a Pro verzióra, hogy új javításokat és más fejlesztéseket kapjon.</string>
-    <string name="upgrade_to_pro_long_click">Az Ön alkalmazásverziója már nem lesz frissítve. Frissítsen a Pro verzióra az ide kattintással, hogy új javításokat és más fejlesztéseket kapjon.</string>
     <string name="it_is_free">Eddig ingyenes: %s. Ha eddig letölti, akkor örökre ingyen használhatja.</string>
     <string name="more_info">További információk</string>
     <string name="upgrade">Frissítés</string>

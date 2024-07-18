@@ -902,8 +902,6 @@
     <string name="saturday_short">Суб</string>
     <string name="sunday_short">Няд</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Версія вашага прыкладання больш не будзе абнаўляцца. Калі ласка, абнавіць да версіі Pro, каб атрымаць новыя выпраўлення і іншыя паляпшэння.</string>
-    <string name="upgrade_to_pro_long_click">Версія вашага прыкладання больш не будзе абнаўляцца. Калі ласка, абнавіць да версіі Pro, каб атрымаць новыя выпраўлення і іншыя паляпшэння, націснуўшы тут.</string>
     <string name="it_is_free">Гэта бясплатна да %s. Калі вы спампуеце яго да таго часу, вы зможаце выкарыстоўваць яго бясплатна назаўжды.</string>
     <string name="more_info">Дадатковая інфармацыя</string>
     <string name="upgrade">Абнаўленне</string>

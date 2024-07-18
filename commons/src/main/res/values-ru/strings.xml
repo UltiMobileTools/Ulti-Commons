@@ -876,8 +876,6 @@
     <string name="saturday_short">сб</string>
     <string name="sunday_short">вс</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Ваша версия приложения больше не будет обновляться. Обновите её до версии Pro, чтобы получать исправления и улучшения.</string>
-    <string name="upgrade_to_pro_long_click">Ваша версия приложения больше не будет обновляться. Обновите её до версии Pro, чтобы получать исправления и улучшения, нажав здесь.</string>
     <string name="it_is_free">Это бесплатно до %s. При загрузке до указанной даты вы получаете её бесплатно навсегда.</string>
     <string name="more_info">Подробнее</string>
     <string name="upgrade">Обновить</string>

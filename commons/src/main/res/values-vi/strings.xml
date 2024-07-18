@@ -829,8 +829,6 @@
     <string name="saturday_short">T.bảy</string>
     <string name="sunday_short">CN</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Phiên bản ứng dụng của bạn sẽ không được cập nhật nữa. Vui lòng nâng cấp lên phiên bản Pro để nhận bản sửa lỗi mới và các cải tiến khác.</string>
-    <string name="upgrade_to_pro_long_click">Phiên bản ứng dụng của bạn sẽ không được cập nhật nữa. Vui lòng nâng cấp lên phiên bản Pro để nhận các bản sửa lỗi mới và các cải tiến khác bằng cách nhấp vào đây.</string>
     <string name="it_is_free">Nó là miễn phí cho đến: %s. Nếu bạn tải xuống trong thời gian free, bạn sẽ có thể sử dụng miễn phí mãi mãi.</string>
     <string name="more_info">Thêm thông tin</string>
     <string name="upgrade">Nâng cấp</string>

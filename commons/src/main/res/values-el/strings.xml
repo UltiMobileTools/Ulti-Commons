@@ -828,8 +828,6 @@
     <string name="saturday_short">Σαβ</string>
     <string name="sunday_short">Κυρ</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Η έκδοση της εφαρμογής σας δεν θα ενημερώνεται πλέον. Παρακαλώ αναβαθμίστε την στην έκδοση Pro για να λάβετε νέες επιδιορθώσεις και βελτιώσεις.</string>
-    <string name="upgrade_to_pro_long_click">Η έκδοση της εφαρμογής σας δεν θα ενημερώνεται πλέον. Παρακαλώ αναβαθμίστε την στην έκδοση Pro για να λάβετε νέες επιδιορθώσεις και βελτιώσεις πατώντας εδώ.</string>
     <string name="it_is_free">Είναι δωρεάν μέχρι: %s. Εάν κάνετε λήψη μέχρι τότε, θα μπορείτε να την χρησιμοποιείτε δωρεάν για πάντα.</string>
     <string name="more_info">Περισσότερα</string>
     <string name="upgrade">Αναβάθμιση</string>

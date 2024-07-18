@@ -978,8 +978,6 @@
     <string name="saturday_short">سبت</string>
     <string name="sunday_short">حد</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">لن يتم تحديث إصدار التطبيق الخاص بك بعد الآن. يرجى الترقية إلى الإصدار (Pro) لتلقي الإصلاحات الجديدة وغيرها من التحسينات.</string>
-    <string name="upgrade_to_pro_long_click">لن يتم تحديث إصدار التطبيق الخاص بك بعد الآن. يرجى الترقية إلى الإصدار (Pro) لتلقي الإصلاحات الجديدة وغيرها من التحسينات من خلال النقر هنا.</string>
     <string name="it_is_free">إنه مجاني حتى: %s. إذا قمت بتنزيله حتى ذلك الحين، سوف تتمكن من استخدامه مجاناً إلى الأبد.</string>
     <string name="more_info">المزيد من المعلومات</string>
     <string name="upgrade">ترقية</string>

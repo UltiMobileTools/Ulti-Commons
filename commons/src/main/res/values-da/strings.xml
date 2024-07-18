@@ -827,8 +827,6 @@
     <string name="saturday_short">Lør</string>
     <string name="sunday_short">Søn</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Din version af appen opdateres ikke længere. Opgrader til Pro-versionen, og du vil få fejlrettelser og andre forbedringer.</string>
-    <string name="upgrade_to_pro_long_click">Din version af appen opdateres ikke længere. For at få nye fejlrettelser og andre forbedringer må du opgradere til Pro-versionen ved at klikke her.</string>
     <string name="it_is_free">Den er stadig gratis indtil: %s. Downloader du den indtil da kan du blive ved at bruge den gratis fremover.</string>
     <string name="more_info">Yderligere oplysninger</string>
     <string name="upgrade">Opgrader</string>

@@ -861,8 +861,6 @@
     <string name="saturday_short">Sâm</string>
     <string name="sunday_short">Dum</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Versiunea aplicației dvs. nu va mai fi actualizată. Vă rugăm să treceți la versiunea Pro pentru a primi noi remedieri și alte îmbunătățiri.</string>
-    <string name="upgrade_to_pro_long_click">Versiunea aplicației dvs. nu va mai fi actualizată. Vă rugăm să faceți upgrade la versiunea Pro pentru a primi noi corecturi și alte îmbunătățiri, făcând clic aici.</string>
     <string name="it_is_free">Este gratis până la: %s. Dacă o descărcați până atunci, o veți putea folosi gratuit pentru totdeauna.</string>
     <string name="more_info">Mai multe informaţii</string>
     <string name="upgrade">Actualizează la Pro</string>

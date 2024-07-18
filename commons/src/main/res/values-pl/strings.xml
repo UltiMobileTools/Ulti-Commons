@@ -902,8 +902,6 @@
     <string name="saturday_short">sob.</string>
     <string name="sunday_short">niedz.</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Twoja wersja aplikacji nie będzie już aktualizowana. Uaktualnij do wersji Pro, aby otrzymywać nowe poprawki i inne ulepszenia.</string>
-    <string name="upgrade_to_pro_long_click">Twoja wersja aplikacji nie będzie już aktualizowana. Uaktualnij do wersji Pro, aby otrzymywać nowe poprawki i inne ulepszenia, naciskając tutaj.</string>
     <string name="it_is_free">Aplikacja jest darmowa do %s. Jeśli pobierzesz ją do tego czasu, będziesz mieć ją za darmo na zawsze.</string>
     <string name="more_info">Więcej informacji</string>
     <string name="upgrade">Uaktualnij</string>

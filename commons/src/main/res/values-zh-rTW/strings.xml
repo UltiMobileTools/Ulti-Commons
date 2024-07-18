@@ -794,8 +794,6 @@
     <string name="saturday_short">週六</string>
     <string name="sunday_short">週日</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">你的應用程式版本將不再更新。請更新到專業版以獲得新的修復和其他改善。</string>
-    <string name="upgrade_to_pro_long_click">你的應用程式版本將不再更新。請點擊這裡，更新到專業版以獲得新的修復和其他改善。</string>
     <string name="it_is_free">它在此日期前免費：%s。如果您在到期前下載，將能夠永久免費使用。</string>
     <string name="more_info">更多資訊</string>
     <string name="upgrade">升級</string>

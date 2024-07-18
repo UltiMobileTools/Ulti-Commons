@@ -878,8 +878,6 @@
     <string name="saturday_short">Sub</string>
     <string name="sunday_short">Ned</string>
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Tvoja verzija aplikacije se više neće ažurirati. Nadogradi na Pro verziju za primanje novih ispravki i druga poboljšanja.</string>
-    <string name="upgrade_to_pro_long_click">Tvoja verzija aplikacije se više neće ažurirati. Pritisni ovdje za nadogradnju na Pro verziju za primanje novih ispravki i druga poboljšanja.</string>
     <string name="it_is_free">Besplatno je do: %s. Ako je preuzmete do tada, moći ćete je koristiti zauvijek.</string>
     <string name="more_info">Više informacija</string>
     <string name="upgrade">Nadogradi</string>
