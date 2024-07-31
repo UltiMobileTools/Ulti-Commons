@@ -183,9 +183,9 @@ class TestDialogActivity : ComponentActivity() {
     @Composable
     private fun getUpgradeToProAlertDialogState() = rememberAlertDialogState().apply {
         DialogMember {
-            UpgradeToProAlertDialog(alertDialogState = this, onMoreInfoClick = {
-                launchViewIntent("https://ultimobiletools.com/upgrade_to_pro")
-            }, onUpgradeClick = ::launchUpgradeToProIntent)
+//            UpgradeToProAlertDialog(alertDialogState = this, onMoreInfoClick = {
+//                launchViewIntent("https://ultimobiletools.com/upgrade_to_pro")
+//            }, onUpgradeClick = ::launchUpgradeToProIntent)
         }
     }
 
