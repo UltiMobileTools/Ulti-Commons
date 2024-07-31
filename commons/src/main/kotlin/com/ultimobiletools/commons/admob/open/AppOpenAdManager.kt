@@ -3,15 +3,14 @@ package com.ultimobiletools.commons.admob.open
 import android.app.Activity
 import android.content.Context
 import android.util.Log
-import android.widget.Toast
 import com.google.android.gms.ads.AdError
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.FullScreenContentCallback
 import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.appopen.AppOpenAd
 import com.google.android.gms.ads.appopen.AppOpenAd.AppOpenAdLoadCallback
+import com.google.android.gms.ads.appopen.AppOpenAd.load
 import com.ultimobiletools.commons.admob.AdsConstant
-import com.ultimobiletools.commons.admob.AdsConstant.AD_OPEN_UNIT_ID
 import com.ultimobiletools.commons.admob.GoogleMobileAdsConsentManager
 import java.util.Date
 
@@ -38,7 +37,7 @@ class AppOpenAdManager {
 //        isLoadingAd = true
         val request = AdRequest.Builder().build()
         Log.d(LOG_TAG, "AD_OPEN_UNIT_ID:"+AdsConstant.AD_OPEN_UNIT_ID)
-        AppOpenAd.load(context!!, AdsConstant.AD_OPEN_UNIT_ID, request, object : AppOpenAdLoadCallback() {
+        load(context!!, AdsConstant.AD_OPEN_UNIT_ID, request, object : AppOpenAdLoadCallback() {
             /**
              * Called when an app open ad has loaded.
              *
