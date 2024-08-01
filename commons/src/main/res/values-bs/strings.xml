@@ -368,8 +368,8 @@
     <string name="cannot_be_undone">Ovo je nepovratna radnja.</string>
     <string name="save_before_closing">Imate ne spremljene promjene. Želite li spremiti prije izlaska?</string>
     <string name="apply_to_all_apps">Primjeni boje na sve Jednostavne Aplikacije</string>
-    <string name="app_icon_color_warning">UPOZORENJE: neki pokretači ne rukuju ispravno s prilagodbama ikona aplikacija. Ako ikona nestane, pokušajte pokrenuti aplikaciju iz trgovine Google Play ili widgeta, ako je dostupna.
-         Nakon pokretanja, zadanu ikonu postavite na narančastu #F57C00. Možda će biti potrebno ponovno instalirati aplikaciju ako to ne radi.</string>
+    <string name="app_icon_color_warning">UPOZORENJE: neki pokretači ne rukuju ispravno s prilagodbama ikona aplikacija. Ako ikona nestane, pokušajte pokrenuti aplikaciju iz trgovine ili widgeta, ako je dostupna.
+         Nakon pokretanja, zadanu ikonu postavite na narančastu #000000. Možda će biti potrebno ponovno instalirati aplikaciju ako to ne radi.</string>
     <string name="share_colors_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
     <string name="shared_theme_note">Imajte na umu da iako koristite Pro verziju aplikacije, još uvijek trebate Jednostavno hvala iz tehničkih razloga. Brine se za sinkronizaciju boja.</string>
     <string name="purchase_thank_you">

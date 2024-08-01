@@ -361,8 +361,8 @@
     <string name="cannot_be_undone">Questa azione non può essere annullata.</string>
     <string name="save_before_closing">Ci sono modifiche non salvate. Salvare prima di uscire?</string>
     <string name="apply_to_all_apps">Applica i colori a tutte le App Semplici</string>
-    <string name="app_icon_color_warning">ATTENZIONE: alcuni lanciatori non gestiscono correttamente le personalizzazioni delle icone delle applicazioni. Se l\'icona scompare, provare ad avviare l\'applicazione dal Google Play Store oppure dal widget, se disponibile.
-        Una volta avviata, impostare l\'icona predefinita col colore arancione #F57C00. Potrebbe essere necessario reinstallare l\'applicazione se proprio non funziona.</string>
+    <string name="app_icon_color_warning">ATTENZIONE: alcuni lanciatori non gestiscono correttamente le personalizzazioni delle icone delle applicazioni. Se l\'icona scompare, provare ad avviare l\'applicazione dal oppure dal widget, se disponibile.
+        Una volta avviata, impostare l\'icona predefinita col colore arancione #000000. Potrebbe essere necessario reinstallare l\'applicazione se proprio non funziona.</string>
     <string name="share_colors_success">Colori aggiornati correttamente. È stato aggiunto un nuovo tema chiamato \'Condiviso\', usare questo per aggiornare tutti i colori dell\'app in futuro.</string>
     <string name="shared_theme_note">Nota che sebbene tu stia usando la versione Pro, ti serve comunque Ringraziamento Semplice per motivi tecnici. Si occupa della sincronizzazione del colore.</string>
     <string name="purchase_thank_you">

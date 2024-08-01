@@ -371,7 +371,7 @@
     <string name="cannot_be_undone">To dejanje ni mogoče razveljaviti.</string>
     <string name="save_before_closing">Imate neshranjene spremembe. Jih želite shraniti pred izhodom?</string>
     <string name="apply_to_all_apps">Uveljavite barve za vse aplikacije iz serije Ulti Apps</string>
-    <string name="app_icon_color_warning">OPOZORILO: Nekateri zaganjalniki ne znajo upravljati z ikono aplikacije, nastavljene po meri. Če ikona izgine, poskusite zagnati aplikacijo skozi Google Play ali kakšen drug pripomoček. Ko je aplikacija spet zagnana, nastavite nazaj privzeto oranžno ikono #F57C00. V najslabšem primeru bo potrebno aplikacijo ponovno namestiti.</string>
+    <string name="app_icon_color_warning">OPOZORILO: Nekateri zaganjalniki ne znajo upravljati z ikono aplikacije, nastavljene po meri. Če ikona izgine, poskusite zagnati aplikacijo skozi kakšen drug pripomoček. Ko je aplikacija spet zagnana, nastavite nazaj privzeto oranžno ikono #000000. V najslabšem primeru bo potrebno aplikacijo ponovno namestiti.</string>
     <string name="share_colors_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
     <string name="shared_theme_note">Upoštevajte, da kljub uporabi Pro verzije, iz tehničnih razlogov še vedno potrebujete aplikacijo Preprosto hvala. Ta skrbi za sinhronizacijo barv.</string>
     <string name="purchase_thank_you">Prosimo, kupite aplikacijo &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Ulti Thank You&lt;/a&gt;, da odklenete to funkcijo in podprete razvoj. Hvala!</string>

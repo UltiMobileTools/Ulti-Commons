@@ -355,8 +355,8 @@
     <string name="cannot_be_undone">Ekintza hau ezin da desegin.</string>
     <string name="save_before_closing">Gorde gabeko aldaketak dituzu. Gorde atera baino lehen?</string>
     <string name="apply_to_all_apps">Aplikatu koloreak Ulti aplikazio guztiei</string>
-    <string name="app_icon_color_warning">ABISUA: Abiarazle batzuek aplikazio-ikonoaren pertsonalizazioa ez dute ondo kudeatu. Ikonoa desagertuz gero, saiatu aplikazioa Google Play bidez edo widgeten baten bidez abiarazten, eskuragarri badago.
-        Behin abiarazi duzularik, berrezarri lehenetsitako ikono laranja (#F57C00). Kasurik okerrenean aplikazioa berrinstalatu dezakezu.</string>
+    <string name="app_icon_color_warning">ABISUA: Abiarazle batzuek aplikazio-ikonoaren pertsonalizazioa ez dute ondo kudeatu. Ikonoa desagertuz gero, saiatu aplikazioa bidez edo widgeten baten bidez abiarazten, eskuragarri badago.
+        Behin abiarazi duzularik, berrezarri lehenetsitako ikono laranja (#000000). Kasurik okerrenean aplikazioa berrinstalatu dezakezu.</string>
     <string name="share_colors_success">Koloreak ondo eguneratu dira. \'Shared\' deituriko gai berria gehitu da, erabili hori aplikazio guztien koloreak eguneratzeko etorkizunean.</string>
     <string name="shared_theme_note">Kontuan hartu Pro bertsioa erabili arren, Ulti Thank You izaten jarraitu behar duzula arrazoi teknikoak direla eta. Kolorearen sinkronizazioaz arduratzen da.</string>
     <string name="purchase_thank_you">

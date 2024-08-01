@@ -355,8 +355,8 @@
     <string name="cannot_be_undone">Toimintoa ei ole mahdollista kumota.</string>
     <string name="save_before_closing">Sinulla on tallentamattomia muutoksia. Tallennetaanko ennen sulkemista?</string>
     <string name="apply_to_all_apps">Käytä värejä kaikissa Ulti App -sovelluksissa</string>
-    <string name="app_icon_color_warning">VAROITUS: Jotkin käynnistinohjelmat eivät käsittele kuvakkeen mukauttamista oikein. Jos kuvake häviää, käynnistä sovellus Google Playn tai jonkin pienoissovelluksen kautta, jos mahdollista.
-        Käynnistyksen jälkeen palauta kuvakkeen oranssi oletusväri #F57C00. Pahimmillaan saatat joutua asentamaan sovelluksen uudelleen.</string>
+    <string name="app_icon_color_warning">VAROITUS: Jotkin käynnistinohjelmat eivät käsittele kuvakkeen mukauttamista oikein. Jos kuvake häviää, käynnistä sovellus tai jonkin pienoissovelluksen kautta, jos mahdollista.
+        Käynnistyksen jälkeen palauta kuvakkeen oranssi oletusväri #000000. Pahimmillaan saatat joutua asentamaan sovelluksen uudelleen.</string>
     <string name="share_colors_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
     <string name="shared_theme_note">Huomioi, että vaikka käytössäsi on sovelluksen Pro-versio, Ulti Thank You tarvitaan teknisistä syistä mm. värien synkronointiin.</string>
     <string name="purchase_thank_you">

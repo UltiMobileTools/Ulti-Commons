@@ -355,8 +355,8 @@
     <string name="cannot_be_undone">Hành động này không thể được hoàn tác.</string>
     <string name="save_before_closing">Bạn có các thay đổi chưa lưu. Lưu trước khi thoát?</string>
     <string name="apply_to_all_apps">Áp dụng màu sắc cho tất cả Ulti Apps</string>
-    <string name="app_icon_color_warning">CẢNH BÁO: Một số trình khởi chạy không xử lý tùy chỉnh biểu tượng ứng dụng đúng cách. Trong trường hợp biểu tượng biến mất, hãy thử khởi chạy ứng dụng qua Google Play hoặc một số tiện ích, nếu có.
-         Sau khi khởi chạy, chỉ cần đặt lại biểu tượng màu cam mặc định #F57C00. Bạn có thể phải cài đặt lại ứng dụng trong trường hợp xấu nhất.</string>
+    <string name="app_icon_color_warning">CẢNH BÁO: Một số trình khởi chạy không xử lý tùy chỉnh biểu tượng ứng dụng đúng cách. Trong trường hợp biểu tượng biến mất, hãy thử khởi chạy ứng dụng qua  một số tiện ích, nếu có.
+         Sau khi khởi chạy, chỉ cần đặt lại biểu tượng màu cam mặc định #000000. Bạn có thể phải cài đặt lại ứng dụng trong trường hợp xấu nhất.</string>
     <string name="share_colors_success">Màu sắc được cập nhật thành công. Một chủ đề mới có tên \'Shared\' đã được thêm vào, vui lòng sử dụng chủ đề đó để cập nhật tất cả các màu của ứng dụng trong tương lai.</string>
     <string name="shared_theme_note">Chú ý rằng mặc dù bạn đang dùng phiên bản Pro, bạn vẫn cần Ulti Cám ơn vì lý do kỹ thuật. Nó đảm nhiệm việc đồng bộ hóa màu sắc.</string>
     <string name="purchase_thank_you">

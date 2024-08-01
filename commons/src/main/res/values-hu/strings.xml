@@ -360,7 +360,7 @@
     <string name="cannot_be_undone">Ez a művelet nem vonható vissza.</string>
     <string name="save_before_closing">Nem mentette a változtatásokat. Menti a kilépés előtt?</string>
     <string name="apply_to_all_apps">Színek alkalmazása az összes Ulti Apps alkalmazásra</string>
-    <string name="app_icon_color_warning">FIGYELMEZTETÉS: Néhány indító nem megfelelően kezeli az alkalmazásikon testreszabását. Ha az ikon eltűnik, próbálja meg elindítani az alkalmazást a Google Playen vagy egy modulon keresztül, ha elérhető. Miután elindult, állítsa vissza az alapértelmezett narancssárga (#F57C00) ikont. A legrosszabb esetben újra kellhet telepítenie az alkalmazást.</string>
+    <string name="app_icon_color_warning">FIGYELMEZTETÉS: Néhány indító nem megfelelően kezeli az alkalmazásikon testreszabását. Ha az ikon eltűnik, próbálja meg elindítani az alkalmazást a vagy egy modulon keresztül, ha elérhető. Miután elindult, állítsa vissza az alapértelmezett narancssárga (#000000) ikont. A legrosszabb esetben újra kellhet telepítenie az alkalmazást.</string>
     <string name="share_colors_success">A színek sikeresen frissültek. Hozzáadott egy új, „Közös” nevű témát, a jövőben ezt használja az összes alkalmazás színének frissítéséhez.</string>
     <string name="shared_theme_note">Bár a Pro alkalmazásverziót használja, műszaki okokból így is szükséges az Egyszerű köszönet alkalmazás telepítése, az gondoskodik ugyanis a színek szinkronizálásáról.</string>
     <string name="purchase_thank_you">Kérjük, vásárolja meg az &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Egyszerű köszönet&lt;/a&gt; alkalmazást a funkció feloldásához és a fejlesztés támogatásához. Köszönöm!</string>

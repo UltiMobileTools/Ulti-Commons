@@ -368,7 +368,7 @@
     <string name="cannot_be_undone">Tuto akci nelze vrátit zpět.</string>
     <string name="save_before_closing">Máte neuložené změny. Chcete je před ukončením uložit\?</string>
     <string name="apply_to_all_apps">Použít barvy ve všech Jednoduchých aplikacích</string>
-    <string name="app_icon_color_warning">UPOZORNĚNÍ: Některé spouštěče nepodporují změnu ikony. V případě, že ikona aplikace zmizí, zkuste ji spustit skrze obchod Google Play, nebo některý widget, pokud je dostupný. Po spuštění aplikace zkuste nastavit původní oranžovou barvu ikony #F57C00. V nejhorším případě budete muset aplikaci přeinstalovat.</string>
+    <string name="app_icon_color_warning">UPOZORNĚNÍ: Některé spouštěče nepodporují změnu ikony. V případě, že ikona aplikace zmizí, zkuste ji spustit skrze obchod nebo některý widget, pokud je dostupný. Po spuštění aplikace zkuste nastavit původní oranžovou barvu ikony #000000. V nejhorším případě budete muset aplikaci přeinstalovat.</string>
     <string name="share_colors_success">Barvy úspěšně aktualizovány. Byl přidán nový motiv „Sdílený“, v budoucnu jej prosím použijte pro úpravu barev u všech Jednoduchých aplikací zároveň.</string>
     <string name="shared_theme_note">Všimněte si, že i když používáte „Pro“ verzi aplikace, z technických důvodů stále potřebujete Jednoduché děkuji. Postará se o synchronizaci barev.</string>
     <string name="purchase_thank_you">Prosím, zakupte si &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Jednoduché děkuji&lt;/a&gt; pro odemknutí této funkce a pro podporu vývoje. Děkuji!</string>

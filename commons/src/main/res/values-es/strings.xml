@@ -361,8 +361,8 @@
     <string name="cannot_be_undone">Esta acción no se puede deshacer.</string>
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
     <string name="apply_to_all_apps">Aplicar colores a todas las aplicaciones Ulti Apps</string>
-    <string name="app_icon_color_warning">ADVERTENCIA: Algunos launchers no manejan correctamente la personalización del icono de la aplicación. En caso de que el icono desaparezca, intente iniciar la aplicación a través de Google Play o algún widget, si está disponible.
-        Una vez iniciado, simplemente vuelva a establecer el ícono naranja predeterminado #F57C00. Es posible que tengas que volver a instalar la aplicación en el peor de los casos.</string>
+    <string name="app_icon_color_warning">ADVERTENCIA: Algunos launchers no manejan correctamente la personalización del icono de la aplicación. En caso de que el icono desaparezca, intente iniciar la aplicación a través de algún widget, si está disponible.
+        Una vez iniciado, simplemente vuelva a establecer el ícono naranja predeterminado #000000. Es posible que tengas que volver a instalar la aplicación en el peor de los casos.</string>
     <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Compartido\', por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
     <string name="shared_theme_note">Tenga en cuenta que aunque esté utilizando la versión de la aplicación Pro, aún necesita Ulti Gracias por razones técnicas. Se encarga de la sincronización del color.</string>
     <string name="purchase_thank_you">

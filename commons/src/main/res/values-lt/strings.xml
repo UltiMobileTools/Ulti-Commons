@@ -365,7 +365,7 @@
     <string name="cannot_be_undone">Šio veiksmo neįmanoma atšaukti.</string>
     <string name="save_before_closing">Yra neįrašytų pakeitimų. Įrašyti prieš išeinant\?</string>
     <string name="apply_to_all_apps">Taikyti spalvas visoms paprastoms programėlėms</string>
-    <string name="app_icon_color_warning">ĮSPĖJIMAS: Kai kurios paleidyklės tinkamai neapdoroja programėlės piktogramos tinkinimo. Jei piktograma išnyks, pabandykite, jei prieinama, paleisti programėlę per „Google Play“ ar per kokį nors valdiklį. Paleidę programėlę, atstatykite numatytąją oranžinę piktogramą #F57C00. Blogiausiu atveju, jums gali tekti įdiegti programėlę iš naujo.</string>
+    <string name="app_icon_color_warning">ĮSPĖJIMAS: Kai kurios paleidyklės tinkamai neapdoroja programėlės piktogramos tinkinimo. Jei piktograma išnyks, pabandykite, jei prieinama, paleisti programėlę per ar per kokį nors valdiklį. Paleidę programėlę, atstatykite numatytąją oranžinę piktogramą #000000. Blogiausiu atveju, jums gali tekti įdiegti programėlę iš naujo.</string>
     <string name="share_colors_success">Spalvos sėkmingai atnaujintos. Buvo pridėtas naujas apipavidalinimas, pavadinimu, „Bendrinamas“, naudokite jį, visų programėlių spalvų atnaujinimui ateityje.</string>
     <string name="shared_theme_note">Turėkite omenyje, kad nors naudojate programėlės „Pro“ versiją, jums vis tiek, dėl techninių priežasčių, reikia turėti įdiegtą programėlę „Paprastas ačiū“. Ji pasirūpina spalvų sinchronizavimu.</string>
     <string name="purchase_thank_you">Įsigykite programėlę &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;„Paprastas ačiū“&lt;/a&gt;, kad atrakintumėte šią funkciją ir palaikytumėte programėlių plėtojimą. Dėkojame!</string>

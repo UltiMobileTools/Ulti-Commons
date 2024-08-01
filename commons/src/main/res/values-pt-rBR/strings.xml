@@ -360,8 +360,8 @@
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
     <string name="apply_to_all_apps">Aplicar cores a todos os aplicativos Ulti</string>
-    <string name="app_icon_color_warning">AVISO: Alguns lançadores não são capazes de lidar corretamente com a customização de ícones. Nestes casos, se o icone desaparecer tente abrir o aplicativo pelo Google Play, ou através de um widget, se disponível.
-        Ao entrar, simplesmente reverta a cor do ícone para o valor padrão (laranja #F57C00). No pior dos casos pode ser preciso reinstalar o aplicativo.</string>
+    <string name="app_icon_color_warning">AVISO: Alguns lançadores não são capazes de lidar corretamente com a customização de ícones. Nestes casos, se o icone desaparecer tente abrir o aplicativo pelo ou através de um widget, se disponível.
+        Ao entrar, simplesmente reverta a cor do ícone para o valor padrão (laranja #000000). No pior dos casos pode ser preciso reinstalar o aplicativo.</string>
     <string name="share_colors_success">Cores atualizadas com sucesso. Um novo tema chamado \'Compartilhado\' foi adicionado, use-o para atualizar as cores de todos os apps no futuro.</string>
     <string name="shared_theme_note">Embora você esteja usando a versão Pro do aplicativo, o Ulti Thank You ainda é necessário para fins técnicos. Ele realiza a sincronização de cores.</string>
     <string name="purchase_thank_you">

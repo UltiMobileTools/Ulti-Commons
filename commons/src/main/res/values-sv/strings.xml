@@ -355,7 +355,7 @@
     <string name="cannot_be_undone">Denna åtgärd kan inte ångras.</string>
     <string name="save_before_closing">Du har ändringar som inte är sparade. Spara innan du lämnar?</string>
     <string name="apply_to_all_apps">Använd färgerna i alla Ulti-appar</string>
-    <string name="app_icon_color_warning">VARNING: Vissa launchers hanterar inte anpassning av appikoner korrekt. Om ikonen försvinner, försök att starta appen via Google Play eller någon widget, om tillgänglig. När den väl har lanserats, ställ bara tillbaka den orange standardikonen #F57C00. Du kanske måste installera om appen i värsta fall.</string>
+    <string name="app_icon_color_warning">VARNING: Vissa launchers hanterar inte anpassning av appikoner korrekt. Om ikonen försvinner, försök att starta appen via någon widget, om tillgänglig. När den väl har lanserats, ställ bara tillbaka den orange standardikonen #000000. Du kanske måste installera om appen i värsta fall.</string>
     <string name="share_colors_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
     <string name="shared_theme_note">Observera att även om du använder Pro-appversionen behöver du fortfarande Ulti Thank You av tekniska skäl. Den tar hand om färgsynkroniseringen.</string>
     <string name="purchase_thank_you">

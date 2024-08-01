@@ -361,8 +361,8 @@
     <string name="cannot_be_undone">Diese Aktion kann nicht rückgängig gemacht werden.</string>
     <string name="save_before_closing">Du hast ungespeicherte Änderungen. Speichern vor dem Beenden?</string>
     <string name="apply_to_all_apps">Farben bei allen schlichten Apps anwenden</string>
-    <string name="app_icon_color_warning">WARNUNG: Einige Launcher behandeln die Anpassung von App-Icons nicht richtig. Sollte das Icon verschwinden, versuche die App mit Google Play oder einem Widget (wenn verfügbar) zu starten.
-        Wenn die App gestartet ist, setze das Icon zurück auf das standardmäßige Orange #F57C00. Im schlimmsten Fall kann es passieren, dass du die App erneut installieren musst.</string>
+    <string name="app_icon_color_warning">WARNUNG: Einige Launcher behandeln die Anpassung von App-Icons nicht richtig. Sollte das Icon verschwinden, versuche die App mit einem Widget (wenn verfügbar) zu starten.
+        Wenn die App gestartet ist, setze das Icon zurück auf das standardmäßige Black #000000. Im schlimmsten Fall kann es passieren, dass du die App erneut installieren musst.</string>
     <string name="share_colors_success">Farben erfolgreich aktualisiert. Ein neues Thema \"Shared\" wurde hinzugefügt, bitte verwende dieses, um für alle Apps die Farben zu ändern.</string>
     <string name="shared_theme_note">Bitte beachten, dass trotz Verwendung der Pro-Version der App aus technischen Gründen immer noch Ulti Thank You benötigt wird, damit die Farbsynchronisation funktioniert.</string>
     <string name="purchase_thank_you">

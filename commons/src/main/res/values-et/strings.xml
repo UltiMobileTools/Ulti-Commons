@@ -360,7 +360,7 @@
     <string name="cannot_be_undone">Seda tegevust ei saa tagasi pöörata.</string>
     <string name="save_before_closing">Sul on salvestamata muudatusi. Kas salvestame enne väljumist\?</string>
     <string name="apply_to_all_apps">Kasuta samu värvi kõikides Lihtsate tarvikute rakendsustes</string>
-    <string name="app_icon_color_warning">HOIATUS: Mõned käivitajad ei käsitse rakenduste ikoonide kohandamist korralikult. Kui ikoon kaob, proovi käivitada rakendus Google Play\'st või mõne muu olemasoleva vidina abil. Kui oled käivitanud rakenduse, seadista lihtsalt ikooni vaikimisi oranž toon #F57C00 tagasi. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
+    <string name="app_icon_color_warning">HOIATUS: Mõned käivitajad ei käsitse rakenduste ikoonide kohandamist korralikult. Kui ikoon kaob, proovi käivitada rakendus või mõne muu olemasoleva vidina abil. Kui oled käivitanud rakenduse, seadista lihtsalt ikooni vaikimisi oranž toon #000000 tagasi. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
     <string name="share_colors_success">Värvide uuendamine õnnestus. Lisasime uue „Jagatud“ teema - edaspidisel värvide muutmisel palun kasuta seda.</string>
     <string name="shared_theme_note">Kuigi sa kasutad rakenduse Pro-versiooni, palun siiski tehnilistel põhjustel paigalda rakendus „Lihtne tänuavaldus“. Muu hulgas tema haldab värvide sünkroniseerimist kõikide meie rakenduste vahel.</string>
     <string name="purchase_thank_you">Selle funktsionaalsuse kasutamiseks ja meie toetamiseks palun osta &lt;a href=https://play.google.com/store/apps/details\?id=com.ultimobiletools.thankyou&gt;Lihtne tänuavaldus&lt;/a&gt;. Tänud juba ette!</string>

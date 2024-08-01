@@ -359,7 +359,7 @@
     <string name="cannot_be_undone">This action cannot be undone.</string>
     <string name="save_before_closing">Aveți modificări nesalvate. Salvați înainte de a ieși?</string>
     <string name="apply_to_all_apps">Aplicaţi culorile pentru toate aplicaţiile Ulti Apps</string>
-    <string name="app_icon_color_warning">AVERTISMENT: Unele lansatoare nu gestionează corect personalizarea pictogramelor aplicațiilor. În cazul în care pictograma va dispărea, încercați să lansați aplicația prin Google Play sau prin intermediul unui widget, dacă este posibil. Odată lansată, pur şi simplu setaţi din nou culoarea pictogramei portocalie #F57C00. În cel mai rău caz s-ar putea să fie nevoie să reinstalaţi aplicatia.</string>
+    <string name="app_icon_color_warning">AVERTISMENT: Unele lansatoare nu gestionează corect personalizarea pictogramelor aplicațiilor. În cazul în care pictograma va dispărea, încercați să lansați aplicația prin sau prin intermediul unui widget, dacă este posibil. Odată lansată, pur şi simplu setaţi din nou culoarea pictogramei portocalie #000000. În cel mai rău caz s-ar putea să fie nevoie să reinstalaţi aplicatia.</string>
     <string name="share_colors_success">Culorile au fost actualizate cu succes. A fost adăugată o nouă temă numită \'Partajată\', vă rugăm să o folosiți pentru actualizarea tuturor culorilor aplicației în viitor.</string>
     <string name="shared_theme_note">Rețineți că, chiar dacă utilizați versiunea Pro a aplicației, aveți nevoie de Ulti Thank You din motive tehnice. Acesta se ocupă de sincronizarea culorilor.</string>
     <string name="purchase_thank_you">
