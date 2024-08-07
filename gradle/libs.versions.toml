@@ -50,6 +50,10 @@ gradlePlugins-agp = "8.1.2"
 playSservicesAds = "23.2.0"
 userMmessagingPlatform = "3.0.0"
 
+#hisavana
+mediation-lib = "3.0.1.2"
+
+
 #build
 app-build-compileSDKVersion = "34"
 app-build-targetSDK = "34"
@@ -121,6 +125,9 @@ kotlin-immutable-collections = { module = "org.jetbrains.kotlinx:kotlinx-collect
 play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playSservicesAds" }
 user-messaging-platform = { module = "com.google.android.ump:user-messaging-platform", version.ref = "userMmessagingPlatform" }
 
+#mediation-lib
+mediation-lib = { module = "com.cloud.hisavana.sdk.mediation:mediation-lib", version.ref = "mediation-lib" }
+
 [bundles]
 compose = [
     "compose-activity",
@@ -153,6 +160,10 @@ lifecycle = [
 googleAdmob = [
     "play-services-ads",
     "user-messaging-platform"
+]
+
+hisavana = [
+    "mediation-lib"
 ]
 
 

@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:background="@color/white"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <FrameLayout
@@ -13,8 +13,13 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_gravity="center"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <com.hisavana.mediation.ad.TSplashView
+                android:id="@+id/splash_ad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/lottieView"
@@ -25,7 +30,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:lottie_imageAssetsFolder="images"
-                app:lottie_loop="true"/>
+                app:lottie_loop="true" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </FrameLayout>
 
