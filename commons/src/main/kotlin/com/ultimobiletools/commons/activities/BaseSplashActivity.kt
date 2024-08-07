@@ -1,7 +1,11 @@
 package com.ultimobiletools.commons.activities
 
+import android.animation.Animator
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import com.airbnb.lottie.LottieAnimationView
+import com.google.android.material.snackbar.BaseTransientBottomBar.AnimationMode
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.SIDELOADING_TRUE
@@ -12,8 +16,6 @@ abstract class BaseSplashActivity : AppCompatActivity(){
     abstract fun setContentView():Int
 
     abstract fun intView();
-
-    abstract fun backgroundColor(): Int;
 
     abstract fun initActivity()
 
