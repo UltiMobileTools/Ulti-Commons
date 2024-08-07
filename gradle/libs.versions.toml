@@ -46,9 +46,6 @@ gson = "2.10.1"
 jodaTime = "2.12.5"
 #Gradle
 gradlePlugins-agp = "8.1.2"
-#google ads
-playSservicesAds = "23.2.0"
-userMmessagingPlatform = "3.0.0"
 
 #build
 app-build-compileSDKVersion = "34"
@@ -117,9 +114,6 @@ joda-time = { module = "joda-time:joda-time", version.ref = "jodaTime" }
 #Kotlin
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
 kotlin-immutable-collections = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version.ref = "kotlin-immutable-collections" }
-#GoogleAdmob
-play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playSservicesAds" }
-user-messaging-platform = { module = "com.google.android.ump:user-messaging-platform", version.ref = "userMmessagingPlatform" }
 
 [bundles]
 compose = [
@@ -148,11 +142,6 @@ lifecycle = [
     "androidx-lifecycle-viewModel",
     "androidx-lifecycle-viewModel-compose",
     "androidx-lifecycle-process",
-]
-
-googleAdmob = [
-    "play-services-ads",
-    "user-messaging-platform"
 ]
 
 [plugins]
