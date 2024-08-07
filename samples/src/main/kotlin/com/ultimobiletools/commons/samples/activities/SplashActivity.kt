@@ -2,11 +2,10 @@ package com.ultimobiletools.commons.samples.activities
 
 import android.animation.Animator
 import android.content.Intent
-import com.ultimobiletools.commons.activities.BaseHisavnaSplashActivity
+import com.ultimobiletools.commons.activities.BaseSplashActivity
 import com.ultimobiletools.commons.samples.R
 
-
-class SplashActivity : BaseHisavnaSplashActivity() {
+class SplashActivity : BaseSplashActivity() {
     override fun backgroundColor(): Int {
         return resources.getColor(com.ultimobiletools.commons.R.color.md_grey_white);
     }
@@ -16,10 +15,12 @@ class SplashActivity : BaseHisavnaSplashActivity() {
     }
 
     override fun initActivity() {
-
+//        startActivity(Intent(this, MainActivity::class.java))
+//        finish()
     }
 
     override fun initData() {
+
     }
 
     override fun onDestroy() {
@@ -31,28 +32,10 @@ class SplashActivity : BaseHisavnaSplashActivity() {
     }
 
     override fun onAnimationRepeat(p0: Animator) {
-
-    }
-
-    override fun onClick() {
-        goActivity()
-    }
-
-    override fun onTimeReach() {
-    }
-
-    override fun onCloudComplete() {
-
-    }
-
-
-    override fun goActivity() {
-        startActivity(
-            Intent(
-                this, MainActivity::class.java
-            )
-        )
+        startActivity(Intent(this, MainActivity::class.java))
         finish()
     }
+
+
 
 }

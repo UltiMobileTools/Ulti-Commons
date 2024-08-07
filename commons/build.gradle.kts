@@ -111,6 +111,4 @@ dependencies {
     ksp(libs.androidx.room.compiler)
 
     api(libs.bundles.googleAdmob)
-
-    api(libs.bundles.hisavana)
 }

@@ -8,7 +8,6 @@
 
 -keep public class * extends java.lang.Exception
 
--keep class android.support.v7.widget.SearchView { *; }
 -keep class com.ultimobiletools.commons.models.PhoneNumber { *; }
 
 # Joda
@@ -19,7 +18,6 @@
 
 -keep public class * implements com.bumptech.glide.module.GlideModule
 -keep public class * extends com.bumptech.glide.module.AppGlideModule
--keep class com.bumptech.glide.GeneratedAppGlideModuleImpl
 -keep public enum com.bumptech.glide.load.ImageHeaderParser$** {
   **[] $VALUES;
   public *;
@@ -66,27 +64,4 @@
 }
 -keepclassmembers,allowobfuscation,allowoptimization class <1> {
   <init>();
-}
-
-
--keepattributes SourceFile,LineNumberTable
--keep class com.inmobi.** { *; }
--keep public class com.google.android.gms.**
--dontwarn com.google.android.gms.**
--dontwarn com.squareup.picasso.**
--keep class com.google.android.gms.ads.identifier.AdvertisingIdClient{
-      public *;
-}
--keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info{
-      public *;
-}
-# skip the Picasso library classes
--keep class com.squareup.picasso.** {*;}
--dontwarn com.squareup.okhttp.**# skip Moat classes
--keep class com.moat.** {*;}
--dontwarn com.moat.**# skip IAB classes
--keep class com.iab.** {*;}
--dontwarn com.iab.**
--keep class com.hisavana.inmobi.**{
-    public *;
 }
