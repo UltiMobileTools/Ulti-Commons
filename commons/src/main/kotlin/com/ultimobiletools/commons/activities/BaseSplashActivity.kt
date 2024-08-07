@@ -11,7 +11,7 @@ import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.SIDELOADING_TRUE
 import com.ultimobiletools.commons.helpers.SIDELOADING_UNCHECKED
 
-abstract class BaseHSplashActivity : AppCompatActivity(), Animator.AnimatorListener {
+abstract class BaseSplashActivity : AppCompatActivity(), Animator.AnimatorListener {
 
     private var lottieView: LottieAnimationView? = null
 
