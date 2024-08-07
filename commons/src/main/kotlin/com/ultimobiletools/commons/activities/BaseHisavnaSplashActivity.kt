@@ -2,21 +2,27 @@ package com.ultimobiletools.commons.activities
 
 import android.animation.Animator
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.airbnb.lottie.LottieAnimationView
+import com.hisavana.common.bean.TAdErrorCode
 import com.hisavana.common.bean.TAdRequestBody.AdRequestBodyBuild
+import com.hisavana.common.interfacz.OnSkipListener
+import com.hisavana.common.interfacz.TAdListener
 import com.hisavana.mediation.ad.TSplashAd
 import com.hisavana.mediation.ad.TSplashView
+import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.SIDELOADING_TRUE
 import com.ultimobiletools.commons.helpers.SIDELOADING_UNCHECKED
+import com.ultimobiletools.commons.hisavana.AdManager
+import com.ultimobiletools.commons.hisavana.AdManagerInterface
 import com.ultimobiletools.commons.hisavana.TAdsConstant
 
 
-abstract class BaseHisavnaSplashActivity : AppCompatActivity(), Animator.AnimatorListener {
-
+abstract class BaseHisavnaSplashActivity : AppCompatActivity(), Animator.AnimatorListener, OnSkipListener, AdManagerInterface {
+    private val TAG: String = "HisavnaSplash"
     private var lottieView: LottieAnimationView? = null
-
     var tSplashView: TSplashView? = null
     protected var tSplashAd: TSplashAd? = null
     abstract fun backgroundColor(): Int;
@@ -26,14 +32,17 @@ abstract class BaseHisavnaSplashActivity : AppCompatActivity(), Animator.Animato
 
     abstract fun initData()
 
+
+    abstract fun goActivity()
+
     override fun onDestroy() {
         super.onDestroy()
         lottieView?.cancelAnimation()
     }
 
     fun setView() {
-        lottieView = findViewById(com.ultimobiletools.commons.R.id.lottieView)
-        tSplashView = findViewById(com.ultimobiletools.commons.R.id.splash_ad)
+        lottieView = findViewById(R.id.lottieView)
+        tSplashView = findViewById(R.id.splash_ad)
         lottieView?.setBackgroundColor(backgroundColor())
         lottieView?.setAnimation(animation())
         lottieView?.playAnimation()
@@ -43,7 +52,8 @@ abstract class BaseHisavnaSplashActivity : AppCompatActivity(), Animator.Animato
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(com.ultimobiletools.commons.R.layout.activity_splash)
+        setContentView(R.layout.activity_splash)
+        AdManager(this).init(this, true, true, this)
         setView()
         tSplashAd = TSplashAd(this, TAdsConstant.AD_OPEN_UNIT_ID)
         initData()
@@ -93,6 +103,34 @@ abstract class BaseHisavnaSplashActivity : AppCompatActivity(), Animator.Animato
         }
     }
 
+    private fun loadOpen() {
+        tSplashAd!!.setRequestBody(
+            AdRequestBodyBuild().setAdListener(object : TAdListener() {
+                override fun onError(p0: TAdErrorCode?) {
+                    Log.d(TAG, "onError:$p0")
+                    goActivity()
+                }
+
+                override fun onShow(p0: Int) {
+                    Log.d(TAG, "onShow:$p0")
+                    tSplashAd!!.showAd(tSplashView!!);
+                }
+
+                override fun onClicked(p0: Int) {
+                    Log.d(TAG, "onClicked:$p0")
+                }
+
+                override fun onClosed(p0: Int) {
+                    Log.d(TAG, "onClicked:$p0")
+                    goActivity()
+                }
+
+            }).build()
+        )
+        tSplashAd!!.setOnSkipListener(this)
+        tSplashAd!!.loadAd();
+    }
+
     override fun onAnimationStart(p0: Animator) {
     }
 
@@ -103,5 +141,9 @@ abstract class BaseHisavnaSplashActivity : AppCompatActivity(), Animator.Animato
     }
 
     override fun onAnimationRepeat(p0: Animator) {
+    }
+
+    override fun onCloudComplete() {
+        loadOpen()
     }
 }
