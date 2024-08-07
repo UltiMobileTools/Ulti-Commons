@@ -1,23 +1,19 @@
 package com.ultimobiletools.commons.activities
 
-import android.animation.Animator
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.airbnb.lottie.LottieAnimationView
-import com.google.android.material.snackbar.BaseTransientBottomBar.AnimationMode
 import com.ultimobiletools.commons.R
 import com.ultimobiletools.commons.extensions.*
 import com.ultimobiletools.commons.helpers.SIDELOADING_TRUE
 import com.ultimobiletools.commons.helpers.SIDELOADING_UNCHECKED
 
-abstract class BaseSplashActivity : AppCompatActivity(), Animator.AnimatorListener {
+abstract class BaseSplashActivity : AppCompatActivity(){
 
-    private var lottieView: LottieAnimationView? = null
+    abstract fun setContentView():Int
+
+    abstract fun intView();
 
     abstract fun backgroundColor(): Int;
-
-    abstract fun animation(): Int;
 
     abstract fun initActivity()
 
@@ -25,23 +21,12 @@ abstract class BaseSplashActivity : AppCompatActivity(), Animator.AnimatorListen
 
     override fun onDestroy() {
         super.onDestroy()
-        lottieView?.cancelAnimation()
     }
-
-    fun setView() {
-        lottieView = findViewById(R.id.lottieView)
-        lottieView?.setBackgroundColor(backgroundColor())
-        lottieView?.setAnimation(animation())
-        lottieView?.playAnimation()
-        lottieView?.addAnimatorListener(this)
-    }
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
-        setView()
-        initData()
+        setContentView(setContentView())
+        intView()
         if (baseConfig.appSideloadingStatus == SIDELOADING_UNCHECKED) {
             if (checkAppSideloading()) {
                 return
@@ -84,17 +69,5 @@ abstract class BaseSplashActivity : AppCompatActivity(), Animator.AnimatorListen
         } else {
             initActivity()
         }
-    }
-
-    override fun onAnimationStart(p0: Animator) {
-    }
-
-    override fun onAnimationEnd(p0: Animator) {
-    }
-
-    override fun onAnimationCancel(p0: Animator) {
-    }
-
-    override fun onAnimationRepeat(p0: Animator) {
     }
 }
