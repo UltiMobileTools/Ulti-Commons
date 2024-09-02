@@ -23,8 +23,7 @@ android {
             isMinifyEnabled = false
 //            isShrinkResources = true
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
             )
             consumerProguardFiles("proguard-rules.pro")
         }
@@ -109,5 +108,12 @@ dependencies {
 
     api(libs.bundles.room)
     ksp(libs.androidx.room.compiler)
+
+    api(libs.okhttp)
+    api(libs.okhttp.tls)
+    api(libs.retrofit)
+    api(libs.retrofit.rxjava)
+    api(libs.retrofit.moshi)
+    api(libs.retrofit.gson)
 
 }
