@@ -6,7 +6,6 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import com.ultimobiletools.commons.samples.R
 import com.ultimobiletools.commons.activities.CustomizaActivity
 import com.ultimobiletools.commons.activities.ManageBlockedNumbersActivity
 import com.ultimobiletools.commons.compose.dialog.AlertDialogState
@@ -22,12 +21,27 @@ import com.ultimobiletools.commons.extensions.launchViewIntent
 import com.ultimobiletools.commons.helpers.*
 import com.ultimobiletools.commons.models.FAQItem
 import com.ultimobiletools.commons.samples.BuildConfig
+import com.ultimobiletools.commons.samples.R
 import com.ultimobiletools.commons.samples.screens.MainScreen
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+//        val call = RetrofitApi.init().ads
+//        call.enqueue(object : Callback<String?> {
+//            override fun onResponse(call: Call<String?>, response: Response<String?>) {
+//                if (response.isSuccessful()) {
+//                    // 处理用户数据
+//                    val htmlContent = response.body()
+//                } else {
+//                    // 处理错误情况
+//                }
+//            }
+//            override fun onFailure(call: Call<String?>, t: Throwable) {
+//                // 处理请求失败情况
+//            }
+//        })
         enableEdgeToEdgeUlti()
         setContent {
             AppThemeSurface {

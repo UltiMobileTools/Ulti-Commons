@@ -111,9 +111,10 @@ dependencies {
 
     api(libs.okhttp)
     api(libs.okhttp.tls)
+    api(libs.okhttp.logging.interceptor)
     api(libs.retrofit)
     api(libs.retrofit.rxjava)
     api(libs.retrofit.moshi)
+    api(libs.retrofit.scalars)
     api(libs.retrofit.gson)
-
 }

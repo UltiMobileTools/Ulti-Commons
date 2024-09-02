@@ -15,7 +15,7 @@ class SplashActivity : BaseSplashActivity(), Animator.AnimatorListener {
     }
 
     override fun initActivity() {
-
+        goActivity()
     }
 
     override fun initData() {
@@ -44,12 +44,13 @@ class SplashActivity : BaseSplashActivity(), Animator.AnimatorListener {
     }
 
     override fun onAnimationEnd(p0: Animator) {
+
     }
 
     override fun onAnimationCancel(p0: Animator) {
     }
 
     override fun onAnimationRepeat(p0: Animator) {
-        goActivity()
+
     }
 }
